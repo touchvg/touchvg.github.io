@@ -14,8 +14,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="316.88596"
-   height="353.43213"
-   viewBox="0 0 253.50877 282.7457"
+   height="357.87747"
+   viewBox="0 0 253.50877 286.30197"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -50,9 +50,9 @@
      inkscape:window-height="830"
      id="namedview638"
      showgrid="false"
-     inkscape:zoom="1.7820115"
-     inkscape:cx="59.117022"
-     inkscape:cy="77.402071"
+     inkscape:zoom="1.7592401"
+     inkscape:cx="158.44298"
+     inkscape:cy="178.93874"
      inkscape:window-x="61"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -66,13 +66,13 @@
      showborder="false" />
   <a
      xlink:href="dir_0d1128b2a8ae76c88721439d253c0bfa.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a33"
+     target="_top"
      xlink:title="view"
-     target="_top">
+     id="a33"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="301,-492 301,-492 247,-492 247,-456 301,-456 "
+       points="247,-456 301,-456 301,-492 301,-492 247,-492 "
        id="polygon35" />
     <text
        x="274"
@@ -87,13 +87,13 @@
   </a>
   <a
      xlink:href="dir_f38d51fe1b3d8df5bd989400af297337.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.058034,292.4509)"
-     id="a55"
+     target="_top"
      xlink:title="canvas"
-     target="_top">
+     id="a55"
+     transform="matrix(0.5832,0,0,0.5832,-5.058034,292.4509)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="382,-60 382,-24 436,-24 436,-60 436,-60 "
+       points="436,-60 436,-60 382,-60 382,-24 436,-24 "
        id="polygon57" />
     <text
        x="408.78561"
@@ -118,13 +118,13 @@
   </a>
   <a
      xlink:href="dir_9e8e25d3d264c0cc16b25f7020088e7e.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a73"
+     target="_top"
      xlink:title="shape"
-     target="_top">
+     id="a73"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="324,-204 324,-204 270,-204 270,-168 324,-168 "
+       points="270,-168 324,-168 324,-204 324,-204 270,-204 "
        id="polygon75" />
     <text
        x="297"
@@ -144,18 +144,18 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="300.5,-214 300.5,-214 297,-204 293.5,-214 "
+     points="293.5,-214 300.5,-214 300.5,-214 297,-204 "
      id="polygon84"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <a
      xlink:href="dir_0ab0d09cb09c99f727d8a7abbf7a8e15.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a95"
+     target="_top"
      xlink:title="cmdbase"
-     target="_top">
+     id="a95"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="284,-348 284,-348 226,-348 226,-312 284,-312 "
+       points="226,-312 284,-312 284,-348 284,-348 226,-348 "
        id="polygon97" />
     <text
        x="255"
@@ -175,7 +175,7 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="285.203,-286.441 285.203,-286.441 287,-276 279.084,-283.042 "
+     points="279.084,-283.042 285.203,-286.441 285.203,-286.441 287,-276 "
      id="polygon106"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
@@ -185,7 +185,7 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="278.365,-214.262 278.365,-214.262 281,-204 272.541,-210.379 "
+     points="272.541,-210.379 278.365,-214.262 278.365,-214.262 281,-204 "
      id="polygon119"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <g
@@ -196,12 +196,12 @@
        id="title128">dir_1ceab193fdfa8d16f9f30f1836660d41</title>
     <a
        xlink:href="dir_1ceab193fdfa8d16f9f30f1836660d41.htm"
-       target="_top"
+       id="a130"
        xlink:title="cmdbasic"
-       id="a130">
+       target="_top">
       <polygon
          id="polygon132"
-         points="235.25,-384 294.75,-384 294.75,-420 294.75,-420 235.25,-420 "
+         points="294.75,-420 235.25,-420 235.25,-384 294.75,-384 294.75,-420 "
          style="fill:#ffffff;stroke:#000000" />
       <text
          id="text134"
@@ -217,23 +217,23 @@
   </g>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 147.61533,67.277188 c -0.5832,4.6656 -1.1664,9.9144 -1.7496,15.1632"
+     d="m 147.61533,67.277184 c -0.5832,4.6656 -1.1664,9.9144 -1.7496,15.1632"
      id="path152"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="262.478,-357.602 262.478,-357.602 258,-348 255.512,-358.299 "
+     points="255.512,-358.299 262.478,-357.602 262.478,-357.602 258,-348 "
      id="polygon154"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <a
      xlink:href="dir_7a6a0c7ce7a6455451ada369d86918b2.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a178"
+     target="_top"
      xlink:title="cmdmgr"
-     target="_top">
+     id="a178"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="396,-348 396,-348 342,-348 342,-312 396,-312 "
+       points="342,-312 396,-312 396,-348 396,-348 342,-348 "
        id="polygon180" />
     <text
        x="369"
@@ -253,7 +253,7 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="324.546,-280.596 324.546,-280.596 315,-276 319.596,-285.546 "
+     points="319.596,-285.546 324.546,-280.596 324.546,-280.596 315,-276 "
      id="polygon189"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
@@ -264,18 +264,18 @@
      sodipodi:nodetypes="ccc" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="313.2,-214.1 318.8,-209.9 318.8,-209.9 310,-204 "
+     points="310,-204 313.2,-214.1 318.8,-209.9 318.8,-209.9 "
      id="polygon202"
      transform="matrix(0.5832,0,0,0.5832,-7.9824271,291.226)" />
   <a
      xlink:href="dir_1f2a0cd2385841f1f2d137f2f9930ef2.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a213"
+     target="_top"
      xlink:title="export"
-     target="_top">
+     id="a213"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="436,-276 436,-276 382,-276 382,-240 436,-240 "
+       points="382,-240 436,-240 436,-276 436,-276 382,-276 "
        id="polygon215" />
     <text
        x="409"
@@ -295,7 +295,7 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="412.5,-70 412.5,-70 409,-60 405.5,-70 "
+     points="405.5,-70 412.5,-70 412.5,-70 409,-60 "
      id="polygon224"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
@@ -305,18 +305,18 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="334.262,-205.635 334.262,-205.635 324,-203 330.379,-211.459 "
+     points="330.379,-211.459 334.262,-205.635 334.262,-205.635 324,-203 "
      id="polygon237"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <a
      xlink:href="dir_e01f74e4ef8862db198a230aef9acfc2.htm"
-     transform="matrix(0.5832,0,0,0.5832,-10.951619,292.4509)"
-     id="a248"
+     target="_top"
      xlink:title="geom"
-     target="_top">
+     id="a248"
+     transform="matrix(0.5832,0,0,0.5832,-10.951619,292.4509)">
     <polygon
        style="fill:#efefef;stroke:#000000"
-       points="344,-60 290,-60 290,-24 344,-24 344,-60 "
+       points="344,-24 344,-60 344,-60 290,-60 290,-24 "
        id="polygon250" />
     <text
        x="317"
@@ -331,13 +331,13 @@
   </a>
   <a
      xlink:href="dir_0bc55861355cddc512078f6e4cb67149.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a257"
+     target="_top"
      xlink:title="graph"
-     target="_top">
+     id="a257"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="370,-132 370,-132 316,-132 316,-96 370,-96 "
+       points="316,-96 370,-96 370,-132 370,-132 316,-132 "
        id="polygon259" />
     <text
        x="343"
@@ -357,7 +357,7 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="389.049,-69.8306 389.049,-69.8306 393,-60 383.781,-65.221 "
+     points="383.781,-65.221 389.049,-69.8306 389.049,-69.8306 393,-60 "
      id="polygon268"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
@@ -367,18 +367,18 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="330.226,-68.5725 330.226,-68.5725 324,-60 323.521,-70.584 "
+     points="323.521,-70.584 330.226,-68.5725 330.226,-68.5725 324,-60 "
      id="polygon281"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <a
      xlink:href="dir_ff02c34e489f80e1c039576f7ca18e44.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a384"
+     target="_top"
      xlink:title="jsonstorage"
-     target="_top">
+     id="a384"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="195.75,-348 195.75,-348 116.25,-348 116.25,-312 195.75,-312 "
+       points="116.25,-312 195.75,-312 195.75,-348 195.75,-348 116.25,-348 "
        id="polygon386" />
     <text
        x="156"
@@ -392,13 +392,13 @@
   </a>
   <a
      xlink:href="dir_2feab349c0c886fc5a924a41beaa69e9.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a393"
+     target="_top"
      xlink:title="shapedoc"
-     target="_top">
+     id="a393"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="77.754,-348 77.754,-348 16.246,-348 16.246,-312 77.754,-312 "
+       points="16.246,-312 77.754,-312 77.754,-348 77.754,-348 16.246,-348 "
        id="polygon395" />
     <text
        x="47"
@@ -413,13 +413,13 @@
   </a>
   <a
      xlink:href="dir_4857293b2183828c9f77b6aea04da81d.htm"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)"
-     id="a428"
+     target="_top"
      xlink:title="record"
-     target="_top">
+     id="a428"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
     <polygon
        style="fill:#ffffff;stroke:#000000"
-       points="160,-420 160,-420 106,-420 106,-384 160,-384 "
+       points="106,-384 160,-384 160,-420 160,-420 106,-420 "
        id="polygon430" />
     <text
        x="133"
@@ -434,34 +434,23 @@
   </a>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 75.298531,67.277198 c 1.1664,4.6656 2.3328,9.9144 3.4992,15.1632"
+     d="m 75.298531,67.277194 c 1.1664,4.6656 2.3328,9.9144 3.4992,15.1632"
      id="path437"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="147.479,-358.584 147.479,-358.584 147,-348 140.774,-356.573 "
+     points="140.774,-356.573 147.479,-358.584 147.479,-358.584 147,-348 "
      id="polygon439"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 59.552131,67.277198 c -6.4152,5.2488 -13.9968,11.664 -20.412,17.496"
+     d="m 59.552131,67.277194 c -6.4152,5.2488 -13.9968,11.664 -20.412,17.496"
      id="path463"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="78.1,-351.2 78.1,-351.2 68,-348 73.9,-356.8 "
+     points="73.9,-356.8 78.1,-351.2 78.1,-351.2 68,-348 "
      id="polygon465"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 169.19373,193.24839 c 1.1664,11.0808 2.65406,28.02884 4.6656,41.9904 0.70823,4.91567 1.29143,8.74714 2.3328,15.1632"
-     id="path476"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="csc" />
-  <polygon
-     style="fill:#000000;stroke:#000000"
-     points="314.471,-70.4922 314.471,-70.4922 313,-60 307.607,-69.1194 "
-     id="polygon478"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
@@ -470,7 +459,7 @@
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="329.668,-142.335 329.668,-142.335 332,-132 323.732,-138.625 "
+     points="323.732,-138.625 329.668,-142.335 329.668,-142.335 332,-132 "
      id="polygon491"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
@@ -481,79 +470,79 @@
      sodipodi:nodetypes="ccc" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="260.881,-195.393 260.881,-195.393 270,-190 259.508,-188.529 "
+     points="259.508,-188.529 260.881,-195.393 260.881,-195.393 270,-190 "
      id="polygon504"
      transform="matrix(0.5832,0,0,0.5832,-6.1161871,294.02536)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 153.44733,25.286788 c -0.5832,4.6656 -1.1664,9.9144 -1.7496,15.1632"
+     d="m 153.44733,25.286784 c -0.5832,4.6656 -1.1664,9.9144 -1.7496,15.1632"
      id="path528"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="272.393,-429.119 272.393,-429.119 267,-420 265.529,-430.492 "
+     points="265.529,-430.492 272.393,-429.119 272.393,-429.119 267,-420 "
      id="polygon530"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 166.86093,25.286788 c 6.4152,5.832 13.4136,13.4136 19.2456,20.9952 8.1648,11.0808 13.9968,25.6608 18.0792,36.7416"
+     d="m 166.86093,25.286784 c 6.4152,5.832 13.4136,13.4136 19.2456,20.9952 8.1648,11.0808 13.9968,25.6608 18.0792,36.7416"
      id="path541"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="362.137,-358.56 362.137,-358.56 363,-348 355.74,-355.717 "
+     points="355.74,-355.717 362.137,-358.56 362.137,-358.56 363,-348 "
      id="polygon543"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 170.36013,18.288388 c 22.1616,5.832 62.42822,26.82123 71.54682,45.63863 10.0237,19.03597 7.34314,40.674972 -1.56282,61.086972"
+     d="m 170.36013,18.288384 c 22.1616,5.832 62.42822,26.82123 71.54682,45.63863 10.0237,19.03597 7.34314,40.674976 -1.56282,61.086976"
      id="path554"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="424.26,-283.717 424.26,-283.717 417,-276 417.863,-286.56 "
+     points="417.863,-286.56 424.26,-283.717 424.26,-283.717 417,-276 "
      id="polygon556"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 145.28253,25.286788 c -5.832,5.832 -12.8304,13.9968 -18.6624,20.9952 -9.9144,12.8304 -22.1616,26.8272 -30.9096,37.3248"
+     d="m 145.28253,25.286784 c -5.832,5.832 -12.8304,13.9968 -18.6624,20.9952 -9.9144,12.8304 -22.1616,26.8272 -30.9096,37.3248"
      id="path567"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="175.8,-353.9 175.8,-353.9 167,-348 170.2,-358.1 "
+     points="170.2,-358.1 175.8,-353.9 175.8,-353.9 167,-348 "
      id="polygon569"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 138.86733,22.953998 c -12.8304,6.4152 -30.9096,16.3296 -45.4896,23.328"
+     d="m 138.86733,22.953994 c -12.8304,6.4152 -30.9096,16.3296 -45.4896,23.328"
      id="path580"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="170.56,-416.863 170.56,-416.863 160,-416 167.717,-423.26 "
+     points="167.717,-423.26 170.56,-416.863 170.56,-416.863 160,-416 "
      id="polygon582"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
-     d="m 138.86733,15.955595 c -22.1616,2.332803 -61.819199,9.914403 -87.479999,30.326403 -11.664,9.3312 -19.2456,24.4944 -23.9112,36.7416"
+     d="m 138.86733,15.955591 c -22.1616,2.332803 -61.819199,9.914403 -87.479999,30.326403 -11.664,9.3312 -19.2456,24.4944 -23.9112,36.7416"
      id="path606"
      inkscape:connector-curvature="0" />
   <polygon
      style="fill:#000000;stroke:#000000"
-     points="59.4827,-356.38 59.4827,-356.38 53,-348 52.842,-358.594 "
+     points="52.842,-358.594 59.4827,-356.38 59.4827,-356.38 53,-348 "
      id="polygon608"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
   <a
      xlink:href="dir_0bc55861355cddc512078f6e4cb67149.htm"
-     target="_top"
-     xlink:title="gshape"
+     transform="matrix(0.5832,0,0,0.5832,-50.820155,291.72613)"
      id="a3150"
-     transform="matrix(0.5832,0,0,0.5832,-50.820155,291.72613)">
+     xlink:title="gshape"
+     target="_top">
     <polygon
        id="polygon3152"
-       points="370,-96 370,-132 370,-132 316,-132 316,-96 "
+       points="316,-132 316,-96 370,-96 370,-132 370,-132 "
        style="fill:#efefef;stroke:#000000" />
     <text
        sodipodi:linespacing="125%"
@@ -574,7 +563,7 @@
   <polygon
      transform="matrix(-0.5832,0,0,0.5832,344.3917,291.226)"
      id="polygon3160"
-     points="323.732,-138.625 329.668,-142.335 329.668,-142.335 332,-132 "
+     points="332,-132 323.732,-138.625 329.668,-142.335 329.668,-142.335 "
      style="fill:#000000;stroke:#000000" />
   <path
      inkscape:connector-curvature="0"
@@ -584,17 +573,17 @@
   <polygon
      transform="matrix(-0.5832,0,0,0.5832,351.44216,291.35103)"
      id="polygon3164"
-     points="323.521,-70.584 330.226,-68.5725 330.226,-68.5725 324,-60 "
+     points="324,-60 323.521,-70.584 330.226,-68.5725 330.226,-68.5725 "
      style="fill:#000000;stroke:#000000" />
   <a
      xlink:href="dir_f38d51fe1b3d8df5bd989400af297337.htm"
-     target="_top"
-     xlink:title="canvas"
+     transform="matrix(0.5832,0,0,0.5832,-70.48274,165.66842)"
      id="a5372"
-     transform="matrix(0.5832,0,0,0.5832,-70.48274,165.66842)">
+     xlink:title="canvas"
+     target="_top">
     <polygon
        id="polygon5374"
-       points="436,-60 436,-60 382,-60 382,-24 436,-24 "
+       points="382,-24 436,-24 436,-60 436,-60 382,-60 "
        style="fill:#ffffff;stroke:#000000" />
     <text
        sodipodi:linespacing="125%"
@@ -618,22 +607,21 @@
     </text>
   </a>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.80000002000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.44247787999999999;opacity:0.95258621;stroke-miterlimit:4;stroke-dasharray:1.60000002999999991, 0.80000002000000003;stroke-dashoffset:0"
-     d="m 105.04983,222.14003 c -0.97347,-4.90471 4.35424,-8.25493 7.90518,-10.46082 6.82825,-3.13877 14.32433,-4.5068 21.66765,-5.70112 8.6982,-0.004 17.3964,0.004 26.0946,4.3e-4 2.82298,2.08859 6.31713,3.4355 7.44161,7.05908 1.18386,4.29165 1.61814,8.57022 3.10493,12.81407 2.31633,4.89446 3.72007,10.28289 6.96176,14.69453 2.19044,3.37788 6.45409,5.48029 10.25674,7.01064 4.22675,1.28235 8.48707,3.17536 9.7886,7.8365 1.89072,4.60438 0.7801,9.72526 1.02276,14.56759 0.38208,4.04582 -2.72212,8.29699 -6.89659,8.56156 -2.77876,2.84089 -7.67942,2.46335 -11.28676,3.36844 -14.50552,-0.20325 -29.02647,0.17543 -43.5227,-0.17757 -5.02777,-0.0921 -9.72004,-1.86465 -14.47345,-3.2023 -4.86899,-1.97509 -7.52724,-6.92928 -9.9589,-11.27122 -1.06891,-4.9577 -4.42461,-8.82506 -5.60664,-13.71265 -1.02144,-4.02177 -1.16152,-8.18855 -2.34286,-12.19338 -0.37185,-6.36395 -0.0465,-12.80413 -0.15593,-19.19378 z"
+     style="opacity:0.95258622;fill:none;stroke:#000000;stroke-width:0.82210064;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44247819;stroke-dasharray:1.64420125, 0.82210063;stroke-dashoffset:0"
+     d="m 102.46438,222.14003 c -1.028,-4.90471 4.59814,-8.25493 8.34799,-10.46082 7.21073,-3.13877 15.1267,-4.5068 22.88135,-5.70112 9.18543,-0.004 18.37086,0.004 27.55628,4.3e-4 2.98111,2.08859 6.67099,3.4355 7.85845,7.05908 1.25018,4.29165 1.70878,8.57022 3.27886,12.81407 2.44607,4.89446 3.92844,10.28289 7.35172,14.69453 2.31313,3.37788 6.81561,5.48029 10.83126,7.01064 4.46352,1.28235 8.96248,3.17536 10.33691,7.8365 1.99663,4.60438 0.8238,9.72526 1.08005,14.56759 0.40348,4.04582 -2.8746,8.29699 -7.2829,8.56156 -2.93441,2.84089 -8.10958,2.46335 -11.91898,3.36844 -15.31805,-0.20325 -30.65238,0.17543 -45.96062,-0.17757 -5.3094,-0.0921 -10.2645,-1.86465 -15.28417,-3.2023 -5.14173,-1.97509 -7.94888,-6.92928 -10.51675,-11.27122 -1.12878,-4.9577 -4.67245,-8.82506 -5.92069,-13.71265 -1.07866,-4.02177 -1.22658,-8.18855 -2.4741,-12.19338 -0.39268,-6.36395 -0.0491,-12.80413 -0.16466,-19.19378 z"
      id="path3135"
      inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
-     style="font-size:11.99999995px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="34.792145"
-     y="230.53729"
+     style="font-size:9.60000038px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="27.833717"
+     y="184.42982"
      id="text3907"
-     sodipodi:linespacing="125%"
-     transform="matrix(0.80000002,0,0,0.80000002,0,-4.5468767e-6)"><tspan
+     sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3909"
-       x="34.792145"
-       y="230.53729">TouchVGCore</tspan></text>
+       x="27.833717"
+       y="184.42982">TouchVGCore</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.60000038px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
