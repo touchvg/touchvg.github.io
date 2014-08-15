@@ -52,7 +52,7 @@
      showgrid="false"
      inkscape:zoom="1.7592401"
      inkscape:cx="158.44298"
-     inkscape:cy="178.93874"
+     inkscape:cy="133.46456"
      inkscape:window-x="61"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -64,79 +64,61 @@
      borderlayer="false"
      inkscape:showpageshadow="false"
      showborder="false" />
-  <a
-     xlink:href="dir_0d1128b2a8ae76c88721439d253c0bfa.htm"
-     target="_top"
-     xlink:title="view"
-     id="a33"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="247,-456 301,-456 301,-492 301,-492 247,-492 "
-       id="polygon35" />
-    <text
-       x="274"
-       y="-471"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text37"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4272">view</tspan>
-    </text>
-  </a>
-  <a
-     xlink:href="dir_f38d51fe1b3d8df5bd989400af297337.htm"
-     target="_top"
-     xlink:title="canvas"
-     id="a55"
-     transform="matrix(0.5832,0,0,0.5832,-5.058034,292.4509)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="436,-60 436,-60 382,-60 382,-24 436,-24 "
-       id="polygon57" />
-    <text
-       x="408.78561"
-       y="-35.784126"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text59"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4248">canvas</tspan>
-    </text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5368"
-       style="font-size:9.60219479px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-       y="-47.575661"
-       x="408.35681">
-      <tspan
-         id="tspan5370"
-         style="font-size:9.60219479px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">interface</tspan>
-    </text>
-  </a>
-  <a
-     xlink:href="dir_9e8e25d3d264c0cc16b25f7020088e7e.htm"
-     target="_top"
-     xlink:title="shape"
-     id="a73"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="270,-168 324,-168 324,-204 324,-204 270,-204 "
-       id="polygon75" />
-    <text
-       x="297"
-       y="-183"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text77"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4252">shape</tspan>
-    </text>
-  </a>
+  <polygon
+     id="polygon35"
+     points="301,-492 301,-492 247,-492 247,-456 301,-456 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text37"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="16.538799"
+     x="154.61374">
+    <tspan
+       id="tspan4272"
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">view</tspan>
+  </text>
+  <polygon
+     id="polygon57"
+     points="382,-60 382,-24 436,-24 436,-60 436,-60 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.058034,292.4509)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text59"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="271.5816"
+     x="233.34573">
+    <tspan
+       id="tspan4248"
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">canvas</tspan>
+  </text>
+  <text
+     x="233.09566"
+     y="264.70477"
+     style="font-size:5.5999999px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+     id="text5368"
+     sodipodi:linespacing="125%">
+    <tspan
+       style="font-size:5.5999999px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5370">interface</tspan>
+  </text>
+  <polygon
+     id="polygon75"
+     points="324,-204 324,-204 270,-204 270,-168 324,-168 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text77"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="184.5004"
+     x="168.02733">
+    <tspan
+       id="tspan4252"
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">shape</tspan>
+  </text>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.56969368"
      d="m 168.02733,151.95219 c 0,4.452 0,9.4605 0,14.469"
@@ -147,27 +129,21 @@
      points="293.5,-214 300.5,-214 300.5,-214 297,-204 "
      id="polygon84"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
-  <a
-     xlink:href="dir_0ab0d09cb09c99f727d8a7abbf7a8e15.htm"
-     target="_top"
-     xlink:title="cmdbase"
-     id="a95"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="226,-312 284,-312 284,-348 284,-348 226,-348 "
-       id="polygon97" />
-    <text
-       x="255"
-       y="-327"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text99"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:13.58024693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4260">cmdbase</tspan>
-    </text>
-  </a>
+  <polygon
+     id="polygon97"
+     points="284,-348 284,-348 226,-348 226,-312 284,-312 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text99"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="100.5196"
+     x="143.53293">
+    <tspan
+       id="tspan4260"
+       style="font-size:7.92000008px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">cmdbase</tspan>
+  </text>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
      d="m 149.94813,109.26759 c 2.3328,4.6656 5.832,10.4976 9.3312,15.7464"
@@ -196,9 +172,9 @@
        id="title128">dir_1ceab193fdfa8d16f9f30f1836660d41</title>
     <a
        xlink:href="dir_1ceab193fdfa8d16f9f30f1836660d41.htm"
-       id="a130"
+       target="_top"
        xlink:title="cmdbasic"
-       target="_top">
+       id="a130">
       <polygon
          id="polygon132"
          points="294.75,-420 235.25,-420 235.25,-384 294.75,-384 294.75,-420 "
@@ -225,27 +201,21 @@
      points="255.512,-358.299 262.478,-357.602 262.478,-357.602 258,-348 "
      id="polygon154"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
-  <a
-     xlink:href="dir_7a6a0c7ce7a6455451ada369d86918b2.htm"
-     target="_top"
-     xlink:title="cmdmgr"
-     id="a178"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="342,-312 396,-312 396,-348 396,-348 342,-348 "
-       id="polygon180" />
-    <text
-       x="369"
-       y="-327"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text182"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:13.58024693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4258">cmdmgr</tspan>
-    </text>
-  </a>
+  <polygon
+     id="polygon180"
+     points="396,-348 396,-348 342,-348 342,-312 396,-312 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text182"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="100.5196"
+     x="210.01773">
+    <tspan
+       id="tspan4258"
+       style="font-size:7.92000008px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">cmdmgr</tspan>
+  </text>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
      d="m 199.52013,109.26759 c -5.2488,5.2488 -11.0808,11.0808 -16.9128,16.9128"
@@ -267,27 +237,21 @@
      points="310,-204 313.2,-214.1 318.8,-209.9 318.8,-209.9 "
      id="polygon202"
      transform="matrix(0.5832,0,0,0.5832,-7.9824271,291.226)" />
-  <a
-     xlink:href="dir_1f2a0cd2385841f1f2d137f2f9930ef2.htm"
-     target="_top"
-     xlink:title="export"
-     id="a213"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="382,-240 436,-240 436,-276 436,-276 382,-276 "
-       id="polygon215" />
-    <text
-       x="409"
-       y="-255"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text217"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4256">export</tspan>
-    </text>
-  </a>
+  <polygon
+     id="polygon215"
+     points="436,-276 436,-276 382,-276 382,-240 436,-240 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text217"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="142.50999"
+     x="233.34573">
+    <tspan
+       id="tspan4256"
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">export</tspan>
+  </text>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
      d="m 233.34573,151.25799 c 0,22.1616 0,72.9 0,99.144"
@@ -308,48 +272,36 @@
      points="330.379,-211.459 334.262,-205.635 334.262,-205.635 324,-203 "
      id="polygon237"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
-  <a
-     xlink:href="dir_e01f74e4ef8862db198a230aef9acfc2.htm"
-     target="_top"
-     xlink:title="geom"
-     id="a248"
-     transform="matrix(0.5832,0,0,0.5832,-10.951619,292.4509)">
-    <polygon
-       style="fill:#efefef;stroke:#000000"
-       points="344,-24 344,-60 344,-60 290,-60 290,-24 "
-       id="polygon250" />
-    <text
-       x="317"
-       y="-39"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text252"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4246">geom</tspan>
-    </text>
-  </a>
-  <a
-     xlink:href="dir_0bc55861355cddc512078f6e4cb67149.htm"
-     target="_top"
-     xlink:title="graph"
-     id="a257"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="316,-96 370,-96 370,-132 370,-132 316,-132 "
-       id="polygon259" />
-    <text
-       x="343"
-       y="-111"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text261"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4250">graph</tspan>
-    </text>
-  </a>
+  <polygon
+     id="polygon250"
+     points="344,-60 290,-60 290,-24 344,-24 344,-60 "
+     style="fill:#efefef;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-10.951619,292.4509)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text252"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="269.70609"
+     x="173.92278">
+    <tspan
+       id="tspan4246"
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">geom</tspan>
+  </text>
+  <polygon
+     id="polygon259"
+     points="370,-132 370,-132 316,-132 316,-96 370,-96 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text261"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="226.4908"
+     x="194.85454">
+    <tspan
+       id="tspan4250"
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">graph</tspan>
+  </text>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
      d="m 204.76893,235.23879 c 4.6656,5.2488 9.9144,11.0808 15.1632,16.3296"
@@ -370,68 +322,50 @@
      points="323.521,-70.584 330.226,-68.5725 330.226,-68.5725 324,-60 "
      id="polygon281"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
-  <a
-     xlink:href="dir_ff02c34e489f80e1c039576f7ca18e44.htm"
-     target="_top"
-     xlink:title="jsonstorage"
-     id="a384"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="116.25,-312 195.75,-312 195.75,-348 195.75,-348 116.25,-348 "
-       id="polygon386" />
-    <text
-       x="156"
-       y="-327"
-       style="font-size:10px;text-anchor:middle;font-family:Arial"
-       id="text388">
-      <tspan
-         style="font-size:13.58024693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4262">jsonstorage</tspan>
-    </text>
-  </a>
-  <a
-     xlink:href="dir_2feab349c0c886fc5a924a41beaa69e9.htm"
-     target="_top"
-     xlink:title="shapedoc"
-     id="a393"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="16.246,-312 77.754,-312 77.754,-348 77.754,-348 16.246,-348 "
-       id="polygon395" />
-    <text
-       x="47"
-       y="-327"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text397"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:13.58024693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4268">shapedoc</tspan>
-    </text>
-  </a>
-  <a
-     xlink:href="dir_4857293b2183828c9f77b6aea04da81d.htm"
-     target="_top"
-     xlink:title="record"
-     id="a428"
-     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)">
-    <polygon
-       style="fill:#ffffff;stroke:#000000"
-       points="106,-384 160,-384 160,-420 160,-420 106,-420 "
-       id="polygon430" />
-    <text
-       x="133"
-       y="-399"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       id="text432"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan4270">record</tspan>
-    </text>
-  </a>
+  <polygon
+     id="polygon386"
+     points="195.75,-348 195.75,-348 116.25,-348 116.25,-312 195.75,-312 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     id="text388"
+     style="font-size:5.83199978px;text-anchor:middle;font-family:Arial"
+     y="100.5196"
+     x="85.796135">
+    <tspan
+       id="tspan4262"
+       style="font-size:7.92000008px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">jsonstorage</tspan>
+  </text>
+  <polygon
+     id="polygon395"
+     points="77.754,-348 77.754,-348 16.246,-348 16.246,-312 77.754,-312 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text397"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="100.5196"
+     x="22.227333">
+    <tspan
+       id="tspan4268"
+       style="font-size:7.92000008px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">shapedoc</tspan>
+  </text>
+  <polygon
+     id="polygon430"
+     points="160,-420 160,-420 106,-420 106,-384 160,-384 "
+     style="fill:#ffffff;stroke:#000000"
+     transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text432"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     y="58.529202"
+     x="72.38253">
+    <tspan
+       id="tspan4270"
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">record</tspan>
+  </text>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.58319998"
      d="m 75.298531,67.277194 c 1.1664,4.6656 2.3328,9.9144 3.4992,15.1632"
@@ -534,27 +468,21 @@
      points="52.842,-358.594 59.4827,-356.38 59.4827,-356.38 53,-348 "
      id="polygon608"
      transform="matrix(0.5832,0,0,0.5832,-5.1830671,291.226)" />
-  <a
-     xlink:href="dir_0bc55861355cddc512078f6e4cb67149.htm"
-     transform="matrix(0.5832,0,0,0.5832,-50.820155,291.72613)"
-     id="a3150"
-     xlink:title="gshape"
-     target="_top">
-    <polygon
-       id="polygon3152"
-       points="316,-132 316,-96 370,-96 370,-132 370,-132 "
-       style="fill:#efefef;stroke:#000000" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text3154"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       y="-111"
-       x="343">
-      <tspan
-         id="tspan3156"
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">gshape</tspan>
-    </text>
-  </a>
+  <polygon
+     style="fill:#efefef;stroke:#000000"
+     points="370,-96 370,-132 370,-132 316,-132 316,-96 "
+     id="polygon3152"
+     transform="matrix(0.5832,0,0,0.5832,-50.820155,291.72613)" />
+  <text
+     x="149.21744"
+     y="226.99094"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     id="text3154"
+     sodipodi:linespacing="125%">
+    <tspan
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan3156">gshape</tspan>
+  </text>
   <path
      inkscape:connector-curvature="0"
      id="path3158"
@@ -575,37 +503,31 @@
      id="polygon3164"
      points="324,-60 323.521,-70.584 330.226,-68.5725 330.226,-68.5725 "
      style="fill:#000000;stroke:#000000" />
-  <a
-     xlink:href="dir_f38d51fe1b3d8df5bd989400af297337.htm"
-     transform="matrix(0.5832,0,0,0.5832,-70.48274,165.66842)"
-     id="a5372"
-     xlink:title="canvas"
-     target="_top">
-    <polygon
-       id="polygon5374"
-       points="382,-24 436,-24 436,-60 436,-60 382,-60 "
-       style="fill:#ffffff;stroke:#000000" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text5376"
-       style="font-size:10px;line-height:125%;text-anchor:middle;font-family:Arial"
-       y="-33.964954"
-       x="408.17923">
-      <tspan
-         id="tspan5378"
-         style="font-size:14.81481457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">cmd</tspan>
-    </text>
-    <text
-       x="408.35681"
-       y="-47.575661"
-       style="font-size:9.60219479px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-       id="text5380"
-       sodipodi:linespacing="125%">
-      <tspan
-         style="font-size:9.60219479px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         id="tspan5382">interface</tspan>
-    </text>
-  </a>
+  <polygon
+     style="fill:#ffffff;stroke:#000000"
+     points="436,-60 436,-60 382,-60 382,-24 436,-24 "
+     id="polygon5374"
+     transform="matrix(0.5832,0,0,0.5832,-70.48274,165.66842)" />
+  <text
+     x="167.56738"
+     y="145.86006"
+     style="font-size:5.83199978px;line-height:125%;text-anchor:middle;font-family:Arial"
+     id="text5376"
+     sodipodi:linespacing="125%">
+    <tspan
+       style="font-size:8.63999939px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5378">cmd</tspan>
+  </text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text5380"
+     style="font-size:5.5999999px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+     y="137.9223"
+     x="167.67096">
+    <tspan
+       id="tspan5382"
+       style="font-size:5.5999999px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">interface</tspan>
+  </text>
   <path
      style="opacity:0.95258622;fill:none;stroke:#000000;stroke-width:0.82210064;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44247819;stroke-dasharray:1.64420125, 0.82210063;stroke-dashoffset:0"
      d="m 102.46438,222.14003 c -1.028,-4.90471 4.59814,-8.25493 8.34799,-10.46082 7.21073,-3.13877 15.1267,-4.5068 22.88135,-5.70112 9.18543,-0.004 18.37086,0.004 27.55628,4.3e-4 2.98111,2.08859 6.67099,3.4355 7.85845,7.05908 1.25018,4.29165 1.70878,8.57022 3.27886,12.81407 2.44607,4.89446 3.92844,10.28289 7.35172,14.69453 2.31313,3.37788 6.81561,5.48029 10.83126,7.01064 4.46352,1.28235 8.96248,3.17536 10.33691,7.8365 1.99663,4.60438 0.8238,9.72526 1.08005,14.56759 0.40348,4.04582 -2.8746,8.29699 -7.2829,8.56156 -2.93441,2.84089 -8.10958,2.46335 -11.91898,3.36844 -15.31805,-0.20325 -30.65238,0.17543 -45.96062,-0.17757 -5.3094,-0.0921 -10.2645,-1.86465 -15.28417,-3.2023 -5.14173,-1.97509 -7.94888,-6.92928 -10.51675,-11.27122 -1.12878,-4.9577 -4.67245,-8.82506 -5.92069,-13.71265 -1.07866,-4.02177 -1.22658,-8.18855 -2.4741,-12.19338 -0.39268,-6.36395 -0.0491,-12.80413 -0.16466,-19.19378 z"

@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
@@ -39,7 +40,7 @@
      fit-margin-bottom="3"
      inkscape:zoom="2.0999849"
      inkscape:cx="197.40894"
-     inkscape:cy="99.16633"
+     inkscape:cy="274.55421"
      inkscape:window-x="64"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -56,7 +57,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
     <dc:format>image/svg+xml</dc:format>
     <dc:type
        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:title></dc:title>
+    <dc:title />
   </cc:Work>
 </rdf:RDF>
 </metadata>
@@ -181,20 +182,30 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
      height="29.614468"
      x="35.356663"
      y="278.57257" />
-  <rect
-     style="fill:none;stroke:#000000;stroke-width:1.00800002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="rect4321"
-     width="25.886171"
-     height="117.11896"
-     x="293.48352"
-     y="39.32164" />
-  <rect
-     style="fill:none;stroke:#000000;stroke-width:1.00800002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="rect4323"
-     width="24.308222"
-     height="117.24966"
-     x="326.30347"
-     y="39.190903" />
+  <a
+     id="a3053"
+     xlink:title="DemoCmds"
+     xlink:href="https://github.com/touchvg/DemoCmds">
+    <rect
+       y="39.32164"
+       x="293.48352"
+       height="117.11896"
+       width="25.886171"
+       id="rect4321"
+       style="fill:none;stroke:#000000;stroke-width:1.00800002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </a>
+  <a
+     id="a3056"
+     xlink:href="https://github.com/touchvg/DemoImport"
+     xlink:title="DemoImport">
+    <rect
+       y="39.190903"
+       x="326.30347"
+       height="117.24966"
+       width="24.308222"
+       id="rect4323"
+       style="fill:none;stroke:#000000;stroke-width:1.00800002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </a>
   <text
      xml:space="preserve"
      style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -397,40 +408,45 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   <text
      xml:space="preserve"
      style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="-132.61874"
-     y="311.77817"
+     x="-140.23785"
+     y="311.01627"
      id="text3101"
      sodipodi:linespacing="125%"
      transform="matrix(0,-1,1,0,0,0)"><tspan
        sodipodi:role="line"
        id="tspan3103"
-       x="-132.61874"
-       y="311.77817">DemoCmds</tspan></text>
+       x="-140.23785"
+       y="311.01627">DemoCmds</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="-129.59581"
-     y="341.84683"
+     x="-140.26256"
+     y="343.75162"
      id="text3105"
      sodipodi:linespacing="125%"
      transform="matrix(0,-1,1,0,0,0)"><tspan
        sodipodi:role="line"
        id="tspan3107"
-       x="-129.59581"
-       y="341.84683">Importer</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:24.75466537px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.15;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="-76.039337"
-     y="271.38693"
-     id="text4068"
-     sodipodi:linespacing="125%"
-     transform="matrix(0.90630779,-0.42261826,0.42261826,0.90630779,0,0)"><tspan
-       sodipodi:role="line"
-       id="tspan4070"
-       x="-76.039337"
+       x="-140.26256"
+       y="343.75162">DemoImport</tspan></text>
+  <a
+     id="a3059"
+     xlink:href="https://github.com/touchvg/vgcore"
+     xlink:title="TouchVGCore">
+    <text
+       transform="matrix(0.90630779,-0.42261826,0.42261826,0.90630779,0,0)"
+       sodipodi:linespacing="125%"
+       id="text4068"
        y="271.38693"
-       style="font-size:29.70559883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">TouchVGCore</tspan></text>
+       x="-76.039337"
+       style="font-size:24.75466537px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.15;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:29.70559883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         y="271.38693"
+         x="-76.039337"
+         id="tspan4070"
+         sodipodi:role="line">TouchVGCore</tspan></text>
+  </a>
   <text
      sodipodi:linespacing="125%"
      id="text3043"
