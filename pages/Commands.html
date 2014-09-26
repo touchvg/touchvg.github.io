@@ -84,27 +84,46 @@
                 <div class="large-9 medium-8 columns">
                     <div class="row">
                         <div class="small-12 columns">
-                            <h1>Getting started</h1>
+                            <h1>可用的命令列表</h1>
                         </div>
                     </div>
 <div class="row">
 	<div class="small-12 columns">
-		<hr />
-<p>目前 TouchVG ...</p>
-<hr />
+		<h2>基本命令</h2>
 <ul>
-<li>
-<p><a href="commands.html">可用的命令列表</a></p>
-</li>
-<li>
-<p>TODO</p>
-</li>
+<li>select: 选择</li>
+<li>erase: 橡皮擦</li>
+<li>rect: 矩形</li>
+<li>square: 正方形</li>
+<li>ellipse: 椭圆</li>
+<li>circle: 圆</li>
+<li>circle3p: 三点画圆</li>
+<li>diamond: 菱形</li>
+<li>line: 线段</li>
+<li>dot: 点</li>
+<li>polygon: 多边形</li>
+<li>quadrangle: 四边形</li>
+<li>lines: 折线</li>
+<li>splines: 随时画曲线</li>
+<li>triangle: 三角形</li>
+<li>parallel: 平行四边形</li>
+<li>grid: 网格</li>
+<li>arc3p: 三点圆弧</li>
+<li>arc_cse: 圆心圆弧</li>
+<li>arc_tan: 切线圆弧</li>
 </ul>
-<hr />
-<h3>FAQ</h3>
-<ol>
-<li>TODO</li>
-</ol>
+<h2>特殊命令</h2>
+<ul>
+<li>@draw: 上一绘图命令</li>
+<li>@last: 上一命令</li>
+<li>erasewnd: 删除当前视图内可见图形</li>
+</ul>
+<h2>带参数的扩展绘图命令</h2>
+<p>例如: <code>[hlp setCommand:@"line" withParam:@"{'rayline':true}"];</code></p>
+<ul>
+<li>line <code>{'rayline':true}</code>: 射线</li>
+<li>line <code>{'beeline':true}</code>: 无穷直线</li>
+</ul>
 	</div>
 </div>
                 </div>
