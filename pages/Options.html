@@ -84,50 +84,79 @@
                 <div class="large-9 medium-8 columns">
                     <div class="row">
                         <div class="small-12 columns">
-                            <h1>可用的命令列表</h1>
+                            <h1>可用的配置选项列表</h1>
                         </div>
                     </div>
 <div class="row">
 	<div class="small-12 columns">
-		<h2>基本命令</h2>
+		<h2>使用方法参考</h2>
+<h3>iOS上选项的使用方法</h3>
+<p>以下假定 helper 为 GiViewHelper 对象。</p>
 <ul>
-<li>select: 选择</li>
-<li>erase: 橡皮擦</li>
-<li>rect: 矩形</li>
-<li>square: 正方形</li>
-<li>ellipse: 椭圆</li>
-<li>circle2p: 圆</li>
-<li>circle3p: 三点画圆</li>
-<li>diamond: 菱形</li>
-<li>line: 线段</li>
-<li>rayline: 射线</li>
-<li>beeline: 无穷直线</li>
-<li>dot: 点</li>
-<li>polygon: 多边形</li>
-<li>quadrangle: 四边形</li>
-<li>lines: 折线</li>
-<li>splines: 随手画曲线</li>
-<li>spline_mouse: 样条曲线</li>
-<li>triangle: 三角形</li>
-<li>parallel: 平行四边形</li>
-<li>grid: 网格</li>
-<li>arc3p: 三点圆弧</li>
-<li>arc_cse: 圆心圆弧</li>
-<li>arc_tan: 切线圆弧</li>
+<li>读取选项: <code>[helper.options[@"snapVertex"] boolValue]</code></li>
+<li>设置单一选项: <code>[helper setOption:@(sid) forKey:@"lockSelShape"]</code></li>
+<li>设置多个选项: <code>helper.options = @{ @"snapCross": @NO, @"zoomShapeEnabled": @NO};</code></li>
 </ul>
-<h2>特殊命令</h2>
+<h3>Android上选项的使用方法</h3>
+<p>以下假定 helper 为 IViewHelper 对象。</p>
 <ul>
-<li>@draw: 上一绘图命令</li>
-<li>@last: 上一命令</li>
-<li>erasewnd: 删除当前视图内可见图形</li>
+<li>读取选项: <code>Integer.parseInt(helper.getOptions().get("snapVertex"))</code></li>
+<li>设置单一选项: <code>helper.setOption("lockSelShape", sid);</code></li>
 </ul>
-<h2>带参数的扩展绘图命令</h2>
-<p>例如: <code>[hlp setCommand:@"line" withParam:@"{'fixedsize':true}"];</code> 或 <code>[hlp setCommand:@"line{'locked':true}"];</code></p>
+<h3>WPF上选项的使用方法</h3>
+<p>以下假定 helper 为 WPFViewHelper 对象。</p>
 <ul>
-<li>'fixedlen':true: 定长</li>
-<li>'fixedsize':true: 固定大小</li>
-<li>'locked':true: 锁定</li>
-<li>'hiden':true: 隐藏</li>
+<li>读取选项: <code>Convert.ToBoolean(helper.Options["snapVertex"])</code></li>
+<li>设置单一选项: <code>helper.SetOption("lockSelShape", sid)</code></li>
+<li>设置多个选项: <code>helper.Options = new Dictionary&lt;string, IConvertible&gt;() {{"one",true}, {"two",123}};</code></li>
+</ul>
+<h2>视图选项</h2>
+<ul>
+<li>showGrid: 显示网格线，1表示显示厘米网格线，2表示显示厘米十字网格点</li>
+<li>contextActionEnabled: 允许上下文按钮</li>
+<li>zoomEnabled: 允许放缩显示</li>
+<li>showMagnifier: 显示放大镜</li>
+</ul>
+<h2>选择选项</h2>
+<ul>
+<li>canMoveShape: 能否移动图形</li>
+<li>canMoveHandle: 能否移动控制点</li>
+<li>canRotateHandle: 能否绕控制点旋转- </li>
+<li>canBoxSel: 能否框选</li>
+<li>zoomShapeEnabled: 能否双指放缩图形</li>
+<li>lockSelShape: 总是选择某个ID的图形</li>
+<li>lockSelHandle: 总是选择指定序号的控制点</li>
+<li>lockRotateHandle: 总是绕指定序号的控制点旋转</li>
+<li>selectDrawFlags: 选中图形的显示特性，由 MgSelDrawFlags 枚举值按位组成</li>
+<li>rotateStepAngle: 旋转的最小增量度数</li>
+</ul>
+<h2>绘图选项</h2>
+<ul>
+<li>drawOneShape: 画完一个图形就切换到选择命令</li>
+<li>newShapeFixedlen: 画完一个图形就自动设为定长</li>
+<li>newShapeFixedsize: 画完一个图形就自动设为固定大小</li>
+<li>newShapeLocked: 画完一个图形就自动锁定</li>
+<li>newShapeHiden: 画完一个图形就自动隐藏</li>
+<li>notClickSelectInDrawCmd: 在绘图命令中点击图形不自动选择此图形</li>
+</ul>
+<h2>捕捉选项</h2>
+<ul>
+<li>snapEnabled: 允许捕捉</li>
+<li>snapVertex: 捕捉顶点</li>
+<li>snapCenter: 捕捉圆心</li>
+<li>snapMidPoint: 捕捉中点</li>
+<li>snapQuadrant: 捕捉象限点</li>
+<li>snapNear: 捕捉线上点</li>
+<li>snapNearTol: 捕捉线上点的容差(毫米)</li>
+<li>snapPointTol: 捕捉点的容差(毫米)</li>
+<li>snapPerp: 捕捉垂足</li>
+<li>perpOut: 捕捉线外垂足</li>
+<li>snapTangent: 捕捉切点</li>
+<li>snapCross: 捕捉交点</li>
+<li>snapGrid: 捕捉网格点</li>
+<li>startMustVertex: 起点必须在顶点</li>
+<li>snapRoundCell: 未捕捉到点时坐标取毫米坐标的几位小数点</li>
+<li>snapTextARGB: 捕捉提示文字的颜色</li>
 </ul>
 	</div>
 </div>

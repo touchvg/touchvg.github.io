@@ -38,9 +38,9 @@
      fit-margin-left="3"
      fit-margin-right="3"
      fit-margin-bottom="3"
-     inkscape:zoom="2.0999849"
-     inkscape:cx="197.40894"
-     inkscape:cy="274.55421"
+     inkscape:zoom="1.6613931"
+     inkscape:cx="118.92217"
+     inkscape:cy="145.64655"
      inkscape:window-x="64"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -70,7 +70,9 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
      style="fill:#e4fff2;fill-opacity:1;stroke:#000000;stroke-width:1.51199996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 3.4157941,104.66876 0,58.84988 0,1.81126 0,142.56111 346.9252959,0 0,-144.37237 -63.51978,0 0,-58.84988 -283.4055159,0 z"
      id="rect3214"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:1.00800002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect4285"
@@ -96,7 +98,9 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
      style="fill:#e4fff2;fill-opacity:1;stroke:#000000;stroke-width:1.51199996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      d="m 139.05829,39.505567 0,33.47663 -35.25638,0 0,24.546372 182.98351,0 0,-23.6565 0,-0.889872 0,-33.47663 -147.72713,0 z"
      id="rect4291"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.50400001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect4295"
@@ -136,10 +140,10 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.50400001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect4307"
-     width="64.820435"
-     height="58.433769"
-     x="146.54147"
-     y="134.15817" />
+     width="64.504822"
+     height="29.885252"
+     x="146.94554"
+     y="133.61942" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.50400001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect4309"
@@ -150,17 +154,17 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.50400001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect4311"
-     width="139.38051"
-     height="28.82546"
-     x="211.23117"
-     y="163.58157" />
+     width="203.62669"
+     height="28.960157"
+     x="146.985"
+     y="163.44688" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.50400001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect4313"
-     width="204.07021"
-     height="28.221378"
-     x="146.54147"
-     y="192.59193" />
+     width="203.66615"
+     height="28.356062"
+     x="146.94554"
+     y="192.45724" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.50400001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect4315"
@@ -335,46 +339,46 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   <text
      xml:space="preserve"
      style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="235.96413"
-     y="211.5536"
+     x="227.96407"
+     y="211.74408"
      id="text3071"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3073"
-       x="235.96413"
-       y="211.5536">Cmd</tspan></text>
+       x="227.96407"
+       y="211.74408">Cmd</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="245.07629"
-     y="183.73755"
+     style="font-size:14.11199856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     x="246.82857"
+     y="185.26137"
      id="text3075"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3077"
-       x="245.07629"
-       y="183.73755">CmdBase</tspan></text>
+       x="246.82857"
+       y="185.26137">CmdBase</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="149.63843"
-     y="169.34999"
+     style="font-size:14.11199856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     x="178.43854"
+     y="153.34993"
      id="text3079"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3081"
-       x="149.63843"
-       y="169.34999">CmdMgr</tspan></text>
+       x="178.43854"
+       y="153.34993">CmdMgr</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="214.38271"
+     style="font-size:14.11199856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     x="247.98283"
      y="154.00319"
      id="text3083"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3085"
-       x="214.38271"
+       x="247.98283"
        y="154.00319">CmdBasic</tspan></text>
   <text
      xml:space="preserve"
@@ -405,34 +409,45 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
        id="tspan3099"
        x="-281.61697"
        y="23.18014">JsonStorage</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="-140.23785"
-     y="311.01627"
-     id="text3101"
-     sodipodi:linespacing="125%"
-     transform="matrix(0,-1,1,0,0,0)"><tspan
-       sodipodi:role="line"
-       id="tspan3103"
+  <a
+     id="a3050"
+     xlink:href="https://github.com/touchvg/DemoCmds"
+     xlink:title="DemoCmds">
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="125%"
+       id="text3101"
+       y="311.01627"
        x="-140.23785"
-       y="311.01627">DemoCmds</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="-140.26256"
-     y="343.75162"
-     id="text3105"
-     sodipodi:linespacing="125%"
-     transform="matrix(0,-1,1,0,0,0)"><tspan
-       sodipodi:role="line"
-       id="tspan3107"
+       style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="311.01627"
+         x="-140.23785"
+         id="tspan3103"
+         sodipodi:role="line">DemoCmds</tspan></text>
+  </a>
+  <a
+     id="a3054"
+     xlink:title="DemoImport"
+     xlink:href="https://github.com/touchvg/DemoImport">
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="125%"
+       id="text3105"
+       y="343.75162"
        x="-140.26256"
-       y="343.75162">DemoImport</tspan></text>
+       style="font-size:14.11199951px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="343.75162"
+         x="-140.26256"
+         id="tspan3107"
+         sodipodi:role="line">DemoImport</tspan></text>
+  </a>
   <a
      id="a3059"
      xlink:href="https://github.com/touchvg/vgcore"
-     xlink:title="TouchVGCore">
+     xlink:title="TouchVGCore"
+     transform="matrix(1.3341663,-0.14965074,0.14436065,1.2870042,-70.994054,-56.437217)">
     <text
        transform="matrix(0.90630779,-0.42261826,0.42261826,0.90630779,0,0)"
        sodipodi:linespacing="125%"
