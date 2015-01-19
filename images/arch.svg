@@ -189,7 +189,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   <a
      id="a3053"
      xlink:title="DemoCmds"
-     xlink:href="https://github.com/touchvg/DemoCmds">
+     xlink:href="https://github.com/rhcad/DemoCmds">
     <rect
        y="39.32164"
        x="293.48352"
@@ -200,7 +200,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   </a>
   <a
      id="a3056"
-     xlink:href="https://github.com/touchvg/DemoImport"
+     xlink:href="https://github.com/rhcad/DemoImport"
      xlink:title="DemoImport">
     <rect
        y="39.190903"
@@ -411,7 +411,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
        y="23.18014">JsonStorage</tspan></text>
   <a
      id="a3050"
-     xlink:href="https://github.com/touchvg/DemoCmds"
+     xlink:href="https://github.com/rhcad/DemoCmds"
      xlink:title="DemoCmds">
     <text
        transform="matrix(0,-1,1,0,0,0)"
@@ -429,7 +429,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   <a
      id="a3054"
      xlink:title="DemoImport"
-     xlink:href="https://github.com/touchvg/DemoImport">
+     xlink:href="https://github.com/rhcad/DemoImport">
     <text
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="125%"
@@ -445,7 +445,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   </a>
   <a
      id="a3059"
-     xlink:href="https://github.com/touchvg/vgcore"
+     xlink:href="https://github.com/rhcad/vgcore"
      xlink:title="TouchVGCore"
      transform="matrix(1.3341663,-0.14965074,0.14436065,1.2870042,-70.994054,-56.437217)">
     <text
