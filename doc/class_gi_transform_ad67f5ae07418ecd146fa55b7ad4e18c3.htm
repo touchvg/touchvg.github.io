@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: GiTransform::modelToWorld</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="class_gi_transform.htm">GiTransform</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ae33f3a9ff542fc79b2680e2942bf4d85.htm#ae33f3a9ff542fc79b2680e2942bf4d85">copy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_af28ded94bb90797c24f740cf405d854c.htm#af28ded94bb90797c24f740cf405d854c">displayToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a8d61c9319719bbf3d54974ca512d8246.htm#a8d61c9319719bbf3d54974ca512d8246">displayToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a1c31fb1f5a1600daf24369957ca9410c.htm#a1c31fb1f5a1600daf24369957ca9410c">displayToWorld</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a8a554531cc67a305de2c803beed50ee5.htm#a8a554531cc67a305de2c803beed50ee5">enableZoom</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a6aa5fd6a9c92a9ba8345a4e3e62e994d.htm#a6aa5fd6a9c92a9ba8345a4e3e62e994d">getCenterW</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a26b46c6981d2d025f92fdaac1a2e5042.htm#a26b46c6981d2d025f92fdaac1a2e5042">getDpiX</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a031c633382214ac8ddf9854aa39e22e0.htm#a031c633382214ac8ddf9854aa39e22e0">getDpiY</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a30d696942b41feb2830511a00b1ae274.htm#a30d696942b41feb2830511a00b1ae274">getHeight</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ae91467d8ca310056f10f954bbab24b51.htm#ae91467d8ca310056f10f954bbab24b51">getMaxViewScale</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ae7b502f8fe898f72d6cef7882f0df969.htm#ae7b502f8fe898f72d6cef7882f0df969">getMinViewScale</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a1f48524b015ef311d0a9d6e296676030.htm#a1f48524b015ef311d0a9d6e296676030">getViewScale</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a209f5c0449b185b6a0eaf37152fc6eef.htm#a209f5c0449b185b6a0eaf37152fc6eef">getWidth</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a08e2f5ee65c88a427d2b5ad6d15e42a7.htm#a08e2f5ee65c88a427d2b5ad6d15e42a7">getWndRect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ab6d98c16ddeabfe71589fa5ff69b3bcb.htm#ab6d98c16ddeabfe71589fa5ff69b3bcb">getWndRectM</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a0d026184234a6153be8851720a31c7c3.htm#a0d026184234a6153be8851720a31c7c3">getWndRectW</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a62bf311fc38937ab949bf03da85a7f00.htm#a62bf311fc38937ab949bf03da85a7f00">getWorldLimits</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_aa97aca89207f2a3adc1002e8e90c5b0e.htm#aa97aca89207f2a3adc1002e8e90c5b0e">getWorldToDisplayX</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_acdc5a45fd90d54ec23e8a16d03da931e.htm#acdc5a45fd90d54ec23e8a16d03da931e">getWorldToDisplayY</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a230501fcb9b4700be452eef1e9eba88c.htm#a230501fcb9b4700be452eef1e9eba88c">getZoomTimes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a7d22c5e5b20b31cb84141a2214e4df37.htm#a7d22c5e5b20b31cb84141a2214e4df37">getZoomValue</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a828feac0a93272fe06f9b79cfba32a31.htm#a828feac0a93272fe06f9b79cfba32a31">GiTransform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a2151d8aa67168a83b743d5ba5eec6c83.htm#a2151d8aa67168a83b743d5ba5eec6c83">GiTransform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_afab369655975bace2e6e4b595167ca6c.htm#afab369655975bace2e6e4b595167ca6c">m_impl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a05ad9a0cd077e0ccd4992a996be0f505.htm#a05ad9a0cd077e0ccd4992a996be0f505">modelToDisplay</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="class_gi_transform_ad67f5ae07418ecd146fa55b7ad4e18c3.htm#ad67f5ae07418ecd146fa55b7ad4e18c3">modelToWorld</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ae7a8c08ddd6dca951cf405e1ae858c58.htm#ae7a8c08ddd6dca951cf405e1ae858c58">setModelTransform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_aecd6acc15e6ea6b99b2f44b37c11c985.htm#aecd6acc15e6ea6b99b2f44b37c11c985">setResolution</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ad2247fed777e8572cb9201c0ab518747.htm#ad2247fed777e8572cb9201c0ab518747">setViewScaleRange</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ae1a4327290a15cf527d7ce8e7ef14655.htm#ae1a4327290a15cf527d7ce8e7ef14655">setWndSize</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a57c253bbb6622436fffdaca38a512e66.htm#a57c253bbb6622436fffdaca38a512e66">setWorldLimits</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a3f465cd01d5aa13936983db41026d879.htm#a3f465cd01d5aa13936983db41026d879">worldToDisplay</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ac1bb9f7471e63fa7effd91e84ba403f2.htm#ac1bb9f7471e63fa7effd91e84ba403f2">worldToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_af1bd0722fe9c010c7e606536b3a193c8.htm#af1bd0722fe9c010c7e606536b3a193c8">zoom</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a0e61b56d0a7539cc651c1973e93ba919.htm#a0e61b56d0a7539cc651c1973e93ba919">zoomByFactor</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a2571e11293ccde2c88669af84e2c94e5.htm#a2571e11293ccde2c88669af84e2c94e5">zoomPan</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_a814233992cf8f624d639fd92ef2b25d5.htm#a814233992cf8f624d639fd92ef2b25d5">zoomScale</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_ad984328266211897534def649e863d62.htm#ad984328266211897534def649e863d62">zoomTo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_af1d8e2e4ccd367cfc19d30ca71f87016.htm#af1d8e2e4ccd367cfc19d30ca71f87016">zoomTo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_aefff185ace71764ba20f4e246fc7d117.htm#aefff185ace71764ba20f4e246fc7d117">zoomWnd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_transform_aa4a3f51cffd57b96fb31229f9f765e13.htm#aa4a3f51cffd57b96fb31229f9f765e13">~GiTransform</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ad67f5ae07418ecd146fa55b7ad4e18c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad67f5ae07418ecd146fa55b7ad4e18c3">&#9670;&nbsp;</a></span>modelToWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_matrix2d.htm">Matrix2d</a> &amp; GiTransform::modelToWorld </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>返回模型坐标系到世界坐标系的变换矩阵 </p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gi_transform_ad67f5ae07418ecd146fa55b7ad4e18c3_ad67f5ae07418ecd146fa55b7ad4e18c3_icgraph.png" border="0" usemap="#class_gi_transform_ad67f5ae07418ecd146fa55b7ad4e18c3_ad67f5ae07418ecd146fa55b7ad4e18c3_icgraph" alt=""/></div>
+<map name="class_gi_transform_ad67f5ae07418ecd146fa55b7ad4e18c3_ad67f5ae07418ecd146fa55b7ad4e18c3_icgraph" id="class_gi_transform_ad67f5ae07418ecd146fa55b7ad4e18c3_ad67f5ae07418ecd146fa55b7ad4e18c3_icgraph">
+<area shape="rect" id="node2" href="class_gi_core_view_a2c6d492d55790520b1b2677f4e5ae200.htm#a2c6d492d55790520b1b2677f4e5ae200" title="放缩显示全部内容到视图区域 " alt="" coords="508,101,692,127"/>
+<area shape="rect" id="node11" href="class_gi_core_view_a3f54c01dbe0e2fb2e5ee538d52e91ed4.htm#a3f54c01dbe0e2fb2e5ee538d52e91ed4" title="放缩显示指定范围到视图区域 " alt="" coords="253,436,436,461"/>
+<area shape="rect" id="node12" href="class_gi_graphics_a9cd7b377aa19f19e21a9e232367c4a6d.htm#a9cd7b377aa19f19e21a9e232367c4a6d" title="在显示适配类的 beginPaint() 中调用 " alt="" coords="521,387,679,412"/>
+<area shape="rect" id="node34" href="class_gi_graphics_a1a04fc09295f6314110c44d31ff084fd.htm#a1a04fc09295f6314110c44d31ff084fd" title="设置剪裁框，逻辑坐标 " alt="" coords="265,485,424,511"/>
+<area shape="rect" id="node35" href="class_gi_graphics_adc07796d30073259a82d463c9897c3fe.htm#adc07796d30073259a82d463c9897c3fe" title="设置剪裁框，世界坐标 " alt="" coords="259,535,430,560"/>
+<area shape="rect" id="node37" href="class_gi_graphics_a63657c6769ea38080e5563a59b217baf.htm#a63657c6769ea38080e5563a59b217baf" title="GiGraphics::drawTextAt" alt="" coords="264,584,425,609"/>
+<area shape="rect" id="node38" href="class_gi_graphics_impl_a32c8b064640e03d2696ff92f95e8c450.htm#a32c8b064640e03d2696ff92f95e8c450" title="GiGraphicsImpl::zoomChanged" alt="" coords="241,387,448,412"/>
+<area shape="rect" id="node39" href="class_mg_image_shape_a6d39899e7b08b2fb63a91d95f8b84066.htm#a6d39899e7b08b2fb63a91d95f8b84066" title="MgImageShape::_draw" alt="" coords="265,633,424,659"/>
+<area shape="rect" id="node3" href="class_gi_view_adapter_ab66d16bde03116061687b128e6ffe8d1.htm#ab66d16bde03116061687b128e6ffe8d1" title="GiViewAdapter::regen_" alt="" coords="1541,31,1700,56"/>
+<area shape="rect" id="node6" href="class_gi_view_adapter_a9f223ee7d45af2108c1151dedf75f289.htm#a9f223ee7d45af2108c1151dedf75f289" title="GiViewAdapter::onFirstRegen" alt="" coords="761,101,959,127"/>
+<area shape="rect" id="node4" href="class_gi_view_adapter_a453419b25387d56dd61bb9d41acd21fc.htm#a453419b25387d56dd61bb9d41acd21fc" title="标记视图待重新构建显示 " alt="" coords="1786,5,1952,31"/>
+<area shape="rect" id="node5" href="class_gi_view_adapter_af533606812986f36c6701becea31bbd9.htm#af533606812986f36c6701becea31bbd9" title="标记视图待追加显示新图形 " alt="" coords="1770,55,1968,80"/>
+<area shape="rect" id="node7" href="class_gi_view_adapter_a7a99f61fac4701c4377ad3fe60f0a6fe.htm#a7a99f61fac4701c4377ad3fe60f0a6fe" title="GiViewAdapter::renderInContext" alt="" coords="1016,127,1229,152"/>
+<area shape="rect" id="node8" href="interface_gi_paint_view_a004579e55e4664f7dafa65777e01166c.htm#a004579e55e4664f7dafa65777e01166c" title="释放文档句柄 " alt="" coords="1284,81,1465,107"/>
+<area shape="rect" id="node9" href="interface_gi_paint_view_aa428aab910636198524b40ae6e3428bd.htm#aa428aab910636198524b40ae6e3428bd" title="得到静态图形的快照，自动释放 " alt="" coords="1293,180,1456,205"/>
+<area shape="rect" id="node10" href="interface_gi_paint_view_ad579c3309cc626d340458e175d404703.htm#ad579c3309cc626d340458e175d404703" title="保存静态图形的快照到PNG文件 " alt="" coords="1531,180,1710,205"/>
+<area shape="rect" id="node13" href="class_gi_core_view_a6b3e88031cb2bd1f6e22d7c7cee6e678.htm#a6b3e88031cb2bd1f6e22d7c7cee6e678" title="显示所有图形 " alt="" coords="788,363,932,388"/>
+<area shape="rect" id="node19" href="class_gi_core_view_aeb2c259fddac2236320757397b95341e.htm#aeb2c259fddac2236320757397b95341e" title="显示新图形 " alt="" coords="773,420,947,445"/>
+<area shape="rect" id="node21" href="class_gi_core_view_ab6f7fd888a96d6c2364c716d01f19f82.htm#ab6f7fd888a96d6c2364c716d01f19f82" title="显示动态图形 " alt="" coords="784,484,936,509"/>
+<area shape="rect" id="node23" href="class_gi_core_view_impl_a23ec558de371eacdc2b1c9ce8f79c6fa.htm#a23ec558de371eacdc2b1c9ce8f79c6fa" title="GiCoreViewImpl::submitDynamic\lShapes" alt="" coords="752,261,968,300"/>
+<area shape="rect" id="node32" href="interface_gi_view_helper_a09c205cdc21c39a0e77595fc80f7ff10.htm#a09c205cdc21c39a0e77595fc80f7ff10" title="将指定句柄(MgShape)的图形转换到二级层，第二级为多个CAShapeLayer " alt="" coords="764,563,956,601"/>
+<area shape="rect" id="node14" href="class_gi_core_view_aa465132066b61ffc34d7e6c158a8c4c7.htm#aa465132066b61ffc34d7e6c158a8c4c7" title="显示所有图形，主线程中用 " alt="" coords="1051,285,1194,311"/>
+<area shape="rect" id="node15" href="class_gi_core_view_aa099bf2b08cee8108917f1c205ab066d.htm#aa099bf2b08cee8108917f1c205ab066d" title="导出图形到SVG文件 " alt="" coords="1040,335,1205,360"/>
+<area shape="rect" id="node17" href="interface_gi_view_helper_a8f069f9d2737888d2efda20cdb2c6d98.htm#a8f069f9d2737888d2efda20cdb2c6d98" title="将静态图形转换到三级层，第二级为每个图形的层，其下有CAShapeLayer，返回顶级层 " alt="" coords="1030,384,1215,423"/>
+<area shape="rect" id="node18" href="interface_gi_view_helper_a33d699fdb77566a579b5a16b5d0338b9.htm#a33d699fdb77566a579b5a16b5d0338b9" title="将静态图形转换到二级层，第二级为每个路径的CAShapeLayer，不按图形分组 " alt="" coords="1025,447,1220,472"/>
+<area shape="rect" id="node16" href="class_gi_core_view_a0adfeb369f051c6bf412e6e7087661b5.htm#a0adfeb369f051c6bf412e6e7087661b5" title="导出图形到SVG文件，主线程中用 " alt="" coords="1292,377,1457,403"/>
+<area shape="rect" id="node20" href="class_gi_core_view_afa4103f331cab3ef19e0b30275cb7c67.htm#afa4103f331cab3ef19e0b30275cb7c67" title="显示新图形，主线程中用 " alt="" coords="1035,496,1210,521"/>
+<area shape="rect" id="node22" href="class_gi_core_view_ac620faf90f2e5e6c0b8632c46c621e7e.htm#ac620faf90f2e5e6c0b8632c46c621e7e" title="显示动态图形，主线程中用 " alt="" coords="1046,545,1199,571"/>
+<area shape="rect" id="node24" href="class_gi_core_view_a9f2adb68486b4e73ca23d32abd902385.htm#a9f2adb68486b4e73ca23d32abd902385" title="提交动态图形到前端，需要并发保护 " alt="" coords="1027,223,1218,261"/>
+<area shape="rect" id="node25" href="class_gi_core_view_a811242bed9b98ae6457f6f0ae18797c0.htm#a811242bed9b98ae6457f6f0ae18797c0" title="撤销, 需要并发访问保护 " alt="" coords="1310,229,1439,255"/>
+<area shape="rect" id="node27" href="class_gi_core_view_a482a001cb039758b41cc14d314162ca0.htm#a482a001cb039758b41cc14d314162ca0" title="重做, 需要并发访问保护 " alt="" coords="1311,279,1438,304"/>
+<area shape="rect" id="node29" href="class_gi_view_adapter_a174d92347ba68f3d8cb6f745b6eb9272.htm#a174d92347ba68f3d8cb6f745b6eb9272" title="GiViewAdapter::regenLocked" alt="" coords="1277,131,1472,156"/>
+<area shape="rect" id="node30" href="class_gi_view_adapter_a04dd63a6651c07442a786249481eb016.htm#a04dd63a6651c07442a786249481eb016" title="标记视图待更新显示 " alt="" coords="1295,328,1453,353"/>
+<area shape="rect" id="node26" href="class_gi_view_adapter_a7a10c9d050915b237068fecc8c73755a.htm#a7a10c9d050915b237068fecc8c73755a" title="GiViewAdapter::undo" alt="" coords="1547,229,1694,255"/>
+<area shape="rect" id="node28" href="class_gi_view_adapter_a582f440318adb594528f474b42378a14.htm#a582f440318adb594528f474b42378a14" title="GiViewAdapter::redo" alt="" coords="1549,279,1693,304"/>
+<area shape="rect" id="node31" href="category_gi_paint_view_07_gesture_internel_08_a224fa85d9f2923421b76feca44ee17ea.htm#a224fa85d9f2923421b76feca44ee17ea" title="&#45;[GiPaintView(GestureInternel)\l redrawForDelay:]" alt="" coords="1520,328,1722,367"/>
+<area shape="rect" id="node33" href="interface_gi_view_helper_a958247fbbb0cc70e92b86ea3d461dbf6.htm#a958247fbbb0cc70e92b86ea3d461dbf6" title="得到指定句柄(MgShape)的图形的所有路径对象(UIBezierPath) " alt="" coords="1030,595,1215,633"/>
+<area shape="rect" id="node36" href="class_gi_save_clip_box_a862a3267832d908995fcaf4c37846d9c.htm#a862a3267832d908995fcaf4c37846d9c" title="构造函数，将新的剪裁框压栈 " alt="" coords="496,535,704,560"/>
+<area shape="rect" id="node40" href="class_mg_image_shape_a8167dafcde70f74c330bc0227cac3fa3.htm#a8167dafcde70f74c330bc0227cac3fa3" title="MgImageShape::getImageSize" alt="" coords="498,633,702,659"/>
+<area shape="rect" id="node41" href="class_gi_core_view_a2166ecb41507b17f631cf0c2db2b15e1.htm#a2166ecb41507b17f631cf0c2db2b15e1" title="获取图像(MgImageShape)的原始图像宽高、显示宽高、角度(orgw, orgh, w, h, angle) " alt="" coords="769,633,951,659"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

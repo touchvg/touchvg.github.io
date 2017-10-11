@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: fitcurves.cpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f52faf0ef4a1e0642297a9dba5e2547e.htm">touchvg</a></li><li class="navelem"><a class="el" href="dir_e01f74e4ef8862db198a230aef9acfc2.htm">geom</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#typedef-members">类型定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">fitcurves.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="mgpnt_8h.htm">mgpnt.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgdblpt_8h.htm">mgdblpt.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+fitcurves.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="fitcurves_8cpp__incl.png" border="0" usemap="#fitcurves_8cpp" alt=""/></div>
+<map name="fitcurves_8cpp" id="fitcurves_8cpp">
+<area shape="rect" id="node2" href="mgpnt_8h.htm" title="定义二维点类 Point2d " alt="" coords="13,79,83,104"/>
+<area shape="rect" id="node7" href="mgdblpt_8h.htm" title="mgdblpt.h" alt="" coords="101,152,181,177"/>
+<area shape="rect" id="node3" href="mgvec_8h.htm" title="定义二维矢量类 Vector2d " alt="" coords="5,152,77,177"/>
+<area shape="rect" id="node4" href="mgtol_8h.htm" title="定义容差类 Tol " alt="" coords="22,225,87,251"/>
+<area shape="rect" id="node5" href="mgdef_8h.htm" title="定义数学几何库的常量和宏 " alt="" coords="26,299,96,324"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bezier_curve.htm">BezierCurve</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bezier segment with four points.  <a href="struct_bezier_curve.htm#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___pt_arr.htm">_PtArr</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wrapper class of multiple points.  <a href="struct___pt_arr.htm#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:a4d0f891b1d3038f392b07a68ab28742c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_point2d.htm">Point2d</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_a4d0f891b1d3038f392b07a68ab28742c.htm#a4d0f891b1d3038f392b07a68ab28742c">PtCallback</a>) (void *data, int i)</td></tr>
+<tr class="separator:a4d0f891b1d3038f392b07a68ab28742c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa2ebde57dd04cfc7bc9bdad9ad4b02"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct___pt_arr.htm">_PtArr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_a6aa2ebde57dd04cfc7bc9bdad9ad4b02.htm#a6aa2ebde57dd04cfc7bc9bdad9ad4b02">PtArr</a></td></tr>
+<tr class="memdesc:a6aa2ebde57dd04cfc7bc9bdad9ad4b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wrapper class of multiple points.  <a href="fitcurves_8cpp_a6aa2ebde57dd04cfc7bc9bdad9ad4b02.htm#a6aa2ebde57dd04cfc7bc9bdad9ad4b02">更多...</a><br /></td></tr>
+<tr class="separator:a6aa2ebde57dd04cfc7bc9bdad9ad4b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47bc62d12cb3fa4a8f1c42f5b50bb414"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_a47bc62d12cb3fa4a8f1c42f5b50bb414.htm#a47bc62d12cb3fa4a8f1c42f5b50bb414">FitCubicCallback</a>) (void *data, const <a class="el" href="class_point2d.htm">Point2d</a> curve[4])</td></tr>
+<tr class="separator:a47bc62d12cb3fa4a8f1c42f5b50bb414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:aec26c36be363fa58a632981b6b548e75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_aec26c36be363fa58a632981b6b548e75.htm#aec26c36be363fa58a632981b6b548e75">FitCurve</a> (<a class="el" href="fitcurves_8cpp_a47bc62d12cb3fa4a8f1c42f5b50bb414.htm#a47bc62d12cb3fa4a8f1c42f5b50bb414">FitCubicCallback</a> fc, void *data, const <a class="el" href="class_point2d.htm">Point2d</a> *d, int nPts, float error)</td></tr>
+<tr class="separator:aec26c36be363fa58a632981b6b548e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023fbf2402bd221e889539fac9810926"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_a023fbf2402bd221e889539fac9810926.htm#a023fbf2402bd221e889539fac9810926">FitCurve2</a> (<a class="el" href="fitcurves_8cpp_a47bc62d12cb3fa4a8f1c42f5b50bb414.htm#a47bc62d12cb3fa4a8f1c42f5b50bb414">FitCubicCallback</a> fc, void *data, <a class="el" href="fitcurves_8cpp_a4d0f891b1d3038f392b07a68ab28742c.htm#a4d0f891b1d3038f392b07a68ab28742c">PtCallback</a> d, void *data2, int nPts, float error)</td></tr>
+<tr class="separator:a023fbf2402bd221e889539fac9810926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cc145a547cccf38d97f794b3f41d63"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_a89cc145a547cccf38d97f794b3f41d63.htm#a89cc145a547cccf38d97f794b3f41d63">B1</a> (double u)</td></tr>
+<tr class="separator:a89cc145a547cccf38d97f794b3f41d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e12266f429172b19eb02ce349f34f04"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_a8e12266f429172b19eb02ce349f34f04.htm#a8e12266f429172b19eb02ce349f34f04">B2</a> (double u)</td></tr>
+<tr class="separator:a8e12266f429172b19eb02ce349f34f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7dbf881bd9bff47eaa7d757da29bbf"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fitcurves_8cpp_a2d7dbf881bd9bff47eaa7d757da29bbf.htm#a2d7dbf881bd9bff47eaa7d757da29bbf">B3</a> (double u)</td></tr>
+<tr class="separator:a2d7dbf881bd9bff47eaa7d757da29bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

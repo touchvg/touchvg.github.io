@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: mgcshapes.cpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f52faf0ef4a1e0642297a9dba5e2547e.htm">touchvg</a></li><li class="navelem"><a class="el" href="dir_42e52184a79b5c47f86ef662d5cdd825.htm">gshape</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a>  </div>
+  <div class="headertitle">
+<div class="title">mgcshapes.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="mgcshapes_8h.htm">mgcshapes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgshapetype_8h.htm">mgshapetype.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgarc_8h.htm">mgarc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgdiamond_8h.htm">mgdiamond.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgdot_8h.htm">mgdot.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgellipse_8h.htm">mgellipse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mggrid_8h.htm">mggrid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgline_8h.htm">mgline.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mglines_8h.htm">mglines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgparallel_8h.htm">mgparallel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgpathsp_8h.htm">mgpathsp.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgrdrect_8h.htm">mgrdrect.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgrect_8h.htm">mgrect.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mgsplines_8h.htm">mgsplines.h</a>&quot;</code><br />
+<code>#include &lt;map&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+mgcshapes.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="mgcshapes_8cpp__incl.png" border="0" usemap="#mgcshapes_8cpp" alt=""/></div>
+<map name="mgcshapes_8cpp" id="mgcshapes_8cpp">
+<area shape="rect" id="node2" href="mgcshapes_8h.htm" title="定义基本图形的工厂类 MgCoreShapeFactory " alt="" coords="5,79,106,104"/>
+<area shape="rect" id="node3" href="mgshapetype_8h.htm" title="定义图形类型号 MgShapeType " alt="" coords="130,79,243,104"/>
+<area shape="rect" id="node4" href="mgarc_8h.htm" title="定义圆弧图形类 MgArc " alt="" coords="353,152,422,177"/>
+<area shape="rect" id="node19" href="mgdiamond_8h.htm" title="定义菱形图形类 MgDiamond " alt="" coords="317,79,419,104"/>
+<area shape="rect" id="node20" href="mgrect_8h.htm" title="定义矩形图形基类 MgBaseRect " alt="" coords="554,152,627,177"/>
+<area shape="rect" id="node21" href="mgdot_8h.htm" title="定义点图形类 MgDot " alt="" coords="738,152,808,177"/>
+<area shape="rect" id="node22" href="mgellipse_8h.htm" title="定义椭圆图形类 MgEllipse " alt="" coords="493,79,581,104"/>
+<area shape="rect" id="node23" href="mggrid_8h.htm" title="定义网格图形类 " alt="" coords="606,79,679,104"/>
+<area shape="rect" id="node24" href="mgline_8h.htm" title="定义线段图形类 MgLine " alt="" coords="832,152,904,177"/>
+<area shape="rect" id="node25" href="mglines_8h.htm" title="定义折线类 MgBaseLines,MgLines " alt="" coords="927,152,1006,177"/>
+<area shape="rect" id="node26" href="mgparallel_8h.htm" title="定义平行四边形图形类 MgParallel " alt="" coords="1030,152,1124,177"/>
+<area shape="rect" id="node27" href="mgpathsp_8h.htm" title="定义路径图形 MgPathShape " alt="" coords="1147,152,1238,177"/>
+<area shape="rect" id="node28" href="mgrdrect_8h.htm" title="定义圆角矩形类 MgRoundRect " alt="" coords="702,79,788,104"/>
+<area shape="rect" id="node29" href="mgsplines_8h.htm" title="定义二次样条曲线类 MgSplines " alt="" coords="913,79,1006,104"/>
+<area shape="rect" id="node5" href="mgbasesp_8h.htm" title="定义矢量图形基类 MgBaseShape " alt="" coords="821,225,915,251"/>
+<area shape="rect" id="node6" href="mgobject_8h.htm" title="定义图形对象基类 MgObject " alt="" coords="618,299,704,324"/>
+<area shape="rect" id="node7" href="mgmat_8h.htm" title="定义二维齐次变换矩阵类 Matrix2d " alt="" coords="815,372,888,397"/>
+<area shape="rect" id="node13" href="mgpath_8h.htm" title="定义矢量路径类 MgPath " alt="" coords="707,372,783,397"/>
+<area shape="rect" id="node14" href="mgbase_8h.htm" title="定义基本计算功能函数 " alt="" coords="1054,445,1134,471"/>
+<area shape="rect" id="node15" href="mglnrel_8h.htm" title="定义图形位置关系函数 " alt="" coords="830,299,906,324"/>
+<area shape="rect" id="node17" href="mgnear_8h.htm" title="定义求曲线上最近点的函数 " alt="" coords="929,299,1006,324"/>
+<area shape="rect" id="node18" href="mgcurv_8h.htm" title="定义曲线计算函数 " alt="" coords="1030,299,1105,324"/>
+<area shape="rect" id="node8" href="mgpnt_8h.htm" title="定义二维点类 Point2d " alt="" coords="865,445,934,471"/>
+<area shape="rect" id="node9" href="mgvec_8h.htm" title="定义二维矢量类 Vector2d " alt="" coords="924,519,996,544"/>
+<area shape="rect" id="node10" href="mgtol_8h.htm" title="定义容差类 Tol " alt="" coords="944,592,1010,617"/>
+<area shape="rect" id="node11" href="mgdef_8h.htm" title="定义数学几何库的常量和宏 " alt="" coords="985,665,1054,691"/>
+<area shape="rect" id="node16" href="mgbox_8h.htm" title="定义矩形框类 Box2d " alt="" coords="917,372,989,397"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_core_shape_factory_1_1_impl.htm">MgCoreShapeFactory::Impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgObject::release</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="class_mg_object.htm">MgObject</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_ae490c81e43f1c2cd919674543a752933.htm#ae490c81e43f1c2cd919674543a752933">addRef</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_ab07bf6d0ade4c0d2d5d7cc85ef76cec3.htm#ab07bf6d0ade4c0d2d5d7cc85ef76cec3">clone</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a64ce062c78b0dd7bf401cecc47199aa1.htm#a64ce062c78b0dd7bf401cecc47199aa1">copy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a18f7bac01ca1ebadb639c18859c815db.htm#a18f7bac01ca1ebadb639c18859c815db">equals</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a2bdccf79b5300096037a17e7bce325cb.htm#a2bdccf79b5300096037a17e7bce325cb">getType</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a03722c5f40c4887c0b2d47cb0521cb5e.htm#a03722c5f40c4887c0b2d47cb0521cb5e">isKindOf</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a7275ce22b52bab62a7331471e2ab0a0d.htm#a7275ce22b52bab62a7331471e2ab0a0d">operator!=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a488ef143ee9edfd5daef6a7fe2d72179.htm#a488ef143ee9edfd5daef6a7fe2d72179">operator=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a39beb9ae60c954540c67580e17816618.htm#a39beb9ae60c954540c67580e17816618">operator==</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="class_mg_object_a91a373c882226b8889a8e5f8ca676ef0.htm#a91a373c882226b8889a8e5f8ca676ef0">release</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_acdb0a8b9516dda55cfb5e458bf8bb04c.htm#acdb0a8b9516dda55cfb5e458bf8bb04c">release_pointer</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a9318d93043fc20f4233cc4eb9f7fe38b.htm#a9318d93043fc20f4233cc4eb9f7fe38b">~MgObject</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a91a373c882226b8889a8e5f8ca676ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91a373c882226b8889a8e5f8ca676ef0">&#9670;&nbsp;</a></span>release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MgObject::release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>释放引用计数，为0时销毁对象 </p>
+
+<p>在 <a class="el" href="class_mg_shapes_a7e978c0c2d6c70089c59f0447b3021cd.htm#a7e978c0c2d6c70089c59f0447b3021cd">MgShapes</a>, <a class="el" href="class_mg_shape_doc_a77e458d2ba96af67e2296749411aed99.htm#a77e458d2ba96af67e2296749411aed99">MgShapeDoc</a>, <a class="el" href="class_mg_shape_t_a8a11fde99b35fcae63d0d064a79ab8f5.htm#a8a11fde99b35fcae63d0d064a79ab8f5">MgShapeT&lt; ShapeT, ContextT &gt;</a>, <a class="el" href="class_mg_shape_ext_ada5a1cf420f1c824bde1be7fd5259d44.htm#ada5a1cf420f1c824bde1be7fd5259d44">MgShapeExt</a>, <a class="el" href="class_mg_record_shape_a073d2bf5d3484fb2cb9ac6db74f2d4c5.htm#a073d2bf5d3484fb2cb9ac6db74f2d4c5">MgRecordShape</a> , 以及 <a class="el" href="class_mg_layer_aadc5bd874121ecae02a3998a8ebbcbcf.htm#aadc5bd874121ecae02a3998a8ebbcbcf">MgLayer</a> 内被实现.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_mg_object_a91a373c882226b8889a8e5f8ca676ef0_a91a373c882226b8889a8e5f8ca676ef0_icgraph.png" border="0" usemap="#class_mg_object_a91a373c882226b8889a8e5f8ca676ef0_a91a373c882226b8889a8e5f8ca676ef0_icgraph" alt=""/></div>
+<map name="class_mg_object_a91a373c882226b8889a8e5f8ca676ef0_a91a373c882226b8889a8e5f8ca676ef0_icgraph" id="class_mg_object_a91a373c882226b8889a8e5f8ca676ef0_a91a373c882226b8889a8e5f8ca676ef0_icgraph">
+<area shape="rect" id="node2" href="class_gi_core_view_a2bcefb620248f6061d9f869c40fae01a.htm#a2bcefb620248f6061d9f869c40fae01a" title="用SVG路径的d坐标序列创建或设置图形形状，成功返回图形ID(未重新显示)，失败返回0 " alt="" coords="183,8,375,33"/>
+<area shape="rect" id="node3" href="class_mg_shape_ext_a0993dcbe3fa2c55894bf2834aabe92e6.htm#a0993dcbe3fa2c55894bf2834aabe92e6" title="MgShapeExt::~MgShapeExt" alt="" coords="184,57,374,83"/>
+<area shape="rect" id="node4" href="class_gi_record_canvas_adce3907dde5e657c8c5d880d3def985d.htm#adce3907dde5e657c8c5d880d3def985d" title="GiRecordCanvas::clear" alt="" coords="199,107,359,132"/>
+<area shape="rect" id="node8" href="class_mg_cmd_select_a7d13bead797b71b24ad7ea44a89b4a7a.htm#a7d13bead797b71b24ad7ea44a89b4a7a" title="删除当前图形的选中的顶点 " alt="" coords="955,157,1142,183"/>
+<area shape="rect" id="node11" href="class_mg_cmd_select_a77964b0b3e0518aa41c409596d56199e.htm#a77964b0b3e0518aa41c409596d56199e" title="在当前位置插入一个顶点 " alt="" coords="188,208,370,233"/>
+<area shape="rect" id="node12" href="class_mg_shapes_a1e37befdcdf955d40a82615c7cfcae21.htm#a1e37befdcdf955d40a82615c7cfcae21" title="移除一个图形 " alt="" coords="191,283,367,308"/>
+<area shape="rect" id="node26" href="class_mg_shapes_a95250a79258f4ba2798de32cedb1b094.htm#a95250a79258f4ba2798de32cedb1b094" title="MgShapes::load" alt="" coords="220,381,338,407"/>
+<area shape="rect" id="node5" href="class_gi_record_canvas_a3cf6896618ae8c5c0b0986d270e5b812.htm#a3cf6896618ae8c5c0b0986d270e5b812" title="Ready to draw a shape. " alt="" coords="426,5,628,31"/>
+<area shape="rect" id="node6" href="class_gi_record_canvas_a75cc020e8cced2110bc252219284b836.htm#a75cc020e8cced2110bc252219284b836" title="GiRecordCanvas::~GiRecord\lCanvas" alt="" coords="692,49,887,88"/>
+<area shape="rect" id="node7" href="class_gi_record_canvas_a271f73996a61cab7ec83531ec9f08067.htm#a271f73996a61cab7ec83531ec9f08067" title="Complete to draw a shape. " alt="" coords="432,107,623,132"/>
+<area shape="rect" id="node9" href="class_mg_cmd_select_abfcc6bd518bf9689e77ef38789c98c62.htm#abfcc6bd518bf9689e77ef38789c98c62" title="MgCmdSelect::Create" alt="" coords="1203,208,1355,233"/>
+<area shape="rect" id="node10" href="class_mg_cmd_manager_impl_a4114e185c81b417259783054f95ac09d.htm#a4114e185c81b417259783054f95ac09d" title="MgCmdManagerImpl::MgCmdManagerImpl" alt="" coords="1409,208,1687,233"/>
+<area shape="rect" id="node13" href="class_gi_core_view_impl_a5cfdf705bd0e24881e7f893609d67680.htm#a5cfdf705bd0e24881e7f893609d67680" title="删除图形 " alt="" coords="423,259,631,284"/>
+<area shape="rect" id="node14" href="class_mg_shapes_aa8beb26287e83fb7c99987d23254c525.htm#aa8beb26287e83fb7c99987d23254c525" title="将一个图形移到另一个图形列表 " alt="" coords="438,308,616,333"/>
+<area shape="rect" id="node17" href="class_mg_record_shapes_a57d244933a1313a7446da79a058397eb.htm#a57d244933a1313a7446da79a058397eb" title="MgRecordShapes::applyFile" alt="" coords="433,357,621,383"/>
+<area shape="rect" id="node15" href="class_mg_group_ad86c3d78aa7c81611f33e54f0d5a2504.htm#ad86c3d78aa7c81611f33e54f0d5a2504" title="添加一个新图形或其他图形列表中的图形 " alt="" coords="691,259,887,284"/>
+<area shape="rect" id="node16" href="class_mg_cmd_select_a31ef8f43c7efda4a618ed1e3bc3fe953.htm#a31ef8f43c7efda4a618ed1e3bc3fe953" title="对选中的图形成组，并选中新成组图形 " alt="" coords="948,259,1149,284"/>
+<area shape="rect" id="node18" href="class_mg_record_shapes_a5e47bc669c9f57e3fa9147b631acb820.htm#a5e47bc669c9f57e3fa9147b631acb820" title="MgRecordShapes::undo" alt="" coords="707,308,872,333"/>
+<area shape="rect" id="node21" href="class_mg_record_shapes_a4076eb34d844c89654275a88e6d55194.htm#a4076eb34d844c89654275a88e6d55194" title="MgRecordShapes::redo" alt="" coords="708,357,870,383"/>
+<area shape="rect" id="node24" href="class_mg_record_shapes_ab9251df9c6acab555657b43426ebbb6e.htm#ab9251df9c6acab555657b43426ebbb6e" title="MgRecordShapes::applyRedoFile" alt="" coords="679,407,900,432"/>
+<area shape="rect" id="node25" href="class_mg_record_shapes_aa88ee2923895d5d08d9e94edd36d1c5e.htm#aa88ee2923895d5d08d9e94edd36d1c5e" title="MgRecordShapes::applyUndoFile" alt="" coords="679,456,900,481"/>
+<area shape="rect" id="node19" href="class_gi_core_view_a811242bed9b98ae6457f6f0ae18797c0.htm#a811242bed9b98ae6457f6f0ae18797c0" title="撤销, 需要并发访问保护 " alt="" coords="984,308,1113,333"/>
+<area shape="rect" id="node20" href="class_gi_view_adapter_a7a10c9d050915b237068fecc8c73755a.htm#a7a10c9d050915b237068fecc8c73755a" title="GiViewAdapter::undo" alt="" coords="1206,308,1353,333"/>
+<area shape="rect" id="node22" href="class_gi_core_view_a482a001cb039758b41cc14d314162ca0.htm#a482a001cb039758b41cc14d314162ca0" title="重做, 需要并发访问保护 " alt="" coords="985,357,1112,383"/>
+<area shape="rect" id="node23" href="class_gi_view_adapter_a582f440318adb594528f474b42378a14.htm#a582f440318adb594528f474b42378a14" title="GiViewAdapter::redo" alt="" coords="1207,357,1351,383"/>
+<area shape="rect" id="node27" href="class_mg_group_ac35f573964b9eba4e1b305b894ee179e.htm#ac35f573964b9eba4e1b305b894ee179e" title="MgGroup::_load" alt="" coords="469,407,586,432"/>
+<area shape="rect" id="node28" href="class_mg_shape_doc_a38a583895e6be4cd9912afa6a49547c2.htm#a38a583895e6be4cd9912afa6a49547c2" title="加载图形 " alt="" coords="460,531,594,556"/>
+<area shape="rect" id="node29" href="class_mg_shape_doc_aeb10be24c31e07ade2cfdd50bc9fe85a.htm#aeb10be24c31e07ade2cfdd50bc9fe85a" title="加载图形，并自动放缩到之前的状态 " alt="" coords="715,505,864,531"/>
+<area shape="rect" id="node34" href="class_mg_shape_doc_a3666becb1d7bb72c1c18473ece24055f.htm#a3666becb1d7bb72c1c18473ece24055f" title="复制出一个新图形文档对象，不复制图形 " alt="" coords="966,555,1131,580"/>
+<area shape="rect" id="node35" href="class_mg_record_shapes_ac2c9f2a5fb01c1e1cc682dab52565033.htm#ac2c9f2a5fb01c1e1cc682dab52565033" title="MgRecordShapes::applyFirstFile" alt="" coords="682,607,897,632"/>
+<area shape="rect" id="node30" href="class_gi_core_view_a4ef12f680fa3d046855959195a47eac5.htm#a4ef12f680fa3d046855959195a47eac5" title="从数据源中加载图形 " alt="" coords="963,505,1133,531"/>
+<area shape="rect" id="node31" href="class_gi_core_view_a2762b6a1a452cece22c34476e3e2cb8b.htm#a2762b6a1a452cece22c34476e3e2cb8b" title="删除所有图形，包括锁定的图形 " alt="" coords="1215,456,1343,481"/>
+<area shape="rect" id="node32" href="class_gi_core_view_af4712068d0a82a26eb46315ce4168df2.htm#af4712068d0a82a26eb46315ce4168df2" title="从JSON内容中加载图形 " alt="" coords="1197,505,1361,531"/>
+<area shape="rect" id="node33" href="class_gi_core_view_ae55430f215a96a72526c12d7f9f377e4.htm#ae55430f215a96a72526c12d7f9f377e4" title="从文件或JSON串中加载 " alt="" coords="1459,531,1637,556"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

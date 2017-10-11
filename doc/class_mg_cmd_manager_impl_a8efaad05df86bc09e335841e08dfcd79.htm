@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgCmdManagerImpl::checkResult</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="class_mg_cmd_manager_impl.htm">MgCmdManagerImpl</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a3e441b2d80f43e9503241fb1757ef70b.htm#a3e441b2d80f43e9503241fb1757ef70b">_cmdname</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a4caab2659baec86ff7f0081d6820f6a8.htm#a4caab2659baec86ff7f0081d6820f6a8">_cmds</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a83b946bf680a3ed3629dae8ac69da4a8.htm#a83b946bf680a3ed3629dae8ac69da4a8">_drawcmd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a025cf07b409a1943f3b702397a3d585e.htm#a025cf07b409a1943f3b702397a3d585e">_factories</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ac06a91c5c55e74f566794a621e9a1adb.htm#ac06a91c5c55e74f566794a621e9a1adb">_guildpt</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a7ed494eca844d54f5e17b732ac037931.htm#a7ed494eca844d54f5e17b732ac037931">_ignoreStart</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a170cd840ec76e35a733db979ebf96f72.htm#a170cd840ec76e35a733db979ebf96f72">_newShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a4ed27b7659fe75bdbe3959245df50160.htm#a4ed27b7659fe75bdbe3959245df50160">_ptSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_af7df7459dc413719318f2591035ffab3.htm#af7df7459dc413719318f2591035ffab3">_snapBase</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a486a3768b8c0942a1bd2623a63dfc2b4.htm#a486a3768b8c0942a1bd2623a63dfc2b4">_snapHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ae82c5f20ebe346a454ebe8cdc927bee7.htm#ae82c5f20ebe346a454ebe8cdc927bee7">_snapHandleSrc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ad9a5729a6a8344f6bc9addeb99625450.htm#ad9a5729a6a8344f6bc9addeb99625450">_snapShapeId</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_adfe3934ca47210e09a683cb9a95b8e21.htm#adfe3934ca47210e09a683cb9a95b8e21">_snapType</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ad2c52709c11c386f37c1dc4ee1b4a3ed.htm#ad2c52709c11c386f37c1dc4ee1b4a3ed">_startpt</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a9ac2820b7981f1e73b2613e5b3735d82.htm#a9ac2820b7981f1e73b2613e5b3735d82">_subject</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a0157767ed6eaf14e438e3d8606789f33.htm#a0157767ed6eaf14e438e3d8606789f33">addImageShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ac82aef7872f130bcea896d4502067a46.htm#ac82aef7872f130bcea896d4502067a46">addImageShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a022ba977506d5789b705d3c04e829d2d.htm#a022ba977506d5789b705d3c04e829d2d">cancel</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="class_mg_cmd_manager_impl_a8efaad05df86bc09e335841e08dfcd79.htm#a8efaad05df86bc09e335841e08dfcd79">checkResult</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_af661bd1c387f6b20cb6f5c5ff5ff3d8b.htm#af661bd1c387f6b20cb6f5c5ff5ff3d8b">clearSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a775d47c13b6b2819f25c06bcd844aa04.htm#a775d47c13b6b2819f25c06bcd844aa04">CMDS</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a1701cd47a63633b51f26bac25afa837d.htm#a1701cd47a63633b51f26bac25afa837d">displayMmToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a962252552973ef9988bbdc3f6aaf5da7.htm#a962252552973ef9988bbdc3f6aaf5da7">displayMmToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a37e2a4057d4afb6b7b9c204c7a50ef2f.htm#a37e2a4057d4afb6b7b9c204c7a50ef2f">doAction</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a56e76515e7e4d7bf4d0dbc4b539fe839.htm#a56e76515e7e4d7bf4d0dbc4b539fe839">doContextAction</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_acc396e8e8d386c5e7ddadd8b1d614d64.htm#acc396e8e8d386c5e7ddadd8b1d614d64">drawPerpMark</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a6488a8a5a9054e0b866d062d7c6ea20e.htm#a6488a8a5a9054e0b866d062d7c6ea20e">drawPerpMark</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_aca8db95869f2610684cd0ba814995a78.htm#aca8db95869f2610684cd0ba814995a78">drawSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a6a5562b32682304d59db132e56a8ba5a.htm#a6a5562b32682304d59db132e56a8ba5a">dynamicChangeEnded</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a1a6bea33e91d4dd780b141f4f42cfee3.htm#a1a6bea33e91d4dd780b141f4f42cfee3">eraseWnd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a57ee7404163a7ed47e8febba58a759bb.htm#a57ee7404163a7ed47e8febba58a759bb">Factories</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a97686ef636487419429469a222c936bb.htm#a97686ef636487419429469a222c936bb">findCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a642d0640a14bb5db16dfddc1cff335b9.htm#a642d0640a14bb5db16dfddc1cff335b9">freeSubject</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a3af177e396c7d62afa646a6924a9dbfc.htm#a3af177e396c7d62afa646a6924a9dbfc">getActionDispatcher</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a51ad6f015fced12773c5ed1a0bdc1b4d.htm#a51ad6f015fced12773c5ed1a0bdc1b4d">getBoundingBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_adfbfb25a8b8f41bb31b17f4c6a592927.htm#adfbfb25a8b8f41bb31b17f4c6a592927">getCmdSubject</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ad96a1bf936a857df956deaadc3c71a62.htm#ad96a1bf936a857df956deaadc3c71a62">getCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a49ab0f86fbc27fab39d886839caba1a9.htm#a49ab0f86fbc27fab39d886839caba1a9">getCommandName</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a7eaae957be20d8796cf905d4b3e83467.htm#a7eaae957be20d8796cf905d4b3e83467">getCommandName</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a9c090f1c721175fa4af5711d8ab07829.htm#a9c090f1c721175fa4af5711d8ab07829">getNewShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a18e026205c9137b331fe504af7af7fb5.htm#a18e026205c9137b331fe504af7af7fb5">getSelection</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a03a226b856ad335fcf115fec8d823c52.htm#a03a226b856ad335fcf115fec8d823c52">getSelection</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_adee4450af8861aeaa3543dd49c11166a.htm#adee4450af8861aeaa3543dd49c11166a">getSelectionForChange</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a3053b044a4441f9b9358a01a8c723868.htm#a3053b044a4441f9b9358a01a8c723868">getSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_aae93d1c3ab4cb4c0d685ceb70cb56745.htm#aae93d1c3ab4cb4c0d685ceb70cb56745">getSnapOptions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a960cdbcb48034e07b85c61958fc1918e.htm#a960cdbcb48034e07b85c61958fc1918e">getSnappedHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_aa9804c7d76aefb28987a1e51fb9969dc.htm#aa9804c7d76aefb28987a1e51fb9969dc">getSnappedPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a1f7514a54da97dade4512caf763ab633.htm#a1f7514a54da97dade4512caf763ab633">getSnappedPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ac5daf4f2d6d2994032d7f2f13a7e984f.htm#ac5daf4f2d6d2994032d7f2f13a7e984f">getSnappedType</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a4114e185c81b417259783054f95ac09d.htm#a4114e185c81b417259783054f95ac09d">MgCmdManagerImpl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a6ae573e23eeb2529e91f1589f2686383.htm#a6ae573e23eeb2529e91f1589f2686383">registerCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a83c252cb34ba349a4886c7dabe0eb160.htm#a83c252cb34ba349a4886c7dabe0eb160">release</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a17ec124c7d3ed57de75c4ba0f91937e1.htm#a17ec124c7d3ed57de75c4ba0f91937e1">setCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a8cd7e0c1efe912318514f56653e4f63b.htm#a8cd7e0c1efe912318514f56653e4f63b">setIgnoreStartPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ae986943255392aba8e3b307b0c096779.htm#ae986943255392aba8e3b307b0c096779">setNewShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_abee2b485672d680ab6fe851eed4091dc.htm#abee2b485672d680ab6fe851eed4091dc">setSnapOptions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a9fefd5f2a8dab77043dd43fbee4b3139.htm#a9fefd5f2a8dab77043dd43fbee4b3139">showInDrawing</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a86264ab5e7d5e67025b7d7bd9d7cef31.htm#a86264ab5e7d5e67025b7d7bd9d7cef31">showInSelect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a9a9e28dfd1138adb83485f4cc59e548d.htm#a9a9e28dfd1138adb83485f4cc59e548d">snapPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a9955070ce23490549fe2aa7f21933e84.htm#a9955070ce23490549fe2aa7f21933e84">switchCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_a12997c524b697298dcd0e66503e7b336.htm#a12997c524b697298dcd0e66503e7b336">unloadCommands</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_cmd_manager_impl_ac696bbdb0162cbe2314bf649e08a4fd0.htm#ac696bbdb0162cbe2314bf649e08a4fd0">~MgCmdManagerImpl</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a8efaad05df86bc09e335841e08dfcd79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8efaad05df86bc09e335841e08dfcd79">&#9670;&nbsp;</a></span>checkResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MgCmdManagerImpl::checkResult </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_snap_item.htm">SnapItem</a>&#160;</td>
+          <td class="paramname"><em>arr</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hotHandle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_mg_cmd_manager_impl_a8efaad05df86bc09e335841e08dfcd79_a8efaad05df86bc09e335841e08dfcd79_icgraph.png" border="0" usemap="#class_mg_cmd_manager_impl_a8efaad05df86bc09e335841e08dfcd79_a8efaad05df86bc09e335841e08dfcd79_icgraph" alt=""/></div>
+<map name="class_mg_cmd_manager_impl_a8efaad05df86bc09e335841e08dfcd79_a8efaad05df86bc09e335841e08dfcd79_icgraph" id="class_mg_cmd_manager_impl_a8efaad05df86bc09e335841e08dfcd79_a8efaad05df86bc09e335841e08dfcd79_icgraph">
+<area shape="rect" id="node2" href="class_mg_cmd_manager_impl_ae986943255392aba8e3b307b0c096779.htm#ae986943255392aba8e3b307b0c096779" title="设置新绘图形的ID " alt="" coords="279,5,477,44"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgObject::isKindOf</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="class_mg_object.htm">MgObject</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_ae490c81e43f1c2cd919674543a752933.htm#ae490c81e43f1c2cd919674543a752933">addRef</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_ab07bf6d0ade4c0d2d5d7cc85ef76cec3.htm#ab07bf6d0ade4c0d2d5d7cc85ef76cec3">clone</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a64ce062c78b0dd7bf401cecc47199aa1.htm#a64ce062c78b0dd7bf401cecc47199aa1">copy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a18f7bac01ca1ebadb639c18859c815db.htm#a18f7bac01ca1ebadb639c18859c815db">equals</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a2bdccf79b5300096037a17e7bce325cb.htm#a2bdccf79b5300096037a17e7bce325cb">getType</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="class_mg_object_a03722c5f40c4887c0b2d47cb0521cb5e.htm#a03722c5f40c4887c0b2d47cb0521cb5e">isKindOf</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a7275ce22b52bab62a7331471e2ab0a0d.htm#a7275ce22b52bab62a7331471e2ab0a0d">operator!=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a488ef143ee9edfd5daef6a7fe2d72179.htm#a488ef143ee9edfd5daef6a7fe2d72179">operator=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a39beb9ae60c954540c67580e17816618.htm#a39beb9ae60c954540c67580e17816618">operator==</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a91a373c882226b8889a8e5f8ca676ef0.htm#a91a373c882226b8889a8e5f8ca676ef0">release</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_acdb0a8b9516dda55cfb5e458bf8bb04c.htm#acdb0a8b9516dda55cfb5e458bf8bb04c">release_pointer</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_mg_object_a9318d93043fc20f4233cc4eb9f7fe38b.htm#a9318d93043fc20f4233cc4eb9f7fe38b">~MgObject</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a03722c5f40c4887c0b2d47cb0521cb5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03722c5f40c4887c0b2d47cb0521cb5e">&#9670;&nbsp;</a></span>isKindOf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool MgObject::isKindOf </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>返回是否能转化为指定类型的对象，即本类为指定类或其派生类 </p>
+
+<p>在 <a class="el" href="class_mg_base_shape_af1315aa742b3f19f061b5d309065a0c6.htm#af1315aa742b3f19f061b5d309065a0c6">MgBaseShape</a>, <a class="el" href="class_mg_shapes_a44b2d6f3c199e81085191136f78b9b23.htm#a44b2d6f3c199e81085191136f78b9b23">MgShapes</a>, <a class="el" href="class_mg_shape_doc_a574ce8e6792910fa6a2f29ee23139e74.htm#a574ce8e6792910fa6a2f29ee23139e74">MgShapeDoc</a>, <a class="el" href="class_mg_shape_ae3564cc54a6600e688d9f8cc024e2018.htm#ae3564cc54a6600e688d9f8cc024e2018">MgShape</a>, <a class="el" href="class_mg_record_shape_afd70d729328acc1c1801ae3d7155b150.htm#afd70d729328acc1c1801ae3d7155b150">MgRecordShape</a> , 以及 <a class="el" href="class_mg_layer_a52eb5f42ced541ec472bb87f8244850a.htm#a52eb5f42ced541ec472bb87f8244850a">MgLayer</a> 内被实现.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_mg_object_a03722c5f40c4887c0b2d47cb0521cb5e_a03722c5f40c4887c0b2d47cb0521cb5e_icgraph.png" border="0" usemap="#class_mg_object_a03722c5f40c4887c0b2d47cb0521cb5e_a03722c5f40c4887c0b2d47cb0521cb5e_icgraph" alt=""/></div>
+<map name="class_mg_object_a03722c5f40c4887c0b2d47cb0521cb5e_a03722c5f40c4887c0b2d47cb0521cb5e_icgraph" id="class_mg_object_a03722c5f40c4887c0b2d47cb0521cb5e_a03722c5f40c4887c0b2d47cb0521cb5e_icgraph">
+<area shape="rect" id="node2" href="class_mg_record_shape_a49c77face02c143066794478679ab940.htm#a49c77face02c143066794478679ab940" title="复制对象数据 " alt="" coords="452,153,609,178"/>
+<area shape="rect" id="node5" href="class_mg_record_shape_ad1c14637c48b7a111a36de25f5559a1d.htm#ad1c14637c48b7a111a36de25f5559a1d" title="比较与另一同类对象是否相同 " alt="" coords="447,1085,615,1110"/>
+<area shape="rect" id="node7" href="class_mg_cmd_manager_impl_a86264ab5e7d5e67025b7d7bd9d7cef31.htm#a86264ab5e7d5e67025b7d7bd9d7cef31" title="MgCmdManagerImpl::showIn\lSelect" alt="" coords="190,1186,385,1225"/>
+<area shape="rect" id="node10" href="class_mg_base_shape_aba68853dd7293e90bb0f906bce417da9.htm#aba68853dd7293e90bb0f906bce417da9" title="复制对象数据 " alt="" coords="215,710,359,736"/>
+<area shape="rect" id="node13" href="class_mg_shape_ae48a6ebd38f28609f4e7f2419e00a8d5.htm#ae48a6ebd38f28609f4e7f2419e00a8d5" title="复制对象数据 " alt="" coords="474,962,588,988"/>
+<area shape="rect" id="node17" href="class_mg_base_shape_a07b7b49aa626705ea6f2d95068ac2261.htm#a07b7b49aa626705ea6f2d95068ac2261" title="比较与另一同类对象是否相同 " alt="" coords="210,1085,365,1110"/>
+<area shape="rect" id="node18" href="class_mg_shape_ac0137a97dd5e0da882e78b8509fd151d.htm#ac0137a97dd5e0da882e78b8509fd151d" title="比较与另一同类对象是否相同 " alt="" coords="468,1036,593,1061"/>
+<area shape="rect" id="node25" href="class_mg_cmd_select_aa84afcb1a8e628ce1cb1258d8a43eb04.htm#aa84afcb1a8e628ce1cb1258d8a43eb04" title="设置当前是否处于顶点编辑状态 " alt="" coords="1402,356,1588,381"/>
+<area shape="rect" id="node28" href="class_mg_cmd_select_aab7ead082dcd59f96ea788a72a8cc172.htm#aab7ead082dcd59f96ea788a72a8cc172" title="显示动态图形 " alt="" coords="971,749,1112,774"/>
+<area shape="rect" id="node29" href="class_mg_cmd_select_a44f172b5cff8549f88bc87b4b6b25bbe.htm#a44f172b5cff8549f88bc87b4b6b25bbe" title="开始滑动 " alt="" coords="950,53,1133,78"/>
+<area shape="rect" id="node30" href="class_mg_cmd_select_ae6d97aec618f7f2509ef06f06ada4c35.htm#ae6d97aec618f7f2509ef06f06ada4c35" title="返回当前是否处于顶点编辑状态 " alt="" coords="442,533,620,558"/>
+<area shape="rect" id="node36" href="class_mg_composite_a60c565a4164f3f969d58d9418dbe82b0.htm#a60c565a4164f3f969d58d9418dbe82b0" title="设置拥有者图形对象 " alt="" coords="203,1249,371,1274"/>
+<area shape="rect" id="node38" href="class_mg_layer_aa385e4fc73c89af68710d0f18e0cb4a4.htm#aa385e4fc73c89af68710d0f18e0cb4a4" title="复制对象数据 " alt="" coords="233,1400,342,1425"/>
+<area shape="rect" id="node40" href="class_mg_layer_af958df9b7f4e7031444965cb7c5af267.htm#af958df9b7f4e7031444965cb7c5af267" title="比较与另一同类对象是否相同 " alt="" coords="471,1400,591,1425"/>
+<area shape="rect" id="node41" href="class_mg_shape_doc_a8aa3a092ba265d78c6bc3167e5fb5c87.htm#a8aa3a092ba265d78c6bc3167e5fb5c87" title="复制对象数据 " alt="" coords="218,1501,356,1526"/>
+<area shape="rect" id="node42" href="class_mg_shape_doc_a3696cf573a03d353599cb4aca11e41f0.htm#a3696cf573a03d353599cb4aca11e41f0" title="复制(默认为深拷贝)每一个图形，浅拷贝则添加图形的引用计数且不改变图形的拥有者 " alt="" coords="439,1501,622,1526"/>
+<area shape="rect" id="node46" href="class_mg_shape_doc_a274d62cbdcd5e557993aa17ae60e14da.htm#a274d62cbdcd5e557993aa17ae60e14da" title="比较与另一同类对象是否相同 " alt="" coords="213,1550,362,1576"/>
+<area shape="rect" id="node47" href="class_mg_shapes_ae9e38cdc77580841fd9ff798db064b3c.htm#ae9e38cdc77580841fd9ff798db064b3c" title="比较与另一同类对象是否相同 " alt="" coords="221,1298,353,1324"/>
+<area shape="rect" id="node50" href="class_mg_shapes_a064c1cc8f7a8e89b6f1bd04f8c411db4.htm#a064c1cc8f7a8e89b6f1bd04f8c411db4" title="得到上一级图形对象，或NULL " alt="" coords="193,1600,382,1625"/>
+<area shape="rect" id="node3" href="class_mg_record_shape_a3aae1f288dbefff1804978b5fba9ec45.htm#a3aae1f288dbefff1804978b5fba9ec45" title="复制出一个新对象 " alt="" coords="708,140,869,165"/>
+<area shape="rect" id="node4" href="class_mg_record_shape_a4ff98f7a8ce0075a41bdbc4b39ba3810.htm#a4ff98f7a8ce0075a41bdbc4b39ba3810" title="MgRecordShape::Type" alt="" coords="963,102,1120,128"/>
+<area shape="rect" id="node6" href="class_mg_record_shape_a073d2bf5d3484fb2cb9ac6db74f2d4c5.htm#a073d2bf5d3484fb2cb9ac6db74f2d4c5" title="释放引用计数，为0时销毁对象 " alt="" coords="702,1197,875,1222"/>
+<area shape="rect" id="node8" href="class_mg_cmd_manager_impl_a9fefd5f2a8dab77043dd43fbee4b3139.htm#a9fefd5f2a8dab77043dd43fbee4b3139" title="MgCmdManagerImpl::showIn\lDrawing" alt="" coords="433,1186,628,1225"/>
+<area shape="rect" id="node9" href="class_mg_cmd_manager_impl_ae986943255392aba8e3b307b0c096779.htm#ae986943255392aba8e3b307b0c096779" title="设置新绘图形的ID " alt="" coords="690,1246,888,1285"/>
+<area shape="rect" id="node11" href="class_mg_cmd_select_afe02ea38067f23451f4c6604d57c1314.htm#afe02ea38067f23451f4c6604d57c1314" title="正在滑动 " alt="" coords="949,634,1134,660"/>
+<area shape="rect" id="node12" href="class_mg_cmd_select_a07f48dd4f20bc281a9d5f5dd4dc290f1.htm#a07f48dd4f20bc281a9d5f5dd4dc290f1" title="销毁对象 " alt="" coords="1866,609,2022,634"/>
+<area shape="rect" id="node14" href="class_mg_shape_ext_ae7e208a31b6d3099c681e82a816c64ca.htm#ae7e208a31b6d3099c681e82a816c64ca" title="复制出一个新对象 " alt="" coords="720,962,857,988"/>
+<area shape="rect" id="node15" href="class_mg_shape_ae03e40be1039fbafd4d7efaead4a6b75.htm#ae03e40be1039fbafd4d7efaead4a6b75" title="MgShape::setContext" alt="" coords="714,1036,863,1061"/>
+<area shape="rect" id="node16" href="class_mg_shape_t_ac104653d1ab0e5e3149506e9d7f6d29c.htm#ac104653d1ab0e5e3149506e9d7f6d29c" title="复制出一个新对象 " alt="" coords="726,913,851,938"/>
+<area shape="rect" id="node19" href="class_mg_cmd_select_a82e0afa597a49110a23f00f075ed0424.htm#a82e0afa597a49110a23f00f075ed0424" title="MgCmdSelect::applyCloneShapes" alt="" coords="676,1085,901,1110"/>
+<area shape="rect" id="node27" href="struct_mg_record_shapes_1_1_impl_a7d9e83d8edfa942f4be873b4950a5507.htm#a7d9e83d8edfa942f4be873b4950a5507" title="MgRecordShapes::Impl\l::incrementRecord" alt="" coords="708,1134,869,1173"/>
+<area shape="rect" id="node20" href="class_mg_cmd_select_ac32b60fcd06501f7d32f0d038fac09f7.htm#ac32b60fcd06501f7d32f0d038fac09f7" title="MgCmdSelect::click" alt="" coords="972,508,1111,533"/>
+<area shape="rect" id="node22" href="class_mg_cmd_select_aaa60ae0cec46967ef8118504894e178b.htm#aaa60ae0cec46967ef8118504894e178b" title="滑动结束 " alt="" coords="1403,812,1587,837"/>
+<area shape="rect" id="node21" href="class_mg_cmd_select_ab0418b3242ff3e19149f13c74ef34837.htm#ab0418b3242ff3e19149f13c74ef34837" title="长按 " alt="" coords="1182,508,1354,533"/>
+<area shape="rect" id="node23" href="class_mg_cmd_select_a77964b0b3e0518aa41c409596d56199e.htm#a77964b0b3e0518aa41c409596d56199e" title="在当前位置插入一个顶点 " alt="" coords="1404,457,1586,482"/>
+<area shape="rect" id="node24" href="class_mg_cmd_select_abfcc6bd518bf9689e77ef38789c98c62.htm#abfcc6bd518bf9689e77ef38789c98c62" title="MgCmdSelect::Create" alt="" coords="1651,432,1803,457"/>
+<area shape="rect" id="node26" href="class_mg_cmd_select_a046913fd851990678956d19bf7fb20a2.htm#a046913fd851990678956d19bf7fb20a2" title="双击 " alt="" coords="1636,330,1818,356"/>
+<area shape="rect" id="node31" href="class_mg_cmd_select_ab97b95bd4b91cd32e515dbd99dae981f.htm#ab97b95bd4b91cd32e515dbd99dae981f" title="MgCmdSelect::canSelect" alt="" coords="703,305,874,330"/>
+<area shape="rect" id="node33" href="class_mg_cmd_select_a5b879c4bafbb6b4dbf1c4deb2d5e4fa6.htm#a5b879c4bafbb6b4dbf1c4deb2d5e4fa6" title="MgCmdSelect::isDragRectCorner" alt="" coords="679,609,898,634"/>
+<area shape="rect" id="node34" href="class_mg_cmd_select_ad92cfb821f5edf7808f82930d9ddfb06.htm#ad92cfb821f5edf7808f82930d9ddfb06" title="MgCmdSelect::isCloneDrag" alt="" coords="696,812,882,837"/>
+<area shape="rect" id="node35" href="class_mg_cmd_select_aa72f70c1fc9ae0adb295fcbcf94c2f36.htm#aa72f70c1fc9ae0adb295fcbcf94c2f36" title="返回选择状态 " alt="" coords="689,406,888,432"/>
+<area shape="rect" id="node32" href="class_mg_cmd_select_a00f955d8c164e7a256444a82a20a4988.htm#a00f955d8c164e7a256444a82a20a4988" title="MgCmdSelect::getStep" alt="" coords="962,254,1121,280"/>
+<area shape="rect" id="node37" href="class_mg_composite_ac2aa04598bed5590613ef5de1c87c1c6.htm#ac2aa04598bed5590613ef5de1c87c1c6" title="返回是否为曲线图形 " alt="" coords="711,1309,867,1334"/>
+<area shape="rect" id="node39" href="class_mg_layer_aba17e13a98bd517901ba17dffbe9695c.htm#aba17e13a98bd517901ba17dffbe9695c" title="设置图层是否锁定 " alt="" coords="718,1412,859,1437"/>
+<area shape="rect" id="node45" href="class_mg_shape_doc_a4bc1328869bd874249e0b4be696729af.htm#a4bc1328869bd874249e0b4be696729af" title="得到句柄，用于跨库转换 " alt="" coords="449,1550,612,1576"/>
+<area shape="rect" id="node43" href="class_mg_shape_doc_a30d8f2e76de1f3ffaa86aff19a3a8d5b.htm#a30d8f2e76de1f3ffaa86aff19a3a8d5b" title="复制出一个新图形文档对象，并添加所有图形的引用 " alt="" coords="696,1526,881,1552"/>
+<area shape="rect" id="node44" href="class_mg_shape_doc_a3666becb1d7bb72c1c18473ece24055f.htm#a3666becb1d7bb72c1c18473ece24055f" title="复制出一个新图形文档对象，不复制图形 " alt="" coords="959,1501,1124,1526"/>
+<area shape="rect" id="node48" href="class_mg_composite_acb7c3fcee53bd39ff1f005271dbd6dac.htm#acb7c3fcee53bd39ff1f005271dbd6dac" title="MgComposite::_equals" alt="" coords="452,1301,610,1326"/>
+<area shape="rect" id="node49" href="class_mg_shapes_a042a674f8d186a8dcb6881115206e184.htm#a042a674f8d186a8dcb6881115206e184" title="得到句柄，用于跨库转换 " alt="" coords="458,1350,604,1376"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

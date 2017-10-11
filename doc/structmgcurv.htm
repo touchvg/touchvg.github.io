@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: mgcurv结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="structmgcurv-members.htm">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">mgcurv结构体 参考<div class="ingroups"><a class="el" href="group___g_e_o_m_a_p_i.htm">几何计算函数</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>曲线计算函数  
+ <a href="structmgcurv.htm#details">更多...</a></p>
+
+<p><code>#include &lt;mgcurv.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a88290162cdb0fe1e34d9a2f29344e501"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a88290162cdb0fe1e34d9a2f29344e501.htm#a88290162cdb0fe1e34d9a2f29344e501">SplineFlags</a> { <br />
+&#160;&#160;<a class="el" href="structmgcurv_a88290162cdb0fe1e34d9a2f29344e501.htm#a88290162cdb0fe1e34d9a2f29344e501a4b2fe7ac0312ecd94f38599ee9d2bf2b">cubicTan1</a> = 1, 
+<a class="el" href="structmgcurv_a88290162cdb0fe1e34d9a2f29344e501.htm#a88290162cdb0fe1e34d9a2f29344e501a1a076cc80f96f9881427b4de7153db31">cubicArm1</a> = 2, 
+<a class="el" href="structmgcurv_a88290162cdb0fe1e34d9a2f29344e501.htm#a88290162cdb0fe1e34d9a2f29344e501a7f48d6c52812ab8e38dfd90cec963caf">cubicTan2</a> = 4, 
+<a class="el" href="structmgcurv_a88290162cdb0fe1e34d9a2f29344e501.htm#a88290162cdb0fe1e34d9a2f29344e501ad05271ec9837e299e22dcd75adcc6e6e">cubicArm2</a> = 8, 
+<br />
+&#160;&#160;<a class="el" href="structmgcurv_a88290162cdb0fe1e34d9a2f29344e501.htm#a88290162cdb0fe1e34d9a2f29344e501a9be6ff93f889f1b0b307231022219937">cubicLoop</a> = 16
+<br />
+ }</td></tr>
+<tr class="separator:a88290162cdb0fe1e34d9a2f29344e501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a893245a8dd743e9a182425ae3b30764f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_point2d.htm">Point2d</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a893245a8dd743e9a182425ae3b30764f.htm#a893245a8dd743e9a182425ae3b30764f">PtCallback</a>) (void *data, int i)</td></tr>
+<tr class="separator:a893245a8dd743e9a182425ae3b30764f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e2edb49121a3b49dbfe78549bbae0a3"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a3e2edb49121a3b49dbfe78549bbae0a3.htm#a3e2edb49121a3b49dbfe78549bbae0a3">FitCubicCallback</a>) (void *data, const <a class="el" href="class_point2d.htm">Point2d</a> curve[4])</td></tr>
+<tr class="separator:a3e2edb49121a3b49dbfe78549bbae0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:ad06dd5cd71032c816dff10a50abc1ff6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_ad06dd5cd71032c816dff10a50abc1ff6.htm#ad06dd5cd71032c816dff10a50abc1ff6">fitBezier</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts, float t, <a class="el" href="class_point2d.htm">Point2d</a> &amp;fitpt)</td></tr>
+<tr class="memdesc:ad06dd5cd71032c816dff10a50abc1ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算三次贝塞尔曲线段的参数点  <a href="structmgcurv_ad06dd5cd71032c816dff10a50abc1ff6.htm#ad06dd5cd71032c816dff10a50abc1ff6">更多...</a><br /></td></tr>
+<tr class="separator:ad06dd5cd71032c816dff10a50abc1ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51712aa4257a7146d889fa035d35be93"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a51712aa4257a7146d889fa035d35be93.htm#a51712aa4257a7146d889fa035d35be93">bezierTanget</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts, float t, <a class="el" href="class_point2d.htm">Point2d</a> &amp;outpt)</td></tr>
+<tr class="memdesc:a51712aa4257a7146d889fa035d35be93"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算三次贝塞尔曲线段的切线点  <a href="structmgcurv_a51712aa4257a7146d889fa035d35be93.htm#a51712aa4257a7146d889fa035d35be93">更多...</a><br /></td></tr>
+<tr class="separator:a51712aa4257a7146d889fa035d35be93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34249f6525561a3750b9369b1555a73b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a34249f6525561a3750b9369b1555a73b.htm#a34249f6525561a3750b9369b1555a73b">splitBezier</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts, float t, <a class="el" href="class_point2d.htm">Point2d</a> *pts1, <a class="el" href="class_point2d.htm">Point2d</a> *pts2)</td></tr>
+<tr class="memdesc:a34249f6525561a3750b9369b1555a73b"><td class="mdescLeft">&#160;</td><td class="mdescRight">分割一个三次贝塞尔曲线段  <a href="structmgcurv_a34249f6525561a3750b9369b1555a73b.htm#a34249f6525561a3750b9369b1555a73b">更多...</a><br /></td></tr>
+<tr class="separator:a34249f6525561a3750b9369b1555a73b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f02025a4f463db26a517df68dce63e5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a5f02025a4f463db26a517df68dce63e5.htm#a5f02025a4f463db26a517df68dce63e5">bezierIsStraight</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts)</td></tr>
+<tr class="memdesc:a5f02025a4f463db26a517df68dce63e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回一个三次贝塞尔曲线段是否为直线段  <a href="structmgcurv_a5f02025a4f463db26a517df68dce63e5.htm#a5f02025a4f463db26a517df68dce63e5">更多...</a><br /></td></tr>
+<tr class="separator:a5f02025a4f463db26a517df68dce63e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98394c91a61cac15a2fb8a236b3cf0f1"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a98394c91a61cac15a2fb8a236b3cf0f1.htm#a98394c91a61cac15a2fb8a236b3cf0f1">lengthOfBezier</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts)</td></tr>
+<tr class="memdesc:a98394c91a61cac15a2fb8a236b3cf0f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回一个三次贝塞尔曲线段的长度  <a href="structmgcurv_a98394c91a61cac15a2fb8a236b3cf0f1.htm#a98394c91a61cac15a2fb8a236b3cf0f1">更多...</a><br /></td></tr>
+<tr class="separator:a98394c91a61cac15a2fb8a236b3cf0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4bf5c596e530b6675e9016add53860a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_ad4bf5c596e530b6675e9016add53860a.htm#ad4bf5c596e530b6675e9016add53860a">bezierPointLengthFromStart</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts, float len)</td></tr>
+<tr class="memdesc:ad4bf5c596e530b6675e9016add53860a"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回三次贝塞尔曲线段从起点开始的指定弧长处的点参数，范围为[0,1]  <a href="structmgcurv_ad4bf5c596e530b6675e9016add53860a.htm#ad4bf5c596e530b6675e9016add53860a">更多...</a><br /></td></tr>
+<tr class="separator:ad4bf5c596e530b6675e9016add53860a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72077d77da577ed5c516916a2dc4ceea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a72077d77da577ed5c516916a2dc4ceea.htm#a72077d77da577ed5c516916a2dc4ceea">bezierPointDistantFromPoint</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts, float dist, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;pt, <a class="el" href="class_point2d.htm">Point2d</a> &amp;result, float &amp;tRes)</td></tr>
+<tr class="memdesc:a72077d77da577ed5c516916a2dc4ceea"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算曲线起点附近的外部点到三次贝塞尔曲线段相距指定距离的曲线点和参数  <a href="structmgcurv_a72077d77da577ed5c516916a2dc4ceea.htm#a72077d77da577ed5c516916a2dc4ceea">更多...</a><br /></td></tr>
+<tr class="separator:a72077d77da577ed5c516916a2dc4ceea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94c201efaf4713165f525d1a3e558bfd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a94c201efaf4713165f525d1a3e558bfd.htm#a94c201efaf4713165f525d1a3e558bfd">bezierIntersectionWithLine</a> (const <a class="el" href="class_point2d.htm">Point2d</a> *pts, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;a, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;b, float &amp;tIntersect)</td></tr>
+<tr class="memdesc:a94c201efaf4713165f525d1a3e558bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算曲线段与给定的直线段ab相交处的参数  <a href="structmgcurv_a94c201efaf4713165f525d1a3e558bfd.htm#a94c201efaf4713165f525d1a3e558bfd">更多...</a><br /></td></tr>
+<tr class="separator:a94c201efaf4713165f525d1a3e558bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adea02b77231b753aefa6a573f42a0a49"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_adea02b77231b753aefa6a573f42a0a49.htm#adea02b77231b753aefa6a573f42a0a49">bezier4P</a> (const <a class="el" href="class_point2d.htm">Point2d</a> &amp;pt1, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;pt2, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;pt3, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;pt4, <a class="el" href="class_point2d.htm">Point2d</a> &amp;ctrpt1, <a class="el" href="class_point2d.htm">Point2d</a> &amp;ctrpt2)</td></tr>
+<tr class="memdesc:adea02b77231b753aefa6a573f42a0a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">用线上四点构成三次贝塞尔曲线段  <a href="structmgcurv_adea02b77231b753aefa6a573f42a0a49.htm#adea02b77231b753aefa6a573f42a0a49">更多...</a><br /></td></tr>
+<tr class="separator:adea02b77231b753aefa6a573f42a0a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11c008d990e8d678fcf924f8bd8660b4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a11c008d990e8d678fcf924f8bd8660b4.htm#a11c008d990e8d678fcf924f8bd8660b4">fitCurve</a> (int knotCount, <a class="el" href="class_point2d.htm">Point2d</a> *knots, <a class="el" href="class_vector2d.htm">Vector2d</a> *knotvs, int count, const <a class="el" href="class_point2d.htm">Point2d</a> *pts, float tol)</td></tr>
+<tr class="memdesc:a11c008d990e8d678fcf924f8bd8660b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">对数据点光滑拟合为三次贝塞尔曲线  <a href="structmgcurv_a11c008d990e8d678fcf924f8bd8660b4.htm#a11c008d990e8d678fcf924f8bd8660b4">更多...</a><br /></td></tr>
+<tr class="separator:a11c008d990e8d678fcf924f8bd8660b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5026e878c1a5e5efb13653e588d4ffa6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a5026e878c1a5e5efb13653e588d4ffa6.htm#a5026e878c1a5e5efb13653e588d4ffa6">fitCurve2</a> (int knotCount, <a class="el" href="class_point2d.htm">Point2d</a> *knots, int count, <a class="el" href="structmgcurv_a893245a8dd743e9a182425ae3b30764f.htm#a893245a8dd743e9a182425ae3b30764f">PtCallback</a> pts, void *data, float tol)</td></tr>
+<tr class="separator:a5026e878c1a5e5efb13653e588d4ffa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a5a0448f4a7b5093f7dafc1e07e458"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a65a5a0448f4a7b5093f7dafc1e07e458.htm#a65a5a0448f4a7b5093f7dafc1e07e458">fitCurve3</a> (<a class="el" href="structmgcurv_a3e2edb49121a3b49dbfe78549bbae0a3.htm#a3e2edb49121a3b49dbfe78549bbae0a3">FitCubicCallback</a> fc, void *data, const <a class="el" href="class_point2d.htm">Point2d</a> *pts, int n, float tol)</td></tr>
+<tr class="separator:a65a5a0448f4a7b5093f7dafc1e07e458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab62130251c0a2a6b7d399167b5cdf5af"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_ab62130251c0a2a6b7d399167b5cdf5af.htm#ab62130251c0a2a6b7d399167b5cdf5af">fitCurve4</a> (<a class="el" href="structmgcurv_a3e2edb49121a3b49dbfe78549bbae0a3.htm#a3e2edb49121a3b49dbfe78549bbae0a3">FitCubicCallback</a> fc, void *data, <a class="el" href="structmgcurv_a893245a8dd743e9a182425ae3b30764f.htm#a893245a8dd743e9a182425ae3b30764f">PtCallback</a> pts, void *data2, int n, float tol)</td></tr>
+<tr class="separator:ab62130251c0a2a6b7d399167b5cdf5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21dfd032cd49dca4c8b5081ba0c82a92"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a21dfd032cd49dca4c8b5081ba0c82a92.htm#a21dfd032cd49dca4c8b5081ba0c82a92">quadBezierToCubic</a> (const <a class="el" href="class_point2d.htm">Point2d</a> quad[3], <a class="el" href="class_point2d.htm">Point2d</a> cubic[4])</td></tr>
+<tr class="memdesc:a21dfd032cd49dca4c8b5081ba0c82a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">二次贝塞尔曲线段转为三次贝塞尔曲线段  <a href="structmgcurv_a21dfd032cd49dca4c8b5081ba0c82a92.htm#a21dfd032cd49dca4c8b5081ba0c82a92">更多...</a><br /></td></tr>
+<tr class="separator:a21dfd032cd49dca4c8b5081ba0c82a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e7487445ad3f0496954b7f82598af6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a75e7487445ad3f0496954b7f82598af6.htm#a75e7487445ad3f0496954b7f82598af6">ellipse90ToBezier</a> (const <a class="el" href="class_point2d.htm">Point2d</a> &amp;frompt, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;topt, <a class="el" href="class_point2d.htm">Point2d</a> &amp;ctrpt1, <a class="el" href="class_point2d.htm">Point2d</a> &amp;ctrpt2)</td></tr>
+<tr class="memdesc:a75e7487445ad3f0496954b7f82598af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">用给定的起点和终点构造90度椭圆弧，并转换为一个三次贝塞尔曲线段  <a href="structmgcurv_a75e7487445ad3f0496954b7f82598af6.htm#a75e7487445ad3f0496954b7f82598af6">更多...</a><br /></td></tr>
+<tr class="separator:a75e7487445ad3f0496954b7f82598af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a294da1f7ba08cff390eeda3dca63a9e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a294da1f7ba08cff390eeda3dca63a9e0.htm#a294da1f7ba08cff390eeda3dca63a9e0">ellipseToBezier</a> (<a class="el" href="class_point2d.htm">Point2d</a> points[13], const <a class="el" href="class_point2d.htm">Point2d</a> &amp;center, float rx, float ry)</td></tr>
+<tr class="memdesc:a294da1f7ba08cff390eeda3dca63a9e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">将一个椭圆转换为4段三次贝塞尔曲线  <a href="structmgcurv_a294da1f7ba08cff390eeda3dca63a9e0.htm#a294da1f7ba08cff390eeda3dca63a9e0">更多...</a><br /></td></tr>
+<tr class="separator:a294da1f7ba08cff390eeda3dca63a9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c36aae4851316b65beb66ae83e5d8ac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a6c36aae4851316b65beb66ae83e5d8ac.htm#a6c36aae4851316b65beb66ae83e5d8ac">roundRectToBeziers</a> (<a class="el" href="class_point2d.htm">Point2d</a> points[16], const <a class="el" href="class_box2d.htm">Box2d</a> &amp;rect, float rx, float ry)</td></tr>
+<tr class="memdesc:a6c36aae4851316b65beb66ae83e5d8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">将一个圆角矩形转换为4段三次贝塞尔曲线  <a href="structmgcurv_a6c36aae4851316b65beb66ae83e5d8ac.htm#a6c36aae4851316b65beb66ae83e5d8ac">更多...</a><br /></td></tr>
+<tr class="separator:a6c36aae4851316b65beb66ae83e5d8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a708f2587d39724f1fbe99908e50e9556"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a708f2587d39724f1fbe99908e50e9556.htm#a708f2587d39724f1fbe99908e50e9556">arcToBezier</a> (<a class="el" href="class_point2d.htm">Point2d</a> points[16], const <a class="el" href="class_point2d.htm">Point2d</a> &amp;center, float rx, float ry, float startAngle, float sweepAngle)</td></tr>
+<tr class="memdesc:a708f2587d39724f1fbe99908e50e9556"><td class="mdescLeft">&#160;</td><td class="mdescRight">将一个椭圆弧转换为多段三次贝塞尔曲线  <a href="structmgcurv_a708f2587d39724f1fbe99908e50e9556.htm#a708f2587d39724f1fbe99908e50e9556">更多...</a><br /></td></tr>
+<tr class="separator:a708f2587d39724f1fbe99908e50e9556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17fc14988cc87ec3547e568ff3abb25"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_ab17fc14988cc87ec3547e568ff3abb25.htm#ab17fc14988cc87ec3547e568ff3abb25">arc3P</a> (const <a class="el" href="class_point2d.htm">Point2d</a> &amp;start, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;point, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;end, <a class="el" href="class_point2d.htm">Point2d</a> &amp;center, float &amp;radius, float *startAngle=(float *) 0, float *sweepAngle=(float *) 0)</td></tr>
+<tr class="memdesc:ab17fc14988cc87ec3547e568ff3abb25"><td class="mdescLeft">&#160;</td><td class="mdescRight">给定起点、弧上一点和终点，计算圆弧参数  <a href="structmgcurv_ab17fc14988cc87ec3547e568ff3abb25.htm#ab17fc14988cc87ec3547e568ff3abb25">更多...</a><br /></td></tr>
+<tr class="separator:ab17fc14988cc87ec3547e568ff3abb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fb4af2207f791118e61e6cc94a69ab"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a85fb4af2207f791118e61e6cc94a69ab.htm#a85fb4af2207f791118e61e6cc94a69ab">arcTan</a> (const <a class="el" href="class_point2d.htm">Point2d</a> &amp;start, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;end, const <a class="el" href="class_vector2d.htm">Vector2d</a> &amp;startTan, <a class="el" href="class_point2d.htm">Point2d</a> &amp;center, float &amp;radius, float *startAngle=(float *) 0, float *sweepAngle=(float *) 0)</td></tr>
+<tr class="memdesc:a85fb4af2207f791118e61e6cc94a69ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">给定起点、终点和起点切向，计算圆弧参数  <a href="structmgcurv_a85fb4af2207f791118e61e6cc94a69ab.htm#a85fb4af2207f791118e61e6cc94a69ab">更多...</a><br /></td></tr>
+<tr class="separator:a85fb4af2207f791118e61e6cc94a69ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2db45daa676f99095377f68549c813"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a7a2db45daa676f99095377f68549c813.htm#a7a2db45daa676f99095377f68549c813">arcBulge</a> (const <a class="el" href="class_point2d.htm">Point2d</a> &amp;start, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;end, float bulge, <a class="el" href="class_point2d.htm">Point2d</a> &amp;center, float &amp;radius, float *startAngle=(float *) 0, float *sweepAngle=(float *) 0)</td></tr>
+<tr class="memdesc:a7a2db45daa676f99095377f68549c813"><td class="mdescLeft">&#160;</td><td class="mdescRight">给定弦和拱高计算圆弧参数  <a href="structmgcurv_a7a2db45daa676f99095377f68549c813.htm#a7a2db45daa676f99095377f68549c813">更多...</a><br /></td></tr>
+<tr class="separator:a7a2db45daa676f99095377f68549c813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9de349d0cb3809aaa830b4632867668"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_aa9de349d0cb3809aaa830b4632867668.htm#aa9de349d0cb3809aaa830b4632867668">crossTwoCircles</a> (<a class="el" href="class_point2d.htm">Point2d</a> &amp;pt1, <a class="el" href="class_point2d.htm">Point2d</a> &amp;pt2, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;c1, float r1, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;c2, float r2)</td></tr>
+<tr class="memdesc:aa9de349d0cb3809aaa830b4632867668"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算两圆的交点  <a href="structmgcurv_aa9de349d0cb3809aaa830b4632867668.htm#aa9de349d0cb3809aaa830b4632867668">更多...</a><br /></td></tr>
+<tr class="separator:aa9de349d0cb3809aaa830b4632867668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82937b79bc2436f031da9ec28216a22e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a82937b79bc2436f031da9ec28216a22e.htm#a82937b79bc2436f031da9ec28216a22e">crossLineCircle</a> (<a class="el" href="class_point2d.htm">Point2d</a> &amp;pt1, <a class="el" href="class_point2d.htm">Point2d</a> &amp;pt2, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;a, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;b, const <a class="el" href="class_point2d.htm">Point2d</a> &amp;c, float r, bool ray=false)</td></tr>
+<tr class="memdesc:a82937b79bc2436f031da9ec28216a22e"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算无穷直线(ab)与圆(cr)的交点，返回交点数  <a href="structmgcurv_a82937b79bc2436f031da9ec28216a22e.htm#a82937b79bc2436f031da9ec28216a22e">更多...</a><br /></td></tr>
+<tr class="separator:a82937b79bc2436f031da9ec28216a22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf3c55165435c40217009f1c3b5f894"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_afcf3c55165435c40217009f1c3b5f894.htm#afcf3c55165435c40217009f1c3b5f894">triEquations</a> (int n, float *a, float *b, float *c, <a class="el" href="class_vector2d.htm">Vector2d</a> *vs)</td></tr>
+<tr class="memdesc:afcf3c55165435c40217009f1c3b5f894"><td class="mdescLeft">&#160;</td><td class="mdescRight">求解三对角线方程组  <a href="structmgcurv_afcf3c55165435c40217009f1c3b5f894.htm#afcf3c55165435c40217009f1c3b5f894">更多...</a><br /></td></tr>
+<tr class="separator:afcf3c55165435c40217009f1c3b5f894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f3615a83c88c1b013da636508b2b5b1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a7f3615a83c88c1b013da636508b2b5b1.htm#a7f3615a83c88c1b013da636508b2b5b1">gaussJordan</a> (int n, float *mat, <a class="el" href="class_vector2d.htm">Vector2d</a> *vs)</td></tr>
+<tr class="memdesc:a7f3615a83c88c1b013da636508b2b5b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gauss-Jordan法求解线性方程组  <a href="structmgcurv_a7f3615a83c88c1b013da636508b2b5b1.htm#a7f3615a83c88c1b013da636508b2b5b1">更多...</a><br /></td></tr>
+<tr class="separator:a7f3615a83c88c1b013da636508b2b5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74572d2f92d45d1fc8e24fa2b0e3dd24"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a74572d2f92d45d1fc8e24fa2b0e3dd24.htm#a74572d2f92d45d1fc8e24fa2b0e3dd24">cubicSplines</a> (int n, const <a class="el" href="class_point2d.htm">Point2d</a> *knots, <a class="el" href="class_vector2d.htm">Vector2d</a> *knotvs, int flag=0, float tension=1)</td></tr>
+<tr class="memdesc:a74572d2f92d45d1fc8e24fa2b0e3dd24"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算三次参数样条曲线(Hermite)的型值点的切矢量  <a href="structmgcurv_a74572d2f92d45d1fc8e24fa2b0e3dd24.htm#a74572d2f92d45d1fc8e24fa2b0e3dd24">更多...</a><br /></td></tr>
+<tr class="separator:a74572d2f92d45d1fc8e24fa2b0e3dd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151a1cc750c2c4efb64ab296241445aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a151a1cc750c2c4efb64ab296241445aa.htm#a151a1cc750c2c4efb64ab296241445aa">fitCubicSpline</a> (int n, const <a class="el" href="class_point2d.htm">Point2d</a> *knots, const <a class="el" href="class_vector2d.htm">Vector2d</a> *knotvs, int i, float t, <a class="el" href="class_point2d.htm">Point2d</a> &amp;fitpt)</td></tr>
+<tr class="memdesc:a151a1cc750c2c4efb64ab296241445aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">在三次样条曲线(Hermite)的一条弦上插值得到拟和点坐标  <a href="structmgcurv_a151a1cc750c2c4efb64ab296241445aa.htm#a151a1cc750c2c4efb64ab296241445aa">更多...</a><br /></td></tr>
+<tr class="separator:a151a1cc750c2c4efb64ab296241445aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a008b68d3b4fb01fd54ff4355f3f0005e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a008b68d3b4fb01fd54ff4355f3f0005e.htm#a008b68d3b4fb01fd54ff4355f3f0005e">cubicSplineToBezier</a> (int n, const <a class="el" href="class_point2d.htm">Point2d</a> *knots, const <a class="el" href="class_vector2d.htm">Vector2d</a> *knotvs, int i, <a class="el" href="class_point2d.htm">Point2d</a> points[4], bool hermite=true)</td></tr>
+<tr class="memdesc:a008b68d3b4fb01fd54ff4355f3f0005e"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到三次样条曲线的分段贝塞尔曲线段控制点  <a href="structmgcurv_a008b68d3b4fb01fd54ff4355f3f0005e.htm#a008b68d3b4fb01fd54ff4355f3f0005e">更多...</a><br /></td></tr>
+<tr class="separator:a008b68d3b4fb01fd54ff4355f3f0005e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ea1a0bb85c14b153520cf0956907551"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmgcurv_a9ea1a0bb85c14b153520cf0956907551.htm#a9ea1a0bb85c14b153520cf0956907551">bsplinesToBeziers</a> (<a class="el" href="class_point2d.htm">Point2d</a> points[], int n, const <a class="el" href="class_point2d.htm">Point2d</a> *ctlpts, bool closed)</td></tr>
+<tr class="memdesc:a9ea1a0bb85c14b153520cf0956907551"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到三次B样条曲线的分段贝塞尔曲线段控制点  <a href="structmgcurv_a9ea1a0bb85c14b153520cf0956907551.htm#a9ea1a0bb85c14b153520cf0956907551">更多...</a><br /></td></tr>
+<tr class="separator:a9ea1a0bb85c14b153520cf0956907551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>曲线计算函数 </p>
+</div><hr/>该结构体的文档由以下文件生成:<ul>
+<li><a class="el" href="mgcurv_8h.htm">mgcurv.h</a></li>
+<li><a class="el" href="mgcurv_8cpp.htm">mgcurv.cpp</a></li>
+<li><a class="el" href="mgnear_8cpp.htm">mgnear.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

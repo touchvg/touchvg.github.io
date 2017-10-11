@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: GiCanvasAdapter类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="class_gi_canvas_adapter-members.htm">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">GiCanvasAdapter类 参考<div class="ingroups"><a class="el" href="group___g_r_o_u_p___i_o_s.htm">平台适配器(iOS)</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>使用 Quartz 2D 实现的画布适配器类  
+ <a href="class_gi_canvas_adapter.htm#details">更多...</a></p>
+
+<p><code>#include &lt;GiCanvasAdapter.h&gt;</code></p>
+<div class="dynheader">
+类 GiCanvasAdapter 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gi_canvas_adapter__inherit__graph.png" border="0" usemap="#_gi_canvas_adapter_inherit__map" alt="Inheritance graph"/></div>
+<map name="_gi_canvas_adapter_inherit__map" id="_gi_canvas_adapter_inherit__map">
+<area shape="rect" id="node2" href="class_gi_canvas.htm" title="Canvas callback interface device&#45;dependent. " alt="" coords="28,5,138,217"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a541f9eb948f8e26ad61c809249687fe1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a541f9eb948f8e26ad61c809249687fe1.htm#a541f9eb948f8e26ad61c809249687fe1">GiCanvasAdapter</a> (<a class="el" href="interface_gi_image_cache.htm">GiImageCache</a> *cache=(<a class="el" href="interface_gi_image_cache.htm">GiImageCache</a> *) 0)</td></tr>
+<tr class="separator:a541f9eb948f8e26ad61c809249687fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72ab485ce923d537322f3b90173ea50"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_ac72ab485ce923d537322f3b90173ea50.htm#ac72ab485ce923d537322f3b90173ea50">~GiCanvasAdapter</a> ()</td></tr>
+<tr class="separator:ac72ab485ce923d537322f3b90173ea50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b174e95f364e81127023eafabe703c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a1b174e95f364e81127023eafabe703c5.htm#a1b174e95f364e81127023eafabe703c5">beginPaint</a> (CGContextRef <a class="el" href="class_gi_canvas_adapter_a4f4b19fdf5e96742e183f497ea8eaed6.htm#a4f4b19fdf5e96742e183f497ea8eaed6">context</a>, bool fast=false)</td></tr>
+<tr class="memdesc:a1b174e95f364e81127023eafabe703c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">在给定上下文上开始绘制  <a href="class_gi_canvas_adapter_a1b174e95f364e81127023eafabe703c5.htm#a1b174e95f364e81127023eafabe703c5">更多...</a><br /></td></tr>
+<tr class="separator:a1b174e95f364e81127023eafabe703c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6de77aa4db1a0f43c073f325878dbb9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a6de77aa4db1a0f43c073f325878dbb9c.htm#a6de77aa4db1a0f43c073f325878dbb9c">endPaint</a> ()</td></tr>
+<tr class="memdesc:a6de77aa4db1a0f43c073f325878dbb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">结束绘制  <a href="class_gi_canvas_adapter_a6de77aa4db1a0f43c073f325878dbb9c.htm#a6de77aa4db1a0f43c073f325878dbb9c">更多...</a><br /></td></tr>
+<tr class="separator:a6de77aa4db1a0f43c073f325878dbb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4b19fdf5e96742e183f497ea8eaed6"><td class="memItemLeft" align="right" valign="top">CGContextRef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a4f4b19fdf5e96742e183f497ea8eaed6.htm#a4f4b19fdf5e96742e183f497ea8eaed6">context</a> ()</td></tr>
+<tr class="memdesc:a4f4b19fdf5e96742e183f497ea8eaed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回绘图上下文  <a href="class_gi_canvas_adapter_a4f4b19fdf5e96742e183f497ea8eaed6.htm#a4f4b19fdf5e96742e183f497ea8eaed6">更多...</a><br /></td></tr>
+<tr class="separator:a4f4b19fdf5e96742e183f497ea8eaed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e14e683cd3d01452b25f9a91a8c433c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a9e14e683cd3d01452b25f9a91a8c433c.htm#a9e14e683cd3d01452b25f9a91a8c433c">setPen</a> (int argb, float width, int style, float phase, float orgw)</td></tr>
+<tr class="memdesc:a9e14e683cd3d01452b25f9a91a8c433c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set attributes of the current pen to stroke edges.  <a href="class_gi_canvas_adapter_a9e14e683cd3d01452b25f9a91a8c433c.htm#a9e14e683cd3d01452b25f9a91a8c433c">更多...</a><br /></td></tr>
+<tr class="separator:a9e14e683cd3d01452b25f9a91a8c433c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf40174f81f4e86bfa276b263c10933"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a9cf40174f81f4e86bfa276b263c10933.htm#a9cf40174f81f4e86bfa276b263c10933">setBrush</a> (int argb, int style)</td></tr>
+<tr class="memdesc:a9cf40174f81f4e86bfa276b263c10933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set attributes of the current brush to fill shapes.  <a href="class_gi_canvas_adapter_a9cf40174f81f4e86bfa276b263c10933.htm#a9cf40174f81f4e86bfa276b263c10933">更多...</a><br /></td></tr>
+<tr class="separator:a9cf40174f81f4e86bfa276b263c10933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6518096ecff29b119c4b2cfde86fdd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_aa6518096ecff29b119c4b2cfde86fdd7.htm#aa6518096ecff29b119c4b2cfde86fdd7">clearRect</a> (float x, float y, float w, float h)</td></tr>
+<tr class="memdesc:aa6518096ecff29b119c4b2cfde86fdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear `rect' (that is, set the region within the rect to transparent).  <a href="class_gi_canvas_adapter_aa6518096ecff29b119c4b2cfde86fdd7.htm#aa6518096ecff29b119c4b2cfde86fdd7">更多...</a><br /></td></tr>
+<tr class="separator:aa6518096ecff29b119c4b2cfde86fdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7cd09b5a18a5b620706605870967cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_adc7cd09b5a18a5b620706605870967cb.htm#adc7cd09b5a18a5b620706605870967cb">drawRect</a> (float x, float y, float w, float h, bool stroke, bool <a class="el" href="gigraph_8cpp_a8932679f27aab182b4419a5fd56a2a53.htm#a8932679f27aab182b4419a5fd56a2a53">fill</a>)</td></tr>
+<tr class="memdesc:adc7cd09b5a18a5b620706605870967cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill or stroke `rect' (w&gt;0, h&gt;0) with the current color.  <a href="class_gi_canvas_adapter_adc7cd09b5a18a5b620706605870967cb.htm#adc7cd09b5a18a5b620706605870967cb">更多...</a><br /></td></tr>
+<tr class="separator:adc7cd09b5a18a5b620706605870967cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74bc7df842a90e334c61bd65503e1195"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a74bc7df842a90e334c61bd65503e1195.htm#a74bc7df842a90e334c61bd65503e1195">drawLine</a> (float x1, float y1, float x2, float y2)</td></tr>
+<tr class="memdesc:a74bc7df842a90e334c61bd65503e1195"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stroke a line with the current color.  <a href="class_gi_canvas_adapter_a74bc7df842a90e334c61bd65503e1195.htm#a74bc7df842a90e334c61bd65503e1195">更多...</a><br /></td></tr>
+<tr class="separator:a74bc7df842a90e334c61bd65503e1195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345af65f25a12c4d54926d980be853b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a345af65f25a12c4d54926d980be853b3.htm#a345af65f25a12c4d54926d980be853b3">drawEllipse</a> (float x, float y, float w, float h, bool stroke, bool <a class="el" href="gigraph_8cpp_a8932679f27aab182b4419a5fd56a2a53.htm#a8932679f27aab182b4419a5fd56a2a53">fill</a>)</td></tr>
+<tr class="memdesc:a345af65f25a12c4d54926d980be853b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill or stroke a ellipse with a corner and size (w&gt;0, h&gt;0).  <a href="class_gi_canvas_adapter_a345af65f25a12c4d54926d980be853b3.htm#a345af65f25a12c4d54926d980be853b3">更多...</a><br /></td></tr>
+<tr class="separator:a345af65f25a12c4d54926d980be853b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544c946da35a99497722e1b18fdb20c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a544c946da35a99497722e1b18fdb20c6.htm#a544c946da35a99497722e1b18fdb20c6">beginPath</a> ()</td></tr>
+<tr class="memdesc:a544c946da35a99497722e1b18fdb20c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a new path.  <a href="class_gi_canvas_adapter_a544c946da35a99497722e1b18fdb20c6.htm#a544c946da35a99497722e1b18fdb20c6">更多...</a><br /></td></tr>
+<tr class="separator:a544c946da35a99497722e1b18fdb20c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19d048fb449ceffc95303bbe615c88c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_af19d048fb449ceffc95303bbe615c88c.htm#af19d048fb449ceffc95303bbe615c88c">moveTo</a> (float x, float y)</td></tr>
+<tr class="memdesc:af19d048fb449ceffc95303bbe615c88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ready to add a subpath to the current path at the start point.  <a href="class_gi_canvas_adapter_af19d048fb449ceffc95303bbe615c88c.htm#af19d048fb449ceffc95303bbe615c88c">更多...</a><br /></td></tr>
+<tr class="separator:af19d048fb449ceffc95303bbe615c88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c02822815b992b0ec6c9dff4140bfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_ac1c02822815b992b0ec6c9dff4140bfd.htm#ac1c02822815b992b0ec6c9dff4140bfd">lineTo</a> (float x, float y)</td></tr>
+<tr class="memdesc:ac1c02822815b992b0ec6c9dff4140bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a line segment to the current subpath.  <a href="class_gi_canvas_adapter_ac1c02822815b992b0ec6c9dff4140bfd.htm#ac1c02822815b992b0ec6c9dff4140bfd">更多...</a><br /></td></tr>
+<tr class="separator:ac1c02822815b992b0ec6c9dff4140bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458c237988c2fac6fa25a96d7780c9b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a458c237988c2fac6fa25a96d7780c9b6.htm#a458c237988c2fac6fa25a96d7780c9b6">bezierTo</a> (float c1x, float c1y, float c2x, float c2y, float x, float y)</td></tr>
+<tr class="memdesc:a458c237988c2fac6fa25a96d7780c9b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cubic bezier segment to the current subpath.  <a href="class_gi_canvas_adapter_a458c237988c2fac6fa25a96d7780c9b6.htm#a458c237988c2fac6fa25a96d7780c9b6">更多...</a><br /></td></tr>
+<tr class="separator:a458c237988c2fac6fa25a96d7780c9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab040c9484d17de53026303984ea21be3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_ab040c9484d17de53026303984ea21be3.htm#ab040c9484d17de53026303984ea21be3">quadTo</a> (float cpx, float cpy, float x, float y)</td></tr>
+<tr class="memdesc:ab040c9484d17de53026303984ea21be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a quadratic bezier segment to the current subpath.  <a href="class_gi_canvas_adapter_ab040c9484d17de53026303984ea21be3.htm#ab040c9484d17de53026303984ea21be3">更多...</a><br /></td></tr>
+<tr class="separator:ab040c9484d17de53026303984ea21be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df36295ad438bc74fabdc64e741ae1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a7df36295ad438bc74fabdc64e741ae1b.htm#a7df36295ad438bc74fabdc64e741ae1b">closePath</a> ()</td></tr>
+<tr class="memdesc:a7df36295ad438bc74fabdc64e741ae1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the current subpath of the path added by <a class="el" href="class_gi_canvas_adapter_a544c946da35a99497722e1b18fdb20c6.htm#a544c946da35a99497722e1b18fdb20c6" title="Start a new path. ">beginPath()</a>.  <a href="class_gi_canvas_adapter_a7df36295ad438bc74fabdc64e741ae1b.htm#a7df36295ad438bc74fabdc64e741ae1b">更多...</a><br /></td></tr>
+<tr class="separator:a7df36295ad438bc74fabdc64e741ae1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f962b1f4fadbff987986bb034d8835"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_aa0f962b1f4fadbff987986bb034d8835.htm#aa0f962b1f4fadbff987986bb034d8835">drawPath</a> (bool stroke, bool <a class="el" href="gigraph_8cpp_a8932679f27aab182b4419a5fd56a2a53.htm#a8932679f27aab182b4419a5fd56a2a53">fill</a>)</td></tr>
+<tr class="memdesc:aa0f962b1f4fadbff987986bb034d8835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw and clear the current path added by <a class="el" href="class_gi_canvas_adapter_a544c946da35a99497722e1b18fdb20c6.htm#a544c946da35a99497722e1b18fdb20c6" title="Start a new path. ">beginPath()</a>.  <a href="class_gi_canvas_adapter_aa0f962b1f4fadbff987986bb034d8835.htm#aa0f962b1f4fadbff987986bb034d8835">更多...</a><br /></td></tr>
+<tr class="separator:aa0f962b1f4fadbff987986bb034d8835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88cea4bbb73628747a0d6830ffde06c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a88cea4bbb73628747a0d6830ffde06c8.htm#a88cea4bbb73628747a0d6830ffde06c8">saveClip</a> ()</td></tr>
+<tr class="memdesc:a88cea4bbb73628747a0d6830ffde06c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the current clipping path.  <a href="class_gi_canvas_adapter_a88cea4bbb73628747a0d6830ffde06c8.htm#a88cea4bbb73628747a0d6830ffde06c8">更多...</a><br /></td></tr>
+<tr class="separator:a88cea4bbb73628747a0d6830ffde06c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1077c3f46524e8db85fe584ed99b6a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a1077c3f46524e8db85fe584ed99b6a1c.htm#a1077c3f46524e8db85fe584ed99b6a1c">restoreClip</a> ()</td></tr>
+<tr class="memdesc:a1077c3f46524e8db85fe584ed99b6a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the current clipping path.  <a href="class_gi_canvas_adapter_a1077c3f46524e8db85fe584ed99b6a1c.htm#a1077c3f46524e8db85fe584ed99b6a1c">更多...</a><br /></td></tr>
+<tr class="separator:a1077c3f46524e8db85fe584ed99b6a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab973e4c3e7d7181c70288de58302793e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_ab973e4c3e7d7181c70288de58302793e.htm#ab973e4c3e7d7181c70288de58302793e">clipRect</a> (float x, float y, float w, float h)</td></tr>
+<tr class="memdesc:ab973e4c3e7d7181c70288de58302793e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersect the current clipping path with `rect'.  <a href="class_gi_canvas_adapter_ab973e4c3e7d7181c70288de58302793e.htm#ab973e4c3e7d7181c70288de58302793e">更多...</a><br /></td></tr>
+<tr class="separator:ab973e4c3e7d7181c70288de58302793e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5de65304045682376b8dd432ea2436a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_ae5de65304045682376b8dd432ea2436a.htm#ae5de65304045682376b8dd432ea2436a">clipPath</a> ()</td></tr>
+<tr class="memdesc:ae5de65304045682376b8dd432ea2436a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersect the current clipping path with the path added by <a class="el" href="class_gi_canvas_adapter_a544c946da35a99497722e1b18fdb20c6.htm#a544c946da35a99497722e1b18fdb20c6" title="Start a new path. ">beginPath()</a>.  <a href="class_gi_canvas_adapter_ae5de65304045682376b8dd432ea2436a.htm#ae5de65304045682376b8dd432ea2436a">更多...</a><br /></td></tr>
+<tr class="separator:ae5de65304045682376b8dd432ea2436a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c662724ade5ad9b864026a7877b8835"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a0c662724ade5ad9b864026a7877b8835.htm#a0c662724ade5ad9b864026a7877b8835">drawHandle</a> (float x, float y, int type, float angle)</td></tr>
+<tr class="memdesc:a0c662724ade5ad9b864026a7877b8835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a symbol (GiHandleTypes) whose center will at (x, y).  <a href="class_gi_canvas_adapter_a0c662724ade5ad9b864026a7877b8835.htm#a0c662724ade5ad9b864026a7877b8835">更多...</a><br /></td></tr>
+<tr class="separator:a0c662724ade5ad9b864026a7877b8835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addaa2a03782ba963c810967ec2f53044"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_addaa2a03782ba963c810967ec2f53044.htm#addaa2a03782ba963c810967ec2f53044">drawBitmap</a> (const char *name, float xc, float yc, float w, float h, float angle)</td></tr>
+<tr class="memdesc:addaa2a03782ba963c810967ec2f53044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a image whose center will at (xc, yc).  <a href="class_gi_canvas_adapter_addaa2a03782ba963c810967ec2f53044.htm#addaa2a03782ba963c810967ec2f53044">更多...</a><br /></td></tr>
+<tr class="separator:addaa2a03782ba963c810967ec2f53044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae983ce76e4217a6dd89732758020caf6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_ae983ce76e4217a6dd89732758020caf6.htm#ae983ce76e4217a6dd89732758020caf6">drawTextAt</a> (const char *text, float x, float y, float h, int align, float angle)</td></tr>
+<tr class="memdesc:ae983ce76e4217a6dd89732758020caf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw text in one line.  <a href="class_gi_canvas_adapter_ae983ce76e4217a6dd89732758020caf6.htm#ae983ce76e4217a6dd89732758020caf6">更多...</a><br /></td></tr>
+<tr class="separator:ae983ce76e4217a6dd89732758020caf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_gi_canvas"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_gi_canvas')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_gi_canvas.htm">GiCanvas</a></td></tr>
+<tr class="memitem:a5520df1ca1db9253b5a11539f0c99dfd inherit pub_methods_class_gi_canvas"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_a5520df1ca1db9253b5a11539f0c99dfd.htm#a5520df1ca1db9253b5a11539f0c99dfd">~GiCanvas</a> ()</td></tr>
+<tr class="separator:a5520df1ca1db9253b5a11539f0c99dfd inherit pub_methods_class_gi_canvas"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ceb844c34823eb1f680177305981de inherit pub_methods_class_gi_canvas"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_ad4ceb844c34823eb1f680177305981de.htm#ad4ceb844c34823eb1f680177305981de">drawTextAt</a> (<a class="el" href="struct_gi_text_width_callback.htm">GiTextWidthCallback</a> *c, const char *text, float x, float y, float h, int align, float angle)</td></tr>
+<tr class="separator:ad4ceb844c34823eb1f680177305981de inherit pub_methods_class_gi_canvas"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d6b68cb8b220e92805072eb90a46d71 inherit pub_methods_class_gi_canvas"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_a9d6b68cb8b220e92805072eb90a46d71.htm#a9d6b68cb8b220e92805072eb90a46d71">clearCachedBitmap</a> (bool clearAll=false)</td></tr>
+<tr class="memdesc:a9d6b68cb8b220e92805072eb90a46d71 inherit pub_methods_class_gi_canvas"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the cached bitmap for re-drawing on desktop PC.  <a href="class_gi_canvas_a9d6b68cb8b220e92805072eb90a46d71.htm#a9d6b68cb8b220e92805072eb90a46d71">更多...</a><br /></td></tr>
+<tr class="separator:a9d6b68cb8b220e92805072eb90a46d71 inherit pub_methods_class_gi_canvas"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc30ffe41f789c1849ed39f5c90561f5 inherit pub_methods_class_gi_canvas"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_afc30ffe41f789c1849ed39f5c90561f5.htm#afc30ffe41f789c1849ed39f5c90561f5">beginShape</a> (int type, int sid, int version, float x, float y, float w, float h)</td></tr>
+<tr class="memdesc:afc30ffe41f789c1849ed39f5c90561f5 inherit pub_methods_class_gi_canvas"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ready to draw a shape.  <a href="class_gi_canvas_afc30ffe41f789c1849ed39f5c90561f5.htm#afc30ffe41f789c1849ed39f5c90561f5">更多...</a><br /></td></tr>
+<tr class="separator:afc30ffe41f789c1849ed39f5c90561f5 inherit pub_methods_class_gi_canvas"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ff92faf7e937549aa06b6a00fba470 inherit pub_methods_class_gi_canvas"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_a51ff92faf7e937549aa06b6a00fba470.htm#a51ff92faf7e937549aa06b6a00fba470">endShape</a> (int type, int sid, float x, float y)</td></tr>
+<tr class="memdesc:a51ff92faf7e937549aa06b6a00fba470 inherit pub_methods_class_gi_canvas"><td class="mdescLeft">&#160;</td><td class="mdescRight">Complete to draw a shape.  <a href="class_gi_canvas_a51ff92faf7e937549aa06b6a00fba470.htm#a51ff92faf7e937549aa06b6a00fba470">更多...</a><br /></td></tr>
+<tr class="separator:a51ff92faf7e937549aa06b6a00fba470 inherit pub_methods_class_gi_canvas"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a54a96fd615043f007e1e66da85cebf95"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a54a96fd615043f007e1e66da85cebf95.htm#a54a96fd615043f007e1e66da85cebf95">colorPart</a> (int argb, int byteOrder)</td></tr>
+<tr class="separator:a54a96fd615043f007e1e66da85cebf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a864f03cf9ac17961f35109e2ea3ec402"><td class="memItemLeft" align="right" valign="top">static const float *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a864f03cf9ac17961f35109e2ea3ec402.htm#a864f03cf9ac17961f35109e2ea3ec402">LINEDASH</a> [] = { NULL, patDash, patDot, patDashDot, dashDotdot }</td></tr>
+<tr class="memdesc:a864f03cf9ac17961f35109e2ea3ec402"><td class="mdescLeft">&#160;</td><td class="mdescRight">虚线定义, 0..4  <a href="class_gi_canvas_adapter_a864f03cf9ac17961f35109e2ea3ec402.htm#a864f03cf9ac17961f35109e2ea3ec402">更多...</a><br /></td></tr>
+<tr class="separator:a864f03cf9ac17961f35109e2ea3ec402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:a69c9c1a223075bb2bac611224c4c09bc"><td class="memItemLeft" align="right" valign="top">CGContextRef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a69c9c1a223075bb2bac611224c4c09bc.htm#a69c9c1a223075bb2bac611224c4c09bc">_ctx</a></td></tr>
+<tr class="separator:a69c9c1a223075bb2bac611224c4c09bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f3f1b22f49bbb1d8a71fc0b93c7e77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_ab9f3f1b22f49bbb1d8a71fc0b93c7e77.htm#ab9f3f1b22f49bbb1d8a71fc0b93c7e77">_fill</a></td></tr>
+<tr class="separator:ab9f3f1b22f49bbb1d8a71fc0b93c7e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1fe095263906df1ce10f7db48976fa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_afd1fe095263906df1ce10f7db48976fa.htm#afd1fe095263906df1ce10f7db48976fa">_fillARGB</a></td></tr>
+<tr class="separator:afd1fe095263906df1ce10f7db48976fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db71b2f538d6c2106d9855dee2259fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_gi_image_cache.htm">GiImageCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a6db71b2f538d6c2106d9855dee2259fb.htm#a6db71b2f538d6c2106d9855dee2259fb">_cache</a></td></tr>
+<tr class="separator:a6db71b2f538d6c2106d9855dee2259fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41611b0beea541a0596aef272e3c540f"><td class="memItemLeft" align="right" valign="top">CGGradientRef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a41611b0beea541a0596aef272e3c540f.htm#a41611b0beea541a0596aef272e3c540f">_gradient0</a></td></tr>
+<tr class="separator:a41611b0beea541a0596aef272e3c540f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a20df9c20b00ad2fa1cffd8d465aa1a"><td class="memItemLeft" align="right" valign="top">CGGradientRef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gi_canvas_adapter_a7a20df9c20b00ad2fa1cffd8d465aa1a.htm#a7a20df9c20b00ad2fa1cffd8d465aa1a">_gradient</a></td></tr>
+<tr class="separator:a7a20df9c20b00ad2fa1cffd8d465aa1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pub_types_class_gi_canvas"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_gi_canvas')"><img src="closed.png" alt="-"/>&#160;Public 类型 继承自 <a class="el" href="class_gi_canvas.htm">GiCanvas</a></td></tr>
+<tr class="memitem:af2a17ff2c7fd39681fe351ec4e09c2a4 inherit pub_types_class_gi_canvas"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a383284d3763cc1531ac2d80d516d8d3a">kLineDashMask</a> = 0xFFF, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4ad24fdbfbab1028b0beec1b31086a38c4">kLineCapDefault</a> = 0, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a651e10250d6df74a3e00dbc58b404a08">kLineCapMask</a> = 0x70000, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a270a2ab6c9f8d6a1f5b5f1b500a3ba21">kLineCapButt</a> = 0x10000, 
+<br />
+&#160;&#160;<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a4a8494a9d6e0a32eca3f9279512404bf">kLineCapRound</a> = 0x20000, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a3806c1ae5c36aebf4d98995570efa66b">kLineCapSquare</a> = 0x40000, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a9221bd86828795e03388c040b6b1bab3">kAlignLeft</a> = 0, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a0e16a03e67e1bc143d7c323562fa4874">kAlignCenter</a> = 1, 
+<br />
+&#160;&#160;<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4ab0cd194b256753cc34b1008153648137">kAlignRight</a> = 2, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4ab376f3d283d97b8e7e46a0f20ec16f2b">kAlignHorz</a> = 0xF, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a1d6e335e530271576ddcfbb271dbde81">kAlignTop</a> = 0, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4aa127f24b612ef401b17f27010e214ad7">kAlignBottom</a> = 0x10, 
+<br />
+&#160;&#160;<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a47be2a49cfa0df60ebbc3bdb1bbbed95">kAlignVCenter</a> = 0x20, 
+<a class="el" href="class_gi_canvas_af2a17ff2c7fd39681fe351ec4e09c2a4.htm#af2a17ff2c7fd39681fe351ec4e09c2a4a94890d224f5b41492748d9b3144e9df1">kAlignVert</a> = 0xF0
+<br />
+ }</td></tr>
+<tr class="separator:af2a17ff2c7fd39681fe351ec4e09c2a4 inherit pub_types_class_gi_canvas"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>使用 Quartz 2D 实现的画布适配器类 </p>
+</div><hr/>该类的文档由以下文件生成:<ul>
+<li><a class="el" href="_gi_canvas_adapter_8h.htm">GiCanvasAdapter.h</a></li>
+<li><a class="el" href="_gi_canvas_adapter_8mm.htm">GiCanvasAdapter.mm</a></li>
+</ul>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

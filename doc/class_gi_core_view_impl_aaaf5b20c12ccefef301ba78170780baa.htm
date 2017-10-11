@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: GiCoreViewImpl::shapeClicked</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="class_gi_core_view_impl.htm">GiCoreViewImpl</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a691f15af1895aa460822eee4e6460889.htm#a691f15af1895aa460822eee4e6460889">_cmds</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_aedeb1afeb3502e30f1d505a1e2d0a6e5.htm#aedeb1afeb3502e30f1d505a1e2d0a6e5">_factor</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_aafaace67079d0f81f5546676c180f5c2.htm#aafaace67079d0f81f5546676c180f5c2">_gcdoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a6f146973587dd15b56bc39010e25085d.htm#a6f146973587dd15b56bc39010e25085d">_motion</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a6c657efb278f208ac8ba6e3769529849.htm#a6c657efb278f208ac8ba6e3769529849">_shapeCreators</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad6c2d897b64b013e1c0f2df884e69f3a.htm#ad6c2d897b64b013e1c0f2df884e69f3a">appendPending</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a18d87efc34adfe5d9d7080a2735d035d.htm#a18d87efc34adfe5d9d7080a2735d035d">calcButtonPosition</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a5398ca001557d881eba125777b36b315.htm#a5398ca001557d881eba125777b36b315">calcContextButtonPosition</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ab82b96386f1e2272f1b2013d125e44e5.htm#ab82b96386f1e2272f1b2013d125e44e5">changeCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a696f5504cfb5e36bb7f813cfa6a78ccb.htm#a696f5504cfb5e36bb7f813cfa6a78ccb">cmds</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a46293518c338c11f7fb5e75bbef7ac6c.htm#a46293518c338c11f7fb5e75bbef7ac6c">commandChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ae63c10525fc50fef87afe6e97f5846ab.htm#ae63c10525fc50fef87afe6e97f5846ab">context</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a8cd48c2a94a18f0946caff3b7e9c0dae.htm#a8cd48c2a94a18f0946caff3b7e9c0dae">createRegenLocker</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a499a6a4206d22506fb5ae97773e50497.htm#a499a6a4206d22506fb5ae97773e50497">createShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a0d77939a80dc51a4ca4b0bd7090016ad.htm#a0d77939a80dc51a4ca4b0bd7090016ad">createShapeCtx</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a1f8abf8f9472c3675df434e3dfed5d23.htm#a1f8abf8f9472c3675df434e3dfed5d23">curview</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ac82a04aa11dee8c1c7abeb76164e2493.htm#ac82a04aa11dee8c1c7abeb76164e2493">defaultStorage</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ace81b741362fca12146bd7f9aab2c4b3.htm#ace81b741362fca12146bd7f9aab2c4b3">doc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ab463bbb878b1471bbdc42bbdf669b69b.htm#ab463bbb878b1471bbdc42bbdf669b69b">document</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a97626223d75dcf63dda1d44d5e6de748.htm#a97626223d75dcf63dda1d44d5e6de748">drawCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad29e7954caab9dc43dc6a92301fdcb11.htm#ad29e7954caab9dc43dc6a92301fdcb11">dynamicChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ae3e6c5ff629552d9542958af15dc10f3.htm#ae3e6c5ff629552d9542958af15dc10f3">findCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_aa468b1387f808c3d2e124ff63186a08a.htm#aa468b1387f808c3d2e124ff63186a08a">gestureHandler</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a3e9366409fb16440ca0d5caad4c88e8a.htm#a3e9366409fb16440ca0d5caad4c88e8a">gestureToCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a633596e3bcc212b43e932031b49c8cfd.htm#a633596e3bcc212b43e932031b49c8cfd">getAction</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a7c7c949f361d314374a9198168b083f9.htm#a7c7c949f361d314374a9198168b083f9">getCmdSubject</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ab32cd0e999e679005c31b263ec567198.htm#ab32cd0e999e679005c31b263ec567198">getCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a81cc9c741326c64b6c570e38987626b1.htm#a81cc9c741326c64b6c570e38987626b1">getCommandName</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ac486aeb371443f4edaa1b796aca6f64f.htm#ac486aeb371443f4edaa1b796aca6f64f">getLocalizedString</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a05b55e41eeee59b7f90ac50d345cabf2.htm#a05b55e41eeee59b7f90ac50d345cabf2">getNewShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a27ac6923e9c115dd5aca0b4c06130895.htm#a27ac6923e9c115dd5aca0b4c06130895">getOptionBool</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ac2d6818e152056ecc77ddf25c843840c.htm#ac2d6818e152056ecc77ddf25c843840c">getOptionFloat</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a718c48c47d650c61f8f328119a665815.htm#a718c48c47d650c61f8f328119a665815">getOptionInt</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ab972c4d28b76fd45f0fdb2712068c5f9.htm#ab972c4d28b76fd45f0fdb2712068c5f9">getOptions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a8b64b1c72eb3d11175eeb46627358ecd.htm#a8b64b1c72eb3d11175eeb46627358ecd">getOptionString</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a37b74830f289ca41c68bbab19589ad50.htm#a37b74830f289ca41c68bbab19589ad50">getSelection</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a7681c38085414c3a73fb02d98d74819d.htm#a7681c38085414c3a73fb02d98d74819d">getShapeFactory</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a2fbd26f3792bba302650b58100f83401.htm#a2fbd26f3792bba302650b58100f83401">getSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_af49368a4d849114730e7682f46288d2f.htm#af49368a4d849114730e7682f46288d2f">GiCoreViewImpl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_af9bbb047ed55dc98f522903f491644e2.htm#af9bbb047ed55dc98f522903f491644e2">gsBuf</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a0284ed9a17a9e73cdf0e926ea0bcdb35.htm#a0284ed9a17a9e73cdf0e926ea0bcdb35">gsUsed</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a0e20e85b14dda2e7f45cab845c44256b.htm#a0e20e85b14dda2e7f45cab845c44256b">hideContextActions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_afa052d04642481e22ed9f73339c91900.htm#afa052d04642481e22ed9f73339c91900">isCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a5b71a2383a76e6ae0aed90cd9a0fc7fa.htm#a5b71a2383a76e6ae0aed90cd9a0fc7fa">isContextActionsVisible</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a40be6eb86bb5593ed097e0443f2667a3.htm#a40be6eb86bb5593ed097e0443f2667a3">isReadOnly</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a22a397bd0b4a99f8233ce4ae8fc7041b.htm#a22a397bd0b4a99f8233ce4ae8fc7041b">modelTransform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ac0ddc0001aeb264e55357a53adfa415f.htm#ac0ddc0001aeb264e55357a53adfa415f">motion</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_aab05753f30f9b37a87982cff770166db.htm#aab05753f30f9b37a87982cff770166db">moveActionsInView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a72d37c4fb5d2384c1b7dcb81a8c78924.htm#a72d37c4fb5d2384c1b7dcb81a8c78924">OPT_MAP</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a11a68d0a2f4f0127bbe3e68ffcc47a86.htm#a11a68d0a2f4f0127bbe3e68ffcc47a86">OPT_TYPE</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a5ad63a2553957f852b7cd1d015edd784.htm#a5ad63a2553957f852b7cd1d015edd784">OPT_VALUE</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a1b3e7011cf0809074b1ea1bb5d9613dd.htm#a1b3e7011cf0809074b1ea1bb5d9613dd">options</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a21e8586899faee646cc3a956b2a238a9.htm#a21e8586899faee646cc3a956b2a238a9">redraw</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a784684b7041e7ee152fe50c29611a926.htm#a784684b7041e7ee152fe50c29611a926">redrawPending</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a8554c9fb17618cff94d77af4e1c9246c.htm#a8554c9fb17618cff94d77af4e1c9246c">refcount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a75a7144737f0a8114273c1b278015c17.htm#a75a7144737f0a8114273c1b278015c17">regenAll</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a00590f78d5730570f8d9d8eb09bd4aa2.htm#a00590f78d5730570f8d9d8eb09bd4aa2">regenAppend</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad00ae0df2cd8b76468ef51df9d50f346.htm#ad00ae0df2cd8b76468ef51df9d50f346">regenPending</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad73f6858a06b9a737e2272a2220197ed.htm#ad73f6858a06b9a737e2272a2220197ed">registerCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a4ab80336be5917213148923d2cf6668e.htm#a4ab80336be5917213148923d2cf6668e">registerShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a5cfdf705bd0e24881e7f893609d67680.htm#a5cfdf705bd0e24881e7f893609d67680">removeShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad706ec8ebcc094193838d08fa7f94f4d.htm#ad706ec8ebcc094193838d08fa7f94f4d">resetOptions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a7cce96a3bf45c88300dad47f387dce12.htm#a7cce96a3bf45c88300dad47f387dce12">selectionChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a93c71a42444e5293324ba818edae9c87.htm#a93c71a42444e5293324ba818edae9c87">setCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a390ea7e63bf632e04ee69cf40aaf9e5a.htm#a390ea7e63bf632e04ee69cf40aaf9e5a">setCurrentShapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a8f8c90413f20b7f2fdb1b24fef64bcde.htm#a8f8c90413f20b7f2fdb1b24fef64bcde">setNewShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a32d6ffaca0329b9c689715e2b15e92ec.htm#a32d6ffaca0329b9c689715e2b15e92ec">setOptionBool</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_aefa0bd8b07ee41058650ba220c5faa77.htm#aefa0bd8b07ee41058650ba220c5faa77">setOptionFloat</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_af2e04dace1660883fe8b75ed71522664.htm#af2e04dace1660883fe8b75ed71522664">setOptionInt</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a946f28d613f0a8857edf4c6448e7b9ec.htm#a946f28d613f0a8857edf4c6448e7b9ec">setOptionString</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ab90b7f828ffadf35b6cf148bfc5dbfaf.htm#ab90b7f828ffadf35b6cf148bfc5dbfaf">setView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad307f4de72d56cbfec1e4768aa9f6944.htm#ad307f4de72d56cbfec1e4768aa9f6944">shapeAdded</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a3140bf399ab3cd82d8baef4d21c9491e.htm#a3140bf399ab3cd82d8baef4d21c9491e">shapeCanMovedHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad5f4ed9c2d61edfacc71859c9a4558e6.htm#ad5f4ed9c2d61edfacc71859c9a4558e6">shapeCanRotated</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ac19f58544340b90770133431f30d5d40.htm#ac19f58544340b90770133431f30d5d40">shapeCanTransform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a6b347f17ac087e75d342af0f3d28533f.htm#a6b347f17ac087e75d342af0f3d28533f">shapeCanUngroup</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a30cdb77a083e95eaa8e2a0ad0b043a5f.htm#a30cdb77a083e95eaa8e2a0ad0b043a5f">shapeCanUnlock</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ae5074b8c52780f7955b77b75b58cd5b2.htm#ae5074b8c52780f7955b77b75b58cd5b2">shapeChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="class_gi_core_view_impl_aaaf5b20c12ccefef301ba78170780baa.htm#aaaf5b20c12ccefef301ba78170780baa">shapeClicked</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a081b3615f2a1c931275b67a1ba80c333.htm#a081b3615f2a1c931275b67a1ba80c333">shapeDblClick</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a9ac5f1339a92bd73ebc4ff9ae6e7ef3c.htm#a9ac5f1339a92bd73ebc4ff9ae6e7ef3c">shapeMoved</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ab77b2857df4d2328e511ca1f930b4a3a.htm#ab77b2857df4d2328e511ca1f930b4a3a">shapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a32813a18a049504dbba50598ab7d93dd.htm#a32813a18a049504dbba50598ab7d93dd">shapeWillAdded</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_aa1a82b35f29ba033d84aa18d37cd5444.htm#aa1a82b35f29ba033d84aa18d37cd5444">shapeWillChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a41df0637a4bba4c13879e4c261fc8514.htm#a41df0637a4bba4c13879e4c261fc8514">shapeWillDeleted</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_af85c4cd9cc09e90386dd1ef149ea2b9d.htm#af85c4cd9cc09e90386dd1ef149ea2b9d">showContextActions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a039eee38541377faf95ef84d8279ec52.htm#a039eee38541377faf95ef84d8279ec52">showMessage</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a1bc0e94026963566ac743be7ce00fd2c.htm#a1bc0e94026963566ac743be7ce00fd2c">stopping</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ad3f4372ecd5131984138ba99352905ed.htm#ad3f4372ecd5131984138ba99352905ed">submitBackXform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a23ec558de371eacdc2b1c9ce8f79c6fa.htm#a23ec558de371eacdc2b1c9ce8f79c6fa">submitDynamicShapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_adad125c0015e19f2a059ea52923ba084.htm#adad125c0015e19f2a059ea52923ba084">toSelectCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_a1b811f59159f5fb2f9265d41cf0c1214.htm#a1b811f59159f5fb2f9265d41cf0c1214">useFinger</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_acef985e65ad2d37324ab0e8b4eb6ebf2.htm#acef985e65ad2d37324ab0e8b4eb6ebf2">xform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="class_gi_core_view_impl_ac79c2c8791801a641c99f31ec6515564.htm#ac79c2c8791801a641c99f31ec6515564">~GiCoreViewImpl</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="aaaf5b20c12ccefef301ba78170780baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf5b20c12ccefef301ba78170780baa">&#9670;&nbsp;</a></span>shapeClicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GiCoreViewImpl::shapeClicked </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_mg_shape.htm">MgShape</a> *&#160;</td>
+          <td class="paramname"><em>shape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>图形点击的通知，返回false继续显示上下文按钮 </p>
+
+<p>实现了 <a class="el" href="struct_mg_view_aad2a415db1b9bf64cc6a72eedb9cc777.htm#aad2a415db1b9bf64cc6a72eedb9cc777">MgView</a>.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gi_core_view_impl_aaaf5b20c12ccefef301ba78170780baa_aaaf5b20c12ccefef301ba78170780baa_cgraph.png" border="0" usemap="#class_gi_core_view_impl_aaaf5b20c12ccefef301ba78170780baa_aaaf5b20c12ccefef301ba78170780baa_cgraph" alt=""/></div>
+<map name="class_gi_core_view_impl_aaaf5b20c12ccefef301ba78170780baa_aaaf5b20c12ccefef301ba78170780baa_cgraph" id="class_gi_core_view_impl_aaaf5b20c12ccefef301ba78170780baa_aaaf5b20c12ccefef301ba78170780baa_cgraph">
+<area shape="rect" id="node2" href="class_mg_shape_addf6bc5a4e25f033ea148c41f2c8b0a8.htm#addf6bc5a4e25f033ea148c41f2c8b0a8" title="返回几何图形对象(const) " alt="" coords="260,5,389,31"/>
+<area shape="rect" id="node3" href="class_mg_object_a2bdccf79b5300096037a17e7bce325cb.htm#a2bdccf79b5300096037a17e7bce325cb" title="返回对象类型 " alt="" coords="258,55,391,80"/>
+<area shape="rect" id="node4" href="class_mg_shape_a9f76d16ec052e07cd080c4663e3d6705.htm#a9f76d16ec052e07cd080c4663e3d6705" title="返回图形编号 " alt="" coords="266,104,384,129"/>
+<area shape="rect" id="node5" href="class_mg_shape_ac2d7f0d555e51f712764447eb96b42fe.htm#ac2d7f0d555e51f712764447eb96b42fe" title="返回应用程序自定义标记 " alt="" coords="262,153,388,179"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

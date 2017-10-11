@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: mgbase::deg2Dms</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="structmgbase.htm">mgbase</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindexHL" href="structmgbase_a772ae35e65bc9cf8621b09d3a885ab2a.htm#a772ae35e65bc9cf8621b09d3a885ab2a">deg2Dms</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_afadef9ab6f138d4820d35f543927f4d9.htm#afadef9ab6f138d4820d35f543927f4d9">deg2Rad</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_a5a42079b7b784f15975291b361595de4.htm#a5a42079b7b784f15975291b361595de4">dms2Deg</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_aefd721ca0c7591c6b07431e5a83d1fc1.htm#aefd721ca0c7591c6b07431e5a83d1fc1">getDiffAngle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_ab76fbbdbdafe1684a718951b1d71711a.htm#ab76fbbdbdafe1684a718951b1d71711a">getGcd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_a0080b42c0de76d6064956dd69daa63ca.htm#a0080b42c0de76d6064956dd69daa63ca">getMidAngle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_abb241a1ce810d5264fc3726e846b9640.htm#abb241a1ce810d5264fc3726e846b9640">getMidAngle2</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_afc05a1e70895212c28ec20006d86be40.htm#afc05a1e70895212c28ec20006d86be40">rad2Deg</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_a9d248e27d9832d675b8ef0e4a1b225cd.htm#a9d248e27d9832d675b8ef0e4a1b225cd">roundReal</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_af83bc0448d14b68f83978c8b00934062.htm#af83bc0448d14b68f83978c8b00934062">to0_2PI</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_a8e271f28267c13a11f2cabb171ad13b6.htm#a8e271f28267c13a11f2cabb171ad13b6">toPI</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgbase_aeb4f224687a6531be8b798131f294f9d.htm#aeb4f224687a6531be8b798131f294f9d">toRange</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a772ae35e65bc9cf8621b09d3a885ab2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772ae35e65bc9cf8621b09d3a885ab2a">&#9670;&nbsp;</a></span>deg2Dms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mgbase::deg2Dms </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>角度(度)转换到度分秒 </p>
+<p>度分秒形式的角度的整数部分为度，十分位和百分位为分， 千分位和万分位及其他小数位为秒。例如32.251242表示32°25'12.42"。 </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">angle</td><td>以度为单位的角度 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>度分秒形式的角度 </dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="structmgbase_a5a42079b7b784f15975291b361595de4.htm#a5a42079b7b784f15975291b361595de4" title="度分秒转换到角度(度) ">dms2Deg</a>, <a class="el" href="structmgbase_afadef9ab6f138d4820d35f543927f4d9.htm#afadef9ab6f138d4820d35f543927f4d9" title="角度从度转换到弧度 ">deg2Rad</a> </dd></dl>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgPathCrossCallback::processLine</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="struct_mg_path_cross_callback.htm">MgPathCrossCallback</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_a9d778582c9ae2a010231e3ad66c22b31.htm#a9d778582c9ae2a010231e3ad66c22b31">a</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_a64be764f38ac23f3c1e470eb25a3dc9a.htm#a64be764f38ac23f3c1e470eb25a3dc9a">b</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_ab7fd0deabecfd067bcfa650a8912afec.htm#ab7fd0deabecfd067bcfa650a8912afec">box</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_ab943193e77fa6308414a45debeb53319.htm#ab943193e77fa6308414a45debeb53319">crosspt</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_ae5f5f48c81ed5a243aba31ef13e15dbb.htm#ae5f5f48c81ed5a243aba31ef13e15dbb">dist</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_a3854142584316a1c63a77d1b9d3f605a.htm#a3854142584316a1c63a77d1b9d3f605a">MgPathCrossCallback</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_acb51ef8b88082610ca9aeba545e419f6.htm#acb51ef8b88082610ca9aeba545e419f6">MgPathCrossCallback</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_ac6443a708120bdd1046c732728a086b6.htm#ac6443a708120bdd1046c732728a086b6">mindist</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_a762e834fdc639fa17f9baca2b06b5c84.htm#a762e834fdc639fa17f9baca2b06b5c84">operator=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_ae41c25ec353a7e04ff0a2911453b0c64.htm#ae41c25ec353a7e04ff0a2911453b0c64">processBezier</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="struct_mg_path_cross_callback_ad103984ebd74bcedc13aa6b10ec2e287.htm#ad103984ebd74bcedc13aa6b10ec2e287">processLine</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="struct_mg_path_cross_callback_a06c107279815ffd945e340fec8b1c256.htm#a06c107279815ffd945e340fec8b1c256">tmpcross</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ad103984ebd74bcedc13aa6b10ec2e287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad103984ebd74bcedc13aa6b10ec2e287">&#9670;&nbsp;</a></span>processLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool MgPathCrossCallback::processLine </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_point2d.htm">Point2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>startpt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_point2d.htm">Point2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>endpt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>实现了 <a class="el" href="struct_mg_path_1_1_mg_segment_callback_a34315df4ced0dca4e22bb42d20ee4944.htm#a34315df4ced0dca4e22bb42d20ee4944">MgPath::MgSegmentCallback</a>.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="struct_mg_path_cross_callback_ad103984ebd74bcedc13aa6b10ec2e287_ad103984ebd74bcedc13aa6b10ec2e287_cgraph.png" border="0" usemap="#struct_mg_path_cross_callback_ad103984ebd74bcedc13aa6b10ec2e287_ad103984ebd74bcedc13aa6b10ec2e287_cgraph" alt=""/></div>
+<map name="struct_mg_path_cross_callback_ad103984ebd74bcedc13aa6b10ec2e287_ad103984ebd74bcedc13aa6b10ec2e287_cgraph" id="struct_mg_path_cross_callback_ad103984ebd74bcedc13aa6b10ec2e287_ad103984ebd74bcedc13aa6b10ec2e287_cgraph">
+<area shape="rect" id="node2" href="class_box2d_a36ccfa003f0a127410c0e8387f0ea203.htm#a36ccfa003f0a127410c0e8387f0ea203" title="判断一个点是否在本矩形框内，闭区间，矩形框必须规范化 " alt="" coords="217,5,334,31"/>
+<area shape="rect" id="node3" href="structmglnrel_af3ae496037bcbd184fe4a7cea28c8600.htm#af3ae496037bcbd184fe4a7cea28c8600" title="求两条线段的交点 " alt="" coords="207,55,344,80"/>
+<area shape="rect" id="node4" href="class_point2d_afa7e9649bbd0a96fd09fea99d5fc97e7.htm#afa7e9649bbd0a96fd09fea99d5fc97e7" title="两点距离 " alt="" coords="207,104,344,129"/>
+<area shape="rect" id="node6" href="class_box2d_a7535f97f8c9935ced02b5434ecf0e0d9.htm#a7535f97f8c9935ced02b5434ecf0e0d9" title="返回中心坐标 " alt="" coords="224,153,327,179"/>
+<area shape="rect" id="node5" href="group___g_e_o_m_a_p_i_ga2724062e48eadfa810a3ade2b9dba839.htm#ga2724062e48eadfa810a3ade2b9dba839" title="求直角三角形的斜边长度 " alt="" coords="392,104,467,129"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgShapeFactoryImpl类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="class_mg_shape_factory_impl-members.htm">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MgShapeFactoryImpl类 参考<div class="ingroups"><a class="el" href="group___c_o_r_e___s_h_a_p_e.htm">图形实体类</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>图形工厂接口的默认实现类  
+ <a href="class_mg_shape_factory_impl.htm#details">更多...</a></p>
+
+<p><code>#include &lt;spfactoryimpl.h&gt;</code></p>
+<div class="dynheader">
+类 MgShapeFactoryImpl 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_mg_shape_factory_impl__inherit__graph.png" border="0" usemap="#_mg_shape_factory_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="_mg_shape_factory_impl_inherit__map" id="_mg_shape_factory_impl_inherit__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a3db779700cac17e1dce71d4d3e2a612a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mg_shape_factory_impl_a3db779700cac17e1dce71d4d3e2a612a.htm#a3db779700cac17e1dce71d4d3e2a612a">MgShapeFactoryImpl</a> ()</td></tr>
+<tr class="separator:a3db779700cac17e1dce71d4d3e2a612a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8432d6082685e11c76cb291f28cb5b1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mg_shape_factory_impl_ac8432d6082685e11c76cb291f28cb5b1.htm#ac8432d6082685e11c76cb291f28cb5b1">~MgShapeFactoryImpl</a> ()</td></tr>
+<tr class="separator:ac8432d6082685e11c76cb291f28cb5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1f8bdf9d5cfcfcbed6e81a97eadd70"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mg_shape_factory_impl_ace1f8bdf9d5cfcfcbed6e81a97eadd70.htm#ace1f8bdf9d5cfcfcbed6e81a97eadd70">registerShape</a> (int type, <a class="el" href="class_mg_shape.htm">MgShape</a> *(*creator)())</td></tr>
+<tr class="separator:ace1f8bdf9d5cfcfcbed6e81a97eadd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7edeb70dce6a5589d8a244e88048bfc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_mg_shape.htm">MgShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mg_shape_factory_impl_aa7edeb70dce6a5589d8a244e88048bfc.htm#aa7edeb70dce6a5589d8a244e88048bfc">createShape</a> (int type)</td></tr>
+<tr class="separator:aa7edeb70dce6a5589d8a244e88048bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:a9ae723925ed4f45d51bd0e8a299e59d7"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="class_mg_shape.htm">MgShape</a> *(*)()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mg_shape_factory_impl_a9ae723925ed4f45d51bd0e8a299e59d7.htm#a9ae723925ed4f45d51bd0e8a299e59d7">_shapeCreators</a></td></tr>
+<tr class="separator:a9ae723925ed4f45d51bd0e8a299e59d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>图形工厂接口的默认实现类 </p>
+</div><hr/>该类的文档由以下文件生成:<ul>
+<li><a class="el" href="spfactoryimpl_8h.htm">spfactoryimpl.h</a></li>
+<li><a class="el" href="spfactoryimpl_8cpp.htm">spfactoryimpl.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

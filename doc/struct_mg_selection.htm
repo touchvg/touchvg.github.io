@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgSelection接口 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="struct_mg_selection-members.htm">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MgSelection接口 参考<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group___c_o_r_e___c_o_m_m_a_n_d.htm">交互命令类</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>选择集接口  
+ <a href="struct_mg_selection.htm#details">更多...</a></p>
+
+<p><code>#include &lt;mgselect.h&gt;</code></p>
+<div class="dynheader">
+类 MgSelection 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="struct_mg_selection__inherit__graph.png" border="0" usemap="#_mg_selection_inherit__map" alt="Inheritance graph"/></div>
+<map name="_mg_selection_inherit__map" id="_mg_selection_inherit__map">
+<area shape="rect" id="node2" href="class_mg_cmd_select.htm" title="选择命令类 " alt="" coords="5,265,198,795"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aabc46743fea37657cf0de43d11a0024b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_aabc46743fea37657cf0de43d11a0024b.htm#aabc46743fea37657cf0de43d11a0024b">~MgSelection</a> ()</td></tr>
+<tr class="separator:aabc46743fea37657cf0de43d11a0024b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58d56ad6fdae823f8804bfef6c4003bc"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a58d56ad6fdae823f8804bfef6c4003bc.htm#a58d56ad6fdae823f8804bfef6c4003bc">getSelection</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view, int count, const <a class="el" href="class_mg_shape.htm">MgShape</a> **shapes)=0</td></tr>
+<tr class="memdesc:a58d56ad6fdae823f8804bfef6c4003bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前选择的图形  <a href="struct_mg_selection_a58d56ad6fdae823f8804bfef6c4003bc.htm#a58d56ad6fdae823f8804bfef6c4003bc">更多...</a><br /></td></tr>
+<tr class="separator:a58d56ad6fdae823f8804bfef6c4003bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a7f3b162d66b53883c61f5dfaaa1ee"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a15a7f3b162d66b53883c61f5dfaaa1ee.htm#a15a7f3b162d66b53883c61f5dfaaa1ee">getSelectionForChange</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view, int count, <a class="el" href="class_mg_shape.htm">MgShape</a> **shapes)=0</td></tr>
+<tr class="memdesc:a15a7f3b162d66b53883c61f5dfaaa1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前选择的图形，用于修改  <a href="struct_mg_selection_a15a7f3b162d66b53883c61f5dfaaa1ee.htm#a15a7f3b162d66b53883c61f5dfaaa1ee">更多...</a><br /></td></tr>
+<tr class="separator:a15a7f3b162d66b53883c61f5dfaaa1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff13b3e4d78056823107e248bcf3377"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_aaff13b3e4d78056823107e248bcf3377.htm#aaff13b3e4d78056823107e248bcf3377">getSelection</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view, mgvector&lt; const <a class="el" href="class_mg_shape.htm">MgShape</a> *&gt; &amp;shapes)</td></tr>
+<tr class="memdesc:aaff13b3e4d78056823107e248bcf3377"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前选择的图形  <a href="struct_mg_selection_aaff13b3e4d78056823107e248bcf3377.htm#aaff13b3e4d78056823107e248bcf3377">更多...</a><br /></td></tr>
+<tr class="separator:aaff13b3e4d78056823107e248bcf3377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78455fb9bf4ac44f488e7244a4f41d8d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a78455fb9bf4ac44f488e7244a4f41d8d.htm#a78455fb9bf4ac44f488e7244a4f41d8d">getSelectionForChange</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view, mgvector&lt; <a class="el" href="class_mg_shape.htm">MgShape</a> *&gt; &amp;shapes)</td></tr>
+<tr class="memdesc:a78455fb9bf4ac44f488e7244a4f41d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前选择的图形，用于修改  <a href="struct_mg_selection_a78455fb9bf4ac44f488e7244a4f41d8d.htm#a78455fb9bf4ac44f488e7244a4f41d8d">更多...</a><br /></td></tr>
+<tr class="separator:a78455fb9bf4ac44f488e7244a4f41d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321d3b1b32e1c186151912d54f645257"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a321d3b1b32e1c186151912d54f645257.htm#a321d3b1b32e1c186151912d54f645257">getSelectionCount</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view)</td></tr>
+<tr class="memdesc:a321d3b1b32e1c186151912d54f645257"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到选中的图形的个数  <a href="struct_mg_selection_a321d3b1b32e1c186151912d54f645257.htm#a321d3b1b32e1c186151912d54f645257">更多...</a><br /></td></tr>
+<tr class="separator:a321d3b1b32e1c186151912d54f645257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6289c525a3e551297afd560e9d7eca52"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="mgselect_8h_a5b0112d91f02ba03ffbfc1ba9c993001.htm#a5b0112d91f02ba03ffbfc1ba9c993001">MgSelState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a6289c525a3e551297afd560e9d7eca52.htm#a6289c525a3e551297afd560e9d7eca52">getSelectState</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view)=0</td></tr>
+<tr class="memdesc:a6289c525a3e551297afd560e9d7eca52"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回选择状态  <a href="struct_mg_selection_a6289c525a3e551297afd560e9d7eca52.htm#a6289c525a3e551297afd560e9d7eca52">更多...</a><br /></td></tr>
+<tr class="separator:a6289c525a3e551297afd560e9d7eca52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7e890de5fda352c0ca7eb55eaa0e72"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a4e7e890de5fda352c0ca7eb55eaa0e72.htm#a4e7e890de5fda352c0ca7eb55eaa0e72">getSelectType</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view)=0</td></tr>
+<tr class="memdesc:a4e7e890de5fda352c0ca7eb55eaa0e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回选中的图形的类型, MgShapeType  <a href="struct_mg_selection_a4e7e890de5fda352c0ca7eb55eaa0e72.htm#a4e7e890de5fda352c0ca7eb55eaa0e72">更多...</a><br /></td></tr>
+<tr class="separator:a4e7e890de5fda352c0ca7eb55eaa0e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356e00f060159e55d961a4fa6f48c961"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a356e00f060159e55d961a4fa6f48c961.htm#a356e00f060159e55d961a4fa6f48c961">getSelectedHandle</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:a356e00f060159e55d961a4fa6f48c961"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前控制点序号  <a href="struct_mg_selection_a356e00f060159e55d961a4fa6f48c961.htm#a356e00f060159e55d961a4fa6f48c961">更多...</a><br /></td></tr>
+<tr class="separator:a356e00f060159e55d961a4fa6f48c961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5f7f3d268450f2d66a755285259212"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_aae5f7f3d268450f2d66a755285259212.htm#aae5f7f3d268450f2d66a755285259212">getSelectedShapeHandle</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:aae5f7f3d268450f2d66a755285259212"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前图形的句柄  <a href="struct_mg_selection_aae5f7f3d268450f2d66a755285259212.htm#aae5f7f3d268450f2d66a755285259212">更多...</a><br /></td></tr>
+<tr class="separator:aae5f7f3d268450f2d66a755285259212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e0a9b273c9f084604944dae362d29f2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a9e0a9b273c9f084604944dae362d29f2.htm#a9e0a9b273c9f084604944dae362d29f2">selectAll</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:a9e0a9b273c9f084604944dae362d29f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">选中所有图形  <a href="struct_mg_selection_a9e0a9b273c9f084604944dae362d29f2.htm#a9e0a9b273c9f084604944dae362d29f2">更多...</a><br /></td></tr>
+<tr class="separator:a9e0a9b273c9f084604944dae362d29f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1491e44f3a0dd73eeb60bada1a40cee7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a1491e44f3a0dd73eeb60bada1a40cee7.htm#a1491e44f3a0dd73eeb60bada1a40cee7">deleteSelection</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:a1491e44f3a0dd73eeb60bada1a40cee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">删除选中的图形  <a href="struct_mg_selection_a1491e44f3a0dd73eeb60bada1a40cee7.htm#a1491e44f3a0dd73eeb60bada1a40cee7">更多...</a><br /></td></tr>
+<tr class="separator:a1491e44f3a0dd73eeb60bada1a40cee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a0f9f66b571a416ab938fbd5f0558cc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a7a0f9f66b571a416ab938fbd5f0558cc.htm#a7a0f9f66b571a416ab938fbd5f0558cc">cloneSelection</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:a7a0f9f66b571a416ab938fbd5f0558cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">对选中的图形复制出新图形，并选中新图形  <a href="struct_mg_selection_a7a0f9f66b571a416ab938fbd5f0558cc.htm#a7a0f9f66b571a416ab938fbd5f0558cc">更多...</a><br /></td></tr>
+<tr class="separator:a7a0f9f66b571a416ab938fbd5f0558cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add125c28c40e714cecc09742c7e6cf85"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_add125c28c40e714cecc09742c7e6cf85.htm#add125c28c40e714cecc09742c7e6cf85">groupSelection</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:add125c28c40e714cecc09742c7e6cf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">对选中的图形成组，并选中新成组图形  <a href="struct_mg_selection_add125c28c40e714cecc09742c7e6cf85.htm#add125c28c40e714cecc09742c7e6cf85">更多...</a><br /></td></tr>
+<tr class="separator:add125c28c40e714cecc09742c7e6cf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c065435e726a58ee94782b94db50f22"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a2c065435e726a58ee94782b94db50f22.htm#a2c065435e726a58ee94782b94db50f22">ungroupSelection</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:a2c065435e726a58ee94782b94db50f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">对选中的成组图形解组  <a href="struct_mg_selection_a2c065435e726a58ee94782b94db50f22.htm#a2c065435e726a58ee94782b94db50f22">更多...</a><br /></td></tr>
+<tr class="separator:a2c065435e726a58ee94782b94db50f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c99684f1b335ed1e6120bb32f3877e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_aa8c99684f1b335ed1e6120bb32f3877e.htm#aa8c99684f1b335ed1e6120bb32f3877e">resetSelection</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:aa8c99684f1b335ed1e6120bb32f3877e"><td class="mdescLeft">&#160;</td><td class="mdescRight">清除选择集  <a href="struct_mg_selection_aa8c99684f1b335ed1e6120bb32f3877e.htm#aa8c99684f1b335ed1e6120bb32f3877e">更多...</a><br /></td></tr>
+<tr class="separator:aa8c99684f1b335ed1e6120bb32f3877e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90586f7f33dc5cbf79240340d33410fb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a90586f7f33dc5cbf79240340d33410fb.htm#a90586f7f33dc5cbf79240340d33410fb">addSelection</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender, int shapeID)=0</td></tr>
+<tr class="memdesc:a90586f7f33dc5cbf79240340d33410fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加选择图形  <a href="struct_mg_selection_a90586f7f33dc5cbf79240340d33410fb.htm#a90586f7f33dc5cbf79240340d33410fb">更多...</a><br /></td></tr>
+<tr class="separator:a90586f7f33dc5cbf79240340d33410fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd0ff573fd62c1c9fdabbc247f18e07"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_aafd0ff573fd62c1c9fdabbc247f18e07.htm#aafd0ff573fd62c1c9fdabbc247f18e07">deleteVertex</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:aafd0ff573fd62c1c9fdabbc247f18e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">删除当前图形的选中的顶点  <a href="struct_mg_selection_aafd0ff573fd62c1c9fdabbc247f18e07.htm#aafd0ff573fd62c1c9fdabbc247f18e07">更多...</a><br /></td></tr>
+<tr class="separator:aafd0ff573fd62c1c9fdabbc247f18e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eaac1f82a4cb9d390306f1b4b45aede"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a6eaac1f82a4cb9d390306f1b4b45aede.htm#a6eaac1f82a4cb9d390306f1b4b45aede">insertVertex</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:a6eaac1f82a4cb9d390306f1b4b45aede"><td class="mdescLeft">&#160;</td><td class="mdescRight">在当前位置插入一个顶点  <a href="struct_mg_selection_a6eaac1f82a4cb9d390306f1b4b45aede.htm#a6eaac1f82a4cb9d390306f1b4b45aede">更多...</a><br /></td></tr>
+<tr class="separator:a6eaac1f82a4cb9d390306f1b4b45aede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e679279b0ff61b9453605014ce37865"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a6e679279b0ff61b9453605014ce37865.htm#a6e679279b0ff61b9453605014ce37865">switchClosed</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:a6e679279b0ff61b9453605014ce37865"><td class="mdescLeft">&#160;</td><td class="mdescRight">切换当前图形是否闭合  <a href="struct_mg_selection_a6e679279b0ff61b9453605014ce37865.htm#a6e679279b0ff61b9453605014ce37865">更多...</a><br /></td></tr>
+<tr class="separator:a6e679279b0ff61b9453605014ce37865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8ed84cb082b1232175fe08b14a07b7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a6c8ed84cb082b1232175fe08b14a07b7.htm#a6c8ed84cb082b1232175fe08b14a07b7">isFixedLength</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view)=0</td></tr>
+<tr class="memdesc:a6c8ed84cb082b1232175fe08b14a07b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前选中图形是否固定边长  <a href="struct_mg_selection_a6c8ed84cb082b1232175fe08b14a07b7.htm#a6c8ed84cb082b1232175fe08b14a07b7">更多...</a><br /></td></tr>
+<tr class="separator:a6c8ed84cb082b1232175fe08b14a07b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c78fc7a606dbb4f6b631c4dc2ca728d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a3c78fc7a606dbb4f6b631c4dc2ca728d.htm#a3c78fc7a606dbb4f6b631c4dc2ca728d">setFixedLength</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender, bool fixed)=0</td></tr>
+<tr class="memdesc:a3c78fc7a606dbb4f6b631c4dc2ca728d"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前选中图形是否固定边长  <a href="struct_mg_selection_a3c78fc7a606dbb4f6b631c4dc2ca728d.htm#a3c78fc7a606dbb4f6b631c4dc2ca728d">更多...</a><br /></td></tr>
+<tr class="separator:a3c78fc7a606dbb4f6b631c4dc2ca728d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95eeea8c7a4b25d20dad3e5bff9cf0df"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a95eeea8c7a4b25d20dad3e5bff9cf0df.htm#a95eeea8c7a4b25d20dad3e5bff9cf0df">isLocked</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view)=0</td></tr>
+<tr class="memdesc:a95eeea8c7a4b25d20dad3e5bff9cf0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前选中图形是否锁定形状  <a href="struct_mg_selection_a95eeea8c7a4b25d20dad3e5bff9cf0df.htm#a95eeea8c7a4b25d20dad3e5bff9cf0df">更多...</a><br /></td></tr>
+<tr class="separator:a95eeea8c7a4b25d20dad3e5bff9cf0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26027199097fe1fa90a0227cc1cde913"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a26027199097fe1fa90a0227cc1cde913.htm#a26027199097fe1fa90a0227cc1cde913">setLocked</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender, bool locked)=0</td></tr>
+<tr class="memdesc:a26027199097fe1fa90a0227cc1cde913"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前选中图形是否锁定形状  <a href="struct_mg_selection_a26027199097fe1fa90a0227cc1cde913.htm#a26027199097fe1fa90a0227cc1cde913">更多...</a><br /></td></tr>
+<tr class="separator:a26027199097fe1fa90a0227cc1cde913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581121cf6ed47bd07fdb405a30f02f81"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a581121cf6ed47bd07fdb405a30f02f81.htm#a581121cf6ed47bd07fdb405a30f02f81">isEditMode</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view)=0</td></tr>
+<tr class="memdesc:a581121cf6ed47bd07fdb405a30f02f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前是否处于顶点编辑状态  <a href="struct_mg_selection_a581121cf6ed47bd07fdb405a30f02f81.htm#a581121cf6ed47bd07fdb405a30f02f81">更多...</a><br /></td></tr>
+<tr class="separator:a581121cf6ed47bd07fdb405a30f02f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade9192ec430dc37ffb5c94606ed0304b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_ade9192ec430dc37ffb5c94606ed0304b.htm#ade9192ec430dc37ffb5c94606ed0304b">setEditMode</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender, bool editMode)=0</td></tr>
+<tr class="memdesc:ade9192ec430dc37ffb5c94606ed0304b"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前是否处于顶点编辑状态  <a href="struct_mg_selection_ade9192ec430dc37ffb5c94606ed0304b.htm#ade9192ec430dc37ffb5c94606ed0304b">更多...</a><br /></td></tr>
+<tr class="separator:ade9192ec430dc37ffb5c94606ed0304b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03bec71d0d59a21b1a9ad3b6ca5a767"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_ad03bec71d0d59a21b1a9ad3b6ca5a767.htm#ad03bec71d0d59a21b1a9ad3b6ca5a767">overturnPolygon</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:ad03bec71d0d59a21b1a9ad3b6ca5a767"><td class="mdescLeft">&#160;</td><td class="mdescRight">对当前选中多边形沿一条边翻转  <a href="struct_mg_selection_ad03bec71d0d59a21b1a9ad3b6ca5a767.htm#ad03bec71d0d59a21b1a9ad3b6ca5a767">更多...</a><br /></td></tr>
+<tr class="separator:ad03bec71d0d59a21b1a9ad3b6ca5a767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd110f64f513576f1292e6ac915823c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_box2d.htm">Box2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_affd110f64f513576f1292e6ac915823c.htm#affd110f64f513576f1292e6ac915823c">getBoundingBox</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender)=0</td></tr>
+<tr class="memdesc:affd110f64f513576f1292e6ac915823c"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回选择包络框，模型坐标  <a href="struct_mg_selection_affd110f64f513576f1292e6ac915823c.htm#affd110f64f513576f1292e6ac915823c">更多...</a><br /></td></tr>
+<tr class="separator:affd110f64f513576f1292e6ac915823c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4806c7ca08f009ce27bc9c659cbad04e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a4806c7ca08f009ce27bc9c659cbad04e.htm#a4806c7ca08f009ce27bc9c659cbad04e">isSelectedByType</a> (<a class="el" href="struct_mg_view.htm">MgView</a> *view, int type)=0</td></tr>
+<tr class="memdesc:a4806c7ca08f009ce27bc9c659cbad04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断当前选择的图形是否从指定类型派生  <a href="struct_mg_selection_a4806c7ca08f009ce27bc9c659cbad04e.htm#a4806c7ca08f009ce27bc9c659cbad04e">更多...</a><br /></td></tr>
+<tr class="separator:a4806c7ca08f009ce27bc9c659cbad04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59bcabf446208f4c808d4798705dda7c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mg_selection_a59bcabf446208f4c808d4798705dda7c.htm#a59bcabf446208f4c808d4798705dda7c">applyTransform</a> (const <a class="el" href="class_mg_motion.htm">MgMotion</a> *sender, const <a class="el" href="class_matrix2d.htm">Matrix2d</a> &amp;xf)=0</td></tr>
+<tr class="memdesc:a59bcabf446208f4c808d4798705dda7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">对当前选中的图形进行几何变形  <a href="struct_mg_selection_a59bcabf446208f4c808d4798705dda7c.htm#a59bcabf446208f4c808d4798705dda7c">更多...</a><br /></td></tr>
+<tr class="separator:a59bcabf446208f4c808d4798705dda7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>选择集接口 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="mgselect_8h_a5b0112d91f02ba03ffbfc1ba9c993001.htm#a5b0112d91f02ba03ffbfc1ba9c993001" title="选择状态 ">MgSelState</a> </dd></dl>
+</div><hr/>该接口的文档由以下文件生成:<ul>
+<li><a class="el" href="mgselect_8h.htm">mgselect.h</a></li>
+</ul>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

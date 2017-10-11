@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: mgnear::cubicSplinesIntersectBox</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="structmgnear.htm">mgnear</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_a8a2331922fd918ef245ae7c44fb52945.htm#a8a2331922fd918ef245ae7c44fb52945">bezierBox1</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_aa176c3f7eb9be11282858ac49c472b27.htm#aa176c3f7eb9be11282858ac49c472b27">bezierBox4</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_a43c92f589baab9434d04d2ce97bbd961.htm#a43c92f589baab9434d04d2ce97bbd961">beziersBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3.htm#ac1e75144e2a53fd3f777ec5442f6cda3">beziersIntersectBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_a6b42c1d71fa5790cb4766e798147ba61.htm#a6b42c1d71fa5790cb4766e798147ba61">cubicSplinesBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_ae9d41da0f5e67d16d5d047441410e665.htm#ae9d41da0f5e67d16d5d047441410e665">cubicSplinesHit</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="structmgnear_ac446c6364f67c8edffa89aa2cc09123c.htm#ac446c6364f67c8edffa89aa2cc09123c">cubicSplinesIntersectBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_aabb0a1074ab6f52fffadc540c2fd90ba.htm#aabb0a1074ab6f52fffadc540c2fd90ba">getRectHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_a518269121b0a0f22c1e69f3af773e4c6.htm#a518269121b0a0f22c1e69f3af773e4c6">linesHit</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_a61807c3a11d8bba8ac6ffed80fc97640.htm#a61807c3a11d8bba8ac6ffed80fc97640">moveRectHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_a063720b5b54d903d035ef302a07d6544.htm#a063720b5b54d903d035ef302a07d6544">nearestOnBezier</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_adc241fb3df42038161dd5f4b1642083c.htm#adc241fb3df42038161dd5f4b1642083c">quadSplinesHit</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="structmgnear_aac95e225ae58aba33d5d5dac3a858ea7.htm#aac95e225ae58aba33d5d5dac3a858ea7">roundRectHit</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ac446c6364f67c8edffa89aa2cc09123c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac446c6364f67c8edffa89aa2cc09123c">&#9670;&nbsp;</a></span>cubicSplinesIntersectBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mgnear::cubicSplinesIntersectBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_box2d.htm">Box2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>box</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_point2d.htm">Point2d</a> *&#160;</td>
+          <td class="paramname"><em>knots</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_vector2d.htm">Vector2d</a> *&#160;</td>
+          <td class="paramname"><em>knotvs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>closed</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hermite</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>判断三次样条曲线是否与矩形相交 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>指定的矩形 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>三次样条曲线的型值点的点数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">knots</td><td>型值点坐标数组，元素个数为n </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">knotvs</td><td>型值点的切矢量数组，元素个数为n </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">closed</td><td>是否为闭合曲线 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hermite</td><td>是否为Hermite曲线，不是则切矢加型值点直接形成Bezier段的控制点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>是否相交 </dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="structmgcurv_a74572d2f92d45d1fc8e24fa2b0e3dd24.htm#a74572d2f92d45d1fc8e24fa2b0e3dd24" title="计算三次参数样条曲线(Hermite)的型值点的切矢量 ">mgcurv::cubicSplines</a>, mgcurv::cubicSplinesBox </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_cgraph.png" border="0" usemap="#structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_cgraph" alt=""/></div>
+<map name="structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_cgraph" id="structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_cgraph">
+<area shape="rect" id="node2" href="structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3.htm#ac1e75144e2a53fd3f777ec5442f6cda3" title="判断贝塞尔曲线是否与矩形相交 " alt="" coords="276,104,467,129"/>
+<area shape="rect" id="node3" href="class_box2d_a0326fb8e1da42f79d38068187023c149.htm#a0326fb8e1da42f79d38068187023c149" title="判断是否和一个矩形框相交（两者都是规范化矩形） " alt="" coords="522,55,649,80"/>
+<area shape="rect" id="node8" href="structmgnear_a8a2331922fd918ef245ae7c44fb52945.htm#a8a2331922fd918ef245ae7c44fb52945" title="计算贝塞尔曲线段的绑定框 " alt="" coords="515,104,656,129"/>
+<area shape="rect" id="node9" href="structmgnear_aa176c3f7eb9be11282858ac49c472b27.htm#aa176c3f7eb9be11282858ac49c472b27" title="计算贝塞尔曲线段的绑定框 " alt="" coords="704,153,845,179"/>
+<area shape="rect" id="node4" href="class_box2d_a33b7cdedc6d1f019d332a92c40510ef2.htm#a33b7cdedc6d1f019d332a92c40510ef2" title="判断宽和高是否都为零且位于原点 " alt="" coords="725,5,824,31"/>
+<area shape="rect" id="node6" href="group___g_e_o_m_a_p_i_gada0fabd4720f268bdc4c7662c7bd3a85.htm#gada0fabd4720f268bdc4c7662c7bd3a85" title="mgMin" alt="" coords="744,55,805,80"/>
+<area shape="rect" id="node7" href="group___g_e_o_m_a_p_i_ga17f7c3cf994a4df19aa852af82355f01.htm#ga17f7c3cf994a4df19aa852af82355f01" title="mgMax" alt="" coords="742,104,807,129"/>
+<area shape="rect" id="node5" href="group___g_e_o_m_a_p_i_gaf2f0f08780c0073fd5191d043140d1da.htm#gaf2f0f08780c0073fd5191d043140d1da" title="判断一个浮点数是否可以认为是零 " alt="" coords="893,5,970,31"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_icgraph.png" border="0" usemap="#structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_icgraph" alt=""/></div>
+<map name="structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_icgraph" id="structmgnear_ac446c6364f67c8edffa89aa2cc09123c_ac446c6364f67c8edffa89aa2cc09123c_icgraph">
+<area shape="rect" id="node2" href="class_mg_splines_aa78138948acf939c907902763ae33243.htm#aa78138948acf939c907902763ae33243" title="MgSplines::_hitTestBox" alt="" coords="276,5,436,31"/>
+<area shape="rect" id="node3" href="class_mg_splines_a9304f503f7533bfa04d78c94561e3f1a.htm#a9304f503f7533bfa04d78c94561e3f1a" title="返回是否为曲线图形 " alt="" coords="484,5,620,31"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>
