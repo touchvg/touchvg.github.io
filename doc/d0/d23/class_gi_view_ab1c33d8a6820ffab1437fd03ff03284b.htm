@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: GiView::redraw</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d0/d23/class_gi_view.htm">GiView</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_acce0c389a58e41cba2cb4340c3aebe6d.htm#acce0c389a58e41cba2cb4340c3aebe6d">commandChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_acf8f70cc6eddd7990ac672c2891921ad.htm#acf8f70cc6eddd7990ac672c2891921ad">contentChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_af1217032135159532d102c26dece8763.htm#af1217032135159532d102c26dece8763">dynamicChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_ad71d881782cb1aeb380425b4002eac75.htm#ad71d881782cb1aeb380425b4002eac75">getLocalizedString</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a0ceda817313b6f0344e95abbf47eb01f.htm#a0ceda817313b6f0344e95abbf47eb01f">hideContextActions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_ab9a1d894d75de980aba0d9cb829a6dd1.htm#ab9a1d894d75de980aba0d9cb829a6dd1">isContextActionsVisible</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d0/d23/class_gi_view_ab1c33d8a6820ffab1437fd03ff03284b.htm#ab1c33d8a6820ffab1437fd03ff03284b">redraw</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a592986ad9973ed591984ca393de5c4a5.htm#a592986ad9973ed591984ca393de5c4a5">regenAll</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a4d4c52bc8dc30bac00f8f202642d3626.htm#a4d4c52bc8dc30bac00f8f202642d3626">regenAppend</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a5a248eb1b5ac6422a3537afa6f8e2501.htm#a5a248eb1b5ac6422a3537afa6f8e2501">selectionChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a646aaae2e626640fa78def2162f3f2db.htm#a646aaae2e626640fa78def2162f3f2db">shapeClicked</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a2475b3357decc2bf934151d7c8d8c0a8.htm#a2475b3357decc2bf934151d7c8d8c0a8">shapeDblClick</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_ab91db03264546d1d813292cceaf667d0.htm#ab91db03264546d1d813292cceaf667d0">shapeDeleted</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_af25e42e8fe86abf752d9616cab06fc70.htm#af25e42e8fe86abf752d9616cab06fc70">shapeWillDelete</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a5e105476ba91f0e29b7a0730e684a53d.htm#a5e105476ba91f0e29b7a0730e684a53d">showContextActions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_ab4d59aa64b9f2f7ea8ee85e6da883c6f.htm#ab4d59aa64b9f2f7ea8ee85e6da883c6f">showMessage</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a615d61b993a41a865ff8ccd6483bda6e.htm#a615d61b993a41a865ff8ccd6483bda6e">useFinger</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_af503f84a762415e660452a92dd160a3f.htm#af503f84a762415e660452a92dd160a3f">viewChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a7959b604e66b8ef5c81861f7fb7ee38a.htm#a7959b604e66b8ef5c81861f7fb7ee38a">zoomChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d23/class_gi_view_a81fd89168cc23b82b84fafc40874fac1.htm#a81fd89168cc23b82b84fafc40874fac1">~GiView</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ab1c33d8a6820ffab1437fd03ff03284b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c33d8a6820ffab1437fd03ff03284b">&#9670;&nbsp;</a></span>redraw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void GiView::redraw </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>changed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>标记视图待更新显示 </p>
+
+<p>被 <a class="el" href="../../d2/db2/class_gi_view_adapter_a04dd63a6651c07442a786249481eb016.htm#a04dd63a6651c07442a786249481eb016">GiViewAdapter</a> 重载.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d23/class_gi_view_ab1c33d8a6820ffab1437fd03ff03284b_ab1c33d8a6820ffab1437fd03ff03284b_icgraph.png" border="0" usemap="#d0/d23/class_gi_view_ab1c33d8a6820ffab1437fd03ff03284b_ab1c33d8a6820ffab1437fd03ff03284b_icgraph" alt=""/></div>
+<map name="d0/d23/class_gi_view_ab1c33d8a6820ffab1437fd03ff03284b_ab1c33d8a6820ffab1437fd03ff03284b_icgraph" id="d0/d23/class_gi_view_ab1c33d8a6820ffab1437fd03ff03284b_ab1c33d8a6820ffab1437fd03ff03284b_icgraph">
+<area shape="rect" id="node2" href="../../df/db4/class_gi_core_view_impl_a75a7144737f0a8114273c1b278015c17.htm#a75a7144737f0a8114273c1b278015c17" title="标记视图待重新构建显示 " alt="" coords="165,229,339,255"/>
+<area shape="rect" id="node3" href="../../d9/de9/class_gi_core_view_a811242bed9b98ae6457f6f0ae18797c0.htm#a811242bed9b98ae6457f6f0ae18797c0" title="撤销, 需要并发访问保护 " alt="" coords="428,7,557,32"/>
+<area shape="rect" id="node5" href="../../d9/de9/class_gi_core_view_a482a001cb039758b41cc14d314162ca0.htm#a482a001cb039758b41cc14d314162ca0" title="重做, 需要并发访问保护 " alt="" coords="429,56,556,81"/>
+<area shape="rect" id="node7" href="../../d9/de9/class_gi_core_view_a2f390a65ce41aed387fda743fca9f443.htm#a2f390a65ce41aed387fda743fca9f443" title="添加测试图形 " alt="" coords="387,105,598,131"/>
+<area shape="rect" id="node8" href="../../d9/de9/class_gi_core_view_a4ef12f680fa3d046855959195a47eac5.htm#a4ef12f680fa3d046855959195a47eac5" title="从数据源中加载图形 " alt="" coords="407,155,577,180"/>
+<area shape="rect" id="node12" href="../../d9/de9/class_gi_core_view_aadab1067b774dd4992ca5741c060bd9d.htm#aadab1067b774dd4992ca5741c060bd9d" title="放缩到文档初始状态 " alt="" coords="404,204,581,229"/>
+<area shape="rect" id="node21" href="../../d9/de9/class_gi_core_view_a2c6d492d55790520b1b2677f4e5ae200.htm#a2c6d492d55790520b1b2677f4e5ae200" title="放缩显示全部内容到视图区域 " alt="" coords="400,253,584,279"/>
+<area shape="rect" id="node22" href="../../d9/de9/class_gi_core_view_a3f54c01dbe0e2fb2e5ee538d52e91ed4.htm#a3f54c01dbe0e2fb2e5ee538d52e91ed4" title="放缩显示指定范围到视图区域 " alt="" coords="401,303,584,328"/>
+<area shape="rect" id="node23" href="../../d9/de9/class_gi_core_view_a5cf6ecefb28bc443e1e3302a4b8c879f.htm#a5cf6ecefb28bc443e1e3302a4b8c879f" title="平移显示 " alt="" coords="414,352,570,377"/>
+<area shape="rect" id="node24" href="../../d9/de9/class_gi_core_view_a026a33d9ff1a405a35eeeb7ba5b74bb7.htm#a026a33d9ff1a405a35eeeb7ba5b74bb7" title="设置图形标志 " alt="" coords="401,401,583,427"/>
+<area shape="rect" id="node25" href="../../da/d9d/class_draw_locker_ace80b933562f70f7ad318c6869665213.htm#ace80b933562f70f7ad318c6869665213" title="DrawLocker::~DrawLocker" alt="" coords="403,451,582,476"/>
+<area shape="rect" id="node4" href="../../d2/db2/class_gi_view_adapter_a7a10c9d050915b237068fecc8c73755a.htm#a7a10c9d050915b237068fecc8c73755a" title="GiViewAdapter::undo" alt="" coords="671,5,818,31"/>
+<area shape="rect" id="node6" href="../../d2/db2/class_gi_view_adapter_a582f440318adb594528f474b42378a14.htm#a582f440318adb594528f474b42378a14" title="GiViewAdapter::redo" alt="" coords="673,55,817,80"/>
+<area shape="rect" id="node9" href="../../d9/de9/class_gi_core_view_a2762b6a1a452cece22c34476e3e2cb8b.htm#a2762b6a1a452cece22c34476e3e2cb8b" title="删除所有图形，包括锁定的图形 " alt="" coords="681,104,809,129"/>
+<area shape="rect" id="node10" href="../../d9/de9/class_gi_core_view_af4712068d0a82a26eb46315ce4168df2.htm#af4712068d0a82a26eb46315ce4168df2" title="从JSON内容中加载图形 " alt="" coords="663,153,827,179"/>
+<area shape="rect" id="node11" href="../../d9/de9/class_gi_core_view_ae55430f215a96a72526c12d7f9f377e4.htm#ae55430f215a96a72526c12d7f9f377e4" title="从文件或JSON串中加载 " alt="" coords="909,179,1087,204"/>
+<area shape="rect" id="node13" href="../../d2/db2/class_gi_view_adapter_a9f223ee7d45af2108c1151dedf75f289.htm#a9f223ee7d45af2108c1151dedf75f289" title="GiViewAdapter::onFirstRegen" alt="" coords="646,255,844,280"/>
+<area shape="rect" id="node14" href="../../d2/db2/class_gi_view_adapter_a7a99f61fac4701c4377ad3fe60f0a6fe.htm#a7a99f61fac4701c4377ad3fe60f0a6fe" title="GiViewAdapter::renderInContext" alt="" coords="892,255,1105,280"/>
+<area shape="rect" id="node18" href="../../d2/db2/class_gi_view_adapter_ab66d16bde03116061687b128e6ffe8d1.htm#ab66d16bde03116061687b128e6ffe8d1" title="GiViewAdapter::regen_" alt="" coords="919,305,1078,331"/>
+<area shape="rect" id="node15" href="../../d0/d58/interface_gi_paint_view_a004579e55e4664f7dafa65777e01166c.htm#a004579e55e4664f7dafa65777e01166c" title="释放文档句柄 " alt="" coords="1161,205,1342,231"/>
+<area shape="rect" id="node16" href="../../d0/d58/interface_gi_paint_view_aa428aab910636198524b40ae6e3428bd.htm#aa428aab910636198524b40ae6e3428bd" title="得到静态图形的快照，自动释放 " alt="" coords="1170,255,1333,280"/>
+<area shape="rect" id="node17" href="../../d0/d58/interface_gi_paint_view_ad579c3309cc626d340458e175d404703.htm#ad579c3309cc626d340458e175d404703" title="保存静态图形的快照到PNG文件 " alt="" coords="1398,255,1577,280"/>
+<area shape="rect" id="node19" href="../../d2/db2/class_gi_view_adapter_a453419b25387d56dd61bb9d41acd21fc.htm#a453419b25387d56dd61bb9d41acd21fc" title="标记视图待重新构建显示 " alt="" coords="1168,304,1335,329"/>
+<area shape="rect" id="node20" href="../../d2/db2/class_gi_view_adapter_af533606812986f36c6701becea31bbd9.htm#af533606812986f36c6701becea31bbd9" title="标记视图待追加显示新图形 " alt="" coords="1153,353,1350,379"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

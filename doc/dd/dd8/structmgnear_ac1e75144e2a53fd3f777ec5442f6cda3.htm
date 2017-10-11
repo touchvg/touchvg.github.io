@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: mgnear::beziersIntersectBox</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dd/dd8/structmgnear.htm">mgnear</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_a8a2331922fd918ef245ae7c44fb52945.htm#a8a2331922fd918ef245ae7c44fb52945">bezierBox1</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_aa176c3f7eb9be11282858ac49c472b27.htm#aa176c3f7eb9be11282858ac49c472b27">bezierBox4</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_a43c92f589baab9434d04d2ce97bbd961.htm#a43c92f589baab9434d04d2ce97bbd961">beziersBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3.htm#ac1e75144e2a53fd3f777ec5442f6cda3">beziersIntersectBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_a6b42c1d71fa5790cb4766e798147ba61.htm#a6b42c1d71fa5790cb4766e798147ba61">cubicSplinesBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_ae9d41da0f5e67d16d5d047441410e665.htm#ae9d41da0f5e67d16d5d047441410e665">cubicSplinesHit</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_ac446c6364f67c8edffa89aa2cc09123c.htm#ac446c6364f67c8edffa89aa2cc09123c">cubicSplinesIntersectBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_aabb0a1074ab6f52fffadc540c2fd90ba.htm#aabb0a1074ab6f52fffadc540c2fd90ba">getRectHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_a518269121b0a0f22c1e69f3af773e4c6.htm#a518269121b0a0f22c1e69f3af773e4c6">linesHit</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_a61807c3a11d8bba8ac6ffed80fc97640.htm#a61807c3a11d8bba8ac6ffed80fc97640">moveRectHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_a063720b5b54d903d035ef302a07d6544.htm#a063720b5b54d903d035ef302a07d6544">nearestOnBezier</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_adc241fb3df42038161dd5f4b1642083c.htm#adc241fb3df42038161dd5f4b1642083c">quadSplinesHit</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/dd8/structmgnear_aac95e225ae58aba33d5d5dac3a858ea7.htm#aac95e225ae58aba33d5d5dac3a858ea7">roundRectHit</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ac1e75144e2a53fd3f777ec5442f6cda3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e75144e2a53fd3f777ec5442f6cda3">&#9670;&nbsp;</a></span>beziersIntersectBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mgnear::beziersIntersectBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d39/class_box2d.htm">Box2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>box</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/d44/class_point2d.htm">Point2d</a> *&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>closed</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>判断贝塞尔曲线是否与矩形相交 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>指定的矩形 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>点的个数，至少为4，必须为3的倍数加1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">points</td><td>控制点和端点的数组，点数为count </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">closed</td><td>是否为闭合曲线 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>是否相交 </dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="../../d3/d55/structmgcurv_a74572d2f92d45d1fc8e24fa2b0e3dd24.htm#a74572d2f92d45d1fc8e24fa2b0e3dd24" title="计算三次参数样条曲线(Hermite)的型值点的切矢量 ">mgcurv::cubicSplines</a>, mgBeziersBox2, mgBeziersBox </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_cgraph.png" border="0" usemap="#dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_cgraph" alt=""/></div>
+<map name="dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_cgraph" id="dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_cgraph">
+<area shape="rect" id="node2" href="../../d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149.htm#a0326fb8e1da42f79d38068187023c149" title="判断是否和一个矩形框相交（两者都是规范化矩形） " alt="" coords="251,55,378,80"/>
+<area shape="rect" id="node7" href="../../dd/dd8/structmgnear_a8a2331922fd918ef245ae7c44fb52945.htm#a8a2331922fd918ef245ae7c44fb52945" title="计算贝塞尔曲线段的绑定框 " alt="" coords="244,104,385,129"/>
+<area shape="rect" id="node8" href="../../dd/dd8/structmgnear_aa176c3f7eb9be11282858ac49c472b27.htm#aa176c3f7eb9be11282858ac49c472b27" title="计算贝塞尔曲线段的绑定框 " alt="" coords="433,153,574,179"/>
+<area shape="rect" id="node3" href="../../d0/d39/class_box2d_a33b7cdedc6d1f019d332a92c40510ef2.htm#a33b7cdedc6d1f019d332a92c40510ef2" title="判断宽和高是否都为零且位于原点 " alt="" coords="454,5,553,31"/>
+<area shape="rect" id="node5" href="../../d3/d99/group___g_e_o_m_a_p_i_gada0fabd4720f268bdc4c7662c7bd3a85.htm#gada0fabd4720f268bdc4c7662c7bd3a85" title="mgMin" alt="" coords="473,55,534,80"/>
+<area shape="rect" id="node6" href="../../d3/d99/group___g_e_o_m_a_p_i_ga17f7c3cf994a4df19aa852af82355f01.htm#ga17f7c3cf994a4df19aa852af82355f01" title="mgMax" alt="" coords="471,104,536,129"/>
+<area shape="rect" id="node4" href="../../d3/d99/group___g_e_o_m_a_p_i_gaf2f0f08780c0073fd5191d043140d1da.htm#gaf2f0f08780c0073fd5191d043140d1da" title="判断一个浮点数是否可以认为是零 " alt="" coords="622,5,699,31"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_icgraph.png" border="0" usemap="#dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_icgraph" alt=""/></div>
+<map name="dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_icgraph" id="dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3_ac1e75144e2a53fd3f777ec5442f6cda3_icgraph">
+<area shape="rect" id="node2" href="../../d1/d3e/class_mg_arc_a0521589520c5c28c86a21cfb3c6d0247.htm#a0521589520c5c28c86a21cfb3c6d0247" title="MgArc::_hitTestBox" alt="" coords="288,5,424,31"/>
+<area shape="rect" id="node4" href="../../d9/df7/class_mg_ellipse_a1d5d899fc3fdb2839b330ffc68cbbdb2.htm#a1d5d899fc3fdb2839b330ffc68cbbdb2" title="MgEllipse::_hitTestBox" alt="" coords="278,55,434,80"/>
+<area shape="rect" id="node6" href="../../dd/dd8/structmgnear_ac446c6364f67c8edffa89aa2cc09123c.htm#ac446c6364f67c8edffa89aa2cc09123c" title="判断三次样条曲线是否与矩形相交 " alt="" coords="244,104,467,129"/>
+<area shape="rect" id="node3" href="../../d1/d3e/class_mg_arc_a21653136717fd68db33df8ee69564c27.htm#a21653136717fd68db33df8ee69564c27" title="子类型，由具体图形类解释含义 " alt="" coords="526,5,664,31"/>
+<area shape="rect" id="node5" href="../../d9/df7/class_mg_ellipse_a45acbbea3d573e591914b4170d43c608.htm#a45acbbea3d573e591914b4170d43c608" title="返回是否为曲线图形 " alt="" coords="529,55,661,80"/>
+<area shape="rect" id="node7" href="../../d1/dfe/class_mg_splines_aa78138948acf939c907902763ae33243.htm#aa78138948acf939c907902763ae33243" title="MgSplines::_hitTestBox" alt="" coords="515,104,675,129"/>
+<area shape="rect" id="node8" href="../../d1/dfe/class_mg_splines_a9304f503f7533bfa04d78c94561e3f1a.htm#a9304f503f7533bfa04d78c94561e3f1a" title="返回是否为曲线图形 " alt="" coords="723,104,859,129"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

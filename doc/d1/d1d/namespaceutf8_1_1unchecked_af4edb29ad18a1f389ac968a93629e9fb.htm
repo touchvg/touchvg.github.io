@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: utf8::unchecked::utf32to8</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dd/de8/namespaceutf8.htm">utf8</a></li><li class="navelem"><a class="el" href="../../d1/d1d/namespaceutf8_1_1unchecked.htm">unchecked</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_a66ea3b93a81a8f961e7a1700d13efc57.htm#a66ea3b93a81a8f961e7a1700d13efc57">advance</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_acab3a56b1772ed871f36757883d63788.htm#acab3a56b1772ed871f36757883d63788">append</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_a3796d7a15edc244a872a9ca559ea2693.htm#a3796d7a15edc244a872a9ca559ea2693">distance</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_ac5932c0cbb2498a111d53d26fd82f260.htm#ac5932c0cbb2498a111d53d26fd82f260">next</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_aaf5ddbe24f8dbb83390e2d33d75b9ea1.htm#aaf5ddbe24f8dbb83390e2d33d75b9ea1">peek_next</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_a454cdd8f6b6771bd0425be1ccd94f788.htm#a454cdd8f6b6771bd0425be1ccd94f788">previous</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_ad2c0e4b9693713ac18ee543e214b3ef9.htm#ad2c0e4b9693713ac18ee543e214b3ef9">prior</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_adfbd29a875d0aafeeaae511dc1aa5d77.htm#adfbd29a875d0aafeeaae511dc1aa5d77">utf16to8</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d1/d1d/namespaceutf8_1_1unchecked_af4edb29ad18a1f389ac968a93629e9fb.htm#af4edb29ad18a1f389ac968a93629e9fb">utf32to8</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_ae323b9faa6a47cb8d0aeaea44c1787eb.htm#ae323b9faa6a47cb8d0aeaea44c1787eb">utf8to16</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/d1d/namespaceutf8_1_1unchecked_aa4b554922a06a7487118982ff41da590.htm#aa4b554922a06a7487118982ff41da590">utf8to32</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="af4edb29ad18a1f389ac968a93629e9fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4edb29ad18a1f389ac968a93629e9fb">&#9670;&nbsp;</a></span>utf32to8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename octet_iterator , typename u32bit_iterator &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">octet_iterator utf8::unchecked::utf32to8 </td>
+          <td>(</td>
+          <td class="paramtype">u32bit_iterator&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">u32bit_iterator&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">octet_iterator&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d1d/namespaceutf8_1_1unchecked_af4edb29ad18a1f389ac968a93629e9fb_af4edb29ad18a1f389ac968a93629e9fb_cgraph.png" border="0" usemap="#d1/d1d/namespaceutf8_1_1unchecked_af4edb29ad18a1f389ac968a93629e9fb_af4edb29ad18a1f389ac968a93629e9fb_cgraph" alt=""/></div>
+<map name="d1/d1d/namespaceutf8_1_1unchecked_af4edb29ad18a1f389ac968a93629e9fb_af4edb29ad18a1f389ac968a93629e9fb_cgraph" id="d1/d1d/namespaceutf8_1_1unchecked_af4edb29ad18a1f389ac968a93629e9fb_af4edb29ad18a1f389ac968a93629e9fb_cgraph">
+<area shape="rect" id="node2" href="../../d1/d1d/namespaceutf8_1_1unchecked_acab3a56b1772ed871f36757883d63788.htm#acab3a56b1772ed871f36757883d63788" title="utf8::unchecked::append" alt="" coords="224,5,392,31"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

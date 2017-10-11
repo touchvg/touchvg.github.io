@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: mgcmd.h 文件参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_f52faf0ef4a1e0642297a9dba5e2547e.htm">touchvg</a></li><li class="navelem"><a class="el" href="../../dir_e2ba78c6158ae16228242812a00a6366.htm">cmd</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a>  </div>
+  <div class="headertitle">
+<div class="title">mgcmd.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>定义绘图命令接口  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../df/d52/mgview_8h.htm">mgview.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+mgcmd.h 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/dab/mgcmd_8h__incl.png" border="0" usemap="#mgcmd_8h" alt=""/></div>
+<map name="mgcmd_8h" id="mgcmd_8h">
+<area shape="rect" id="node2" href="../../df/d52/mgview_8h.htm" title="定义视图回调接口 MgView " alt="" coords="411,79,488,104"/>
+<area shape="rect" id="node3" href="../../d1/db0/mgshapes_8h.htm" title="定义图形列表类 MgShapes " alt="" coords="403,152,497,177"/>
+<area shape="rect" id="node4" href="../../df/da6/mgshape_8h.htm" title="定义矢量图形类 MgShape " alt="" coords="406,225,494,251"/>
+<area shape="rect" id="node5" href="../../da/dc5/gigraph_8h.htm" title="定义图形系统类 GiGraphics " alt="" coords="158,299,235,324"/>
+<area shape="rect" id="node17" href="../../d0/dda/gilock_8h.htm" title="定义原子锁函数 giAtomicIncrement, giAtomicDecrement, giAtomicCompareAndSwap " alt="" coords="521,299,587,324"/>
+<area shape="rect" id="node18" href="../../d9/dc2/mgbasesp_8h.htm" title="定义矢量图形基类 MgBaseShape " alt="" coords="403,299,497,324"/>
+<area shape="rect" id="node6" href="../../d3/dbc/gixform_8h.htm" title="定义坐标系管理类 GiTransform " alt="" coords="208,372,284,397"/>
+<area shape="rect" id="node14" href="../../d2/ddd/gicontxt_8h.htm" title="定义绘图环境类 GiContext " alt="" coords="5,372,84,397"/>
+<area shape="rect" id="node16" href="../../d6/da9/mgpath_8h.htm" title="定义矢量路径类 MgPath " alt="" coords="107,372,184,397"/>
+<area shape="rect" id="node7" href="../../d7/d59/mgbox_8h.htm" title="定义矩形框类 Box2d " alt="" coords="362,445,434,471"/>
+<area shape="rect" id="node13" href="../../d8/d6f/mgmat_8h.htm" title="定义二维齐次变换矩阵类 Matrix2d " alt="" coords="255,445,328,471"/>
+<area shape="rect" id="node8" href="../../db/dd2/mgpnt_8h.htm" title="定义二维点类 Point2d " alt="" coords="256,519,326,544"/>
+<area shape="rect" id="node9" href="../../d6/d61/mgvec_8h.htm" title="定义二维矢量类 Vector2d " alt="" coords="255,592,327,617"/>
+<area shape="rect" id="node10" href="../../d7/d8c/mgtol_8h.htm" title="定义容差类 Tol " alt="" coords="259,665,324,691"/>
+<area shape="rect" id="node11" href="../../d4/db8/mgdef_8h.htm" title="定义数学几何库的常量和宏 " alt="" coords="256,739,326,764"/>
+<area shape="rect" id="node15" href="../../dd/d25/gicolor_8h.htm" title="定义RGB颜色类: GiColor " alt="" coords="82,445,153,471"/>
+<area shape="rect" id="node19" href="../../d8/d82/mgobject_8h.htm" title="定义图形对象基类 MgObject " alt="" coords="460,372,546,397"/>
+<area shape="rect" id="node20" href="../../d1/d2a/mgbase_8h.htm" title="定义基本计算功能函数 " alt="" coords="546,519,626,544"/>
+<area shape="rect" id="node21" href="../../d6/dd9/mglnrel_8h.htm" title="定义图形位置关系函数 " alt="" coords="360,372,436,397"/>
+<area shape="rect" id="node22" href="../../d8/d66/mgnear_8h.htm" title="定义求曲线上最近点的函数 " alt="" coords="570,372,647,397"/>
+<area shape="rect" id="node23" href="../../d9/dce/mgcurv_8h.htm" title="定义曲线计算函数 " alt="" coords="671,372,746,397"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/ddc/mgcmd_8h__dep__incl.png" border="0" usemap="#mgcmd_8hdep" alt=""/></div>
+<map name="mgcmd_8hdep" id="mgcmd_8hdep">
+<area shape="rect" id="node2" href="../../d0/db9/mgcmddraw_8h.htm" title="定义绘图命令基类 MgCommandDraw 和 MgCmdBaseLines " alt="" coords="984,79,1089,104"/>
+<area shape="rect" id="node33" href="../../d6/dab/mgcmderase_8h.htm" title="定义橡皮擦命令类 MgCmdErase " alt="" coords="2179,79,2289,104"/>
+<area shape="rect" id="node35" href="../../d4/da3/mgcmdmgr_8h.htm" title="定义命令管理器接口 MgCmdManager " alt="" coords="2538,79,2636,104"/>
+<area shape="rect" id="node45" href="../../da/de8/mgcmdselect_8h.htm" title="定义选择命令类 MgCmdSelect " alt="" coords="2722,79,2833,104"/>
+<area shape="rect" id="node46" href="../../d5/d60/_gc_base_view_8h.htm" title="定义内核视图基类 GcBaseView " alt="" coords="3068,79,3176,104"/>
+<area shape="rect" id="node3" href="../../db/dcd/mgcmddraw_8cpp.htm" title="mgcmddraw.cpp" alt="" coords="356,152,474,177"/>
+<area shape="rect" id="node4" href="../../d2/d13/mgdrawarc_8h.htm" title="定义圆弧绘图命令 " alt="" coords="234,152,332,177"/>
+<area shape="rect" id="node7" href="../../d4/dac/mgdrawline_8h.htm" title="定义直线段绘图命令 " alt="" coords="653,152,753,177"/>
+<area shape="rect" id="node9" href="../../dd/d99/mgdrawrect_8h.htm" title="定义矩形绘图命令类 MgCmdDrawRect " alt="" coords="985,152,1088,177"/>
+<area shape="rect" id="node19" href="../../de/dc7/mgdrawfreelines_8h.htm" title="定义自由折线绘图命令类 MgCmdDrawFreeLines " alt="" coords="498,152,628,177"/>
+<area shape="rect" id="node21" href="../../d9/d5d/mgdrawsplines_8h.htm" title="定义样条曲线绘图命令类 MgCmdDrawSplines " alt="" coords="1813,152,1935,177"/>
+<area shape="rect" id="node23" href="../../da/d8e/mgdrawtriang_8h.htm" title="定义三角形绘图命令 MgCmdDrawTriangle " alt="" coords="1615,152,1728,177"/>
+<area shape="rect" id="node25" href="../../d6/d66/mgdrawlines_8h.htm" title="定义折线绘图命令类 MgCmdDrawLines " alt="" coords="1371,152,1478,177"/>
+<area shape="rect" id="node30" href="../../d2/de3/mgdrawparallel_8h.htm" title="定义平行四边形绘图命令类 MgCmdParallel " alt="" coords="30,152,153,177"/>
+<area shape="rect" id="node32" href="../../db/dc7/gicoreview_8cpp.htm" title="实现内核视图类 GiCoreView " alt="" coords="2095,372,2204,397"/>
+<area shape="rect" id="node5" href="../../de/d5e/mgdrawarc_8cpp.htm" title="mgdrawarc.cpp" alt="" coords="234,225,346,251"/>
+<area shape="rect" id="node6" href="../../d6/df4/cmdbasic_8cpp.htm" title="cmdbasic.cpp" alt="" coords="909,372,1012,397"/>
+<area shape="rect" id="node8" href="../../df/d12/mgdrawline_8cpp.htm" title="mgdrawline.cpp" alt="" coords="639,225,754,251"/>
+<area shape="rect" id="node10" href="../../dc/d7c/mgdrawrect_8cpp.htm" title="mgdrawrect.cpp" alt="" coords="1049,225,1165,251"/>
+<area shape="rect" id="node11" href="../../d1/dd5/mgdrawellipse_8h.htm" title="定义椭圆绘图命令类 MgCmdDrawEllipse " alt="" coords="1190,225,1307,251"/>
+<area shape="rect" id="node15" href="../../da/d5c/mgdrawsquare_8h.htm" title="定义正方形绘图命令类 MgCmdDrawSquare " alt="" coords="904,225,1025,251"/>
+<area shape="rect" id="node17" href="../../d3/d00/mgdrawgrid_8h.htm" title="定义网格绘图命令类 MgCmdDrawGrid " alt="" coords="777,225,880,251"/>
+<area shape="rect" id="node12" href="../../d9/d78/mgdrawdiamond_8h.htm" title="定义菱形绘图命令类 MgCmdDrawDiamond " alt="" coords="1027,299,1158,324"/>
+<area shape="rect" id="node13" href="../../d3/df3/mgdrawcircle_8h.htm" title="定义圆绘图命令类 MgCmdDrawCircle " alt="" coords="1338,299,1449,324"/>
+<area shape="rect" id="node14" href="../../de/ddd/mgdrawellipse_8cpp.htm" title="mgdrawellipse.cpp" alt="" coords="1183,299,1314,324"/>
+<area shape="rect" id="node16" href="../../d7/dbe/mgdrawsquare_8cpp.htm" title="mgdrawsquare.cpp" alt="" coords="868,299,1003,324"/>
+<area shape="rect" id="node18" href="../../de/d72/mgdrawgrid_8cpp.htm" title="mgdrawgrid.cpp" alt="" coords="676,299,792,324"/>
+<area shape="rect" id="node20" href="../../d2/d8a/mgdrawfreelines_8cpp.htm" title="mgdrawfreelines.cpp" alt="" coords="420,225,565,251"/>
+<area shape="rect" id="node22" href="../../d3/d18/mgdrawsplines_8cpp.htm" title="mgdrawsplines.cpp" alt="" coords="1911,225,2047,251"/>
+<area shape="rect" id="node24" href="../../de/d89/mgdrawtriang_8cpp.htm" title="mgdrawtriang.cpp" alt="" coords="1709,225,1836,251"/>
+<area shape="rect" id="node26" href="../../d6/d8a/mgdrawpolygon_8h.htm" title="定义多边形绘图命令类 MgCmdDrawPolygon " alt="" coords="1361,225,1488,251"/>
+<area shape="rect" id="node29" href="../../d1/d9b/mgdrawlines_8cpp.htm" title="mgdrawlines.cpp" alt="" coords="1512,225,1633,251"/>
+<area shape="rect" id="node27" href="../../d8/d7f/mgdrawquadrangle_8h.htm" title="定义四边形绘图命令类 MgCmdDrawQuadrangle " alt="" coords="1474,299,1620,324"/>
+<area shape="rect" id="node28" href="../../d5/d83/mgdrawpolygon_8cpp.htm" title="mgdrawpolygon.cpp" alt="" coords="1645,299,1786,324"/>
+<area shape="rect" id="node31" href="../../df/d8c/mgdrawparallel_8cpp.htm" title="mgdrawparallel.cpp" alt="" coords="23,225,160,251"/>
+<area shape="rect" id="node34" href="../../d6/dcf/mgcmderase_8cpp.htm" title="mgcmderase.cpp" alt="" coords="2172,152,2296,177"/>
+<area shape="rect" id="node36" href="../../d6/db0/mgcmdmgr___8h.htm" title="定义命令管理器实现类 MgCmdManagerImpl " alt="" coords="2534,152,2640,177"/>
+<area shape="rect" id="node42" href="../../de/dc6/mgcmdselect_8cpp.htm" title="mgcmdselect.cpp" alt="" coords="2665,152,2790,177"/>
+<area shape="rect" id="node43" href="../../d9/dc9/gicoreviewimpl_8h.htm" title="定义GiCoreView实现类 GiCoreViewImpl " alt="" coords="2258,299,2378,324"/>
+<area shape="rect" id="node37" href="../../d8/d7a/cmdsubject_8cpp.htm" title="cmdsubject.cpp" alt="" coords="2629,225,2743,251"/>
+<area shape="rect" id="node38" href="../../d1/d8f/mgactions_8cpp.htm" title="mgactions.cpp" alt="" coords="2355,225,2462,251"/>
+<area shape="rect" id="node39" href="../../d4/d05/mgcmdmgr2_8cpp.htm" title="mgcmdmgr2.cpp" alt="" coords="2767,225,2887,251"/>
+<area shape="rect" id="node40" href="../../d4/df0/mgcmdmgr___8cpp.htm" title="mgcmdmgr_.cpp" alt="" coords="2911,225,3031,251"/>
+<area shape="rect" id="node41" href="../../d2/d17/mgsnapimpl_8cpp.htm" title="mgsnapimpl.cpp" alt="" coords="2487,225,2605,251"/>
+<area shape="rect" id="node44" href="../../d4/d2d/gicorerecord_8cpp.htm" title="实现内核视图类 GiCoreView 的录制功能 " alt="" coords="2258,372,2378,397"/>
+<area shape="rect" id="node47" href="../../d1/d69/_gc_graph_view_8h.htm" title="定义主绘图视图类 GcGraphView " alt="" coords="3065,152,3179,177"/>
+<area shape="rect" id="node50" href="../../df/d65/_gc_shape_doc_8cpp.htm" title="GcShapeDoc.cpp" alt="" coords="3203,152,3329,177"/>
+<area shape="rect" id="node48" href="../../d1/df3/_gc_graph_view_8cpp.htm" title="实现主绘图视图类 GcGraphView " alt="" coords="3212,225,3341,251"/>
+<area shape="rect" id="node49" href="../../de/d4b/_gc_magnifier_view_8h.htm" title="定义放大镜视图类 GcMagnifierView " alt="" coords="3056,225,3188,251"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8d/class_mg_command.htm">MgCommand</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">命令接口  <a href="../../d2/d8d/class_mg_command.htm#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>定义绘图命令接口 </p>
+</div></div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

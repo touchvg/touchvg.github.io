@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgCmdDrawSplines::canAddPoint</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d8/dfb/class_mg_cmd_draw_splines.htm">MgCmdDrawSplines</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_acddbbea7375d27a3fce21dbc022efcd6.htm#acddbbea7375d27a3fce21dbc022efcd6">backStep</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49.htm#a04d5921a92eac2f82deb35b03878be49">canAddPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_acc93017c344afed3c2359199cae168d4.htm#acc93017c344afed3c2359199cae168d4">cancel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a911a58eb8e091e648f27b6a8abf27b9e.htm#a911a58eb8e091e648f27b6a8abf27b9e">click</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_aae2bc524f9635fc44ccc13380cf086e0.htm#aae2bc524f9635fc44ccc13380cf086e0">Create</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_acf03c6a1980e5edfa10c734d1a7180b2.htm#acf03c6a1980e5edfa10c734d1a7180b2">draw</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_aa55116a8cb4fa1e25fd1dacda972c25b.htm#aa55116a8cb4fa1e25fd1dacda972c25b">initialize</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a794344a066d5ff2759793b507ccd1eef.htm#a794344a066d5ff2759793b507ccd1eef">m_freehand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a5a260942a6eee2313d3899aae761654e.htm#a5a260942a6eee2313d3899aae761654e">MgCmdDrawSplines</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a795ed6e510a92e607b654a84809b805c.htm#a795ed6e510a92e607b654a84809b805c">mouseHover</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a6706ff0a45d76b5730ee5e25907e4bc0.htm#a6706ff0a45d76b5730ee5e25907e4bc0">Name</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a03a24f996667e41409b474f9fed900a4.htm#a03a24f996667e41409b474f9fed900a4">release</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_adc2c42f4b1284c2c09905a7e5f6c3b66.htm#adc2c42f4b1284c2c09905a7e5f6c3b66">touchBegan</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_aeaa0be824427dea921f8f33501aa040d.htm#aeaa0be824427dea921f8f33501aa040d">touchEnded</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a10896d51b0863f6b998ef8397649692b.htm#a10896d51b0863f6b998ef8397649692b">touchMoved</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d8/dfb/class_mg_cmd_draw_splines_a026739c73a04380e0aa132d6815fc14f.htm#a026739c73a04380e0aa132d6815fc14f">~MgCmdDrawSplines</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a04d5921a92eac2f82deb35b03878be49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d5921a92eac2f82deb35b03878be49">&#9670;&nbsp;</a></span>canAddPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MgCmdDrawSplines::canAddPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d6e/class_mg_motion.htm">MgMotion</a> *&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ended</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_cgraph.png" border="0" usemap="#d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_cgraph" alt=""/></div>
+<map name="d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_cgraph" id="d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_cgraph">
+<area shape="rect" id="node2" href="../../df/dfe/class_mg_command_draw_aa5be8d535176e32e7deff5dfd41ee9b7.htm#aa5be8d535176e32e7deff5dfd41ee9b7" title="MgCommandDraw::dynshape" alt="" coords="249,5,447,31"/>
+<area shape="rect" id="node3" href="../../d6/d84/class_mg_shape_a7bc4204faa520cf5359d53b0f7ab3868.htm#a7bc4204faa520cf5359d53b0f7ab3868" title="返回几何图形对象 " alt="" coords="287,55,409,80"/>
+<area shape="rect" id="node4" href="../../d1/d44/class_point2d_afa7e9649bbd0a96fd09fea99d5fc97e7.htm#afa7e9649bbd0a96fd09fea99d5fc97e7" title="两点距离 " alt="" coords="279,104,417,129"/>
+<area shape="rect" id="node6" href="../../d5/db3/class_mg_base_lines_ac6e9a5bdb9013868be9e7f9773f97648.htm#ac6e9a5bdb9013868be9e7f9773f97648" title="返回终点 " alt="" coords="267,153,429,179"/>
+<area shape="rect" id="node5" href="../../d3/d99/group___g_e_o_m_a_p_i_ga2724062e48eadfa810a3ade2b9dba839.htm#ga2724062e48eadfa810a3ade2b9dba839" title="求直角三角形的斜边长度 " alt="" coords="495,104,569,129"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_icgraph.png" border="0" usemap="#d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_icgraph" alt=""/></div>
+<map name="d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_icgraph" id="d8/dfb/class_mg_cmd_draw_splines_a04d5921a92eac2f82deb35b03878be49_a04d5921a92eac2f82deb35b03878be49_icgraph">
+<area shape="rect" id="node2" href="../../d8/dfb/class_mg_cmd_draw_splines_a10896d51b0863f6b998ef8397649692b.htm#a10896d51b0863f6b998ef8397649692b" title="正在滑动 " alt="" coords="249,56,472,81"/>
+<area shape="rect" id="node4" href="../../d8/dfb/class_mg_cmd_draw_splines_a03a24f996667e41409b474f9fed900a4.htm#a03a24f996667e41409b474f9fed900a4" title="销毁对象 " alt="" coords="794,56,988,81"/>
+<area shape="rect" id="node3" href="../../d8/dfb/class_mg_cmd_draw_splines_a795ed6e510a92e607b654a84809b805c.htm#a795ed6e510a92e607b654a84809b805c" title="鼠标掠过 " alt="" coords="520,5,746,31"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

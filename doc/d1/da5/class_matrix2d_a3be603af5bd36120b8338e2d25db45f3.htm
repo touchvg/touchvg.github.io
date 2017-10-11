@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: Matrix2d::invert</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d1/da5/class_matrix2d.htm">Matrix2d</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a94d2a7b7a16c12dca423792ac2314ff4.htm#a94d2a7b7a16c12dca423792ac2314ff4">angle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ad771b8fd122caa69bb6fa84cc8ca9bc7.htm#ad771b8fd122caa69bb6fa84cc8ca9bc7">coordSystem</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a626f3cf830c3a40cc12a416264b7cbdc.htm#a626f3cf830c3a40cc12a416264b7cbdc">coordSystem</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a628fd0942503ab74a8334e0236c09b78.htm#a628fd0942503ab74a8334e0236c09b78">det</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a66388004cd417ce95511d85ceb023a96.htm#a66388004cd417ce95511d85ceb023a96">dx</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a2e5e7f371c66a4e51f1a7803c5e5175c.htm#a2e5e7f371c66a4e51f1a7803c5e5175c">dy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_af154c6fda781650a4658aa8da84b63df.htm#af154c6fda781650a4658aa8da84b63df">getCoordSystem</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a9f30d0b7b0d3d4db9483a8939f268a0e.htm#a9f30d0b7b0d3d4db9483a8939f268a0e">hasMirror</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a123b56e6a001c9d127741b4a5c2a51c5.htm#a123b56e6a001c9d127741b4a5c2a51c5">inverse</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3.htm#a3be603af5bd36120b8338e2d25db45f3">invert</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a6a49ebdc5c8b7edad20be7733887ab06.htm#a6a49ebdc5c8b7edad20be7733887ab06">isConformal</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a8b62a21a7fed4818336d3d75365200ec.htm#a8b62a21a7fed4818336d3d75365200ec">isEqualTo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ae78553513b930e305dccfd160020c923.htm#ae78553513b930e305dccfd160020c923">isIdentity</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a9addf3d8952150440b48b602bc713a7c.htm#a9addf3d8952150440b48b602bc713a7c">isInvertible</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a509b203f5e58c32bb0579c30eab889ed.htm#a509b203f5e58c32bb0579c30eab889ed">isOrtho</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aa245f91a211c28be65d6c64557ade01d.htm#aa245f91a211c28be65d6c64557ade01d">kIdentity</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a4dd0585901c3895e619f292a419d5421.htm#a4dd0585901c3895e619f292a419d5421">m11</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a84b712d00ebfaa82706146657c2e5504.htm#a84b712d00ebfaa82706146657c2e5504">m12</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ad212501ce018ced73ebdd116dc536aff.htm#ad212501ce018ced73ebdd116dc536aff">m21</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ab582fe9fb66011af5ed7b3165af5e09b.htm#ab582fe9fb66011af5ed7b3165af5e09b">m22</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_afc20156a13c27007e9dba2c651103468.htm#afc20156a13c27007e9dba2c651103468">Matrix2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a61915e461d4dc5a8cb1a3d75fd226d09.htm#a61915e461d4dc5a8cb1a3d75fd226d09">Matrix2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a047fba5d248ec353d4c7455215231bef.htm#a047fba5d248ec353d4c7455215231bef">Matrix2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ab9f436c6cc6e48f90415cee611b9ca5d.htm#ab9f436c6cc6e48f90415cee611b9ca5d">Matrix2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aafca786c127999ab5c22cc7084f16fc4.htm#aafca786c127999ab5c22cc7084f16fc4">mirroring</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_abb7c698fad0fbbcc1af8bf79acc7f9f9.htm#abb7c698fad0fbbcc1af8bf79acc7f9f9">mirroring</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a3082892dce24be21c515b6ddc76c9cba.htm#a3082892dce24be21c515b6ddc76c9cba">operator!=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ad34215e04d45436ebe51a20854639ae0.htm#ad34215e04d45436ebe51a20854639ae0">operator*</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ad610d037581758c24669d6435333aefb.htm#ad610d037581758c24669d6435333aefb">operator*</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ae6e39008a5dc920edda8fcbda8ac0d5c.htm#ae6e39008a5dc920edda8fcbda8ac0d5c">operator*</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a3862c257478764ae6d152f43b5ca5b22.htm#a3862c257478764ae6d152f43b5ca5b22">operator*=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a8ccae4d316acca4f43ebf8f92e525121.htm#a8ccae4d316acca4f43ebf8f92e525121">operator*=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aa5d24a38b310280698b5cccb292c20df.htm#aa5d24a38b310280698b5cccb292c20df">operator/</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aa6f862a0be29cfe675d1bb10724702bd.htm#aa6f862a0be29cfe675d1bb10724702bd">operator/=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a2697552f1853bff82d802c28f69deb62.htm#a2697552f1853bff82d802c28f69deb62">operator==</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a9d474816e98f6cc3fad89937aa20dec9.htm#a9d474816e98f6cc3fad89937aa20dec9">postMultBy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_affdce42116f1a41b6ca8f5ce69e0451d.htm#affdce42116f1a41b6ca8f5ce69e0451d">preMultBy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a3592cdcc09c9537faf1aaf3474bc82c5.htm#a3592cdcc09c9537faf1aaf3474bc82c5">rotation</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a5d23f5c8b5920772a1a3fff4ecc22f04.htm#a5d23f5c8b5920772a1a3fff4ecc22f04">scale</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a5c96a7534715b9096bd78629e7871f05.htm#a5c96a7534715b9096bd78629e7871f05">scaleBy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a390c58fb400c53dcff8f1f48de1cfc55.htm#a390c58fb400c53dcff8f1f48de1cfc55">scaleBy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a24229ff128d94a9732488d6145d48db5.htm#a24229ff128d94a9732488d6145d48db5">scaleX</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ace7f29f2b8c8f4deeb952765e6f905e8.htm#ace7f29f2b8c8f4deeb952765e6f905e8">scaleY</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ae4a763f802029bc457da35979ed69f1d.htm#ae4a763f802029bc457da35979ed69f1d">scaling</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aff34c7ec2435cff769c545f7febd6f93.htm#aff34c7ec2435cff769c545f7febd6f93">scaling</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_af4cbfba5e647ddaaeec850837f765809.htm#af4cbfba5e647ddaaeec850837f765809">set</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aab72cc825ac4339182d7bbf70dbcbf33.htm#aab72cc825ac4339182d7bbf70dbcbf33">setCoordSystem</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_afd96483dc0cab15df9aad9dd7fec040d.htm#afd96483dc0cab15df9aad9dd7fec040d">setToIdentity</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a75be7ef4c2369d57779ac018d83c8ae9.htm#a75be7ef4c2369d57779ac018d83c8ae9">setToMirroring</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ae5741c598267a324a88d9804929f0ac3.htm#ae5741c598267a324a88d9804929f0ac3">setToMirroring</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a58776e1426c22d34407e8539dbafddf8.htm#a58776e1426c22d34407e8539dbafddf8">setToProduct</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a28bfcb8a1104cd2e441cd6c9f2dbeffb.htm#a28bfcb8a1104cd2e441cd6c9f2dbeffb">setToRotation</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a6071e55dfc7664734fd6bcf5890be6ce.htm#a6071e55dfc7664734fd6bcf5890be6ce">setToScaling</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aab759efaa3feb00d74df32da3508bbb5.htm#aab759efaa3feb00d74df32da3508bbb5">setToScaling</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ae62857d93657a363baf71510a2f2b172.htm#ae62857d93657a363baf71510a2f2b172">setToShearing</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a35a4c14c9e7a0eafc021d0b90eff31e9.htm#a35a4c14c9e7a0eafc021d0b90eff31e9">setToTranslation</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_aaec6803e41e5f4ca29c49e45424288c4.htm#aaec6803e41e5f4ca29c49e45424288c4">shearing</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a96c72c4d80965dd81586e1d09c0fd878.htm#a96c72c4d80965dd81586e1d09c0fd878">transformPoints</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ae4e7e084707c6c573696274b5163b291.htm#ae4e7e084707c6c573696274b5163b291">transformVectors</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_a52f5e482a2bfb50b3556d1d4ed895df7.htm#a52f5e482a2bfb50b3556d1d4ed895df7">transformWith2P</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/da5/class_matrix2d_ad9c9c6c4a88682957aee9d3087ba062f.htm#ad9c9c6c4a88682957aee9d3087ba062f">translation</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a3be603af5bd36120b8338e2d25db45f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be603af5bd36120b8338e2d25db45f3">&#9670;&nbsp;</a></span>invert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Matrix2d::invert </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置为逆矩阵 </p>
+<dl class="section return"><dt>返回</dt><dd>是否可逆，如果不可逆则设置为单位矩阵 </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_cgraph.png" border="0" usemap="#d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_cgraph" alt=""/></div>
+<map name="d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_cgraph" id="d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_cgraph">
+<area shape="rect" id="node2" href="../../d3/d99/group___g_e_o_m_a_p_i_gaf2f0f08780c0073fd5191d043140d1da.htm#gaf2f0f08780c0073fd5191d043140d1da" title="判断一个浮点数是否可以认为是零 " alt="" coords="204,5,282,31"/>
+<area shape="rect" id="node3" href="../../d1/da5/class_matrix2d_afd96483dc0cab15df9aad9dd7fec040d.htm#afd96483dc0cab15df9aad9dd7fec040d" title="设置为单位矩阵 " alt="" coords="166,55,321,80"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_icgraph.png" border="0" usemap="#d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_icgraph" alt=""/></div>
+<map name="d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_icgraph" id="d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3_a3be603af5bd36120b8338e2d25db45f3_icgraph">
+<area shape="rect" id="node2" href="../../d1/da5/class_matrix2d_a123b56e6a001c9d127741b4a5c2a51c5.htm#a123b56e6a001c9d127741b4a5c2a51c5" title="返回逆矩阵 " alt="" coords="166,133,289,159"/>
+<area shape="rect" id="node20" href="../../d1/da5/class_matrix2d_a390c58fb400c53dcff8f1f48de1cfc55.htm#a390c58fb400c53dcff8f1f48de1cfc55" title="比例放缩、矩阵的数乘 " alt="" coords="382,83,508,108"/>
+<area shape="rect" id="node3" href="../../dc/df3/class_gi_transform_ae7a8c08ddd6dca951cf405e1ae858c58.htm#ae7a8c08ddd6dca951cf405e1ae858c58" title="设置模型坐标系的变换矩阵 " alt="" coords="337,132,553,157"/>
+<area shape="rect" id="node21" href="../../d0/d0b/class_mg_round_rect_af43d7b6c4d73958de1b7d4e3b5999691.htm#af43d7b6c4d73958de1b7d4e3b5999691" title="MgRoundRect::_hitTest" alt="" coords="365,181,525,207"/>
+<area shape="rect" id="node23" href="../../d1/dfe/class_mg_splines_a2c81a3d8475df1ddea996536b6debb6b.htm#a2c81a3d8475df1ddea996536b6debb6b" title="MgSplines::smoothForPoints" alt="" coords="349,231,541,256"/>
+<area shape="rect" id="node4" href="../../da/d8d/class_mg_shape_doc_aeb10be24c31e07ade2cfdd50bc9fe85a.htm#aeb10be24c31e07ade2cfdd50bc9fe85a" title="加载图形，并自动放缩到之前的状态 " alt="" coords="620,83,770,108"/>
+<area shape="rect" id="node10" href="../../da/d8d/class_mg_shape_doc_a825fdb07a3c0813117d2b8e988275e3e.htm#a825fdb07a3c0813117d2b8e988275e3e" title="放缩到文档初始状态 " alt="" coords="601,132,789,157"/>
+<area shape="rect" id="node5" href="../../d9/de9/class_gi_core_view_a4ef12f680fa3d046855959195a47eac5.htm#a4ef12f680fa3d046855959195a47eac5" title="从数据源中加载图形 " alt="" coords="840,56,1010,81"/>
+<area shape="rect" id="node9" href="../../da/d8d/class_mg_shape_doc_a3666becb1d7bb72c1c18473ece24055f.htm#a3666becb1d7bb72c1c18473ece24055f" title="复制出一个新图形文档对象，不复制图形 " alt="" coords="843,107,1008,132"/>
+<area shape="rect" id="node6" href="../../d9/de9/class_gi_core_view_a2762b6a1a452cece22c34476e3e2cb8b.htm#a2762b6a1a452cece22c34476e3e2cb8b" title="删除所有图形，包括锁定的图形 " alt="" coords="1097,5,1225,31"/>
+<area shape="rect" id="node7" href="../../d9/de9/class_gi_core_view_af4712068d0a82a26eb46315ce4168df2.htm#af4712068d0a82a26eb46315ce4168df2" title="从JSON内容中加载图形 " alt="" coords="1079,55,1243,80"/>
+<area shape="rect" id="node8" href="../../d9/de9/class_gi_core_view_ae55430f215a96a72526c12d7f9f377e4.htm#ae55430f215a96a72526c12d7f9f377e4" title="从文件或JSON串中加载 " alt="" coords="1325,68,1503,93"/>
+<area shape="rect" id="node11" href="../../d9/de9/class_gi_core_view_aadab1067b774dd4992ca5741c060bd9d.htm#aadab1067b774dd4992ca5741c060bd9d" title="放缩到文档初始状态 " alt="" coords="837,156,1014,181"/>
+<area shape="rect" id="node12" href="../../d2/db2/class_gi_view_adapter_a9f223ee7d45af2108c1151dedf75f289.htm#a9f223ee7d45af2108c1151dedf75f289" title="GiViewAdapter::onFirstRegen" alt="" coords="1062,156,1260,181"/>
+<area shape="rect" id="node13" href="../../d2/db2/class_gi_view_adapter_a7a99f61fac4701c4377ad3fe60f0a6fe.htm#a7a99f61fac4701c4377ad3fe60f0a6fe" title="GiViewAdapter::renderInContext" alt="" coords="1308,131,1521,156"/>
+<area shape="rect" id="node17" href="../../d2/db2/class_gi_view_adapter_ab66d16bde03116061687b128e6ffe8d1.htm#ab66d16bde03116061687b128e6ffe8d1" title="GiViewAdapter::regen_" alt="" coords="1335,180,1494,205"/>
+<area shape="rect" id="node14" href="../../d0/d58/interface_gi_paint_view_a004579e55e4664f7dafa65777e01166c.htm#a004579e55e4664f7dafa65777e01166c" title="释放文档句柄 " alt="" coords="1577,81,1758,107"/>
+<area shape="rect" id="node15" href="../../d0/d58/interface_gi_paint_view_aa428aab910636198524b40ae6e3428bd.htm#aa428aab910636198524b40ae6e3428bd" title="得到静态图形的快照，自动释放 " alt="" coords="1586,131,1749,156"/>
+<area shape="rect" id="node16" href="../../d0/d58/interface_gi_paint_view_ad579c3309cc626d340458e175d404703.htm#ad579c3309cc626d340458e175d404703" title="保存静态图形的快照到PNG文件 " alt="" coords="1814,131,1993,156"/>
+<area shape="rect" id="node18" href="../../d2/db2/class_gi_view_adapter_a453419b25387d56dd61bb9d41acd21fc.htm#a453419b25387d56dd61bb9d41acd21fc" title="标记视图待重新构建显示 " alt="" coords="1584,180,1751,205"/>
+<area shape="rect" id="node19" href="../../d2/db2/class_gi_view_adapter_af533606812986f36c6701becea31bbd9.htm#af533606812986f36c6701becea31bbd9" title="标记视图待追加显示新图形 " alt="" coords="1569,229,1766,255"/>
+<area shape="rect" id="node22" href="../../d0/d0b/class_mg_round_rect_a7dc5ba91b80e0b5c2f37a09c96313b10.htm#a7dc5ba91b80e0b5c2f37a09c96313b10" title="返回Y圆角半径 " alt="" coords="604,181,786,207"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

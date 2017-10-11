@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: Box2d::isIntersect</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d0/d39/class_box2d.htm">Box2d</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aff4d2db05b488bf4652806af4751510f.htm#aff4d2db05b488bf4652806af4751510f">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a26e1a5f0a39dbe3e81bdf191ef8bb058.htm#a26e1a5f0a39dbe3e81bdf191ef8bb058">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a198bd25dd7db9354776e3f01ded719f8.htm#a198bd25dd7db9354776e3f01ded719f8">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a995b864e296d7a05b6e96bf2a83928cc.htm#a995b864e296d7a05b6e96bf2a83928cc">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aab2ee29cae133e38bd24f40295c651b0.htm#aab2ee29cae133e38bd24f40295c651b0">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a53646c8e02a47042c19684eb13a6e180.htm#a53646c8e02a47042c19684eb13a6e180">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a8513de52e026e50d55baaa57965e0d2a.htm#a8513de52e026e50d55baaa57965e0d2a">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a5400de7cd617bf3c7b98ee96c3c26608.htm#a5400de7cd617bf3c7b98ee96c3c26608">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_acb6df5dc828275a2040d8348c88e6bba.htm#acb6df5dc828275a2040d8348c88e6bba">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ab90c5628ab26991190f09c9c9fbab879.htm#ab90c5628ab26991190f09c9c9fbab879">Box2d</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a7535f97f8c9935ced02b5434ecf0e0d9.htm#a7535f97f8c9935ced02b5434ecf0e0d9">center</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a36ccfa003f0a127410c0e8387f0ea203.htm#a36ccfa003f0a127410c0e8387f0ea203">contains</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ac302d35a2e35e93b4d616c9d09c7a31e.htm#ac302d35a2e35e93b4d616c9d09c7a31e">contains</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a3a820e1e2aff1da188a59fb10815db99.htm#a3a820e1e2aff1da188a59fb10815db99">contains</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_adb973ed539848a119b963817015be31e.htm#adb973ed539848a119b963817015be31e">contains</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a486cff5f0b410db5c50354ac11bb84d3.htm#a486cff5f0b410db5c50354ac11bb84d3">deflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ae318984d7a98fc6f3a7c06f36bf54aa9.htm#ae318984d7a98fc6f3a7c06f36bf54aa9">deflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ac71ff19ac9c377044429fecab64cd01b.htm#ac71ff19ac9c377044429fecab64cd01b">deflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a09dd2b3cad1669f35be3e9ae34e9d1bc.htm#a09dd2b3cad1669f35be3e9ae34e9d1bc">deflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ab6d6b930e010bb2f3468fcab7a8be6c9.htm#ab6d6b930e010bb2f3468fcab7a8be6c9">deflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aa6fdf4ead8cf997c2e6f60836ea1d7db.htm#aa6fdf4ead8cf997c2e6f60836ea1d7db">empty</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aacb08fc6b05fb61ce508dc783ac77042.htm#aacb08fc6b05fb61ce508dc783ac77042">get</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a871fdeaab22715a843ed77b532040dec.htm#a871fdeaab22715a843ed77b532040dec">get</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a76efcbe2dc05a8716b6d37e3aff9c8e9.htm#a76efcbe2dc05a8716b6d37e3aff9c8e9">get</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a39da786d8b22a130cb53b3defed19372.htm#a39da786d8b22a130cb53b3defed19372">height</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a8148be676cfd34fe4bdbaea3f38d2fb5.htm#a8148be676cfd34fe4bdbaea3f38d2fb5">inflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ac45f4915a4f600f1036323f8aa0af263.htm#ac45f4915a4f600f1036323f8aa0af263">inflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_af0627903a48c5af29583f5bd269497bc.htm#af0627903a48c5af29583f5bd269497bc">inflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a4cb6db5877b782189ffd3c35a492d3c3.htm#a4cb6db5877b782189ffd3c35a492d3c3">inflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a9a8543b05022b699ca4d3ba004019596.htm#a9a8543b05022b699ca4d3ba004019596">inflate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a9e7bad3ef05a66ee1f3da84b1ca34b0b.htm#a9e7bad3ef05a66ee1f3da84b1ca34b0b">intersectWith</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a2d48b8821a2cf3b9210531eed02601af.htm#a2d48b8821a2cf3b9210531eed02601af">intersectWith</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a6d8b4e78a7e309390e7d25bbd91c59d9.htm#a6d8b4e78a7e309390e7d25bbd91c59d9">isEmpty</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a3c91ec6b65ae1a5863387604c331cb29.htm#a3c91ec6b65ae1a5863387604c331cb29">isEmptyMinus</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a5db8ad2afa6db628b3126050dad37e17.htm#a5db8ad2afa6db628b3126050dad37e17">isEqualTo</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149.htm#a0326fb8e1da42f79d38068187023c149">isIntersect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a1550a2a16087b33a49b884000da1f7fd.htm#a1550a2a16087b33a49b884000da1f7fd">isNormalized</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a33b7cdedc6d1f019d332a92c40510ef2.htm#a33b7cdedc6d1f019d332a92c40510ef2">isNull</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a9066ac39edea9fde9ee09ae404d95fc3.htm#a9066ac39edea9fde9ee09ae404d95fc3">kIdentity</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a65019154e5bdd6829ae6253c65d8880b.htm#a65019154e5bdd6829ae6253c65d8880b">leftBottom</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_adcdb7355daa6a0b1764ed0f14d8aec74.htm#adcdb7355daa6a0b1764ed0f14d8aec74">leftTop</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a4482711e5d40b5e6f2db642b98fc3ea8.htm#a4482711e5d40b5e6f2db642b98fc3ea8">normalize</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a7829e8124ec3252eff156c2c86b48f0b.htm#a7829e8124ec3252eff156c2c86b48f0b">offset</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aebc00eccdd55ffaf5d215848009760eb.htm#aebc00eccdd55ffaf5d215848009760eb">offset</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_adcc99b7b9c8a4eedec8028ba0818e61c.htm#adcc99b7b9c8a4eedec8028ba0818e61c">offset</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a0ae00e39c35c7cfba64bad1ff216f25c.htm#a0ae00e39c35c7cfba64bad1ff216f25c">operator &amp;</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a0571ddd0caab046f2d1693c376d7da02.htm#a0571ddd0caab046f2d1693c376d7da02">operator &amp;=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ac1f2e580bb164f9da548c75c3c264321.htm#ac1f2e580bb164f9da548c75c3c264321">operator!=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aa91418d3b291aee6b90d589cf8a5440d.htm#aa91418d3b291aee6b90d589cf8a5440d">operator*</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a1914b1472afd514f43e74cdde518dd1a.htm#a1914b1472afd514f43e74cdde518dd1a">operator*</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_abbd4f56d475fd797eb53df70ab796f21.htm#abbd4f56d475fd797eb53df70ab796f21">operator*=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ae872f2cc4084deeafc5c0b02f10f02a7.htm#ae872f2cc4084deeafc5c0b02f10f02a7">operator*=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ab4e6ce47a2de695e8f6304cfdf4d01c4.htm#ab4e6ce47a2de695e8f6304cfdf4d01c4">operator+</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_afde380dc5c8a8bfb83e79cd5612b5a10.htm#afde380dc5c8a8bfb83e79cd5612b5a10">operator+</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ab44c4c8683b37b70045fa96b82e4cbf9.htm#ab44c4c8683b37b70045fa96b82e4cbf9">operator+=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a169be3cff3b9600d78e96b96e7bd4c28.htm#a169be3cff3b9600d78e96b96e7bd4c28">operator+=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a0eaa5348960e7631ba5c3dab5ed152d8.htm#a0eaa5348960e7631ba5c3dab5ed152d8">operator-</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ab1bb72db9138c31a8f781fc1601e5c23.htm#ab1bb72db9138c31a8f781fc1601e5c23">operator-</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_add093ba504fe0b9deea9c8f1403a2156.htm#add093ba504fe0b9deea9c8f1403a2156">operator-=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a2e48acd8a019d8c83d70e171e99c447f.htm#a2e48acd8a019d8c83d70e171e99c447f">operator-=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a7dec0fde9328db329aa3efca8f2d1a81.htm#a7dec0fde9328db329aa3efca8f2d1a81">operator/</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a8fa359fe05b3168649ccdfb8d81ac5a4.htm#a8fa359fe05b3168649ccdfb8d81ac5a4">operator/=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a7bafe351bc3a9e4e0a674b4977b1fb21.htm#a7bafe351bc3a9e4e0a674b4977b1fb21">operator==</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a6dc178fe11379c5362b61ab9f587ece0.htm#a6dc178fe11379c5362b61ab9f587ece0">operator|</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aca69addc6602472d519773d4bf7f4f83.htm#aca69addc6602472d519773d4bf7f4f83">operator|=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a2ae3a859b6485396ee0b021e009b0277.htm#a2ae3a859b6485396ee0b021e009b0277">rightBottom</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_adfa04071960392d18eee440e4c547233.htm#adfa04071960392d18eee440e4c547233">rightTop</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a800d4e1d5100f7ce59e46d9a6583c6cf.htm#a800d4e1d5100f7ce59e46d9a6583c6cf">scaleBy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ad02c3323bdef9208caff8b556961d367.htm#ad02c3323bdef9208caff8b556961d367">set</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aee370598ec2b3e0714d9485cb8c605d3.htm#aee370598ec2b3e0714d9485cb8c605d3">set</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a3dadb633f745bea930a12e54f761ba95.htm#a3dadb633f745bea930a12e54f761ba95">set</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a8208d4f0f4fbc344693620da3bc52693.htm#a8208d4f0f4fbc344693620da3bc52693">set</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a2eba60701b1e0048b97e4cda6868be0d.htm#a2eba60701b1e0048b97e4cda6868be0d">set</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a1bfcc6c2c8e0df149fcdd117f2877b4f.htm#a1bfcc6c2c8e0df149fcdd117f2877b4f">set</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ae6a5a2d5eb8cb283c8a030a9bfeca0cf.htm#ae6a5a2d5eb8cb283c8a030a9bfeca0cf">size</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a41e9845df6243135b0e6a6d54d7be6df.htm#a41e9845df6243135b0e6a6d54d7be6df">swapTopBottom</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_abb5eef759d4a39d98f530972ae13da26.htm#abb5eef759d4a39d98f530972ae13da26">unionWith</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a7667ec8075dcac33ccf1fe9288252889.htm#a7667ec8075dcac33ccf1fe9288252889">unionWith</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ae456ea35f27b4f1a40a592f6973aada9.htm#ae456ea35f27b4f1a40a592f6973aada9">unionWith</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a0e88648c5779edf0996ae0d15f95bb03.htm#a0e88648c5779edf0996ae0d15f95bb03">unionWith</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_aa43f547d1c73c84dacc245ed3c539d43.htm#aa43f547d1c73c84dacc245ed3c539d43">width</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a5e5c504e73d5e1fca48a31eca5c6d659.htm#a5e5c504e73d5e1fca48a31eca5c6d659">xmax</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a6356b43adfbac8e2e6e1b2342d9a6c49.htm#a6356b43adfbac8e2e6e1b2342d9a6c49">xmin</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_ad2f377783b5eba93a2b0b255c767cbf3.htm#ad2f377783b5eba93a2b0b255c767cbf3">ymax</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d0/d39/class_box2d_a8122ac1b5607a1eea58058708de9ebcf.htm#a8122ac1b5607a1eea58058708de9ebcf">ymin</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a0326fb8e1da42f79d38068187023c149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0326fb8e1da42f79d38068187023c149">&#9670;&nbsp;</a></span>isIntersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Box2d::isIntersect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d39/class_box2d.htm">Box2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>box</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断是否和一个矩形框相交（两者都是规范化矩形） </p>
+<p>如果其中一个矩形为空矩形或非规范化矩形，则返回false。 </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>另一个矩形框，必须规范化 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>是否相交，失败时返回false </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_cgraph.png" border="0" usemap="#d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_cgraph" alt=""/></div>
+<map name="d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_cgraph" id="d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_cgraph">
+<area shape="rect" id="node2" href="../../d0/d39/class_box2d_a33b7cdedc6d1f019d332a92c40510ef2.htm#a33b7cdedc6d1f019d332a92c40510ef2" title="判断宽和高是否都为零且位于原点 " alt="" coords="181,5,280,31"/>
+<area shape="rect" id="node4" href="../../d3/d99/group___g_e_o_m_a_p_i_gada0fabd4720f268bdc4c7662c7bd3a85.htm#gada0fabd4720f268bdc4c7662c7bd3a85" title="mgMin" alt="" coords="200,55,261,80"/>
+<area shape="rect" id="node5" href="../../d3/d99/group___g_e_o_m_a_p_i_ga17f7c3cf994a4df19aa852af82355f01.htm#ga17f7c3cf994a4df19aa852af82355f01" title="mgMax" alt="" coords="198,104,263,129"/>
+<area shape="rect" id="node3" href="../../d3/d99/group___g_e_o_m_a_p_i_gaf2f0f08780c0073fd5191d043140d1da.htm#gaf2f0f08780c0073fd5191d043140d1da" title="判断一个浮点数是否可以认为是零 " alt="" coords="328,5,405,31"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_icgraph.png" border="0" usemap="#d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_icgraph" alt=""/></div>
+<map name="d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_icgraph" id="d0/d39/class_box2d_a0326fb8e1da42f79d38068187023c149_a0326fb8e1da42f79d38068187023c149_icgraph">
+<area shape="rect" id="node2" href="../../d0/dbc/class_mg_base_shape_a7155bf195b49ae42cb9db55a64681a89.htm#a7155bf195b49ae42cb9db55a64681a89" title="MgBaseShape::_hitTestBox" alt="" coords="184,55,369,80"/>
+<area shape="rect" id="node5" href="../../d2/d06/class_mg_composite_a2d27a6b1a7de73a0bc37a3ac239d38ef.htm#a2d27a6b1a7de73a0bc37a3ac239d38ef" title="MgComposite::_hitTest" alt="" coords="198,153,355,179"/>
+<area shape="rect" id="node8" href="../../d9/df7/class_mg_ellipse_a01e133c459ae46737e3bca8a77bf0b86.htm#a01e133c459ae46737e3bca8a77bf0b86" title="MgEllipse::_hitTest" alt="" coords="210,303,342,328"/>
+<area shape="rect" id="node10" href="../../dd/dd8/structmgnear_ac1e75144e2a53fd3f777ec5442f6cda3.htm#ac1e75144e2a53fd3f777ec5442f6cda3" title="判断贝塞尔曲线是否与矩形相交 " alt="" coords="181,353,372,379"/>
+<area shape="rect" id="node17" href="../../dd/dd8/structmgnear_ae9d41da0f5e67d16d5d047441410e665.htm#ae9d41da0f5e67d16d5d047441410e665" title="计算点到三次样条曲线的最近距离 " alt="" coords="194,203,359,228"/>
+<area shape="rect" id="node19" href="../../dd/dd8/structmgnear_adc241fb3df42038161dd5f4b1642083c.htm#adc241fb3df42038161dd5f4b1642083c" title="计算点到二次样条曲线的最近距离 " alt="" coords="194,252,358,277"/>
+<area shape="rect" id="node20" href="../../dd/dd8/structmgnear_a518269121b0a0f22c1e69f3af773e4c6.htm#a518269121b0a0f22c1e69f3af773e4c6" title="计算点到折线或多边形的最近距离 " alt="" coords="217,445,335,471"/>
+<area shape="rect" id="node34" href="../../d2/d5a/class_mg_path_shape_a672eeb7b18b811c9a5a009e26ac7623e.htm#a672eeb7b18b811c9a5a009e26ac7623e" title="返回是否为曲线图形 " alt="" coords="699,612,858,637"/>
+<area shape="rect" id="node38" href="../../d2/d5a/class_mg_path_shape_a12521ccbca49f3744bdb0e9c8382d98d.htm#a12521ccbca49f3744bdb0e9c8382d98d" title="MgPathShape::_hitTestBox" alt="" coords="185,644,367,669"/>
+<area shape="rect" id="node39" href="../../d0/d94/class_mg_shapes_ab26334d45bfb537c3f0dc492781c9924.htm#ab26334d45bfb537c3f0dc492781c9924" title="MgShapes::dyndraw" alt="" coords="205,713,348,739"/>
+<area shape="rect" id="node3" href="../../d0/dbc/class_mg_base_shape_a218a7b55b27e04743d431a11f5da0361.htm#a218a7b55b27e04743d431a11f5da0361" title="框选检查 " alt="" coords="442,5,620,31"/>
+<area shape="rect" id="node4" href="../../dc/dd6/class_mg_diamond_afb4d4eb20ef1e60d2df844befb0d856f.htm#afb4d4eb20ef1e60d2df844befb0d856f" title="MgDiamond::_hitTestBox" alt="" coords="446,55,616,80"/>
+<area shape="rect" id="node6" href="../../d2/d06/class_mg_composite_ac2aa04598bed5590613ef5de1c87c1c6.htm#ac2aa04598bed5590613ef5de1c87c1c6" title="返回是否为曲线图形 " alt="" coords="453,104,609,129"/>
+<area shape="rect" id="node7" href="../../d0/d7f/class_mg_group_ac2df258eef8328aa4d6cc9945ce59c44.htm#ac2df258eef8328aa4d6cc9945ce59c44" title="MgGroup::getName" alt="" coords="462,153,600,179"/>
+<area shape="rect" id="node9" href="../../d9/df7/class_mg_ellipse_a45acbbea3d573e591914b4170d43c608.htm#a45acbbea3d573e591914b4170d43c608" title="返回是否为曲线图形 " alt="" coords="712,253,844,279"/>
+<area shape="rect" id="node11" href="../../d1/d3e/class_mg_arc_a0521589520c5c28c86a21cfb3c6d0247.htm#a0521589520c5c28c86a21cfb3c6d0247" title="MgArc::_hitTestBox" alt="" coords="463,353,599,379"/>
+<area shape="rect" id="node13" href="../../d9/df7/class_mg_ellipse_a1d5d899fc3fdb2839b330ffc68cbbdb2.htm#a1d5d899fc3fdb2839b330ffc68cbbdb2" title="MgEllipse::_hitTestBox" alt="" coords="453,304,609,329"/>
+<area shape="rect" id="node14" href="../../dd/dd8/structmgnear_ac446c6364f67c8edffa89aa2cc09123c.htm#ac446c6364f67c8edffa89aa2cc09123c" title="判断三次样条曲线是否与矩形相交 " alt="" coords="420,403,643,428"/>
+<area shape="rect" id="node12" href="../../d1/d3e/class_mg_arc_a21653136717fd68db33df8ee69564c27.htm#a21653136717fd68db33df8ee69564c27" title="子类型，由具体图形类解释含义 " alt="" coords="709,303,848,328"/>
+<area shape="rect" id="node15" href="../../d1/dfe/class_mg_splines_aa78138948acf939c907902763ae33243.htm#aa78138948acf939c907902763ae33243" title="MgSplines::_hitTestBox" alt="" coords="698,352,858,377"/>
+<area shape="rect" id="node16" href="../../d1/dfe/class_mg_splines_a9304f503f7533bfa04d78c94561e3f1a.htm#a9304f503f7533bfa04d78c94561e3f1a" title="返回是否为曲线图形 " alt="" coords="929,277,1065,303"/>
+<area shape="rect" id="node18" href="../../d1/dfe/class_mg_splines_ad29ab0760c8376516f89ad84ac1d12d8.htm#ad29ab0760c8376516f89ad84ac1d12d8" title="MgSplines::_hitTest" alt="" coords="463,203,600,228"/>
+<area shape="rect" id="node21" href="../../d0/dbc/class_mg_base_shape_a314a3a25435df53cfd3b0633fcf32dd8.htm#a314a3a25435df53cfd3b0633fcf32dd8" title="计算点到折线或多边形的最近距离 " alt="" coords="451,489,611,515"/>
+<area shape="rect" id="node22" href="../../dc/dd6/class_mg_diamond_a896d5497a21da2812230facb3c0fc204.htm#a896d5497a21da2812230facb3c0fc204" title="MgDiamond::_hitTest" alt="" coords="705,513,852,539"/>
+<area shape="rect" id="node23" href="../../d5/db3/class_mg_base_lines_add3a538b06482997c3ce2fbd69730688.htm#add3a538b06482997c3ce2fbd69730688" title="MgBaseLines::_hitTest" alt="" coords="701,563,856,588"/>
+<area shape="rect" id="node32" href="../../d8/d4f/class_mg_parallel_a15d0ce52c587f5055e95cb7f30fa8c3c.htm#a15d0ce52c587f5055e95cb7f30fa8c3c" title="MgParallel::_rotateHandle\lPoint" alt="" coords="691,401,866,440"/>
+<area shape="rect" id="node36" href="../../d6/dce/class_mg_base_rect_a0137c996f74c37712bd758525e93cc80.htm#a0137c996f74c37712bd758525e93cc80" title="MgBaseRect::_hitTest" alt="" coords="703,464,854,489"/>
+<area shape="rect" id="node24" href="../../d5/db3/class_mg_base_lines_a6bc334875567edde4f2c58317f2a8a71.htm#a6bc334875567edde4f2c58317f2a8a71" title="MgBaseLines::getPoints" alt="" coords="914,563,1079,588"/>
+<area shape="rect" id="node25" href="../../de/d4e/struct_mg_record_shapes_1_1_impl_a7d9e83d8edfa942f4be873b4950a5507.htm#a7d9e83d8edfa942f4be873b4950a5507" title="MgRecordShapes::Impl\l::incrementRecord" alt="" coords="1127,556,1288,595"/>
+<area shape="rect" id="node26" href="../../de/d4e/struct_mg_record_shapes_1_1_impl_aba5b823d435d9141ccd8c08d316fb167.htm#aba5b823d435d9141ccd8c08d316fb167" title="MgRecordShapes::Impl\l::forUndo" alt="" coords="1336,584,1497,623"/>
+<area shape="rect" id="node27" href="../../d9/d6a/class_mg_record_shapes_ae8101595a3d6d5a0ea41e49de381b265.htm#ae8101595a3d6d5a0ea41e49de381b265" title="MgRecordShapes::recordStep" alt="" coords="1545,533,1745,559"/>
+<area shape="rect" id="node29" href="../../de/d4e/struct_mg_record_shapes_1_1_impl_ab71352ea719124263a2c08401e2aad28.htm#ab71352ea719124263a2c08401e2aad28" title="MgRecordShapes::Impl\l::startRecord" alt="" coords="1565,584,1725,623"/>
+<area shape="rect" id="node28" href="../../d9/de9/class_gi_core_view_a74545bfc9909db56225152268eae60d7.htm#a74545bfc9909db56225152268eae60d7" title="录制图形，自动释放 " alt="" coords="1800,533,1983,559"/>
+<area shape="rect" id="node30" href="../../de/d4e/struct_mg_record_shapes_1_1_impl_a83fc498520dd29ca7bb1d51c8a942577.htm#a83fc498520dd29ca7bb1d51c8a942577" title="MgRecordShapes::Impl\l::~Impl" alt="" coords="1811,583,1972,621"/>
+<area shape="rect" id="node31" href="../../d9/d6a/class_mg_record_shapes_a40a7f699e6a4054fba4c6adc544f0650.htm#a40a7f699e6a4054fba4c6adc544f0650" title="MgRecordShapes::MgRecord\lShapes" alt="" coords="1793,645,1990,684"/>
+<area shape="rect" id="node33" href="../../d8/d4f/class_mg_parallel_a7edcacda48a2ab497577691745722a74.htm#a7edcacda48a2ab497577691745722a74" title="MgParallel::_isClosed" alt="" coords="922,408,1072,433"/>
+<area shape="rect" id="node35" href="../../d2/d5a/class_mg_path_shape_ac1e413d57e6963412ea52f0de754d54b.htm#ac1e413d57e6963412ea52f0de754d54b" title="MgPathShape::path" alt="" coords="927,637,1066,663"/>
+<area shape="rect" id="node37" href="../../d6/dce/class_mg_base_rect_ab18171d0a5f048996bd1dddb3dbb5293.htm#ab18171d0a5f048996bd1dddb3dbb5293" title="MgBaseRect::_isClosed" alt="" coords="915,464,1078,489"/>
+<area shape="rect" id="node40" href="../../d9/de9/class_gi_core_view_ab6f7fd888a96d6c2364c716d01f19f82.htm#ab6f7fd888a96d6c2364c716d01f19f82" title="显示动态图形 " alt="" coords="455,713,607,739"/>
+<area shape="rect" id="node42" href="../../d0/d94/class_mg_shapes_aa1b2987790e66ddd3684ae2753429b0a.htm#aa1b2987790e66ddd3684ae2753429b0a" title="MgShapes::draw" alt="" coords="470,763,592,788"/>
+<area shape="rect" id="node41" href="../../d9/de9/class_gi_core_view_ac620faf90f2e5e6c0b8632c46c621e7e.htm#ac620faf90f2e5e6c0b8632c46c621e7e" title="显示动态图形，主线程中用 " alt="" coords="702,713,854,739"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: rhcad.touchvg.view.ViewHelperImpl.importSVGPath</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../de/d54/namespacerhcad.htm">rhcad</a></li><li class="navelem"><a class="el" href="../../d7/d63/namespacerhcad_1_1touchvg.htm">touchvg</a></li><li class="navelem"><a class="el" href="../../de/d64/namespacerhcad_1_1touchvg_1_1view.htm">view</a></li><li class="navelem"><a class="el" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl.htm">ViewHelperImpl</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_afba66eb747431e2761167f5dc52a8ecb.htm#afba66eb747431e2761167f5dc52a8ecb">activeView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a02f7cd046f9fb5421ac8030bdeead84c.htm#a02f7cd046f9fb5421ac8030bdeead84c">addShapesForTest</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a7c251a3c8941cb4bee25edbf476f5e4a.htm#a7c251a3c8941cb4bee25edbf476f5e4a">canRedo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae3e1321bbc23a292d889758a5d67c2b2.htm#ae3e1321bbc23a292d889758a5d67c2b2">canUndo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_af779a0c9243dd311b8b752d63a3f3d6e.htm#af779a0c9243dd311b8b752d63a3f3d6e">clearCachedData</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_adea685e5d6bccb093b88a14cbc9cc815.htm#adea685e5d6bccb093b88a14cbc9cc815">clearShapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ad737e23d4e20d1d54e4f570f61cadfa5.htm#ad737e23d4e20d1d54e4f570f61cadfa5">clearShapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_adf898aaf426d7e2a40da97c02186135e.htm#adf898aaf426d7e2a40da97c02186135e">close</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ac10d933a57daf8244a6cf177d5c0e6d0.htm#ac10d933a57daf8244a6cf177d5c0e6d0">close</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a79599092db364e24ac6db775ec7db9a6.htm#a79599092db364e24ac6db775ec7db9a6">cmdView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a020e42149c1034210c850033e39cd215.htm#a020e42149c1034210c850033e39cd215">cmdViewHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa527cfcf6e2fd8d54b5fae7e083d5af3.htm#aa527cfcf6e2fd8d54b5fae7e083d5af3">combineRegen</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a850c72f18e7358cc2f933381339b3907.htm#a850c72f18e7358cc2f933381339b3907">coreView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a10e11a4debd7e4300daa7ccc7d2ac540.htm#a10e11a4debd7e4300daa7ccc7d2ac540">createDummyView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ac0f28e71ccd60a1e3c1f2831e2934ea5.htm#ac0f28e71ccd60a1e3c1f2831e2934ea5">createGraphView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a1f9d04bb098e7ba4539b3f3807990a4f.htm#a1f9d04bb098e7ba4539b3f3807990a4f">createGraphView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a91aaa4163249db391ad16ed28b5e938d.htm#a91aaa4163249db391ad16ed28b5e938d">createMagnifierView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_afabfa3ba9e55086c3080cdc83abb4d65.htm#afabfa3ba9e55086c3080cdc83abb4d65">createSurfaceAndImageView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a495449c08fa69490cb1ec425f58d3eaa.htm#a495449c08fa69490cb1ec425f58d3eaa">createSurfaceView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae2d539737b94f7e6c2361fbcf44ca2ba.htm#ae2d539737b94f7e6c2361fbcf44ca2ba">createSurfaceView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a2c52c796463305ea4600769986bafbe9.htm#a2c52c796463305ea4600769986bafbe9">displayToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a6632d6b58d1bcb43128a05d66e42db56.htm#a6632d6b58d1bcb43128a05d66e42db56">displayToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a859ef2bc812a66a22f26fce03c1c2bc3.htm#a859ef2bc812a66a22f26fce03c1c2bc3">eraseView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa65159ebf4f44eac1cdc2b89fded9a36.htm#aa65159ebf4f44eac1cdc2b89fded9a36">exportExtentAsPNG</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a28175892ae357b6a1721cf78bf8d1bdc.htm#a28175892ae357b6a1721cf78bf8d1bdc">exportPNG</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ade71b60efd90e97c5beb0e27b73ea7b1.htm#ade71b60efd90e97c5beb0e27b73ea7b1">exportPNG</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a0c8c7282deefac91d0f3fd512b90e5f2.htm#a0c8c7282deefac91d0f3fd512b90e5f2">exportSVG</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a76d6b7c7eefcfcbb0a141745c845a0b7.htm#a76d6b7c7eefcfcbb0a141745c845a0b7">exportSVGPath</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a7920890eb97b601fd7a5a33e66361df6.htm#a7920890eb97b601fd7a5a33e66361df6">extentSnapshot</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a52ad10ff7c48171a75e7a80b445edf1c.htm#a52ad10ff7c48171a75e7a80b445edf1c">findShapeByImageID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a1ecf1d664852d2593ad4cc018e3e9a49.htm#a1ecf1d664852d2593ad4cc018e3e9a49">findShapeByTag</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aae4b0dd39d290801c3c2c81bc30c5551.htm#aae4b0dd39d290801c3c2c81bc30c5551">getBoundingBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a452e122817fe9d033dbcf95b5511f61d.htm#a452e122817fe9d033dbcf95b5511f61d">getChangeCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_abdcbe6e07da0d01310a55f3adb3e8d10.htm#abdcbe6e07da0d01310a55f3adb3e8d10">getCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a1f5e5ed17b919027f04d43ad2cdc30d7.htm#a1f5e5ed17b919027f04d43ad2cdc30d7">getContent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a0d00069ca99f512e482ab386d09eef93.htm#a0d00069ca99f512e482ab386d09eef93">getContext</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ab42008eca554fa5262943ff3c78182ef.htm#ab42008eca554fa5262943ff3c78182ef">getCurrentModelPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a1bf15ddb472dde54876ed598ddd96af6.htm#a1bf15ddb472dde54876ed598ddd96af6">getCurrentPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_adcd5df010b5b00d88a5f79c4e509fc3f.htm#adcd5df010b5b00d88a5f79c4e509fc3f">getDisplayExtent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a8fdac5ca79aa37a3cf9a6cc29bba8622.htm#a8fdac5ca79aa37a3cf9a6cc29bba8622">getDisplayExtent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a233a24b20a0e19ed240f31f189867cb6.htm#a233a24b20a0e19ed240f31f189867cb6">getDrawCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_addef6f2477f9e5da2a7d5a7b917a1154.htm#addef6f2477f9e5da2a7d5a7b917a1154">getEndArrowHead</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9f01a61f479bcdf750a2542366f9643f.htm#a9f01a61f479bcdf750a2542366f9643f">getFillAlpha</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aeaa19c9931f518f877150dbecb73ff7e.htm#aeaa19c9931f518f877150dbecb73ff7e">getFillColor</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_af5374df5a2b479e7da8df141a21cb37f.htm#af5374df5a2b479e7da8df141a21cb37f">getGestureEnabled</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a6691bf609315993ed381a8c6f7c40304.htm#a6691bf609315993ed381a8c6f7c40304">getGraphView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ac3204fff33d53828b3adb65e7b1baa25.htm#ac3204fff33d53828b3adb65e7b1baa25">getHandlePoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a0913d1307138b2e16a852600d3ddb880.htm#a0913d1307138b2e16a852600d3ddb880">getImagePath</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa1c882e83932f0cc39d8f040cb54877b.htm#aa1c882e83932f0cc39d8f040cb54877b">getImageShapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9f529499af395ae5fcf34441e3bb72c7.htm#a9f529499af395ae5fcf34441e3bb72c7">getImageSize</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa16e6c9891a3bfb35fe73faa6610baff.htm#aa16e6c9891a3bfb35fe73faa6610baff">getImageViewForSurface</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a6c159e53e19c2800b40669f96b76b6c9.htm#a6c159e53e19c2800b40669f96b76b6c9">getLineAlpha</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ab5232fde3a8de77541f1a8662348ead7.htm#ab5232fde3a8de77541f1a8662348ead7">getLineColor</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_acfe8fae7473e660a3aaecd8cda63346d.htm#acfe8fae7473e660a3aaecd8cda63346d">getLineStyle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ad41b789d887274af29b10f4f9c832677.htm#ad41b789d887274af29b10f4f9c832677">getLineWidth</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a93964dd6999873fa335e0411326fa9e5.htm#a93964dd6999873fa335e0411326fa9e5">getLocalizedString</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9e53e4609474d7116e7bd0c9a02532a2.htm#a9e53e4609474d7116e7bd0c9a02532a2">getModelBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a66ae8d1ccee38e4e3f4c85e1502aae5f.htm#a66ae8d1ccee38e4e3f4c85e1502aae5f">getModelBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_af8d393ba75788123be0b4f75a4c8317e.htm#af8d393ba75788123be0b4f75a4c8317e">getOptions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9a1c1329952c70ebd2183c16e3aae41a.htm#a9a1c1329952c70ebd2183c16e3aae41a">getParent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a50c4a9c22fcf2a55a6e25a9a6c670e80.htm#a50c4a9c22fcf2a55a6e25a9a6c670e80">getRecordTicks</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_adffe0661be7a1d4633fa9372da8d813e.htm#adffe0661be7a1d4633fa9372da8d813e">getSelectedCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ab7ad7067aeef0995cf0a972b2d79c1b4.htm#ab7ad7067aeef0995cf0a972b2d79c1b4">getSelectedHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ab7f9084f6c2406968c048e912a5d1f42.htm#ab7f9084f6c2406968c048e912a5d1f42">getSelectedIds</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ab74248c71267018a1884223f3a3ba89a.htm#ab74248c71267018a1884223f3a3ba89a">getSelectedShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa233517fef9f09e2274c705ed7468148.htm#aa233517fef9f09e2274c705ed7468148">getSelectedType</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_abb5bf7a42c522b6edca51c8c85d47ee5.htm#abb5bf7a42c522b6edca51c8c85d47ee5">getShapeBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a82f02bf2452c2ecd7c921a1527b55582.htm#a82f02bf2452c2ecd7c921a1527b55582">getShapeCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a45af507d61fac2ed65cd0c35544f59ea.htm#a45af507d61fac2ed65cd0c35544f59ea">getStartArrowHead</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a09b864b709402e2fe2c7e9bdfb8540ae.htm#a09b864b709402e2fe2c7e9bdfb8540ae">getStrokeWidth</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a8bc423d156214ccb24d23493942b018d.htm#a8bc423d156214ccb24d23493942b018d">getUnlockedShapeCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a742b6dcb0b0983a76dba1bb4128bb918.htm#a742b6dcb0b0983a76dba1bb4128bb918">getVersion</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a802c2edf704714d1b0a412b47836eb2a.htm#a802c2edf704714d1b0a412b47836eb2a">getView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a307c443c8ed1e269352048a40e9847cc.htm#a307c443c8ed1e269352048a40e9847cc">getViewBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_afd4977fefc978b8917494b04e8d3a153.htm#afd4977fefc978b8917494b04e8d3a153">getViewScale</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a54f83ab4aecb0d28760bb945f9e33c73.htm#a54f83ab4aecb0d28760bb945f9e33c73">getVisibleShapeCount</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a2115280ee5309a09a43d7a12524cbdb1.htm#a2115280ee5309a09a43d7a12524cbdb1">getZoomEnabled</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a8f70227f27cd8852261397f62182e72c.htm#a8f70227f27cd8852261397f62182e72c">hasImageShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae7597f2e96bb861beb19ae39649ec72d.htm#ae7597f2e96bb861beb19ae39649ec72d">importSVGPath</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a0c2c492b96142a2cb07697522a4cee62.htm#a0c2c492b96142a2cb07697522a4cee62">insertBitmapFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aed0278930b4a9dbeeaf723f0701f929f.htm#aed0278930b4a9dbeeaf723f0701f929f">insertBitmapFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a28b656e65deeaddd009ddcfb238f66d8.htm#a28b656e65deeaddd009ddcfb238f66d8">insertBitmapFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a7a1bcd8dd8dbde8cd3d02a241a5a88f9.htm#a7a1bcd8dd8dbde8cd3d02a241a5a88f9">insertBitmapFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a2a533980671a3352673bcacb74260685.htm#a2a533980671a3352673bcacb74260685">insertImageFromFile</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a4d15a80cda6e64fad663b447558d7f85.htm#a4d15a80cda6e64fad663b447558d7f85">insertImageFromFile</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a1c21866b9907691a2f17f80c6a59bec2.htm#a1c21866b9907691a2f17f80c6a59bec2">insertSVGFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a18d7fa1e05f6000bf4394971c1713902.htm#a18d7fa1e05f6000bf4394971c1713902">insertSVGFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_af58e4e9600033fddc0e50fb44757149f.htm#af58e4e9600033fddc0e50fb44757149f">insertSVGFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a337c0724111640db5d02d8dd562272e3.htm#a337c0724111640db5d02d8dd562272e3">insertSVGFromResource</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_af36833823c83acf8077ad63185932834.htm#af36833823c83acf8077ad63185932834">isCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aeb595718025f4ab5df7b61a69278cf5e.htm#aeb595718025f4ab5df7b61a69278cf5e">isPaused</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9ce45715e7e73bf75ee56a5cb0760dbd.htm#a9ce45715e7e73bf75ee56a5cb0760dbd">isPlaying</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a92a4f0c7327e6c5d847ff55824c59e88.htm#a92a4f0c7327e6c5d847ff55824c59e88">isRecording</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa2d3158db5894d32a118304455e6fea2.htm#aa2d3158db5894d32a118304455e6fea2">JARVERSION</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a51e5fa1cdd4ac34248dc4a7184dbd7a3.htm#a51e5fa1cdd4ac34248dc4a7184dbd7a3">loadFromFile</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a40a904b33976f5215ad77fcb0e40da4e.htm#a40a904b33976f5215ad77fcb0e40da4e">loadFromFile</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a678887de341c0f4ab7a103319def32c3.htm#a678887de341c0f4ab7a103319def32c3">mCreator</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a733b83d701e5f8189104f807218f583c.htm#a733b83d701e5f8189104f807218f583c">onDestroy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a58f43d69fec8d0336112b26a9a2ded9b.htm#a58f43d69fec8d0336112b26a9a2ded9b">onPause</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a997d08266a1f9d55366baafbc0fdb07e.htm#a997d08266a1f9d55366baafbc0fdb07e">onRestoreInstanceState</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_af1cf925e7ac60810affeaee55a397675.htm#af1cf925e7ac60810affeaee55a397675">onResume</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aea434c26229be3a4cae381b011a1d713.htm#aea434c26229be3a4cae381b011a1d713">onSaveInstanceState</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_adf3b90cc9c16b7b4f04d50cb6ee17326.htm#adf3b90cc9c16b7b4f04d50cb6ee17326">redo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a0403c7ed332e9a781533d3910031e75b.htm#a0403c7ed332e9a781533d3910031e75b">registerCmdObserver</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a87f54faddb5b902ec7b36d003f1515a1.htm#a87f54faddb5b902ec7b36d003f1515a1">savePNG</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a92617cc7c5e08b872c31838eba7c8264.htm#a92617cc7c5e08b872c31838eba7c8264">saveToFile</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a57019b1e31ef5eba24e899402994ea5c.htm#a57019b1e31ef5eba24e899402994ea5c">setBackgroundColor</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a73568c552dab5023a69749c58ca3c621.htm#a73568c552dab5023a69749c58ca3c621">setBackgroundDrawable</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a3ff1875f57e11e19bd51684217003241.htm#a3ff1875f57e11e19bd51684217003241">setCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a984cdee9ddd2ae2a55462c48b87ca6c8.htm#a984cdee9ddd2ae2a55462c48b87ca6c8">setCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_abd700c4ce98c084c1ef2553e105337f4.htm#abd700c4ce98c084c1ef2553e105337f4">setContent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a8ce3e193bdaf108eba88b5eac2d9d0f6.htm#a8ce3e193bdaf108eba88b5eac2d9d0f6">setContextEditing</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a1600807bf06bbb30a413dde528b7767b.htm#a1600807bf06bbb30a413dde528b7767b">setEndArrowHead</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a4595eab776e947dc304c818a04654f32.htm#a4595eab776e947dc304c818a04654f32">setExtraContextImages</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a7860f560430235ea3b7e915b34f0ab28.htm#a7860f560430235ea3b7e915b34f0ab28">setFillAlpha</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_acbdee4a64fdfa68ea40d91247bccbe2b.htm#acbdee4a64fdfa68ea40d91247bccbe2b">setFillColor</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a6a7a7c9069e3a2c7dba726107b0a0006.htm#a6a7a7c9069e3a2c7dba726107b0a0006">setGestureEnabled</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aae01002060b206ad8a3a14ff8d927464.htm#aae01002060b206ad8a3a14ff8d927464">setGraphView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a7ac0a085918977896f76190485528b35.htm#a7ac0a085918977896f76190485528b35">setImagePath</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_af70a940a0354b06309ece1740615bf98.htm#af70a940a0354b06309ece1740615bf98">setLineAlpha</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a5841a18f5201363438222898d5e844b0.htm#a5841a18f5201363438222898d5e844b0">setLineColor</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ace9eb7c134435f69f513d3b50d973f67.htm#ace9eb7c134435f69f513d3b50d973f67">setLineStyle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a67012761f9df1e17e9cf6a9b6e2e160d.htm#a67012761f9df1e17e9cf6a9b6e2e160d">setLineWidth</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aab3a4408658640e78ba22d5c2c167d3a.htm#aab3a4408658640e78ba22d5c2c167d3a">setOption</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9fc59e25a38267910dc59fb3d71e8331.htm#a9fc59e25a38267910dc59fb3d71e8331">setOption</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9062740f6eda466fdbba1b75f8bc088c.htm#a9062740f6eda466fdbba1b75f8bc088c">setOption</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa9353e4e6671384b1f4ba9de3f949c33.htm#aa9353e4e6671384b1f4ba9de3f949c33">setOption</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a5942b67341ef1847fa383b9bbd51969b.htm#a5942b67341ef1847fa383b9bbd51969b">setSelectedIds</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a35092951cf00a1eca64be542466d2bbd.htm#a35092951cf00a1eca64be542466d2bbd">setSelectedShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a0ac170e8671df5085934f42e8942d6ba.htm#a0ac170e8671df5085934f42e8942d6ba">setStartArrowHead</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ab39b15da90722b6eb20e4c7649638453.htm#ab39b15da90722b6eb20e4c7649638453">setStrokeWidth</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a213f381ed9bd86b62be6a5884234902f.htm#a213f381ed9bd86b62be6a5884234902f">setVelocityTrackerEnabled</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a37633ce4f92199822db5757d0e6a427d.htm#a37633ce4f92199822db5757d0e6a427d">setViewScale</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae1f817a7e373c16cf7bb4ca73d2c72c8.htm#ae1f817a7e373c16cf7bb4ca73d2c72c8">setZoomEnabled</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a9718710334d7c69c2049b9c3b1059146.htm#a9718710334d7c69c2049b9c3b1059146">showMessage</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aa7b50a64a552137e879bb3623350d3b0.htm#aa7b50a64a552137e879bb3623350d3b0">snapshot</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aae03f175e46992822e68d8672b9d83ca.htm#aae03f175e46992822e68d8672b9d83ca">snapshotWithShapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a1ffba31b0df394b2ec2739059061c246.htm#a1ffba31b0df394b2ec2739059061c246">snapshotWithShapes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a4b56b77c96058a8d85e1a79e3074d471.htm#a4b56b77c96058a8d85e1a79e3074d471">startRecord</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a428d376bc48606e3c54ba0696d332280.htm#a428d376bc48606e3c54ba0696d332280">startUndoRecord</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aca9741f0269e69db18c6292fc54da6bd.htm#aca9741f0269e69db18c6292fc54da6bd">stopRecord</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a2759114882f7b876b664f8f2506ad385.htm#a2759114882f7b876b664f8f2506ad385">stopUndoRecord</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a71057c7242c2e6ea174a33b71d9fb6e6.htm#a71057c7242c2e6ea174a33b71d9fb6e6">switchCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a95be25eb82c28a11618f0bd6ffc082ef.htm#a95be25eb82c28a11618f0bd6ffc082ef">TAG</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a01bcfc4c10325b8117614e64271888f7.htm#a01bcfc4c10325b8117614e64271888f7">undo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a16a7104f91c1a70918be6383f3493020.htm#a16a7104f91c1a70918be6383f3493020">unregisterCmdObserver</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a80520bd8d8ca161bdbdcd134edfe9959.htm#a80520bd8d8ca161bdbdcd134edfe9959">view</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a65fbdec4ea970920c6252f5723f89753.htm#a65fbdec4ea970920c6252f5723f89753">ViewHelperImpl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_aae213ba7e12012aecc014432c2422f5a.htm#aae213ba7e12012aecc014432c2422f5a">ViewHelperImpl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a8a7b30b2997abbc9a00400cdd55da0a5.htm#a8a7b30b2997abbc9a00400cdd55da0a5">zoomPan</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a8d8b4c250ef4f6ad48a05b84872016ff.htm#a8d8b4c250ef4f6ad48a05b84872016ff">zoomToExtent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a776209fc3d4d5f154d61c1b7d79034c4.htm#a776209fc3d4d5f154d61c1b7d79034c4">zoomToExtent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a8110c3ea3d0726a05195eac7d2a65b50.htm#a8110c3ea3d0726a05195eac7d2a65b50">zoomToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a6ab03ba69bf8a1294ed700fe04949b70.htm#a6ab03ba69bf8a1294ed700fe04949b70">zoomToModel</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ae7597f2e96bb861beb19ae39649ec72d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7597f2e96bb861beb19ae39649ec72d">&#9670;&nbsp;</a></span>importSVGPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int rhcad.touchvg.view.ViewHelperImpl.importSVGPath </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>用SVG路径的d坐标序列创建或设置图形形状 </p>
+
+<p>实现了 <a class="el" href="../../d5/d84/interfacerhcad_1_1touchvg_1_1_i_view_helper_aa96285145ac35521ac609609daad71b1.htm#aa96285145ac35521ac609609daad71b1">rhcad.touchvg.IViewHelper</a>.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae7597f2e96bb861beb19ae39649ec72d_ae7597f2e96bb861beb19ae39649ec72d_cgraph.png" border="0" usemap="#da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae7597f2e96bb861beb19ae39649ec72d_ae7597f2e96bb861beb19ae39649ec72d_cgraph" alt=""/></div>
+<map name="da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae7597f2e96bb861beb19ae39649ec72d_ae7597f2e96bb861beb19ae39649ec72d_cgraph" id="da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_ae7597f2e96bb861beb19ae39649ec72d_ae7597f2e96bb861beb19ae39649ec72d_cgraph">
+<area shape="rect" id="node2" href="../../da/d5f/classrhcad_1_1touchvg_1_1view_1_1_view_helper_impl_a80520bd8d8ca161bdbdcd134edfe9959.htm#a80520bd8d8ca161bdbdcd134edfe9959" title="rhcad.touchvg.view.ViewHelper\lImpl.view" alt="" coords="260,5,466,44"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

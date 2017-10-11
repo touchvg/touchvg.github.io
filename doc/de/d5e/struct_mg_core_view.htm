@@ -1,0 +1,396 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgCoreView接口 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="../../d8/d87/struct_mg_core_view-members.htm">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MgCoreView接口 参考<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="../../dc/d1f/group___c_o_r_e___v_i_e_w.htm">内核视图类</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>内核视图接口  
+ <a href="../../de/d5e/struct_mg_core_view.htm#details">更多...</a></p>
+
+<p><code>#include &lt;mgcoreview.h&gt;</code></p>
+<div class="dynheader">
+类 MgCoreView 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d2a/struct_mg_core_view__inherit__graph.png" border="0" usemap="#_mg_core_view_inherit__map" alt="Inheritance graph"/></div>
+<map name="_mg_core_view_inherit__map" id="_mg_core_view_inherit__map">
+<area shape="rect" id="node2" href="../../d9/de9/class_gi_core_view.htm" title="内核视图分发器类 " alt="" coords="5,305,220,677"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a246ba840250bd4f258efcfaeb6c0451f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fabe96a398fe762481fe7a32f90fb7a57a">kMgSquare</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa4bb816e4d6f40b4be90cddb147fdef78">kMgClosed</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa2d845b5b7780e05f9cfc2850f1a23e27">kMgFixedLength</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa2a4e7a7d84c34ee7c433a39f097139a2">kMgFixedSize</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451faef45805a27fbfb926730ac95646748d3">kMgRotateDisnable</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa1f0ab89f3a10fb15cacb84771bff9201">kMgLocked</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa270cea84b02357969f5c0be8d5b61ee3">kMgNoSnap</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa352a56371e7276eb4550d1645497a27c">kMgNoAction</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa77418c1c73cda2b6b5afd2b000de233f">kMgNoClone</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451faf8f25fd085f82037688c7c67feec44d8">kMgHideContent</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa4b1cf74857f0d85055d902c419e39efe">kMgNoDel</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa45807e81a71cbded5eb5f1f5329da8ed">kMgCanSelLocked</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fae71f5269a37bf36376a8a31bb2466ee2">kMgNotAddRel</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa787978ebb0a7f9743906d5f57ebf3663">kMgNotShowSnap</a>, 
+<a class="el" href="../../de/d5e/struct_mg_core_view_a246ba840250bd4f258efcfaeb6c0451f.htm#a246ba840250bd4f258efcfaeb6c0451fa33512ce688e98851d865da06b6c98bd8">kMgCanAddVertex</a>
+<br />
+ }</td></tr>
+<tr class="separator:a246ba840250bd4f258efcfaeb6c0451f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a8a2d26ab49a129482756b73101ebde94"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a8a2d26ab49a129482756b73101ebde94.htm#a8a2d26ab49a129482756b73101ebde94">~MgCoreView</a> ()</td></tr>
+<tr class="separator:a8a2d26ab49a129482756b73101ebde94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6686f0d234f7c342fb931cfcd043ad6f"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a6686f0d234f7c342fb931cfcd043ad6f.htm#a6686f0d234f7c342fb931cfcd043ad6f">toHandle</a> () const</td></tr>
+<tr class="memdesc:a6686f0d234f7c342fb931cfcd043ad6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到句柄，用于跨库转换  <a href="../../de/d5e/struct_mg_core_view_a6686f0d234f7c342fb931cfcd043ad6f.htm#a6686f0d234f7c342fb931cfcd043ad6f">更多...</a><br /></td></tr>
+<tr class="separator:a6686f0d234f7c342fb931cfcd043ad6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00fa6ed354f0429b3fec38f7bbfabe46"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a00fa6ed354f0429b3fec38f7bbfabe46.htm#a00fa6ed354f0429b3fec38f7bbfabe46">release</a> ()=0</td></tr>
+<tr class="memdesc:a00fa6ed354f0429b3fec38f7bbfabe46"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放引用计数，为0时销毁对象  <a href="../../de/d5e/struct_mg_core_view_a00fa6ed354f0429b3fec38f7bbfabe46.htm#a00fa6ed354f0429b3fec38f7bbfabe46">更多...</a><br /></td></tr>
+<tr class="separator:a00fa6ed354f0429b3fec38f7bbfabe46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a120300067a0ee7745af86a5d323df7b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a120300067a0ee7745af86a5d323df7b6.htm#a120300067a0ee7745af86a5d323df7b6">addRef</a> ()=0</td></tr>
+<tr class="memdesc:a120300067a0ee7745af86a5d323df7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加引用计数  <a href="../../de/d5e/struct_mg_core_view_a120300067a0ee7745af86a5d323df7b6.htm#a120300067a0ee7745af86a5d323df7b6">更多...</a><br /></td></tr>
+<tr class="separator:a120300067a0ee7745af86a5d323df7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826090a93997b8a1bae6e2f74a1c7be4"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a826090a93997b8a1bae6e2f74a1c7be4.htm#a826090a93997b8a1bae6e2f74a1c7be4">viewDataHandle</a> ()=0</td></tr>
+<tr class="memdesc:a826090a93997b8a1bae6e2f74a1c7be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">内部数据句柄, 可转换为 <a class="el" href="../../d9/d0e/class_gi_core_view_data.htm" title="GiCoreView内部数据类 ">GiCoreViewData</a> 指针  <a href="../../de/d5e/struct_mg_core_view_a826090a93997b8a1bae6e2f74a1c7be4.htm#a826090a93997b8a1bae6e2f74a1c7be4">更多...</a><br /></td></tr>
+<tr class="separator:a826090a93997b8a1bae6e2f74a1c7be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa71757386efb44cd92672149de57df9a"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa71757386efb44cd92672149de57df9a.htm#aa71757386efb44cd92672149de57df9a">viewAdapterHandle</a> ()=0</td></tr>
+<tr class="memdesc:aa71757386efb44cd92672149de57df9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">命令视图回调适配器的句柄, 可转换为 <a class="el" href="../../d5/dea/struct_mg_view.htm" title="视图回调接口，供命令使用 ">MgView</a> 指针  <a href="../../de/d5e/struct_mg_core_view_aa71757386efb44cd92672149de57df9a.htm#aa71757386efb44cd92672149de57df9a">更多...</a><br /></td></tr>
+<tr class="separator:aa71757386efb44cd92672149de57df9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefa7563f068fd8910a6d7f5025032cd3"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aefa7563f068fd8910a6d7f5025032cd3.htm#aefa7563f068fd8910a6d7f5025032cd3">backDoc</a> ()=0</td></tr>
+<tr class="memdesc:aefa7563f068fd8910a6d7f5025032cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">图形文档的句柄, 用 <a class="el" href="../../da/d8d/class_mg_shape_doc_a28a2a6dbd9439a9aab3681b40e2220b4.htm#a28a2a6dbd9439a9aab3681b40e2220b4" title="转为对象 ">MgShapeDoc::fromHandle()</a> 转换  <a href="../../de/d5e/struct_mg_core_view_aefa7563f068fd8910a6d7f5025032cd3.htm#aefa7563f068fd8910a6d7f5025032cd3">更多...</a><br /></td></tr>
+<tr class="separator:aefa7563f068fd8910a6d7f5025032cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1eedadcd0f48395ae649b824a5f467"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a0e1eedadcd0f48395ae649b824a5f467.htm#a0e1eedadcd0f48395ae649b824a5f467">backShapes</a> ()=0</td></tr>
+<tr class="memdesc:a0e1eedadcd0f48395ae649b824a5f467"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前图形列表的句柄, 用 <a class="el" href="../../d0/d94/class_mg_shapes_af1fab288ddc761c46e96851da5ac0feb.htm#af1fab288ddc761c46e96851da5ac0feb" title="转为对象 ">MgShapes::fromHandle()</a> 转换  <a href="../../de/d5e/struct_mg_core_view_a0e1eedadcd0f48395ae649b824a5f467.htm#a0e1eedadcd0f48395ae649b824a5f467">更多...</a><br /></td></tr>
+<tr class="separator:a0e1eedadcd0f48395ae649b824a5f467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c8b2dab8e02f1b02d1be44de8518c9"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a49c8b2dab8e02f1b02d1be44de8518c9.htm#a49c8b2dab8e02f1b02d1be44de8518c9">acquireFrontDoc</a> ()=0</td></tr>
+<tr class="memdesc:a49c8b2dab8e02f1b02d1be44de8518c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取前端图形文档的句柄, 需要并发访问保护  <a href="../../de/d5e/struct_mg_core_view_a49c8b2dab8e02f1b02d1be44de8518c9.htm#a49c8b2dab8e02f1b02d1be44de8518c9">更多...</a><br /></td></tr>
+<tr class="separator:a49c8b2dab8e02f1b02d1be44de8518c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84d491dbf521a2414d2855e3c4e75ba1"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a84d491dbf521a2414d2855e3c4e75ba1.htm#a84d491dbf521a2414d2855e3c4e75ba1">acquireFrontDoc</a> (long playh)=0</td></tr>
+<tr class="memdesc:a84d491dbf521a2414d2855e3c4e75ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取指定数据源的前端图形文档的句柄  <a href="../../de/d5e/struct_mg_core_view_a84d491dbf521a2414d2855e3c4e75ba1.htm#a84d491dbf521a2414d2855e3c4e75ba1">更多...</a><br /></td></tr>
+<tr class="separator:a84d491dbf521a2414d2855e3c4e75ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce220103086827f9aad2d3f0a9cadf0"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a2ce220103086827f9aad2d3f0a9cadf0.htm#a2ce220103086827f9aad2d3f0a9cadf0">acquireDynamicShapes</a> ()=0</td></tr>
+<tr class="memdesc:a2ce220103086827f9aad2d3f0a9cadf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取动态图形列表的句柄, 需要并发访问保护  <a href="../../de/d5e/struct_mg_core_view_a2ce220103086827f9aad2d3f0a9cadf0.htm#a2ce220103086827f9aad2d3f0a9cadf0">更多...</a><br /></td></tr>
+<tr class="separator:a2ce220103086827f9aad2d3f0a9cadf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18e326b0605d1d7a32594f1973f0695"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa18e326b0605d1d7a32594f1973f0695.htm#aa18e326b0605d1d7a32594f1973f0695">isDrawing</a> ()=0</td></tr>
+<tr class="memdesc:aa18e326b0605d1d7a32594f1973f0695"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回是否正在绘制静态图形  <a href="../../de/d5e/struct_mg_core_view_aa18e326b0605d1d7a32594f1973f0695.htm#aa18e326b0605d1d7a32594f1973f0695">更多...</a><br /></td></tr>
+<tr class="separator:aa18e326b0605d1d7a32594f1973f0695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc043615ec62d8b0168e01fe318a92d5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_adc043615ec62d8b0168e01fe318a92d5.htm#adc043615ec62d8b0168e01fe318a92d5">isZooming</a> ()=0</td></tr>
+<tr class="memdesc:adc043615ec62d8b0168e01fe318a92d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回是否正在动态放缩显示  <a href="../../de/d5e/struct_mg_core_view_adc043615ec62d8b0168e01fe318a92d5.htm#adc043615ec62d8b0168e01fe318a92d5">更多...</a><br /></td></tr>
+<tr class="separator:adc043615ec62d8b0168e01fe318a92d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9458b4b76fe99863e3ffbd21aee11d5d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a9458b4b76fe99863e3ffbd21aee11d5d.htm#a9458b4b76fe99863e3ffbd21aee11d5d">isStopping</a> ()=0</td></tr>
+<tr class="memdesc:a9458b4b76fe99863e3ffbd21aee11d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回是否需要停止绘图  <a href="../../de/d5e/struct_mg_core_view_a9458b4b76fe99863e3ffbd21aee11d5d.htm#a9458b4b76fe99863e3ffbd21aee11d5d">更多...</a><br /></td></tr>
+<tr class="separator:a9458b4b76fe99863e3ffbd21aee11d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca276bf36dee2562563695dd40bf030"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aeca276bf36dee2562563695dd40bf030.htm#aeca276bf36dee2562563695dd40bf030">stopDrawing</a> (bool stop=true)=0</td></tr>
+<tr class="memdesc:aeca276bf36dee2562563695dd40bf030"><td class="mdescLeft">&#160;</td><td class="mdescRight">标记需要停止绘图  <a href="../../de/d5e/struct_mg_core_view_aeca276bf36dee2562563695dd40bf030.htm#aeca276bf36dee2562563695dd40bf030">更多...</a><br /></td></tr>
+<tr class="separator:aeca276bf36dee2562563695dd40bf030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7350aeee7cc973bdb04798010428bdb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa7350aeee7cc973bdb04798010428bdb.htm#aa7350aeee7cc973bdb04798010428bdb">isUndoRecording</a> () const =0</td></tr>
+<tr class="memdesc:aa7350aeee7cc973bdb04798010428bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否正在Undo录制  <a href="../../de/d5e/struct_mg_core_view_aa7350aeee7cc973bdb04798010428bdb.htm#aa7350aeee7cc973bdb04798010428bdb">更多...</a><br /></td></tr>
+<tr class="separator:aa7350aeee7cc973bdb04798010428bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad358ce795b5dc0b11013c6e8db227df7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ad358ce795b5dc0b11013c6e8db227df7.htm#ad358ce795b5dc0b11013c6e8db227df7">isRecording</a> () const =0</td></tr>
+<tr class="memdesc:ad358ce795b5dc0b11013c6e8db227df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否正在录屏  <a href="../../de/d5e/struct_mg_core_view_ad358ce795b5dc0b11013c6e8db227df7.htm#ad358ce795b5dc0b11013c6e8db227df7">更多...</a><br /></td></tr>
+<tr class="separator:ad358ce795b5dc0b11013c6e8db227df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f9a60c930e735d989256a000f4dbfe4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a4f9a60c930e735d989256a000f4dbfe4.htm#a4f9a60c930e735d989256a000f4dbfe4">isPlaying</a> () const =0</td></tr>
+<tr class="memdesc:a4f9a60c930e735d989256a000f4dbfe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否处于播放模式  <a href="../../de/d5e/struct_mg_core_view_a4f9a60c930e735d989256a000f4dbfe4.htm#a4f9a60c930e735d989256a000f4dbfe4">更多...</a><br /></td></tr>
+<tr class="separator:a4f9a60c930e735d989256a000f4dbfe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9df6b7451ac5f8f1d3bd070ff86ab5c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ae9df6b7451ac5f8f1d3bd070ff86ab5c.htm#ae9df6b7451ac5f8f1d3bd070ff86ab5c">isPaused</a> () const =0</td></tr>
+<tr class="memdesc:ae9df6b7451ac5f8f1d3bd070ff86ab5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回是否已暂停  <a href="../../de/d5e/struct_mg_core_view_ae9df6b7451ac5f8f1d3bd070ff86ab5c.htm#ae9df6b7451ac5f8f1d3bd070ff86ab5c">更多...</a><br /></td></tr>
+<tr class="separator:ae9df6b7451ac5f8f1d3bd070ff86ab5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d85697f6a483d19223eac31951ccbb5"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a7d85697f6a483d19223eac31951ccbb5.htm#a7d85697f6a483d19223eac31951ccbb5">getRecordTick</a> (bool forUndo, long curTick)=0</td></tr>
+<tr class="memdesc:a7d85697f6a483d19223eac31951ccbb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到已开始的相对毫秒时刻  <a href="../../de/d5e/struct_mg_core_view_a7d85697f6a483d19223eac31951ccbb5.htm#a7d85697f6a483d19223eac31951ccbb5">更多...</a><br /></td></tr>
+<tr class="separator:a7d85697f6a483d19223eac31951ccbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa383abced33dd73ac1c575f923d0399b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa383abced33dd73ac1c575f923d0399b.htm#aa383abced33dd73ac1c575f923d0399b">isUndoLoading</a> () const =0</td></tr>
+<tr class="memdesc:aa383abced33dd73ac1c575f923d0399b"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否正加载文档  <a href="../../de/d5e/struct_mg_core_view_aa383abced33dd73ac1c575f923d0399b.htm#aa383abced33dd73ac1c575f923d0399b">更多...</a><br /></td></tr>
+<tr class="separator:aa383abced33dd73ac1c575f923d0399b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06bf7d71157040e617bbec83ca903ba"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ac06bf7d71157040e617bbec83ca903ba.htm#ac06bf7d71157040e617bbec83ca903ba">canUndo</a> () const =0</td></tr>
+<tr class="memdesc:ac06bf7d71157040e617bbec83ca903ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">能否撤销  <a href="../../de/d5e/struct_mg_core_view_ac06bf7d71157040e617bbec83ca903ba.htm#ac06bf7d71157040e617bbec83ca903ba">更多...</a><br /></td></tr>
+<tr class="separator:ac06bf7d71157040e617bbec83ca903ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede09c2e61e52417d3bf1fcbe3b3d353"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aede09c2e61e52417d3bf1fcbe3b3d353.htm#aede09c2e61e52417d3bf1fcbe3b3d353">canRedo</a> () const =0</td></tr>
+<tr class="memdesc:aede09c2e61e52417d3bf1fcbe3b3d353"><td class="mdescLeft">&#160;</td><td class="mdescRight">能否重做  <a href="../../de/d5e/struct_mg_core_view_aede09c2e61e52417d3bf1fcbe3b3d353.htm#aede09c2e61e52417d3bf1fcbe3b3d353">更多...</a><br /></td></tr>
+<tr class="separator:aede09c2e61e52417d3bf1fcbe3b3d353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3f664ed613809afeb1f061aef7d298"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aba3f664ed613809afeb1f061aef7d298.htm#aba3f664ed613809afeb1f061aef7d298">getRedoIndex</a> () const =0</td></tr>
+<tr class="memdesc:aba3f664ed613809afeb1f061aef7d298"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前Undo位置  <a href="../../de/d5e/struct_mg_core_view_aba3f664ed613809afeb1f061aef7d298.htm#aba3f664ed613809afeb1f061aef7d298">更多...</a><br /></td></tr>
+<tr class="separator:aba3f664ed613809afeb1f061aef7d298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd57c216570c0e02facff4ac595fbf73"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_afd57c216570c0e02facff4ac595fbf73.htm#afd57c216570c0e02facff4ac595fbf73">getRedoCount</a> () const =0</td></tr>
+<tr class="memdesc:afd57c216570c0e02facff4ac595fbf73"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到Undo文件数  <a href="../../de/d5e/struct_mg_core_view_afd57c216570c0e02facff4ac595fbf73.htm#afd57c216570c0e02facff4ac595fbf73">更多...</a><br /></td></tr>
+<tr class="separator:afd57c216570c0e02facff4ac595fbf73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ec3697f3cb11623ac5b584e0df53735"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a2ec3697f3cb11623ac5b584e0df53735.htm#a2ec3697f3cb11623ac5b584e0df53735">getPlayingTick</a> (long curTick)</td></tr>
+<tr class="memdesc:a2ec3697f3cb11623ac5b584e0df53735"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到已播放的毫秒数  <a href="../../de/d5e/struct_mg_core_view_a2ec3697f3cb11623ac5b584e0df53735.htm#a2ec3697f3cb11623ac5b584e0df53735">更多...</a><br /></td></tr>
+<tr class="separator:a2ec3697f3cb11623ac5b584e0df53735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d52ebcdf493c92a7d27b995b40b868c"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a7d52ebcdf493c92a7d27b995b40b868c.htm#a7d52ebcdf493c92a7d27b995b40b868c">getFrameTick</a> ()=0</td></tr>
+<tr class="memdesc:a7d52ebcdf493c92a7d27b995b40b868c"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前帧的相对毫秒时刻  <a href="../../de/d5e/struct_mg_core_view_a7d52ebcdf493c92a7d27b995b40b868c.htm#a7d52ebcdf493c92a7d27b995b40b868c">更多...</a><br /></td></tr>
+<tr class="separator:a7d52ebcdf493c92a7d27b995b40b868c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10cc3ec26e21b2b2fb4018fd95d02bc7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a10cc3ec26e21b2b2fb4018fd95d02bc7.htm#a10cc3ec26e21b2b2fb4018fd95d02bc7">getFrameFlags</a> ()=0</td></tr>
+<tr class="memdesc:a10cc3ec26e21b2b2fb4018fd95d02bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前帧的改动标志  <a href="../../de/d5e/struct_mg_core_view_a10cc3ec26e21b2b2fb4018fd95d02bc7.htm#a10cc3ec26e21b2b2fb4018fd95d02bc7">更多...</a><br /></td></tr>
+<tr class="separator:a10cc3ec26e21b2b2fb4018fd95d02bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3f099a9e25444c7cde066131401b56"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a5d3f099a9e25444c7cde066131401b56.htm#a5d3f099a9e25444c7cde066131401b56">getFrameIndex</a> () const =0</td></tr>
+<tr class="memdesc:a5d3f099a9e25444c7cde066131401b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到已播放的帧数  <a href="../../de/d5e/struct_mg_core_view_a5d3f099a9e25444c7cde066131401b56.htm#a5d3f099a9e25444c7cde066131401b56">更多...</a><br /></td></tr>
+<tr class="separator:a5d3f099a9e25444c7cde066131401b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa57d464aa7bd967f6a65991a8029853"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aaa57d464aa7bd967f6a65991a8029853.htm#aaa57d464aa7bd967f6a65991a8029853">isPressDragging</a> ()=0</td></tr>
+<tr class="memdesc:aaa57d464aa7bd967f6a65991a8029853"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否按下并拖动  <a href="../../de/d5e/struct_mg_core_view_aaa57d464aa7bd967f6a65991a8029853.htm#aaa57d464aa7bd967f6a65991a8029853">更多...</a><br /></td></tr>
+<tr class="separator:aaa57d464aa7bd967f6a65991a8029853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d4ff50d31c8339754c826f2c576d1a2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a1d4ff50d31c8339754c826f2c576d1a2.htm#a1d4ff50d31c8339754c826f2c576d1a2">isDrawingCommand</a> ()=0</td></tr>
+<tr class="memdesc:a1d4ff50d31c8339754c826f2c576d1a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前是否为绘图命令  <a href="../../de/d5e/struct_mg_core_view_a1d4ff50d31c8339754c826f2c576d1a2.htm#a1d4ff50d31c8339754c826f2c576d1a2">更多...</a><br /></td></tr>
+<tr class="separator:a1d4ff50d31c8339754c826f2c576d1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a752cf11e6b84fe0f2a7b57e74c54ff98"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a752cf11e6b84fe0f2a7b57e74c54ff98.htm#a752cf11e6b84fe0f2a7b57e74c54ff98">isCommand</a> (const char *name)=0</td></tr>
+<tr class="memdesc:a752cf11e6b84fe0f2a7b57e74c54ff98"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前是否为指定名称的命令  <a href="../../de/d5e/struct_mg_core_view_a752cf11e6b84fe0f2a7b57e74c54ff98.htm#a752cf11e6b84fe0f2a7b57e74c54ff98">更多...</a><br /></td></tr>
+<tr class="separator:a752cf11e6b84fe0f2a7b57e74c54ff98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6426360331c00f729e8eeef05fc19fbd"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a6426360331c00f729e8eeef05fc19fbd.htm#a6426360331c00f729e8eeef05fc19fbd">getCommand</a> () const =0</td></tr>
+<tr class="memdesc:a6426360331c00f729e8eeef05fc19fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前命令名称  <a href="../../de/d5e/struct_mg_core_view_a6426360331c00f729e8eeef05fc19fbd.htm#a6426360331c00f729e8eeef05fc19fbd">更多...</a><br /></td></tr>
+<tr class="separator:a6426360331c00f729e8eeef05fc19fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5bd37bd6f1a374c07d66f85c6a5fce7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ac5bd37bd6f1a374c07d66f85c6a5fce7.htm#ac5bd37bd6f1a374c07d66f85c6a5fce7">getCommand</a> (MgStringCallback *c)</td></tr>
+<tr class="memdesc:ac5bd37bd6f1a374c07d66f85c6a5fce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到当前命令名称  <a href="../../de/d5e/struct_mg_core_view_ac5bd37bd6f1a374c07d66f85c6a5fce7.htm#ac5bd37bd6f1a374c07d66f85c6a5fce7">更多...</a><br /></td></tr>
+<tr class="separator:ac5bd37bd6f1a374c07d66f85c6a5fce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42726c9d1789acb68159ead9c68919f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ad42726c9d1789acb68159ead9c68919f.htm#ad42726c9d1789acb68159ead9c68919f">setCommand</a> (const char *name, const char *params=&quot;&quot;)=0</td></tr>
+<tr class="memdesc:ad42726c9d1789acb68159ead9c68919f"><td class="mdescLeft">&#160;</td><td class="mdescRight">启动命令  <a href="../../de/d5e/struct_mg_core_view_ad42726c9d1789acb68159ead9c68919f.htm#ad42726c9d1789acb68159ead9c68919f">更多...</a><br /></td></tr>
+<tr class="separator:ad42726c9d1789acb68159ead9c68919f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fee94dff2f44ad1f074de340a4665d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a85fee94dff2f44ad1f074de340a4665d.htm#a85fee94dff2f44ad1f074de340a4665d">switchCommand</a> ()=0</td></tr>
+<tr class="memdesc:a85fee94dff2f44ad1f074de340a4665d"><td class="mdescLeft">&#160;</td><td class="mdescRight">切换到下一命令  <a href="../../de/d5e/struct_mg_core_view_a85fee94dff2f44ad1f074de340a4665d.htm#a85fee94dff2f44ad1f074de340a4665d">更多...</a><br /></td></tr>
+<tr class="separator:a85fee94dff2f44ad1f074de340a4665d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5aebd44649fb660422df25f1a2f1b63"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ab5aebd44649fb660422df25f1a2f1b63.htm#ab5aebd44649fb660422df25f1a2f1b63">doContextAction</a> (int action)=0</td></tr>
+<tr class="memdesc:ab5aebd44649fb660422df25f1a2f1b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">执行上下文动作  <a href="../../de/d5e/struct_mg_core_view_ab5aebd44649fb660422df25f1a2f1b63.htm#ab5aebd44649fb660422df25f1a2f1b63">更多...</a><br /></td></tr>
+<tr class="separator:ab5aebd44649fb660422df25f1a2f1b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022e7939299ffc0b3e4e4e97db683c5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a022e7939299ffc0b3e4e4e97db683c5f.htm#a022e7939299ffc0b3e4e4e97db683c5f">clearCachedData</a> ()=0</td></tr>
+<tr class="memdesc:a022e7939299ffc0b3e4e4e97db683c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放临时数据内存，未做线程保护  <a href="../../de/d5e/struct_mg_core_view_a022e7939299ffc0b3e4e4e97db683c5f.htm#a022e7939299ffc0b3e4e4e97db683c5f">更多...</a><br /></td></tr>
+<tr class="separator:a022e7939299ffc0b3e4e4e97db683c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb09ac626a9859f726f90bf0c38cbdf9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_afb09ac626a9859f726f90bf0c38cbdf9.htm#afb09ac626a9859f726f90bf0c38cbdf9">addShapesForTest</a> (int n=1000)=0</td></tr>
+<tr class="memdesc:afb09ac626a9859f726f90bf0c38cbdf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加测试图形  <a href="../../de/d5e/struct_mg_core_view_afb09ac626a9859f726f90bf0c38cbdf9.htm#afb09ac626a9859f726f90bf0c38cbdf9">更多...</a><br /></td></tr>
+<tr class="separator:afb09ac626a9859f726f90bf0c38cbdf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7436f59a5a94febb7c5a03895bd8320"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_af7436f59a5a94febb7c5a03895bd8320.htm#af7436f59a5a94febb7c5a03895bd8320">getShapeCount</a> ()=0</td></tr>
+<tr class="memdesc:af7436f59a5a94febb7c5a03895bd8320"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回后端文档的图形总数  <a href="../../de/d5e/struct_mg_core_view_af7436f59a5a94febb7c5a03895bd8320.htm#af7436f59a5a94febb7c5a03895bd8320">更多...</a><br /></td></tr>
+<tr class="separator:af7436f59a5a94febb7c5a03895bd8320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f3c29b20b6fc4455df567c85d791328"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a4f3c29b20b6fc4455df567c85d791328.htm#a4f3c29b20b6fc4455df567c85d791328">getShapeCount</a> (long doc)=0</td></tr>
+<tr class="memdesc:a4f3c29b20b6fc4455df567c85d791328"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回前端文档的图形总数  <a href="../../de/d5e/struct_mg_core_view_a4f3c29b20b6fc4455df567c85d791328.htm#a4f3c29b20b6fc4455df567c85d791328">更多...</a><br /></td></tr>
+<tr class="separator:a4f3c29b20b6fc4455df567c85d791328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d30ba8028d07eae1e927ccfd88a7564"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a0d30ba8028d07eae1e927ccfd88a7564.htm#a0d30ba8028d07eae1e927ccfd88a7564">getUnlockedShapeCount</a> (int type=0)=0</td></tr>
+<tr class="memdesc:a0d30ba8028d07eae1e927ccfd88a7564"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回未锁定的可见图形的个数  <a href="../../de/d5e/struct_mg_core_view_a0d30ba8028d07eae1e927ccfd88a7564.htm#a0d30ba8028d07eae1e927ccfd88a7564">更多...</a><br /></td></tr>
+<tr class="separator:a0d30ba8028d07eae1e927ccfd88a7564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57067d73800a2b0ed743205755994607"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a57067d73800a2b0ed743205755994607.htm#a57067d73800a2b0ed743205755994607">getVisibleShapeCount</a> (int type=0)=0</td></tr>
+<tr class="memdesc:a57067d73800a2b0ed743205755994607"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回可见图形的个数  <a href="../../de/d5e/struct_mg_core_view_a57067d73800a2b0ed743205755994607.htm#a57067d73800a2b0ed743205755994607">更多...</a><br /></td></tr>
+<tr class="separator:a57067d73800a2b0ed743205755994607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa350cf04b28192fbb69304b49959199f"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa350cf04b28192fbb69304b49959199f.htm#aa350cf04b28192fbb69304b49959199f">getChangeCount</a> ()=0</td></tr>
+<tr class="memdesc:aa350cf04b28192fbb69304b49959199f"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回静态图形改变次数，可用于检查是否需要保存  <a href="../../de/d5e/struct_mg_core_view_aa350cf04b28192fbb69304b49959199f.htm#aa350cf04b28192fbb69304b49959199f">更多...</a><br /></td></tr>
+<tr class="separator:aa350cf04b28192fbb69304b49959199f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f2ad3093c435b0b0ff5aa70fae9c04"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a51f2ad3093c435b0b0ff5aa70fae9c04.htm#a51f2ad3093c435b0b0ff5aa70fae9c04">getDrawCount</a> () const =0</td></tr>
+<tr class="memdesc:a51f2ad3093c435b0b0ff5aa70fae9c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回已绘制次数，可用于录屏  <a href="../../de/d5e/struct_mg_core_view_a51f2ad3093c435b0b0ff5aa70fae9c04.htm#a51f2ad3093c435b0b0ff5aa70fae9c04">更多...</a><br /></td></tr>
+<tr class="separator:a51f2ad3093c435b0b0ff5aa70fae9c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4030cb2a3fb2de767e1e2593fa8d32"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a1e4030cb2a3fb2de767e1e2593fa8d32.htm#a1e4030cb2a3fb2de767e1e2593fa8d32">getSelectedShapeCount</a> ()=0</td></tr>
+<tr class="memdesc:a1e4030cb2a3fb2de767e1e2593fa8d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回选中的图形个数  <a href="../../de/d5e/struct_mg_core_view_a1e4030cb2a3fb2de767e1e2593fa8d32.htm#a1e4030cb2a3fb2de767e1e2593fa8d32">更多...</a><br /></td></tr>
+<tr class="separator:a1e4030cb2a3fb2de767e1e2593fa8d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249947ca67175d6f64e69ed6453631e5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a249947ca67175d6f64e69ed6453631e5.htm#a249947ca67175d6f64e69ed6453631e5">getSelectedShapeType</a> ()=0</td></tr>
+<tr class="memdesc:a249947ca67175d6f64e69ed6453631e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回选中的图形的类型, MgShapeType  <a href="../../de/d5e/struct_mg_core_view_a249947ca67175d6f64e69ed6453631e5.htm#a249947ca67175d6f64e69ed6453631e5">更多...</a><br /></td></tr>
+<tr class="separator:a249947ca67175d6f64e69ed6453631e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c155fc5648a4b1c2ae427d586110fe"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a26c155fc5648a4b1c2ae427d586110fe.htm#a26c155fc5648a4b1c2ae427d586110fe">getSelectedShapeID</a> ()=0</td></tr>
+<tr class="memdesc:a26c155fc5648a4b1c2ae427d586110fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前选中的图形的ID，选中多个时只取第一个  <a href="../../de/d5e/struct_mg_core_view_a26c155fc5648a4b1c2ae427d586110fe.htm#a26c155fc5648a4b1c2ae427d586110fe">更多...</a><br /></td></tr>
+<tr class="separator:a26c155fc5648a4b1c2ae427d586110fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5372ef435471da7c2f28006de9bc62"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a3a5372ef435471da7c2f28006de9bc62.htm#a3a5372ef435471da7c2f28006de9bc62">getSelectedHandle</a> ()=0</td></tr>
+<tr class="memdesc:a3a5372ef435471da7c2f28006de9bc62"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前线性图形中当前控制点序号  <a href="../../de/d5e/struct_mg_core_view_a3a5372ef435471da7c2f28006de9bc62.htm#a3a5372ef435471da7c2f28006de9bc62">更多...</a><br /></td></tr>
+<tr class="separator:a3a5372ef435471da7c2f28006de9bc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778c90f2955b8cb3a8b319c4eaf4efc2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a778c90f2955b8cb3a8b319c4eaf4efc2.htm#a778c90f2955b8cb3a8b319c4eaf4efc2">getSelectedShapeIDs</a> (mgvector&lt; int &gt; &amp;ids)=0</td></tr>
+<tr class="memdesc:a778c90f2955b8cb3a8b319c4eaf4efc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前选中的图形的ID  <a href="../../de/d5e/struct_mg_core_view_a778c90f2955b8cb3a8b319c4eaf4efc2.htm#a778c90f2955b8cb3a8b319c4eaf4efc2">更多...</a><br /></td></tr>
+<tr class="separator:a778c90f2955b8cb3a8b319c4eaf4efc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ff8b2e7ea03002a27fb010d4ed8a70"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a07ff8b2e7ea03002a27fb010d4ed8a70.htm#a07ff8b2e7ea03002a27fb010d4ed8a70">setSelectedShapeIDs</a> (const mgvector&lt; int &gt; &amp;ids)=0</td></tr>
+<tr class="memdesc:a07ff8b2e7ea03002a27fb010d4ed8a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">选中指定ID的图形  <a href="../../de/d5e/struct_mg_core_view_a07ff8b2e7ea03002a27fb010d4ed8a70.htm#a07ff8b2e7ea03002a27fb010d4ed8a70">更多...</a><br /></td></tr>
+<tr class="separator:a07ff8b2e7ea03002a27fb010d4ed8a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84d7b8767bc820759b97e65a9b6e1c1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a84d7b8767bc820759b97e65a9b6e1c1f.htm#a84d7b8767bc820759b97e65a9b6e1c1f">clear</a> ()=0</td></tr>
+<tr class="memdesc:a84d7b8767bc820759b97e65a9b6e1c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">删除所有图形，包括锁定的图形  <a href="../../de/d5e/struct_mg_core_view_a84d7b8767bc820759b97e65a9b6e1c1f.htm#a84d7b8767bc820759b97e65a9b6e1c1f">更多...</a><br /></td></tr>
+<tr class="separator:a84d7b8767bc820759b97e65a9b6e1c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536ed233d457673eac0c1f2b1e90ab7b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a536ed233d457673eac0c1f2b1e90ab7b.htm#a536ed233d457673eac0c1f2b1e90ab7b">loadFromFile</a> (const char *vgfile, bool readOnly=false)=0</td></tr>
+<tr class="memdesc:a536ed233d457673eac0c1f2b1e90ab7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">从文件或JSON串中加载  <a href="../../de/d5e/struct_mg_core_view_a536ed233d457673eac0c1f2b1e90ab7b.htm#a536ed233d457673eac0c1f2b1e90ab7b">更多...</a><br /></td></tr>
+<tr class="separator:a536ed233d457673eac0c1f2b1e90ab7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f4733d989c500863995f08b28e8e4e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa5f4733d989c500863995f08b28e8e4e.htm#aa5f4733d989c500863995f08b28e8e4e">saveToFile</a> (long doc, const char *vgfile, bool pretty=false)=0</td></tr>
+<tr class="memdesc:aa5f4733d989c500863995f08b28e8e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存图形  <a href="../../de/d5e/struct_mg_core_view_aa5f4733d989c500863995f08b28e8e4e.htm#aa5f4733d989c500863995f08b28e8e4e">更多...</a><br /></td></tr>
+<tr class="separator:aa5f4733d989c500863995f08b28e8e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d25443ff0b16f466f71916ca4e8b4af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a1d25443ff0b16f466f71916ca4e8b4af.htm#a1d25443ff0b16f466f71916ca4e8b4af">saveToFile</a> (const char *vgfile, bool pretty=false)</td></tr>
+<tr class="memdesc:a1d25443ff0b16f466f71916ca4e8b4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存图形，主线程中用  <a href="../../de/d5e/struct_mg_core_view_a1d25443ff0b16f466f71916ca4e8b4af.htm#a1d25443ff0b16f466f71916ca4e8b4af">更多...</a><br /></td></tr>
+<tr class="separator:a1d25443ff0b16f466f71916ca4e8b4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249b13a8b44f8689faeade23521cdc41"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a249b13a8b44f8689faeade23521cdc41.htm#a249b13a8b44f8689faeade23521cdc41">loadShapes</a> (MgStorage *s, bool readOnly=false)=0</td></tr>
+<tr class="memdesc:a249b13a8b44f8689faeade23521cdc41"><td class="mdescLeft">&#160;</td><td class="mdescRight">从数据源中加载图形  <a href="../../de/d5e/struct_mg_core_view_a249b13a8b44f8689faeade23521cdc41.htm#a249b13a8b44f8689faeade23521cdc41">更多...</a><br /></td></tr>
+<tr class="separator:a249b13a8b44f8689faeade23521cdc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9c8b7f0082e41d897f8aecc834caf9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a5d9c8b7f0082e41d897f8aecc834caf9.htm#a5d9c8b7f0082e41d897f8aecc834caf9">saveShapes</a> (long doc, MgStorage *s)=0</td></tr>
+<tr class="memdesc:a5d9c8b7f0082e41d897f8aecc834caf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存图形到数据源  <a href="../../de/d5e/struct_mg_core_view_a5d9c8b7f0082e41d897f8aecc834caf9.htm#a5d9c8b7f0082e41d897f8aecc834caf9">更多...</a><br /></td></tr>
+<tr class="separator:a5d9c8b7f0082e41d897f8aecc834caf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c7df261c6443705d80fecc2fa74a1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a39c7df261c6443705d80fecc2fa74a1b.htm#a39c7df261c6443705d80fecc2fa74a1b">saveShapes</a> (MgStorage *s)</td></tr>
+<tr class="memdesc:a39c7df261c6443705d80fecc2fa74a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存图形到数据源，主线程中用  <a href="../../de/d5e/struct_mg_core_view_a39c7df261c6443705d80fecc2fa74a1b.htm#a39c7df261c6443705d80fecc2fa74a1b">更多...</a><br /></td></tr>
+<tr class="separator:a39c7df261c6443705d80fecc2fa74a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71833bd938d1949af4e65178b981e66a"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a71833bd938d1949af4e65178b981e66a.htm#a71833bd938d1949af4e65178b981e66a">getContent</a> (long doc)=0</td></tr>
+<tr class="memdesc:a71833bd938d1949af4e65178b981e66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到图形的JSON内容，需要调用 <a class="el" href="../../de/d5e/struct_mg_core_view_a9286532a5423f5f55f67f851cae729bb.htm#a9286532a5423f5f55f67f851cae729bb" title="释放 getContent() 产生的缓冲资源 ">freeContent()</a>  <a href="../../de/d5e/struct_mg_core_view_a71833bd938d1949af4e65178b981e66a.htm#a71833bd938d1949af4e65178b981e66a">更多...</a><br /></td></tr>
+<tr class="separator:a71833bd938d1949af4e65178b981e66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ff73df38eb5d5a724e498349458c86"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a89ff73df38eb5d5a724e498349458c86.htm#a89ff73df38eb5d5a724e498349458c86">getContent</a> ()</td></tr>
+<tr class="memdesc:a89ff73df38eb5d5a724e498349458c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到图形内容，需调用 <a class="el" href="../../de/d5e/struct_mg_core_view_a9286532a5423f5f55f67f851cae729bb.htm#a9286532a5423f5f55f67f851cae729bb" title="释放 getContent() 产生的缓冲资源 ">freeContent()</a>，主线程中用  <a href="../../de/d5e/struct_mg_core_view_a89ff73df38eb5d5a724e498349458c86.htm#a89ff73df38eb5d5a724e498349458c86">更多...</a><br /></td></tr>
+<tr class="separator:a89ff73df38eb5d5a724e498349458c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c54c78c79a557690c1d7bf248ab123c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a9c54c78c79a557690c1d7bf248ab123c.htm#a9c54c78c79a557690c1d7bf248ab123c">getContent</a> (long doc, MgStringCallback *c)</td></tr>
+<tr class="memdesc:a9c54c78c79a557690c1d7bf248ab123c"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到图形的JSON内容，自动 <a class="el" href="../../de/d5e/struct_mg_core_view_a9286532a5423f5f55f67f851cae729bb.htm#a9286532a5423f5f55f67f851cae729bb" title="释放 getContent() 产生的缓冲资源 ">freeContent()</a>  <a href="../../de/d5e/struct_mg_core_view_a9c54c78c79a557690c1d7bf248ab123c.htm#a9c54c78c79a557690c1d7bf248ab123c">更多...</a><br /></td></tr>
+<tr class="separator:a9c54c78c79a557690c1d7bf248ab123c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322bb9e5d08dbf24029b24b1dfbfe120"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a322bb9e5d08dbf24029b24b1dfbfe120.htm#a322bb9e5d08dbf24029b24b1dfbfe120">getContent</a> (MgStringCallback *c)</td></tr>
+<tr class="memdesc:a322bb9e5d08dbf24029b24b1dfbfe120"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到图形的JSON内容，主线程中用  <a href="../../de/d5e/struct_mg_core_view_a322bb9e5d08dbf24029b24b1dfbfe120.htm#a322bb9e5d08dbf24029b24b1dfbfe120">更多...</a><br /></td></tr>
+<tr class="separator:a322bb9e5d08dbf24029b24b1dfbfe120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9286532a5423f5f55f67f851cae729bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a9286532a5423f5f55f67f851cae729bb.htm#a9286532a5423f5f55f67f851cae729bb">freeContent</a> ()=0</td></tr>
+<tr class="memdesc:a9286532a5423f5f55f67f851cae729bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放 <a class="el" href="../../de/d5e/struct_mg_core_view_a89ff73df38eb5d5a724e498349458c86.htm#a89ff73df38eb5d5a724e498349458c86" title="得到图形内容，需调用 freeContent()，主线程中用 ">getContent()</a> 产生的缓冲资源  <a href="../../de/d5e/struct_mg_core_view_a9286532a5423f5f55f67f851cae729bb.htm#a9286532a5423f5f55f67f851cae729bb">更多...</a><br /></td></tr>
+<tr class="separator:a9286532a5423f5f55f67f851cae729bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905f1eab838f7e8070bac0275a596067"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a905f1eab838f7e8070bac0275a596067.htm#a905f1eab838f7e8070bac0275a596067">setContent</a> (const char *content, bool readOnly=false)=0</td></tr>
+<tr class="memdesc:a905f1eab838f7e8070bac0275a596067"><td class="mdescLeft">&#160;</td><td class="mdescRight">从JSON内容中加载图形  <a href="../../de/d5e/struct_mg_core_view_a905f1eab838f7e8070bac0275a596067.htm#a905f1eab838f7e8070bac0275a596067">更多...</a><br /></td></tr>
+<tr class="separator:a905f1eab838f7e8070bac0275a596067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3dcd75968a5f49f73bba283065bd4a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_abf3dcd75968a5f49f73bba283065bd4a.htm#abf3dcd75968a5f49f73bba283065bd4a">zoomToInitial</a> ()=0</td></tr>
+<tr class="memdesc:abf3dcd75968a5f49f73bba283065bd4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">放缩到文档初始状态  <a href="../../de/d5e/struct_mg_core_view_abf3dcd75968a5f49f73bba283065bd4a.htm#abf3dcd75968a5f49f73bba283065bd4a">更多...</a><br /></td></tr>
+<tr class="separator:abf3dcd75968a5f49f73bba283065bd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9fcbc3a496107ecef414d617e0adaba"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ac9fcbc3a496107ecef414d617e0adaba.htm#ac9fcbc3a496107ecef414d617e0adaba">zoomToExtent</a> (float margin=2)=0</td></tr>
+<tr class="memdesc:ac9fcbc3a496107ecef414d617e0adaba"><td class="mdescLeft">&#160;</td><td class="mdescRight">放缩显示全部内容到视图区域  <a href="../../de/d5e/struct_mg_core_view_ac9fcbc3a496107ecef414d617e0adaba.htm#ac9fcbc3a496107ecef414d617e0adaba">更多...</a><br /></td></tr>
+<tr class="separator:ac9fcbc3a496107ecef414d617e0adaba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7368aed9f7b6448ef867409ce632a33"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ad7368aed9f7b6448ef867409ce632a33.htm#ad7368aed9f7b6448ef867409ce632a33">zoomToModel</a> (float x, float y, float w, float h, float margin=2)=0</td></tr>
+<tr class="memdesc:ad7368aed9f7b6448ef867409ce632a33"><td class="mdescLeft">&#160;</td><td class="mdescRight">放缩显示指定范围到视图区域  <a href="../../de/d5e/struct_mg_core_view_ad7368aed9f7b6448ef867409ce632a33.htm#ad7368aed9f7b6448ef867409ce632a33">更多...</a><br /></td></tr>
+<tr class="separator:ad7368aed9f7b6448ef867409ce632a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab7dee67b9c318f63a7df5b8e3ebdd7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_acab7dee67b9c318f63a7df5b8e3ebdd7.htm#acab7dee67b9c318f63a7df5b8e3ebdd7">zoomPan</a> (float dxPixel, float dyPixel, bool adjust=true)=0</td></tr>
+<tr class="memdesc:acab7dee67b9c318f63a7df5b8e3ebdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">平移显示  <a href="../../de/d5e/struct_mg_core_view_acab7dee67b9c318f63a7df5b8e3ebdd7.htm#acab7dee67b9c318f63a7df5b8e3ebdd7">更多...</a><br /></td></tr>
+<tr class="separator:acab7dee67b9c318f63a7df5b8e3ebdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4a6407f2128f072212904d3c42ced8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../db/de8/class_gi_context.htm">GiContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a0b4a6407f2128f072212904d3c42ced8.htm#a0b4a6407f2128f072212904d3c42ced8">getContext</a> (bool forChange)=0</td></tr>
+<tr class="memdesc:a0b4a6407f2128f072212904d3c42ced8"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前绘图属性，可用 calcPenWidth() 计算线宽  <a href="../../de/d5e/struct_mg_core_view_a0b4a6407f2128f072212904d3c42ced8.htm#a0b4a6407f2128f072212904d3c42ced8">更多...</a><br /></td></tr>
+<tr class="separator:a0b4a6407f2128f072212904d3c42ced8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e7c777f76862af0aa24d72917102ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a65e7c777f76862af0aa24d72917102ea.htm#a65e7c777f76862af0aa24d72917102ea">setContext</a> (int mask)=0</td></tr>
+<tr class="memdesc:a65e7c777f76862af0aa24d72917102ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">绘图属性改变后提交更新  <a href="../../de/d5e/struct_mg_core_view_a65e7c777f76862af0aa24d72917102ea.htm#a65e7c777f76862af0aa24d72917102ea">更多...</a><br /></td></tr>
+<tr class="separator:a65e7c777f76862af0aa24d72917102ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72841b88a39b9a4f4fc84c60f7547430"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a72841b88a39b9a4f4fc84c60f7547430.htm#a72841b88a39b9a4f4fc84c60f7547430">getShapeFlag</a> (int sid, int bit)=0</td></tr>
+<tr class="memdesc:a72841b88a39b9a4f4fc84c60f7547430"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回图形标志, kMgNoSnap 等位值  <a href="../../de/d5e/struct_mg_core_view_a72841b88a39b9a4f4fc84c60f7547430.htm#a72841b88a39b9a4f4fc84c60f7547430">更多...</a><br /></td></tr>
+<tr class="separator:a72841b88a39b9a4f4fc84c60f7547430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7f95178c1f0c61f8d7d30d07a596c1a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ab7f95178c1f0c61f8d7d30d07a596c1a.htm#ab7f95178c1f0c61f8d7d30d07a596c1a">setShapeFlag</a> (int sid, int bit, bool on)=0</td></tr>
+<tr class="memdesc:ab7f95178c1f0c61f8d7d30d07a596c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图形标志  <a href="../../de/d5e/struct_mg_core_view_ab7f95178c1f0c61f8d7d30d07a596c1a.htm#ab7f95178c1f0c61f8d7d30d07a596c1a">更多...</a><br /></td></tr>
+<tr class="separator:ab7f95178c1f0c61f8d7d30d07a596c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71883f47e2591e26a029730390f9879"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ab71883f47e2591e26a029730390f9879.htm#ab71883f47e2591e26a029730390f9879">setContext</a> (const <a class="el" href="../../db/de8/class_gi_context.htm">GiContext</a> &amp;ctx, int mask, int apply)=0</td></tr>
+<tr class="memdesc:ab71883f47e2591e26a029730390f9879"><td class="mdescLeft">&#160;</td><td class="mdescRight">绘图属性改变后提交更新  <a href="../../de/d5e/struct_mg_core_view_ab71883f47e2591e26a029730390f9879.htm#ab71883f47e2591e26a029730390f9879">更多...</a><br /></td></tr>
+<tr class="separator:ab71883f47e2591e26a029730390f9879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b7ed300aaccad0f900347fea17d66f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a28b7ed300aaccad0f900347fea17d66f.htm#a28b7ed300aaccad0f900347fea17d66f">setContextEditing</a> (bool editing)=0</td></tr>
+<tr class="memdesc:a28b7ed300aaccad0f900347fea17d66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置线条属性是否正在动态修改. getContext(false)将重置为未动态修改.  <a href="../../de/d5e/struct_mg_core_view_a28b7ed300aaccad0f900347fea17d66f.htm#a28b7ed300aaccad0f900347fea17d66f">更多...</a><br /></td></tr>
+<tr class="separator:a28b7ed300aaccad0f900347fea17d66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07193bb0f003832b084d11d37979b43e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a07193bb0f003832b084d11d37979b43e.htm#a07193bb0f003832b084d11d37979b43e">addImageShape</a> (const char *name, float width, float height)=0</td></tr>
+<tr class="memdesc:a07193bb0f003832b084d11d37979b43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加一个容纳图像的矩形图形  <a href="../../de/d5e/struct_mg_core_view_a07193bb0f003832b084d11d37979b43e.htm#a07193bb0f003832b084d11d37979b43e">更多...</a><br /></td></tr>
+<tr class="separator:a07193bb0f003832b084d11d37979b43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a293125d0d3fc21f8679e4b8326703424"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a293125d0d3fc21f8679e4b8326703424.htm#a293125d0d3fc21f8679e4b8326703424">addImageShape</a> (const char *name, float xc, float yc, float w, float h, int tag)=0</td></tr>
+<tr class="memdesc:a293125d0d3fc21f8679e4b8326703424"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加一个容纳图像的矩形图形  <a href="../../de/d5e/struct_mg_core_view_a293125d0d3fc21f8679e4b8326703424.htm#a293125d0d3fc21f8679e4b8326703424">更多...</a><br /></td></tr>
+<tr class="separator:a293125d0d3fc21f8679e4b8326703424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1efb5934656f52ae7256a3aaf8285468"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a1efb5934656f52ae7256a3aaf8285468.htm#a1efb5934656f52ae7256a3aaf8285468">hasImageShape</a> (long doc)=0</td></tr>
+<tr class="memdesc:a1efb5934656f52ae7256a3aaf8285468"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回是否有容纳图像的图形对象  <a href="../../de/d5e/struct_mg_core_view_a1efb5934656f52ae7256a3aaf8285468.htm#a1efb5934656f52ae7256a3aaf8285468">更多...</a><br /></td></tr>
+<tr class="separator:a1efb5934656f52ae7256a3aaf8285468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae383afd726fced3f2584422ac1c25335"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ae383afd726fced3f2584422ac1c25335.htm#ae383afd726fced3f2584422ac1c25335">getImageSize</a> (mgvector&lt; float &gt; &amp;info, int sid)=0</td></tr>
+<tr class="memdesc:ae383afd726fced3f2584422ac1c25335"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取图像(MgImageShape)的原始图像宽高、显示宽高、角度(orgw, orgh, w, h, angle)  <a href="../../de/d5e/struct_mg_core_view_ae383afd726fced3f2584422ac1c25335.htm#ae383afd726fced3f2584422ac1c25335">更多...</a><br /></td></tr>
+<tr class="separator:ae383afd726fced3f2584422ac1c25335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f05d5621c6dfda10b18117f05b3176"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a45f05d5621c6dfda10b18117f05b3176.htm#a45f05d5621c6dfda10b18117f05b3176">findShapeByImageID</a> (long doc, const char *name)=0</td></tr>
+<tr class="memdesc:a45f05d5621c6dfda10b18117f05b3176"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找指定名称的图像对应的图形对象ID  <a href="../../de/d5e/struct_mg_core_view_a45f05d5621c6dfda10b18117f05b3176.htm#a45f05d5621c6dfda10b18117f05b3176">更多...</a><br /></td></tr>
+<tr class="separator:a45f05d5621c6dfda10b18117f05b3176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fab423a7fa793b6cbe92f217969247"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a90fab423a7fa793b6cbe92f217969247.htm#a90fab423a7fa793b6cbe92f217969247">findShapeByTag</a> (long doc, int tag)=0</td></tr>
+<tr class="memdesc:a90fab423a7fa793b6cbe92f217969247"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找指定Tag的图形对象ID  <a href="../../de/d5e/struct_mg_core_view_a90fab423a7fa793b6cbe92f217969247.htm#a90fab423a7fa793b6cbe92f217969247">更多...</a><br /></td></tr>
+<tr class="separator:a90fab423a7fa793b6cbe92f217969247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afceb0f503de9698252772a21f0b6dce0"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_afceb0f503de9698252772a21f0b6dce0.htm#afceb0f503de9698252772a21f0b6dce0">traverseImageShapes</a> (long doc, <a class="el" href="../../d8/ddc/struct_mg_find_image_callback.htm">MgFindImageCallback</a> *c)=0</td></tr>
+<tr class="memdesc:afceb0f503de9698252772a21f0b6dce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">遍历有容纳图像的图形对象  <a href="../../de/d5e/struct_mg_core_view_afceb0f503de9698252772a21f0b6dce0.htm#afceb0f503de9698252772a21f0b6dce0">更多...</a><br /></td></tr>
+<tr class="separator:afceb0f503de9698252772a21f0b6dce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834c0ac776bbd19d2079494158872285"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a834c0ac776bbd19d2079494158872285.htm#a834c0ac776bbd19d2079494158872285">getViewModelBox</a> (mgvector&lt; float &gt; &amp;box)=0</td></tr>
+<tr class="memdesc:a834c0ac776bbd19d2079494158872285"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前视图区域的模型坐标范围，模型坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_a834c0ac776bbd19d2079494158872285.htm#a834c0ac776bbd19d2079494158872285">更多...</a><br /></td></tr>
+<tr class="separator:a834c0ac776bbd19d2079494158872285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81daf7f3369f6ea7f89cc942f478af74"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a81daf7f3369f6ea7f89cc942f478af74.htm#a81daf7f3369f6ea7f89cc942f478af74">getModelBox</a> (mgvector&lt; float &gt; &amp;box)=0</td></tr>
+<tr class="memdesc:a81daf7f3369f6ea7f89cc942f478af74"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回后端文档的模型坐标范围，模型坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_a81daf7f3369f6ea7f89cc942f478af74.htm#a81daf7f3369f6ea7f89cc942f478af74">更多...</a><br /></td></tr>
+<tr class="separator:a81daf7f3369f6ea7f89cc942f478af74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d7ab7937e9de6b0ec0b1ff128df36cc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a3d7ab7937e9de6b0ec0b1ff128df36cc.htm#a3d7ab7937e9de6b0ec0b1ff128df36cc">getModelBox</a> (mgvector&lt; float &gt; &amp;box, int shapeId)=0</td></tr>
+<tr class="memdesc:a3d7ab7937e9de6b0ec0b1ff128df36cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回后端文档中指定ID的模型坐标范围，模型坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_a3d7ab7937e9de6b0ec0b1ff128df36cc.htm#a3d7ab7937e9de6b0ec0b1ff128df36cc">更多...</a><br /></td></tr>
+<tr class="separator:a3d7ab7937e9de6b0ec0b1ff128df36cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf949af3c896317c67ffa39544bff0d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a0cf949af3c896317c67ffa39544bff0d.htm#a0cf949af3c896317c67ffa39544bff0d">getHandlePoint</a> (mgvector&lt; float &gt; &amp;xy, int shapeId, int index)=0</td></tr>
+<tr class="memdesc:a0cf949af3c896317c67ffa39544bff0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到指定序号的控制点的模型坐标  <a href="../../de/d5e/struct_mg_core_view_a0cf949af3c896317c67ffa39544bff0d.htm#a0cf949af3c896317c67ffa39544bff0d">更多...</a><br /></td></tr>
+<tr class="separator:a0cf949af3c896317c67ffa39544bff0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce8cb881bef96caa33cae25fc2eaed2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a4ce8cb881bef96caa33cae25fc2eaed2.htm#a4ce8cb881bef96caa33cae25fc2eaed2">getDisplayExtent</a> (mgvector&lt; float &gt; &amp;box)=0</td></tr>
+<tr class="memdesc:a4ce8cb881bef96caa33cae25fc2eaed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回后端文档的图形显示范围，四个点单位坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_a4ce8cb881bef96caa33cae25fc2eaed2.htm#a4ce8cb881bef96caa33cae25fc2eaed2">更多...</a><br /></td></tr>
+<tr class="separator:a4ce8cb881bef96caa33cae25fc2eaed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab710fb99f4c87f0d5fcdd5b67ee0857d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ab710fb99f4c87f0d5fcdd5b67ee0857d.htm#ab710fb99f4c87f0d5fcdd5b67ee0857d">getDisplayExtent</a> (long doc, long gs, mgvector&lt; float &gt; &amp;box)=0</td></tr>
+<tr class="memdesc:ab710fb99f4c87f0d5fcdd5b67ee0857d"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回前端文档的图形显示范围，四个点单位坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_ab710fb99f4c87f0d5fcdd5b67ee0857d.htm#ab710fb99f4c87f0d5fcdd5b67ee0857d">更多...</a><br /></td></tr>
+<tr class="separator:ab710fb99f4c87f0d5fcdd5b67ee0857d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa591fbddd44603b0f32d64b5b2fddeca"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa591fbddd44603b0f32d64b5b2fddeca.htm#aa591fbddd44603b0f32d64b5b2fddeca">getBoundingBox</a> (mgvector&lt; float &gt; &amp;box)=0</td></tr>
+<tr class="memdesc:aa591fbddd44603b0f32d64b5b2fddeca"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回选择包络框，四个点单位坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_aa591fbddd44603b0f32d64b5b2fddeca.htm#aa591fbddd44603b0f32d64b5b2fddeca">更多...</a><br /></td></tr>
+<tr class="separator:aa591fbddd44603b0f32d64b5b2fddeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d7a508dd3594802418f191bb7518e3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_ad6d7a508dd3594802418f191bb7518e3.htm#ad6d7a508dd3594802418f191bb7518e3">getBoundingBox</a> (mgvector&lt; float &gt; &amp;box, int shapeId)=0</td></tr>
+<tr class="memdesc:ad6d7a508dd3594802418f191bb7518e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回后端文档中指定ID的图形的包络框，四个点单位坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_ad6d7a508dd3594802418f191bb7518e3.htm#ad6d7a508dd3594802418f191bb7518e3">更多...</a><br /></td></tr>
+<tr class="separator:ad6d7a508dd3594802418f191bb7518e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292ede0cf448d3f79b1860eea93e1f22"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a292ede0cf448d3f79b1860eea93e1f22.htm#a292ede0cf448d3f79b1860eea93e1f22">getBoundingBox</a> (long doc, long gs, mgvector&lt; float &gt; &amp;box, int shapeId)=0</td></tr>
+<tr class="memdesc:a292ede0cf448d3f79b1860eea93e1f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回前端文档中指定ID的图形的包络框，四个点单位坐标(left, top, right, bottom)  <a href="../../de/d5e/struct_mg_core_view_a292ede0cf448d3f79b1860eea93e1f22.htm#a292ede0cf448d3f79b1860eea93e1f22">更多...</a><br /></td></tr>
+<tr class="separator:a292ede0cf448d3f79b1860eea93e1f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908f81ba4ded14562594ab4ea304eb24"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a908f81ba4ded14562594ab4ea304eb24.htm#a908f81ba4ded14562594ab4ea304eb24">displayToModel</a> (mgvector&lt; float &gt; &amp;d)=0</td></tr>
+<tr class="memdesc:a908f81ba4ded14562594ab4ea304eb24"><td class="mdescLeft">&#160;</td><td class="mdescRight">视图坐标转为模型坐标，可传入2或4个分量  <a href="../../de/d5e/struct_mg_core_view_a908f81ba4ded14562594ab4ea304eb24.htm#a908f81ba4ded14562594ab4ea304eb24">更多...</a><br /></td></tr>
+<tr class="separator:a908f81ba4ded14562594ab4ea304eb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae5025fa8d6eb17668673764a3c9b83"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a1ae5025fa8d6eb17668673764a3c9b83.htm#a1ae5025fa8d6eb17668673764a3c9b83">importSVGPath</a> (long shapes, int sid, const char *d)=0</td></tr>
+<tr class="memdesc:a1ae5025fa8d6eb17668673764a3c9b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">用SVG路径的d坐标序列创建或设置图形形状，成功返回图形ID(未重新显示)，失败返回0  <a href="../../de/d5e/struct_mg_core_view_a1ae5025fa8d6eb17668673764a3c9b83.htm#a1ae5025fa8d6eb17668673764a3c9b83">更多...</a><br /></td></tr>
+<tr class="separator:a1ae5025fa8d6eb17668673764a3c9b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432b626093745f25f8b85e6ac54eac68"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a432b626093745f25f8b85e6ac54eac68.htm#a432b626093745f25f8b85e6ac54eac68">exportSVGPath</a> (long shapes, int sid, char *buf, int size)=0</td></tr>
+<tr class="memdesc:a432b626093745f25f8b85e6ac54eac68"><td class="mdescLeft">&#160;</td><td class="mdescRight">输出SVG路径的d坐标序列，返回复制的长度或应分配的长度(不含结束符)  <a href="../../de/d5e/struct_mg_core_view_a432b626093745f25f8b85e6ac54eac68.htm#a432b626093745f25f8b85e6ac54eac68">更多...</a><br /></td></tr>
+<tr class="separator:a432b626093745f25f8b85e6ac54eac68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a032a09cd3a7948c37408680eb5ce2ec2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a032a09cd3a7948c37408680eb5ce2ec2.htm#a032a09cd3a7948c37408680eb5ce2ec2">exportSVGPath2</a> (MgStringCallback *c, long shapes, int sid)</td></tr>
+<tr class="memdesc:a032a09cd3a7948c37408680eb5ce2ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">输出SVG路径的d坐标序列  <a href="../../de/d5e/struct_mg_core_view_a032a09cd3a7948c37408680eb5ce2ec2.htm#a032a09cd3a7948c37408680eb5ce2ec2">更多...</a><br /></td></tr>
+<tr class="separator:a032a09cd3a7948c37408680eb5ce2ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a4b1b5e350f503113116f17539d0a0316"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d5e/struct_mg_core_view.htm">MgCoreView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a4b1b5e350f503113116f17539d0a0316.htm#a4b1b5e350f503113116f17539d0a0316">fromHandle</a> (long h)</td></tr>
+<tr class="memdesc:a4b1b5e350f503113116f17539d0a0316"><td class="mdescLeft">&#160;</td><td class="mdescRight">转为对象  <a href="../../de/d5e/struct_mg_core_view_a4b1b5e350f503113116f17539d0a0316.htm#a4b1b5e350f503113116f17539d0a0316">更多...</a><br /></td></tr>
+<tr class="separator:a4b1b5e350f503113116f17539d0a0316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d88dd387057e7374d9036c9dbba935"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_aa8d88dd387057e7374d9036c9dbba935.htm#aa8d88dd387057e7374d9036c9dbba935">releaseDoc</a> (long doc)</td></tr>
+<tr class="memdesc:aa8d88dd387057e7374d9036c9dbba935"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放 <a class="el" href="../../de/d5e/struct_mg_core_view_a49c8b2dab8e02f1b02d1be44de8518c9.htm#a49c8b2dab8e02f1b02d1be44de8518c9" title="获取前端图形文档的句柄, 需要并发访问保护 ">acquireFrontDoc()</a> 得到的文档句柄  <a href="../../de/d5e/struct_mg_core_view_aa8d88dd387057e7374d9036c9dbba935.htm#aa8d88dd387057e7374d9036c9dbba935">更多...</a><br /></td></tr>
+<tr class="separator:aa8d88dd387057e7374d9036c9dbba935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e96b0bfdcd36d0367288460ccfc7f5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/struct_mg_core_view_a48e96b0bfdcd36d0367288460ccfc7f5.htm#a48e96b0bfdcd36d0367288460ccfc7f5">releaseShapes</a> (long shapes)</td></tr>
+<tr class="memdesc:a48e96b0bfdcd36d0367288460ccfc7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">释放 <a class="el" href="../../de/d5e/struct_mg_core_view_a2ce220103086827f9aad2d3f0a9cadf0.htm#a2ce220103086827f9aad2d3f0a9cadf0" title="获取动态图形列表的句柄, 需要并发访问保护 ">acquireDynamicShapes()</a> 得到的图形列表句柄  <a href="../../de/d5e/struct_mg_core_view_a48e96b0bfdcd36d0367288460ccfc7f5.htm#a48e96b0bfdcd36d0367288460ccfc7f5">更多...</a><br /></td></tr>
+<tr class="separator:a48e96b0bfdcd36d0367288460ccfc7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>内核视图接口 </p>
+</div><hr/>该接口的文档由以下文件生成:<ul>
+<li><a class="el" href="../../df/db1/mgcoreview_8h.htm">mgcoreview.h</a></li>
+<li><a class="el" href="../../db/dc7/gicoreview_8cpp.htm">gicoreview.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

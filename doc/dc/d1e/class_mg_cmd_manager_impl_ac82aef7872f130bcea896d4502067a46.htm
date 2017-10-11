@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgCmdManagerImpl::addImageShape</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dc/d1e/class_mg_cmd_manager_impl.htm">MgCmdManagerImpl</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a3e441b2d80f43e9503241fb1757ef70b.htm#a3e441b2d80f43e9503241fb1757ef70b">_cmdname</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a4caab2659baec86ff7f0081d6820f6a8.htm#a4caab2659baec86ff7f0081d6820f6a8">_cmds</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a83b946bf680a3ed3629dae8ac69da4a8.htm#a83b946bf680a3ed3629dae8ac69da4a8">_drawcmd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a025cf07b409a1943f3b702397a3d585e.htm#a025cf07b409a1943f3b702397a3d585e">_factories</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ac06a91c5c55e74f566794a621e9a1adb.htm#ac06a91c5c55e74f566794a621e9a1adb">_guildpt</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a7ed494eca844d54f5e17b732ac037931.htm#a7ed494eca844d54f5e17b732ac037931">_ignoreStart</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a170cd840ec76e35a733db979ebf96f72.htm#a170cd840ec76e35a733db979ebf96f72">_newShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a4ed27b7659fe75bdbe3959245df50160.htm#a4ed27b7659fe75bdbe3959245df50160">_ptSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_af7df7459dc413719318f2591035ffab3.htm#af7df7459dc413719318f2591035ffab3">_snapBase</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a486a3768b8c0942a1bd2623a63dfc2b4.htm#a486a3768b8c0942a1bd2623a63dfc2b4">_snapHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ae82c5f20ebe346a454ebe8cdc927bee7.htm#ae82c5f20ebe346a454ebe8cdc927bee7">_snapHandleSrc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ad9a5729a6a8344f6bc9addeb99625450.htm#ad9a5729a6a8344f6bc9addeb99625450">_snapShapeId</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_adfe3934ca47210e09a683cb9a95b8e21.htm#adfe3934ca47210e09a683cb9a95b8e21">_snapType</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ad2c52709c11c386f37c1dc4ee1b4a3ed.htm#ad2c52709c11c386f37c1dc4ee1b4a3ed">_startpt</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a9ac2820b7981f1e73b2613e5b3735d82.htm#a9ac2820b7981f1e73b2613e5b3735d82">_subject</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a0157767ed6eaf14e438e3d8606789f33.htm#a0157767ed6eaf14e438e3d8606789f33">addImageShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../dc/d1e/class_mg_cmd_manager_impl_ac82aef7872f130bcea896d4502067a46.htm#ac82aef7872f130bcea896d4502067a46">addImageShape</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a022ba977506d5789b705d3c04e829d2d.htm#a022ba977506d5789b705d3c04e829d2d">cancel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a8efaad05df86bc09e335841e08dfcd79.htm#a8efaad05df86bc09e335841e08dfcd79">checkResult</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_af661bd1c387f6b20cb6f5c5ff5ff3d8b.htm#af661bd1c387f6b20cb6f5c5ff5ff3d8b">clearSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a775d47c13b6b2819f25c06bcd844aa04.htm#a775d47c13b6b2819f25c06bcd844aa04">CMDS</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a1701cd47a63633b51f26bac25afa837d.htm#a1701cd47a63633b51f26bac25afa837d">displayMmToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a962252552973ef9988bbdc3f6aaf5da7.htm#a962252552973ef9988bbdc3f6aaf5da7">displayMmToModel</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a37e2a4057d4afb6b7b9c204c7a50ef2f.htm#a37e2a4057d4afb6b7b9c204c7a50ef2f">doAction</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a56e76515e7e4d7bf4d0dbc4b539fe839.htm#a56e76515e7e4d7bf4d0dbc4b539fe839">doContextAction</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_acc396e8e8d386c5e7ddadd8b1d614d64.htm#acc396e8e8d386c5e7ddadd8b1d614d64">drawPerpMark</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a6488a8a5a9054e0b866d062d7c6ea20e.htm#a6488a8a5a9054e0b866d062d7c6ea20e">drawPerpMark</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_aca8db95869f2610684cd0ba814995a78.htm#aca8db95869f2610684cd0ba814995a78">drawSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a6a5562b32682304d59db132e56a8ba5a.htm#a6a5562b32682304d59db132e56a8ba5a">dynamicChangeEnded</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a1a6bea33e91d4dd780b141f4f42cfee3.htm#a1a6bea33e91d4dd780b141f4f42cfee3">eraseWnd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a57ee7404163a7ed47e8febba58a759bb.htm#a57ee7404163a7ed47e8febba58a759bb">Factories</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a97686ef636487419429469a222c936bb.htm#a97686ef636487419429469a222c936bb">findCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a642d0640a14bb5db16dfddc1cff335b9.htm#a642d0640a14bb5db16dfddc1cff335b9">freeSubject</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a3af177e396c7d62afa646a6924a9dbfc.htm#a3af177e396c7d62afa646a6924a9dbfc">getActionDispatcher</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a51ad6f015fced12773c5ed1a0bdc1b4d.htm#a51ad6f015fced12773c5ed1a0bdc1b4d">getBoundingBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_adfbfb25a8b8f41bb31b17f4c6a592927.htm#adfbfb25a8b8f41bb31b17f4c6a592927">getCmdSubject</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ad96a1bf936a857df956deaadc3c71a62.htm#ad96a1bf936a857df956deaadc3c71a62">getCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a49ab0f86fbc27fab39d886839caba1a9.htm#a49ab0f86fbc27fab39d886839caba1a9">getCommandName</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a7eaae957be20d8796cf905d4b3e83467.htm#a7eaae957be20d8796cf905d4b3e83467">getCommandName</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a9c090f1c721175fa4af5711d8ab07829.htm#a9c090f1c721175fa4af5711d8ab07829">getNewShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a18e026205c9137b331fe504af7af7fb5.htm#a18e026205c9137b331fe504af7af7fb5">getSelection</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a03a226b856ad335fcf115fec8d823c52.htm#a03a226b856ad335fcf115fec8d823c52">getSelection</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_adee4450af8861aeaa3543dd49c11166a.htm#adee4450af8861aeaa3543dd49c11166a">getSelectionForChange</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a3053b044a4441f9b9358a01a8c723868.htm#a3053b044a4441f9b9358a01a8c723868">getSnap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_aae93d1c3ab4cb4c0d685ceb70cb56745.htm#aae93d1c3ab4cb4c0d685ceb70cb56745">getSnapOptions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a960cdbcb48034e07b85c61958fc1918e.htm#a960cdbcb48034e07b85c61958fc1918e">getSnappedHandle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_aa9804c7d76aefb28987a1e51fb9969dc.htm#aa9804c7d76aefb28987a1e51fb9969dc">getSnappedPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a1f7514a54da97dade4512caf763ab633.htm#a1f7514a54da97dade4512caf763ab633">getSnappedPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ac5daf4f2d6d2994032d7f2f13a7e984f.htm#ac5daf4f2d6d2994032d7f2f13a7e984f">getSnappedType</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a4114e185c81b417259783054f95ac09d.htm#a4114e185c81b417259783054f95ac09d">MgCmdManagerImpl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a6ae573e23eeb2529e91f1589f2686383.htm#a6ae573e23eeb2529e91f1589f2686383">registerCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a83c252cb34ba349a4886c7dabe0eb160.htm#a83c252cb34ba349a4886c7dabe0eb160">release</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a17ec124c7d3ed57de75c4ba0f91937e1.htm#a17ec124c7d3ed57de75c4ba0f91937e1">setCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a8cd7e0c1efe912318514f56653e4f63b.htm#a8cd7e0c1efe912318514f56653e4f63b">setIgnoreStartPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ae986943255392aba8e3b307b0c096779.htm#ae986943255392aba8e3b307b0c096779">setNewShapeID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_abee2b485672d680ab6fe851eed4091dc.htm#abee2b485672d680ab6fe851eed4091dc">setSnapOptions</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a9fefd5f2a8dab77043dd43fbee4b3139.htm#a9fefd5f2a8dab77043dd43fbee4b3139">showInDrawing</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a86264ab5e7d5e67025b7d7bd9d7cef31.htm#a86264ab5e7d5e67025b7d7bd9d7cef31">showInSelect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a9a9e28dfd1138adb83485f4cc59e548d.htm#a9a9e28dfd1138adb83485f4cc59e548d">snapPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a9955070ce23490549fe2aa7f21933e84.htm#a9955070ce23490549fe2aa7f21933e84">switchCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_a12997c524b697298dcd0e66503e7b336.htm#a12997c524b697298dcd0e66503e7b336">unloadCommands</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/d1e/class_mg_cmd_manager_impl_ac696bbdb0162cbe2314bf649e08a4fd0.htm#ac696bbdb0162cbe2314bf649e08a4fd0">~MgCmdManagerImpl</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ac82aef7872f130bcea896d4502067a46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac82aef7872f130bcea896d4502067a46">&#9670;&nbsp;</a></span>addImageShape() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d84/class_mg_shape.htm">MgShape</a> * MgCmdManagerImpl::addImageShape </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d6e/class_mg_motion.htm">MgMotion</a> *&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>xc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>添加一个容纳图像的矩形图形，供 <a class="el" href="../../d9/de9/class_gi_core_view.htm" title="内核视图分发器类 ">GiCoreView</a> 使用 </p>
+
+<p>实现了 <a class="el" href="../../d5/d95/struct_mg_cmd_manager_a889bd3c80d73c0e639880f1de72b9fc4.htm#a889bd3c80d73c0e639880f1de72b9fc4">MgCmdManager</a>.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d1e/class_mg_cmd_manager_impl_ac82aef7872f130bcea896d4502067a46_ac82aef7872f130bcea896d4502067a46_cgraph.png" border="0" usemap="#dc/d1e/class_mg_cmd_manager_impl_ac82aef7872f130bcea896d4502067a46_ac82aef7872f130bcea896d4502067a46_cgraph" alt=""/></div>
+<map name="dc/d1e/class_mg_cmd_manager_impl_ac82aef7872f130bcea896d4502067a46_ac82aef7872f130bcea896d4502067a46_cgraph" id="dc/d1e/class_mg_cmd_manager_impl_ac82aef7872f130bcea896d4502067a46_ac82aef7872f130bcea896d4502067a46_cgraph">
+<area shape="rect" id="node2" href="../../d5/dea/struct_mg_view_a4020bba3acfe40f5f736d6fc4f93d4dc.htm#a4020bba3acfe40f5f736d6fc4f93d4dc" title="得到坐标系对象 " alt="" coords="313,5,422,31"/>
+<area shape="rect" id="node3" href="../../dc/df3/class_gi_transform_a1c31fb1f5a1600daf24369957ca9410c.htm#a1c31fb1f5a1600daf24369957ca9410c" title="返回显示坐标系到世界坐标系的变换矩阵 " alt="" coords="271,55,464,80"/>
+<area shape="rect" id="node4" href="../../dc/df3/class_gi_transform_a3f465cd01d5aa13936983db41026d879.htm#a3f465cd01d5aa13936983db41026d879" title="返回世界坐标系到显示坐标系的变换矩阵 " alt="" coords="272,104,464,129"/>
+<area shape="rect" id="node5" href="../../d0/d39/class_box2d_aa43f547d1c73c84dacc245ed3c539d43.htm#aa43f547d1c73c84dacc245ed3c539d43" title="返回宽度，非负数 " alt="" coords="319,153,417,179"/>
+<area shape="rect" id="node6" href="../../d0/d39/class_box2d_a39da786d8b22a130cb53b3defed19372.htm#a39da786d8b22a130cb53b3defed19372" title="返回高度，非负数 " alt="" coords="316,203,419,228"/>
+<area shape="rect" id="node7" href="../../dc/df3/class_gi_transform_af28ded94bb90797c24f740cf405d854c.htm#af28ded94bb90797c24f740cf405d854c" title="返回显示长度(默认为像素，可为毫米）对应的模型长度 " alt="" coords="271,252,465,277"/>
+<area shape="rect" id="node8" href="../../db/de8/class_gi_context_aeea20a383fb2553a77893198a356ece0.htm#aeea20a383fb2553a77893198a356ece0" title="设置填充颜色， GiColor::Invalid() 表示不填充 " alt="" coords="290,301,445,327"/>
+<area shape="rect" id="node9" href="../../d4/dcb/struct_gi_color_a14bf4eb88830ba74df6c98f3517ccf4d.htm#a14bf4eb88830ba74df6c98f3517ccf4d" title="GiColor::White" alt="" coords="314,351,422,376"/>
+<area shape="rect" id="node11" href="../../d6/d6e/class_mg_image_shape_a55522c6fb5c9f698b413aaa233f69210.htm#a55522c6fb5c9f698b413aaa233f69210" title="MgImageShape::setName" alt="" coords="280,400,456,425"/>
+<area shape="rect" id="node13" href="../../d6/dce/class_mg_base_rect_a699104e00b0aaebda821db9b220cc662.htm#a699104e00b0aaebda821db9b220cc662" title="设置水平矩形，对于正方形pt1固定 " alt="" coords="284,449,451,475"/>
+<area shape="rect" id="node30" href="../../d6/d6e/class_mg_image_shape_ac02db4371b96a4f6d33f83f2ec64d5f4.htm#ac02db4371b96a4f6d33f83f2ec64d5f4" title="MgImageShape::setImageSize" alt="" coords="266,499,470,524"/>
+<area shape="rect" id="node31" href="../../d0/dc9/class_mg_shape_t_a754e0b2de7619b701f09c72b3ce41c26.htm#a754e0b2de7619b701f09c72b3ce41c26" title="设置应用程序自定义标记，可由此扩展数据 " alt="" coords="302,548,434,573"/>
+<area shape="rect" id="node32" href="../../d5/dea/struct_mg_view_a33d625f55830bbd1a9c68d14ecf88fb3.htm#a33d625f55830bbd1a9c68d14ecf88fb3" title="通知将添加图形 " alt="" coords="282,597,454,623"/>
+<area shape="rect" id="node33" href="../../d5/dea/struct_mg_view_ac3a2a44ac0dabec7e26f4d716846509c.htm#ac3a2a44ac0dabec7e26f4d716846509c" title="得到可编辑的图形列表 " alt="" coords="308,647,427,672"/>
+<area shape="rect" id="node34" href="../../d0/d94/class_mg_shapes_a1e0fc90c6b8de59d02c0e8f171854346.htm#a1e0fc90c6b8de59d02c0e8f171854346" title="复制出新图形并添加到图形列表中 " alt="" coords="291,696,444,721"/>
+<area shape="rect" id="node48" href="../../d6/d84/class_mg_shape_a9f76d16ec052e07cd080c4663e3d6705.htm#a9f76d16ec052e07cd080c4663e3d6705" title="返回图形编号 " alt="" coords="564,820,682,845"/>
+<area shape="rect" id="node49" href="../../d5/dea/struct_mg_view_a5d81ee9a3a9bd9fd13b01d1cceb28f16.htm#a5d81ee9a3a9bd9fd13b01d1cceb28f16" title="通知已添加图形，由视图重新构建显示 " alt="" coords="292,797,443,823"/>
+<area shape="rect" id="node50" href="../../d5/dea/struct_mg_view_ad0bbd7c84037b7bb7a977f8e504731a4.htm#ad0bbd7c84037b7bb7a977f8e504731a4" title="设置新绘图形的ID " alt="" coords="282,847,454,872"/>
+<area shape="rect" id="node10" href="../../d4/dcb/struct_gi_color_a4819309435f0bdad0e64f18261cbe7e6.htm#a4819309435f0bdad0e64f18261cbe7e6" title="GiColor::GiColor" alt="" coords="563,327,683,352"/>
+<area shape="rect" id="node12" href="../../d0/dbc/class_mg_base_shape_a3e415024dd9ed4487488c29cf3ac71a8.htm#a3e415024dd9ed4487488c29cf3ac71a8" title="设置图形特征标志位 " alt="" coords="543,376,703,401"/>
+<area shape="rect" id="node14" href="../../d6/dce/class_mg_base_rect_afa8281d8a6605406db4436a87e31d7c7.htm#afa8281d8a6605406db4436a87e31d7c7" title="设置倾斜矩形，(pt1&#45;pt2)为旋转前的对角点，basept为旋转中心 " alt="" coords="518,425,729,451"/>
+<area shape="rect" id="node15" href="../../d0/dbc/class_mg_base_shape_a0b55c21a4fd5f3c9977879c80e47b834.htm#a0b55c21a4fd5f3c9977879c80e47b834" title="得到图形特征标志位 " alt="" coords="783,80,944,105"/>
+<area shape="rect" id="node16" href="../../d0/dbc/class_mg_base_shape_ac93e85fa32f3cc45386bb1a4eed5537d.htm#ac93e85fa32f3cc45386bb1a4eed5537d" title="返回是否为曲线图形 " alt="" coords="782,129,944,155"/>
+<area shape="rect" id="node17" href="../../d0/d39/class_box2d_ad02c3323bdef9208caff8b556961d367.htm#ad02c3323bdef9208caff8b556961d367" title="复制矩形，默认不自动规范化 " alt="" coords="821,179,905,204"/>
+<area shape="rect" id="node19" href="../../d1/d44/class_point2d_afa7e9649bbd0a96fd09fea99d5fc97e7.htm#afa7e9649bbd0a96fd09fea99d5fc97e7" title="两点距离 " alt="" coords="794,228,932,253"/>
+<area shape="rect" id="node21" href="../../d3/d99/group___g_e_o_m_a_p_i_ga17f7c3cf994a4df19aa852af82355f01.htm#ga17f7c3cf994a4df19aa852af82355f01" title="mgMax" alt="" coords="831,277,896,303"/>
+<area shape="rect" id="node22" href="../../d0/d39/class_box2d_adcdb7355daa6a0b1764ed0f14d8aec74.htm#adcdb7355daa6a0b1764ed0f14d8aec74" title="返回左上坐标 " alt="" coords="810,327,916,352"/>
+<area shape="rect" id="node23" href="../../d0/d39/class_box2d_adfa04071960392d18eee440e4c547233.htm#adfa04071960392d18eee440e4c547233" title="返回右上坐标 " alt="" coords="806,376,920,401"/>
+<area shape="rect" id="node24" href="../../d0/d39/class_box2d_a2ae3a859b6485396ee0b021e009b0277.htm#a2ae3a859b6485396ee0b021e009b0277" title="返回右下坐标 " alt="" coords="796,425,931,451"/>
+<area shape="rect" id="node25" href="../../d0/d39/class_box2d_a65019154e5bdd6829ae6253c65d8880b.htm#a65019154e5bdd6829ae6253c65d8880b" title="返回左下坐标 " alt="" coords="800,475,926,500"/>
+<area shape="rect" id="node26" href="../../d3/d99/group___g_e_o_m_a_p_i_gaf2f0f08780c0073fd5191d043140d1da.htm#gaf2f0f08780c0073fd5191d043140d1da" title="判断一个浮点数是否可以认为是零 " alt="" coords="824,524,902,549"/>
+<area shape="rect" id="node27" href="../../d1/da5/class_matrix2d_a3592cdcc09c9537faf1aaf3474bc82c5.htm#a3592cdcc09c9537faf1aaf3474bc82c5" title="得到以一点为中心的旋转变换矩阵 " alt="" coords="801,573,925,599"/>
+<area shape="rect" id="node29" href="../../d1/da5/class_matrix2d_a96c72c4d80965dd81586e1d09c0fd878.htm#a96c72c4d80965dd81586e1d09c0fd878" title="对多个点进行矩阵变换 " alt="" coords="777,623,950,648"/>
+<area shape="rect" id="node18" href="../../d0/d39/class_box2d_a4482711e5d40b5e6f2db642b98fc3ea8.htm#a4482711e5d40b5e6f2db642b98fc3ea8" title="规范化，使xmin&lt;=xmax且ymin&lt;=ymax " alt="" coords="1023,179,1147,204"/>
+<area shape="rect" id="node20" href="../../d3/d99/group___g_e_o_m_a_p_i_ga2724062e48eadfa810a3ade2b9dba839.htm#ga2724062e48eadfa810a3ade2b9dba839" title="求直角三角形的斜边长度 " alt="" coords="1047,228,1122,253"/>
+<area shape="rect" id="node28" href="../../d1/da5/class_matrix2d_a28bfcb8a1104cd2e441cd6c9f2dbeffb.htm#a28bfcb8a1104cd2e441cd6c9f2dbeffb" title="设置为以一点为中心的旋转变换矩阵 " alt="" coords="1004,573,1166,599"/>
+<area shape="rect" id="node35" href="../../d6/d84/class_mg_shape_a77041a5e6ea456b8a8249899b0e0a971.htm#a77041a5e6ea456b8a8249899b0e0a971" title="复制出一个新图形对象 " alt="" coords="545,672,701,697"/>
+<area shape="rect" id="node44" href="../../d6/d84/class_mg_shape_a38c77cdb02e3389de9df91e566ff99e5.htm#a38c77cdb02e3389de9df91e566ff99e5" title="由图形列表设置拥有者和编号 " alt="" coords="552,721,694,747"/>
+<area shape="rect" id="node45" href="../../dd/d59/struct_mg_shapes_1_1_i_ab156695b722b78b1f7d12f6d80ecd017.htm#ab156695b722b78b1f7d12f6d80ecd017" title="MgShapes::I::getNewID" alt="" coords="542,771,704,796"/>
+<area shape="rect" id="node36" href="../../db/d17/class_mg_object_ab07bf6d0ade4c0d2d5d7cc85ef76cec3.htm#ab07bf6d0ade4c0d2d5d7cc85ef76cec3" title="复制出一个新对象 " alt="" coords="804,672,922,697"/>
+<area shape="rect" id="node37" href="../../d6/d84/class_mg_shape_a71e2875dd1fde0bd3128e04c8c203fd6.htm#a71e2875dd1fde0bd3128e04c8c203fd6" title="返回显示属性 " alt="" coords="799,721,928,747"/>
+<area shape="rect" id="node38" href="../../d6/d84/class_mg_shape_af7d5316e8f48db310ba83b980fb8c1b5.htm#af7d5316e8f48db310ba83b980fb8c1b5" title="设置显示属性 " alt="" coords="788,771,938,796"/>
+<area shape="rect" id="node39" href="../../d6/d84/class_mg_shape_addf6bc5a4e25f033ea148c41f2c8b0a8.htm#addf6bc5a4e25f033ea148c41f2c8b0a8" title="返回几何图形对象(const) " alt="" coords="1220,672,1349,697"/>
+<area shape="rect" id="node40" href="../../d6/d84/class_mg_shape_ae3564cc54a6600e688d9f8cc024e2018.htm#ae3564cc54a6600e688d9f8cc024e2018" title="返回是否能转化为指定类型的对象，即本类为指定类或其派生类 " alt="" coords="1017,697,1153,723"/>
+<area shape="rect" id="node41" href="../../d2/d06/class_mg_composite_a5e629c83f4c8db075189ff7a81e7bfee.htm#a5e629c83f4c8db075189ff7a81e7bfee" title="返回本对象的类型 " alt="" coords="1015,747,1155,772"/>
+<area shape="rect" id="node42" href="../../d6/d84/class_mg_shape_a7bc4204faa520cf5359d53b0f7ab3868.htm#a7bc4204faa520cf5359d53b0f7ab3868" title="返回几何图形对象 " alt="" coords="1024,796,1146,821"/>
+<area shape="rect" id="node43" href="../../dd/d20/class_mg_shape_iterator_a5792ff25ceb0cd6c0dddaf843a8d9969.htm#a5792ff25ceb0cd6c0dddaf843a8d9969" title="得到当前遍历位置的图形 " alt="" coords="998,845,1172,871"/>
+<area shape="rect" id="node46" href="../../dd/d59/struct_mg_shapes_1_1_i_a9a7c706f29f491d0bc8218f857cf91fb.htm#a9a7c706f29f491d0bc8218f857cf91fb" title="MgShapes::I::findShape" alt="" coords="781,869,945,895"/>
+<area shape="rect" id="node47" href="../../d6/d84/class_mg_shape_aea6a2e87bd2683d500436cc1505af82e.htm#aea6a2e87bd2683d500436cc1505af82e" title="零指针 " alt="" coords="1030,895,1139,920"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>

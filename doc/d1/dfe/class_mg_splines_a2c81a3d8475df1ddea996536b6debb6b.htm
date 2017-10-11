@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TouchVG framework: MgSplines::smoothForPoints</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TouchVG framework
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d1/dfe/class_mg_splines.htm">MgSplines</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a8ae9b7f3ea785ddad0f415dcd739a58c.htm#a8ae9b7f3ea785ddad0f415dcd739a58c">_clear</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a40419c03d8266318a6298f3cdb62fc57.htm#a40419c03d8266318a6298f3cdb62fc57">_copy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a5eca0a18f8a3d77999b83553f24b4186.htm#a5eca0a18f8a3d77999b83553f24b4186">_equals</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_ad29ab0760c8376516f89ad84ac1d12d8.htm#ad29ab0760c8376516f89ad84ac1d12d8">_hitTest</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_aa78138948acf939c907902763ae33243.htm#aa78138948acf939c907902763ae33243">_hitTestBox</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a09fd737551371843d4e2436946928c73.htm#a09fd737551371843d4e2436946928c73">_knotvs</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_ad0e4f9899832704f0557cc28e5926d52.htm#ad0e4f9899832704f0557cc28e5926d52">_load</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_adf8aabe273fcf1cef3cd789d8012bbe8.htm#adf8aabe273fcf1cef3cd789d8012bbe8">_output</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a0514c61d078b1432d2ade141588c6491.htm#a0514c61d078b1432d2ade141588c6491">_save</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a473224d248b126464511145a85b0b730.htm#a473224d248b126464511145a85b0b730">_setHandlePoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a6cf7526c37f164278c55ca45d139b84d.htm#a6cf7526c37f164278c55ca45d139b84d">_setPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_afac53feefd566d56a677afac76c48f38.htm#afac53feefd566d56a677afac76c48f38">_transform</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a50d6df4b2fb883fc6417d8c458f79121.htm#a50d6df4b2fb883fc6417d8c458f79121">addPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a5e4bf67c5c227cbc7deb9c297c4fad5f.htm#a5e4bf67c5c227cbc7deb9c297c4fad5f">clearVectors</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_ab23710b445ee993ed2eef426264f3100.htm#ab23710b445ee993ed2eef426264f3100">getVectors</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a1f9af947c9a198bb215a6643d1ab6fda.htm#a1f9af947c9a198bb215a6643d1ab6fda">insertPoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a9304f503f7533bfa04d78c94561e3f1a.htm#a9304f503f7533bfa04d78c94561e3f1a">isCurve</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_af23059333a3fdd8cc5c12a3210abd772.htm#af23059333a3fdd8cc5c12a3210abd772">removePoint</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_aeed73cf55ad4d049206037d6fddd6716.htm#aeed73cf55ad4d049206037d6fddd6716">resize</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/dfe/class_mg_splines_a248b3ee3ddc4e756eb8fe04360d86bf9.htm#a248b3ee3ddc4e756eb8fe04360d86bf9">smooth</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d1/dfe/class_mg_splines_a2c81a3d8475df1ddea996536b6debb6b.htm#a2c81a3d8475df1ddea996536b6debb6b">smoothForPoints</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a2c81a3d8475df1ddea996536b6debb6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c81a3d8475df1ddea996536b6debb6b">&#9670;&nbsp;</a></span>smoothForPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MgSplines::smoothForPoints </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/d44/class_point2d.htm">Point2d</a> *&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/da5/class_matrix2d.htm">Matrix2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>m2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dfe/class_mg_splines_a2c81a3d8475df1ddea996536b6debb6b_a2c81a3d8475df1ddea996536b6debb6b_cgraph.png" border="0" usemap="#d1/dfe/class_mg_splines_a2c81a3d8475df1ddea996536b6debb6b_a2c81a3d8475df1ddea996536b6debb6b_cgraph" alt=""/></div>
+<map name="d1/dfe/class_mg_splines_a2c81a3d8475df1ddea996536b6debb6b_a2c81a3d8475df1ddea996536b6debb6b_cgraph" id="d1/dfe/class_mg_splines_a2c81a3d8475df1ddea996536b6debb6b_a2c81a3d8475df1ddea996536b6debb6b_cgraph">
+<area shape="rect" id="node2" href="../../d1/da5/class_matrix2d_a123b56e6a001c9d127741b4a5c2a51c5.htm#a123b56e6a001c9d127741b4a5c2a51c5" title="返回逆矩阵 " alt="" coords="245,55,368,80"/>
+<area shape="rect" id="node6" href="../../d3/d55/structmgcurv_a11c008d990e8d678fcf924f8bd8660b4.htm#a11c008d990e8d678fcf924f8bd8660b4" title="对数据点光滑拟合为三次贝塞尔曲线 " alt="" coords="247,104,366,129"/>
+<area shape="rect" id="node3" href="../../d1/da5/class_matrix2d_a3be603af5bd36120b8338e2d25db45f3.htm#a3be603af5bd36120b8338e2d25db45f3" title="设置为逆矩阵 " alt="" coords="441,53,554,79"/>
+<area shape="rect" id="node4" href="../../d3/d99/group___g_e_o_m_a_p_i_gaf2f0f08780c0073fd5191d043140d1da.htm#gaf2f0f08780c0073fd5191d043140d1da" title="判断一个浮点数是否可以认为是零 " alt="" coords="665,5,743,31"/>
+<area shape="rect" id="node5" href="../../d1/da5/class_matrix2d_afd96483dc0cab15df9aad9dd7fec040d.htm#afd96483dc0cab15df9aad9dd7fec040d" title="设置为单位矩阵 " alt="" coords="627,55,782,80"/>
+<area shape="rect" id="node7" href="../../d6/da2/mgcurv_8cpp_a4dd616beb89fb21b83fef649f6065ace.htm#a4dd616beb89fb21b83fef649f6065ace" title="FitCurve" alt="" coords="668,105,740,131"/>
+<area shape="rect" id="node8" href="../../d3/d69/struct_fit_curve_helper_a6f2e0268a80e293a066225fd9bf566cf.htm#a6f2e0268a80e293a066225fd9bf566cf" title="FitCurveHelper::append" alt="" coords="416,155,579,180"/>
+<area shape="rect" id="node9" href="../../d6/da2/mgcurv_8cpp_a08d738384844df6b643f785859f00094.htm#a08d738384844df6b643f785859f00094" title="FitCurve2" alt="" coords="665,155,744,180"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
+</body>
+</html>
